@@ -12,24 +12,24 @@ convert_to_conll.py
 ```
 Convertendo o conjunto de treino para o formato aceito pelo Allennlp: o formato CoNLL2012.
 
-## Para treinar:
+## Para treinar
 
-### Atualizar os paths dos arquivos em 
+### Atualizar os paths dos arquivos 
 ```
 openie_pt/config.json
 ```
 
-Colocar na pasta nilc_embedding o GLOVE 100 de dimensões disponível no [site do NILC](http://nilc.icmc.usp.br/embeddings).
+Colocar na pasta **nilc_embedding** o GLOVE 100 de dimensões disponível no [site do NILC](http://nilc.icmc.usp.br/embeddings).
 
 ### Treinar o modelo
 ````
 allennlp train openie_pt/config.json -s saida_modelo
 ````
-### Para fazer o predict:
+### Para fazer o predict
 ````
 run_oie.py --in=saida/sentencas_teste.txt --out=saida/saida.txt
 ````
-### Arquivos:
+### Arquivos
 * **gamalho_dataset** - O dataset original usado
 * **meu_dataset** - O dataset convertido para o formato conll2012
 * **nilc_embedding** - O embedding Glove
