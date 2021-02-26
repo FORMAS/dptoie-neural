@@ -1,0 +1,103 @@
+1	Uma população compreende os indivíduos de uma espécie dentro de uma dada área .
+2	As fronteiras de uma população podem ser as naturais , impostas pêlos limites geográficos de um hábitat , adequado , ou podem ser definidas arbitrariamente à conveniência do pesquisador .
+3	Em qualquer caso , a população tem uma estrutura espacial , a qual significa que , dentro de suas fronteiras geográficas , os indivíduos vivem principalmente dentro de partes de habitat adequadas , e suas abundâncias podem variar com respeito a comida , predadores , locais de ninho , e outros fatores ecológicos dentro do habitat .
+4	A estrutura da população proporciona uma visão rápida num determinado instante de tempo .
+5	As populações também apresentam comportamento dinâmico , continuamente mudando com o tempo devido aos nascimentos , mortes , e movimentos individuais .
+6	A regulação desses processos depende de várias interações de indivíduos com os seus ambientes e entre si .
+7	Além disso , a evolução através da seleção natural e a regulação tanto da estrutura da comunidade quanto do funcionamento do ecossistema tornam-se evidentes quando se somam em termos de processos populacionais .
+8	Por isso , muito da ecologia focaliza-se no nível populacional .
+9	A população tem continuidade temporal porque indivíduos que estão vivos num determinado tempo são descendentes de outros que estavam vivos num tempo anterior .
+10	A população também tem continuidade espacial devido aos indivíduos em diferentes partes da distribuição terem ancestrais comuns , em geral , quanto mais distantes dois indivíduos , mais remoto no tempo encontra-se seu ancestral comum .
+11	Como resultado , os indivíduos dentro de uma população herdam seus genes de um depósito comum e assim compartilham uma história comum de adaptação ao meio ambiente .
+12	Neste capítulo , consideramos a distribuição dos indivíduos dentro das populações com respeito à sua distribuição espacial , idade e genótipo .
+13	A distribuição e os movimentos de indivíduos determinam a coerência espacial da população - o grau no qual diferentes partes da população dividem a mesma dinâmica , ou , por outro lado , apresentam independência .
+14	A medida que as populações tornam-se fragmentadas quando os humanos transformam a paisagem , as questões de coerência populacional e , particularmente , a vulnerabilidade de pequenas subpopulações à extinção ou à mudança genética drástica tornam-se importantes preocupações de conservação e gerenciamento .
+15	As populações em áreas naturais também podem ser subdivididas como resultado da heterogeneidade de habitat .
+16	A maioria das populações insulares passa por estágios iniciais de colonização caracterizados por pequeno número de indivíduos .
+17	Devido aos eventos de acaso terem impacto maior nas pequenas populações do que nas grandes , os ecólogos devem prestar uma cuidadosa atenção aos tamanhos das populações .
+18	Dentro das populações , os indivíduos podem variar em relação ao género , idade , experiência , posição social , genótipo e os efeitos acumulados de acidentes e acaso .
+19	A evolução ocorre quando diferenças genéticas entre indivíduos resultam em diferentes taxas de nascimento ou de morte , e por isso diferentes dinâmicas populacionais .
+20	A razão sexual e a estrutura de idade influenciam a dinâmica populacional devido às variações relacionadas ao sexo e à idade no nascimento e na morte .
+21	Estes aspectos da estrutura populacional são por isso uma parte importante da nossa compreensão de como as populações mudam ao longo do tempo .
+22	A estrutura espacial de uma população tem três propriedades principais : distribuição dispersão e densidade .
+23	A distribuição de uma população descreve a sua abrangência geográfica e ecológica , a qual é determinada primordialmente pela presença ou ausência de habitat adequado .
+24	Deste modo , a distribuição da maple-de-açúcar nos Estados Unidos e Canadá é interrompida abruptamente a leste pelo Oceano Atlântico , mais gradualmente a oeste , pela baixa precipitação , a norte , pêlos frios invernos , e ao sul , pêlos verões quen-tes .
+25	Indubitavelmente , hábitats mais adequados existem em todo o mundo , especialmente na Europa e Ásia , mas a maple-de-açúcar desenvolveu-se na América do Norte e não teve oportunidade de colonizar essas outras áreas .
+26	Os limites de distribuição impostos pelas barreiras de dispersão a longa distância revelam-se dramaticamente quando espécies introduzidas se expandem com sucesso em novas regiões de colonização .
+27	Por exemplo , em 1890 e 1891 , 160 estorninhos europeus ( Sturnus vulgaris ) foram soltos no Central Park , na cidade de New York .
+28	Em 60 anos , a população expandiu-se para cobrir mais de 7,7 milhões de quilómetros quadrados e abranger o país de costa a costa .
+29	Os hábitats ocupados pêlos estorninhos na América do Norte ( principalmente parques de cidades , fazendas e pastos ) assemelham-se aos hábitats de preferência na Europa .
+30	Fatores ecológicos súbitos , qualida-dês intrínsecas de uma espécie que determinam se ela é boa ou má colonizadora , e o aca-só determinam o resultado das introduções .
+31	Mesmo o prolífico estorninho foi introduzido pelo menos três vezes nos Estados Unidos na Pennsylvania , Ohio e Oregon antes que ele finalmente se estabelecesse em New York .
+32	Dentro da abrangência geográfica de uma população , os indivíduos geralmente vivem somente num habitat adequado .
+33	As maples-de-açúcar não crescem em alagados , em maninhos  de serpentina , em dunas recém-formadas , em áreas recentemente queimadas , l ou numa variedade de outros hábitats que se situam simplesmente fora de sua abrangência de tolerância ecológica .
+34	Por isso a abrangência geográfica da maple-de-açúcar aparece como um monte de retalhos de áreas ocupadas e não-ocupadas .
+35	O clima , a topografia , a química do solo e a textura do solo exercem influência progressivamente mais refinada da distribuição geográfica do arbusto perene Clematis fremontii ( Fig 14.2 ) .
+36	O clima e talvez as interações com espécies aparentadas ecológicamente restringem esta espécie de Clematis a uma pequena parte do meio-oeste dos Esta - dos Unidos .
+37	A variedade riehlii ocorre somente no município de Jefferson , Missouri .
+38	Dentro de sua abrangência geográfica , a Clematis fremontii está restrita aos solos rochosos e secos dos afloramentos de calcário .
+39	Pequenas variações no relevo e na qualidade do solo confinam ainda mais a distribuição do Clematis dentro de cada clareira de calcário aos locais de condições adequadas de umidade , nutrientes e estrutura de solo .
+40	Agregados locais ocorrendo dentro de cada um desses locais consistem em muitos indivíduos distribuídos mais ou menos uniformemente .
+41	A cotovia-de-chifre (horned lark , Eremophila alpestris) , um pequeno pássaro canoro de campos reduzidos , ocorre mais amplamente na América do Norte do que a Clematis fremontii , mas sua distribuição local reflete súbitas variações de habitat , os indivíduos até usam algumas partes de seus territórios mais do que outras .
+42	As distribuições de populações incluem todas as áreas que eles ocupam durante seus ciclos de vida .
+43	Deste modo , a abrangência geográfica do salmão inclui não apenas os rios que servem como áreas de desova mas também as vastas áreas do mar onde os indivíduos crescem até a maturidade antes de fazerem a longa migração de volta aos seus locais de nascimento .
+44	Muitos pássaros realizam migrações anuais em direção a lugares quentes durante os meses de inverno .
+45	Deste modo , a abrangência da blackburnian warbler situa-se inteiramente dentro do nordeste dos Estados Unidos e sudeste do Canadá durante o verão , mas inteiramente na América Central e norte da América do Sul durante o inverno .
+46	O tamanho e as variações de ano para ano da população dessas espécies migratórias dependem das interações dos indivíduos com seus ambientes ao longo de todo o ano .
+47	Deste modo , as modificações ecológicas na Bacia Amazônica ou na África Central podem afetar as populações de espécies migratórias que se reproduzem nas florestas do leste da América do Norte ou da Europa .
+48	As áreas sombreadas representam as áreas de procriação , os pontilhados indicam registros de aves nos invernos precedentes .
+49	A população agora habita o país inteiro .
+50	Para comparação , o Brasil tem uma área de aproximadamente 8,5 milhões de quilómetros quadrados .
+51	Segundo o Aurélio , área de terra inculta , estéril , ou não-aproveitável para o cultivo .
+52	Na distribuição de uma população , a dispersão caracteriza o espaçamento dos indivíduos entre si , formando padrões que variam da compacta distribuição agregada em agrupamentos discretos ( não contínuos ) até distribuições homogéneas. 
+53	Entre estes extremos encontra-se a dispersão aleatória ( ou randômica ) , na qual os indivíduos estão distribuídos ao acaso em toda uma área a despeito da presença de outros .
+54	Os padrões de distribuição homogénea e agrupada derivam de processos diferentes .
+55	Um espaçamento uniforme às vezes chamado de hiperdispersão surge comu-mente de interações diretas entre indivíduos .
+56	A manutenção de uma distância mínima entre cada espécime e seu vizinho mais próximo resulta num espaçamento uniforme , por exemplo , em suas colónias abarrotadas , as aves marinhas colocam seus ninhos exatamente onde termina o do vizinho .
+57	As plantas situadas muito próximas a vizinhos maiores frequentemente sofrem os efeitos do sombreamento e competição de raízes , à medida que os vizinhos morrem , o espaçamento entre os indivíduos torna-se mais uniforme .
+58	O agrupamento , ou agregação , resulta das tendências sociais dos indivíduos a formar grupos , das distribuições de recursos em blocos conjuntos , e da tendência dos filhotes em permanecer na proximidade de seus pais .
+59	As salamandras que preferem viver sob toras apresentam distribuições agrupadas correspondentes aos padrões dos troncos mortos caídos .
+60	Os pássaros que viajam em grandes grupos muitas vezes agregam-se para sentirem-se mais seguros pela quantidade .
+61	Finalmente , na ausência de antagonismo social ou atração mútua , os espécimes podem distribuir-se aleatoriamente a despeito da localização de outros espécimes dentro da população .
+62	Os três padrões gerais de dispersão podem ser distinguidos por diversos testes estatísticos , um dos quais está ilustrado no Quadro 14.1 .
+63	Podemos comparar padrões de dispersão aos valores esperados das distribuições espaciais aleatórias .
+64	Uma das mais importantes é a distribuição de Poisson , que descreve o número esperado de indivíduos localizados aleatoriamente dentro de uma região de amostra .
+65	Suponha que dividamos uma área de estudo em regiões de amostra , ou em outras unidades de áreas iguais , e contemos o número de indivíduos em cada região .
+66	Algumas das regiões terão um único indivíduo , outras , muitos , e outras ainda , nenhum , dependendo da densidade da população e do tamanho das regiões .
+67	Considere , por exemplo , o número de acarinos vermelhos ( Trombicula alfreddugesi ) , contados em cada uma das 150 folhas da macieira : 70 das folhas não continham acarinos , 38 tinham 1,17 tinham 2 , e assim por diante , como mostrado na seguinte tabela .
+68	Como deveria parecer uma distribuição aleatória de acarinos sobre as folhas ?
+69	Suponha que cada acarino na população tenha igual probabilidade de se encontrar em cada uma das folhas ( uma probabilidade de 1/150 , ou 0,067 , por folha ) independentemente do número de outros acarinos presentes .
+70	Quando os acarinos são distribuídos de acordo com um processo aleatório como esse , a proporção esperada de folhas ( P ) com um dado número de acarinos ( x ) obedece à distribuição de Poisson .
+71	Vários estudos reportaram uma distância de endocruzamento ótima em populações de plantas .
+72	Indivíduos vizinhos têm mais probabilidade de ser parentes próximos , o que cria o problema do endocruzamento .
+73	Os indivíduos distantes têm mais probabilidade de ser adaptados a condições diferentes .
+74	Por exemplo , quando as flores da espora Delphinium nelsoni no Colorado central foram fertilizadas com pólen obtido do mesmo indivíduo e dos indivíduos localizados em distâncias de l , 10 , 100 e 1.000 m , o número de sementes produzidas por flor foi máximo da fonte de pólen que estava a 10 m e mínima para autofertilização e para os pólens vindos das fontes situadas a 1,000 m .
+75	Além disso , quando essas sementes foram plantadas , a sobrevivência para l e para 2 anos favoreceu fortemente os acasalamentos entre as distâncias intermediárias de 10 m .
+76	As plantas podem não ser capazes de controlar as distâncias que seus polinizadores viajam entre as flores , mas podem manipular a variação genética estabelecendo uma com petição entre grãos de pólen pela oportunidade de fertilizar óvulos e seletivamente abortando óvulos em desenvolvimento baseados no genótipo do embrião .
+77	A maioria das plantas produz muito mais flores do que elas podem sustentar até a maturidade como frutos .
+78	Os tubos de pólen devem crescer através do estilete ( tecido maternal ) para atingir o óvulo .
+79	As interações bioquímicas que controlam a taxa daquele crescimento podem ser sensíveis ao genótipo do pólen e às partes florais femininas .
+80	Esta é a base da auto-incompatibilidade .
+81	Uma carga pesada de pólen é vantajosa para a fêmea porque muito mais tubos de pólen competem para fertilizar os óvulos , resultando em forte seleção entre os genótipos de pólen .
+82	A excisão de flores e frutos pode ser altamente seletiva com respeito à carga de pólen , número de óvulos fertilizados por flor e genótipos de embriões em desenvolvimento .
+83	Em pequenas populações , as frequências de alelos e genótipos podem mudar devido às variações aleatórias nas taxas de natalidade e mortalidade que derivam de eventos ao acaso , mesmo na ausência de seleção e mutação .
+84	Estas mudanças são chamadas de deriva ge-nética .
+85	A explicação mais razoável desses resultados é que a seleção aplicada a um atributo causa mudanças em outros que afetam o ajustamento do organismo .
+86	O aumento na taxa de postura de ovos , por exemplo , pode causar mudanças morfológicas ou fisiológicas que reduzem a viabilidade e , assim , opõem-se ao regime de seleção artificial .
+87	Respostas evolutivas muitas vezes incluem outros atributos além daquele selecionado .
+88	Tanto o desenvolvimento quanto o funcionamento integram as diversas partes do organismo , acarretando numa interdependência dos atributos fenotípicos , particularmente aqueles envolvendo tamanho ou taxas de crescimento e produção .
+89	Os criadores de animais e vegetais estimaram correlações genéticas entre os atributos em muitas espécies domésticas .
+90	Por exemplo , em aves domésticas , a correlação genética entre o peso corpo-ral e o peso dos ovos é 0,50 , entre o peso corporal e a produção de ovos é -0,16 .
+91	O decréscimo da resposta resulta de dois fatores : a erosão da variação genética pela seleção e a aplicação de seleções con-flitantes por mudanças correlacionadas em outros atributos .
+92	A seleção funciona somente quando os indivíduos variam geneticamente dentro de uma população .
+93	Quando os alelos não ajustados são removidos pela seleção , a evolução estaciona até que novas mutações ou combinações de genes apareçam .
+94	O tempo requerido para um gene dominante substituir seu alelo recessivo depende de sua frequência no início e no fim do processo de substituição e da força da seleção .
+95	No caso da substituição da forma típica da mariposa-pimenta pela forma carbonária em bosques poluídos da Inglaterra , é sabido que sua substituição levou cerca de um século .
+96	Dos resultados dos experimentos de H B D Kettlewell sobre a mariposa-pimenta , podemos estimar que o ajustamento do alelo para a coloração típica foi cerca de 47% daquele do alelo carbonária em bosques poluídos , por isso o ajustamento diferencial , ou força de seleção , foi de 0,53 .
+97	Levando-se este valor às equações que predizem o tempo requerido para substituição de alelo , revela-se que a mudança na frequência do alelo carbonária de 0,05 para 0,95 teria requerido 47 gerações , e uma mudança de 0,01 para 0,99 teria exigido 204 gerações .
+98	A mariposa-pimenta tem uma geração por ano , de tal forma que as equações da genética populacional parecem consistentes com o curso do tempo observado da substituição genética ( do gene ) , assumindo uma frequência inicial antes da revolução industrial de cerca de 1% .
+99	Tivesse a seleção somente um décimo da força , a mesma mudança na frequência teria requerido um tempo 10 vezes mais longo .
+100	As mesmas equações podem ser rearranjadas e usadas para estimar diferenciais de ajustamento das mudanças na frequência genética .
+101	Por exemplo , desde a introdução dos programas de controle da poluição na Inglaterra , a frequência do alelo carbonária tem diminuído numa taxa persistente com uma desvantagem seletiva de 12% .
+102	Os registros de 100 anos das raposas prateadas e vermelhas capturadas em armadilhas pêlos postos da missão moraviana * no Labrador ( 1834 a 1933 ) mostram que a proporção de raposas prateadas capturadas decresceu de cerca de 0,15 para 0,05 durante aquele período .
+103	Como a pele prateada é um fenótipo recessivo , a frequência do genótipo é igual a q2 , e a frequência do alelo prateado ( q ) deve ter diminuído de 0,39 para 0,22 num período de 100 anos .
