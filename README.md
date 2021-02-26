@@ -27,7 +27,7 @@ allennlp train openie_pt/config.json -s saida_modelo
 ````
 ### Para fazer o predict:
 ````
-run_oie.py
+run_oie.py --in=saida/sentencas_teste.txt --out=saida/saida.txt
 ````
 ### Arquivos:
 * **gamalho_dataset** - O dataset original usado
