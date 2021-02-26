@@ -19,9 +19,7 @@ Convertendo o conjunto de treino para o formato aceito pelo Allennlp: o formato 
 openie_pt/config.json
 ```
 
-Colocar na pasta nilc_embedding o GLOVE 100 de dimensões
-
-* Embeddings disponível no [site do NILC](http://nilc.icmc.usp.br/embeddings).
+Colocar na pasta nilc_embedding o GLOVE 100 de dimensões disponível no [site do NILC](http://nilc.icmc.usp.br/embeddings).
 
 ### Treinar o modelo
 ````
@@ -43,6 +41,7 @@ run_oie.py
 * **saida.gold_conll** - O dataset em conll2012
 * **saida.txt** - As predicoes do nosso sistema
 * **sentencas_teste.txt** - As sentencas que nao foram utilizadas para treino
+* **csv_to_labeled.py** - O script que converte o corpus avaliation_pragmOIE_FULL no formato CSV cent200 e wiki200 aceito pelo script **convert_to_conll.py**
 
 
 ### Referencias:
