@@ -1,6 +1,6 @@
 # DPTOIE-Neural
 
-##Configurando o Ambiente
+## Configurando o Ambiente
 
 Instalar os pacotes atraves do arquivo de Pipenv:
 ````
@@ -12,7 +12,7 @@ convert_to_conll.py
 ```
 Convendo o conjunto de treino para o formato aceito pelo Allennlp: o formato CoNLL2012.
 
-##Para treinar:
+## Para treinar:
 
 ### Atualizar os paths dos arquivos em 
 ```
