@@ -10,7 +10,7 @@ Rodar o script
 ```
 convert_to_conll.py
 ```
-Convendo o conjunto de treino para o formato aceito pelo Allennlp: o formato CoNLL2012.
+Convertendo o conjunto de treino para o formato aceito pelo Allennlp: o formato CoNLL2012.
 
 ## Para treinar:
 
