@@ -41,7 +41,7 @@ run_oie.py
 * **saida.gold_conll** - O dataset em conll2012
 * **saida.txt** - As predicoes do nosso sistema
 * **sentencas_teste.txt** - As sentencas que nao foram utilizadas para treino
-* **csv_to_labeled.py** - O script que converte o corpus avaliation_pragmOIE_FULL no formato CSV cent200 e wiki200 aceito pelo script **convert_to_conll.py**
+* **csv_to_labeled.py** - O script que converte o corpus avaliation_pragmOIE_FULL no formato CSV ceten200 e wiki200 aceito pelo script **convert_to_conll.py**
 
 
 ### Referencias:
