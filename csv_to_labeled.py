@@ -3,8 +3,9 @@ import csv
 
 i=0
 
-pt = Path("pragmatic_dataset/ceten200.csv")
-file = 'pragmatic_dataset/ceten200-labeled.csv'
+pt = Path("pragmatic_dataset/wiki200.csv")
+file = 'pragmatic_dataset/wiki200-labeled.csv'
+sents = 'pragmatic_dataset/wiki200.txt'
 
 with open(file, 'w', encoding='utf-8', newline='') as f_out:
     with open(pt, 'r', encoding='utf-8') as f_pt:
@@ -23,8 +24,19 @@ with open(file, 'w', encoding='utf-8', newline='') as f_out:
                     continue
                 writer.writerow([id.strip(), arg1.strip(), rel.strip(), arg2.strip(), anotation.strip()])
             i += 1
-            if i > 366:
-                print('Finished - Convert csv to labeled! \nWrited in ', file)
-                exit()
-
 print('Finished - Convert csv to labeled! \nWrited in ', file)
+i=0
+with open(sents, 'w', encoding='utf-8') as s_out:
+    with open(pt, 'r', encoding='utf-8') as f_pt:
+        for line in f_pt:
+            if i > 0:
+                partes = line.split('\"')
+                if not partes[1] == '':
+                    id          = partes[1].replace("\"","")
+                    sentence    = partes[3].replace("\"","")
+                    if len(sentence) > 0:
+                        if sentence[-1] == '.':
+                            sentence = sentence.replace(sentence[-1], ' .')
+                        s_out.write(id.strip() + '\t' + sentence.strip() + '\n')
+            i += 1
+print('Finished - Create file\'s txt with sentences from CSV ! \nWrited in ', sents)
