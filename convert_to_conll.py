@@ -2,7 +2,6 @@
 from pathlib import Path
 from typing import List
 
-
 def find_sublist_match(phrase, string_to_find, start=0):
     start_match = 0
     end_match = 0
@@ -68,8 +67,8 @@ def find_sublist_match(phrase, string_to_find, start=0):
 
     return start_match, end_match
 
-
 def convert_to_conll(sentence):
+    global qt_quebrados, qt_funfando
     frase = sentence['phase']
     extracao = sentence['extractions'][0]
 
@@ -84,7 +83,9 @@ def convert_to_conll(sentence):
 
     if any(elem is None for elem in [start_pos_arg1, start_pos_rel, start_pos_arg2]):
         print('Elemento quebrado')
+        qt_quebrados +=1
     else:
+        qt_funfando +=1
         print('Elemento Funfando')
 
         for idx, token in enumerate(frase.split(' ')):
@@ -127,7 +128,7 @@ def convert_to_conll(sentence):
 def load_dataset():
     dataset_pt = dict()
 
-    pt = Path("pragmatic_dataset/ceten200.txt")
+    pt = Path("pragmatic_dataset/wiki200.txt")
     #pt = Path("gamalho_dataset/sentences.txt")
     with open(pt, 'r', encoding='utf-8') as f_pt:
         for line in f_pt:
@@ -137,7 +138,7 @@ def load_dataset():
                                     "extractions": []
                                     }
 
-    pt = Path("pragmatic_dataset/ceten200-labeled.csv")
+    pt = Path("pragmatic_dataset/wiki200-labeled.csv")
     #pt = Path("gamalho_dataset/argoe-pt-labeled.csv")
     with open(pt, 'r', encoding='utf-8') as f_pt:
         for line in f_pt:
@@ -160,11 +161,14 @@ def load_dataset():
 
 
 if __name__ == '__main__':
+    global qt_quebrados, qt_funfando
+    qt_quebrados = 0
+    qt_funfando = 0
     dataset = load_dataset()
     actual_pos = 0
 
-    with open('meu_dataset/ceten200_saida.gold_conll', 'w', encoding='utf-8') as f_out:
-        with open('saida/ceten200_sentencas_teste.txt', 'w', encoding='utf-8') as f_teste:
+    with open('meu_dataset/wiki200_saida.gold_conll', 'w', encoding='utf-8') as f_out:
+        with open('saida/wiki200_sentencas_teste.txt', 'w', encoding='utf-8') as f_teste:
             for idx, value in dataset.items():
                 if len(value['extractions']) > 0:
                     result = convert_to_conll(value)
@@ -180,3 +184,7 @@ if __name__ == '__main__':
                     f_out.write('\n')
                 else:
                     f_teste.write(f"{value['phase']}\n")
+
+    print('Qtd de elementos quebrados: ', qt_quebrados)
+    print('Qtd de elementos funfando: ', qt_funfando)
+    print('Qtd de elementos totais: ', qt_quebrados + qt_funfando)
