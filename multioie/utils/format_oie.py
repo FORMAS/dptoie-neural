@@ -17,17 +17,20 @@ from allennlp.predictors.open_information_extraction import get_predicate_text
 
 # Local imports
 
-#=----
+# =----
+
 
 class Mock_token:
     """
     Spacy token imitation
     """
+
     def __init__(self, tok_str):
         self.text = tok_str
 
     def __str__(self):
         return self.text
+
 
 def get_oie_frame(tokens, tags) -> str:
     """
@@ -50,8 +53,7 @@ def get_frame_str(oie_frame) -> str:
     """
     Convert and oie frame dictionary to string.
     """
-    dummy_dict = dict([(k if k != "V" else "ARG01", v)
-                       for (k, v) in oie_frame.items()])
+    dummy_dict = dict([(k if k != "V" else "ARG01", v) for (k, v) in oie_frame.items()])
 
     sorted_roles = sorted(dummy_dict)
 
