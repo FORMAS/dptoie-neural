@@ -15,7 +15,7 @@ import torch
 from allennlp.data.data_loaders import MultiProcessDataLoader
 from allennlp.modules import FeedForward
 from allennlp.training import Checkpointer, TrainerCallback
-from allennlp_models.structured_prediction import SemanticRoleLabeler
+from allennlp_models.structured_prediction import SemanticRoleLabeler, OpenIePredictor
 from flair.embeddings import FlairEmbeddings
 from flair.file_utils import cached_path
 from torch.nn import LSTM, GRU
@@ -1079,68 +1079,9 @@ class AllenOpenIE:
     def predict(self, tokens, use_window=True):
 
         if type(tokens[0]) == list:
-            return [self.predict_slice(X_single, use_window=use_window) for X_single in tokens]
+            return [self.predict_single(X_single) for X_single in tokens]
         else:
-            return self.predict_slice(tokens, use_window=use_window)
-
-    def predict_slice(self, tokens, use_window=True):
-        HALF_OVERLAP = self.predict_overlap // 2
-        batch_size = self.predict_batch_size
-
-        if not use_window or (len(tokens) < self.predict_window):
             return self.predict_single(tokens)
-
-        results = []
-
-        predictor, reader = self.prepare_predict()
-        instances = []
-        tracker_first_last_instances = []
-
-        for slice, first, last in gen_split_overlap(
-            tokens, self.predict_window, self.predict_overlap
-        ):
-            instance = reader.token_to_instance(slice)
-            instances.append(instance)
-            tracker_first_last_instances.append((first, last))
-            if len(instances) >= batch_size:
-                torch.cuda.empty_cache()
-                gc.collect()
-                predictions = predictor.predict_batch_instance(instances)
-                instances = []
-                for pos_loop, prediction in enumerate(predictions):
-                    first_loop, last_loop = tracker_first_last_instances[pos_loop]
-                    if not first_loop and not last_loop:
-                        results.extend(prediction["tags"][HALF_OVERLAP:-HALF_OVERLAP])
-                    elif first_loop and last_loop:
-                        results.extend(prediction["tags"])
-                    elif last_loop:
-                        results.extend(prediction["tags"][HALF_OVERLAP:])
-                    else:
-                        results.extend(prediction["tags"][:-HALF_OVERLAP])
-                tracker_first_last_instances = []
-                print(f"Results {len(results)} of {len(tokens)}")
-
-        if len(instances) > 0:
-            torch.cuda.empty_cache()
-            gc.collect()
-            predictions = predictor.predict_batch_instance(instances)
-            for i, prediction in enumerate(predictions):
-                first_loop, last_loop = tracker_first_last_instances[i]
-                if not first_loop and not last_loop:
-                    results.extend(prediction["tags"][HALF_OVERLAP:-HALF_OVERLAP])
-                elif first_loop and last_loop:
-                    results.extend(prediction["tags"])
-                elif last_loop:
-                    results.extend(prediction["tags"][HALF_OVERLAP:])
-                else:
-                    results.extend(prediction["tags"][:-HALF_OVERLAP])
-
-        if len(tokens) != len(results):
-            raise ArithmeticError(
-                f"Size of results are different than size of tokens, expected {len(tokens)} "
-                f"got {len(results)}"
-            )
-        return results
 
     def predict_single(self, tokens):
         predictor, reader = self.prepare_predict()
@@ -1170,7 +1111,10 @@ class AllenOpenIE:
             flair_bw_embedding_path=self.flair_bw_embedding_path,
             use_char_cnn=self.use_char_cnn,
         )
-        predictor = Predictor(self.model.eval(), dataset_reader=reader)
+        #predictor = Predictor(self.model.eval(), dataset_reader=reader)
+        # TODO - Make this multilingual
+        predictor = OpenIePredictor(self.model.eval(), dataset_reader=reader, language="pt_core_news_lg")
+
         return predictor, reader
 
 

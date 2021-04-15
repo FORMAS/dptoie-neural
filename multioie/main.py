@@ -11,12 +11,25 @@ app = typer.Typer()
 
 
 class MultiOIE:
-    def __init__(self, max_iterations: int):
+    def __init__(self, max_iterations: int = 50, layers: int = 2):
         self.max_iterations = max_iterations
+        self.layers = layers
 
     def predict(self, file_path: Path):
 
         pass
+
+    def predict_line(self, input_str: str, model_path: Path):
+        tokenizer = SpacyTokenizer(language="pt_core_news_lg")
+
+        model = AllenOpenIE(model_folder=model_path)
+
+        spacy_tokens = tokenizer.tokenize(input_str)
+        tokens = [MultiOIEToken(token=x.text, pos=x.pos_) for x in spacy_tokens]
+
+        prediction = model.predict(tokens)
+        print(tokens)
+
 
     def _read_dataset(self, path: Path):
 
@@ -64,7 +77,9 @@ class MultiOIE:
         return tokens, tags
 
     def train(self, input_path: Path, destination_model_path: Path):
-        model = AllenOpenIE(max_iterations=self.max_iterations, model_folder=destination_model_path)
+        model = AllenOpenIE(max_iterations=self.max_iterations,
+                            model_folder=destination_model_path,
+                            layers=self.layers)
 
         tokens, tags = self._read_dataset(input_path)
 
@@ -74,17 +89,19 @@ class MultiOIE:
 
 
 @app.command()
-def train(input_path_str: str, model_output_path_str: Path, max_iterations: int = 50):
+def train(input_path_str: str, model_output_path_str: Path, max_iterations: int = 20, layers: int = 1):
     input_path = Path(input_path_str).resolve()
     output_path = Path(model_output_path_str).resolve()
 
-    oie_system = MultiOIE(max_iterations=max_iterations)
+    oie_system = MultiOIE(max_iterations=max_iterations, layers=layers)
     oie_system.train(input_path=input_path, destination_model_path=output_path)
 
 
 @app.command()
 def predict(input_str: str, model_path: Path):
-    pass
+    oie_system = MultiOIE()
+    result = oie_system.predict_line(input_str, model_path)
+    print(result)
 
 
 if __name__ == "__main__":
