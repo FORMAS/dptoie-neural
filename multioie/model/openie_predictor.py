@@ -205,12 +205,15 @@ class MultiOIEOpenIePredictor(Predictor):
         return self._dataset_reader.text_to_instance(tokens, verb_labels)
 
     @overrides
-    def predict_json(self, inputs: JsonDict) -> JsonDict:
+    def predict_instance(self, instance: Instance) -> JsonDict:
+        self._dataset_reader.apply_token_indexers(instance)
+        outputs = self._model.forward_on_instance(instance)
+        return sanitize(outputs)
+
+    def predict_structured_json(self, instances: List[Instance]) -> JsonDict:
         """
         Create instance(s) after predicting the format. One sentence containing multiple verbs
         will lead to multiple instances.
-
-        Expects JSON that looks like `{"sentence": "..."}`
 
         Returns a JSON that looks like:
 
@@ -222,20 +225,6 @@ class MultiOIEOpenIePredictor(Predictor):
                          ...}]}
         ```
         """
-        sent_tokens = self._tokenizer.tokenize(inputs["sentence"])
-
-        # Find all verbs in the input sentence
-        pred_ids = [
-            i
-            for (i, t) in enumerate(sent_tokens)
-            if t.pos_ == "VERB" or (self._language.startswith("en_") and t.pos_ == "AUX")
-        ]
-
-        # Create instances
-        instances = [
-            self._json_to_instance({"sentence": sent_tokens, "predicate_index": pred_id})
-            for pred_id in pred_ids
-        ]
 
         # Run model
         outputs = [
@@ -244,22 +233,23 @@ class MultiOIEOpenIePredictor(Predictor):
         ]
 
         # Consolidate predictions
-        pred_dict = consolidate_predictions(outputs, sent_tokens)
+        tokens = instances[0]["tokens"].tokens
+        pred_dict = consolidate_predictions(outputs, tokens)
 
         # Build and return output dictionary
-        results = {"verbs": [], "words": sent_tokens}
+        results = {"verbs": [], "words": tokens}
 
         for tags in pred_dict.values():
             # Join multi-word predicates
             tags = join_mwp(tags)
 
             # Create description text
-            description = make_oie_string(sent_tokens, tags)
+            description = make_oie_string(tokens, tags)
 
             # Add a predicate prediction to the return dictionary.
             results["verbs"].append(
                 {
-                    "verb": get_predicate_text(sent_tokens, tags),
+                    "verb": get_predicate_text(tokens, tags),
                     "description": description,
                     "tags": tags,
                 }

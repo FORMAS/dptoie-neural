@@ -48,8 +48,8 @@ torch = ">=1.7.1"
 spacy = { version = ">=3.0"}
 sru = { git = "https://github.com/asappresearch/sru.git", branch = "3.0.0-dev" }
 flair = { git = "https://github.com/flairNLP/flair.git", branch = "master" }
-allennlp = {version = ">=2.2.0"}
-allennlp-models = {version = ">=2.2.0"}
+allennlp = {version = "==2.5.0"}
+allennlp-models = {version = "==2.5.0"}
 torchvision = {url = "https://download.pytorch.org/whl/cpu/torchvision-0.8.2%2Bcpu-cp38-cp38-win_amd64.whl", platform = "windows" }
 seqeval = "*"
 docopt = "*"

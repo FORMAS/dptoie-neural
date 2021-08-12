@@ -33,7 +33,7 @@ def create_instances(model, sent):
     Convert a sentence into a list of instances.
     """
 
-    # Vou usar umtokenizador emportugues
+    # Vou usar um tokenizador em portugues
 
     pt_splitter = SpacyWordSplitter(language="pt_core_news_sm", pos_tags=True)
 

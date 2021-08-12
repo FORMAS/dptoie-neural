@@ -29,39 +29,34 @@ class BrokaTrainer(GradientDescentTrainer):
         self._metric_tracker = MyMetricTracker(kwargs["patience"])
 
     def _try_train(self) -> Tuple[Dict[str, Any], int]:
-        try:
-            epoch_counter = self._restore_checkpoint()
-        except RuntimeError:
-            traceback.print_exc()
-            raise ConfigurationError(
-                "Could not recover training from the checkpoint.  Did you mean to output to "
-                "a different serialization directory or delete the existing serialization "
-                "directory?"
-            )
-
         training_util.enable_gradient_clipping(self.model, self._grad_clipping)
 
         logger.info("Beginning training.")
 
         val_metrics: Dict[str, float] = {}
         metrics: Dict[str, Any] = {}
-        epochs_trained = 0
-        training_start_time = time.time()
+        training_start_time = None
 
         metrics["best_epoch"] = self._metric_tracker.best_epoch
         for key, value in self._metric_tracker.best_epoch_metrics.items():
             metrics["best_validation_" + key] = value
 
-        for epoch in range(epoch_counter, self._num_epochs):
+        for epoch in range(self._num_epochs):
             epoch_start_time = time.time()
             train_metrics = self._train_epoch(epoch)
 
-            if self._primary and self._checkpointer is not None:
-                self._checkpointer.save_checkpoint(epoch, self, save_model_only=True)
-
-            # Wait for the primary process to finish saving the model checkpoint
-            if self._distributed:
-                dist.barrier()
+            if self._epochs_completed < self._start_after_epochs_completed:
+                # We're still catching up with the checkpoint, so we do nothing.
+                # Note that we have to call _train_epoch() even when we know the epoch is skipped. We have to
+                # read from the data loader, because the data loader and dataset readers might use randomness,
+                # and we have to make sure we consume exactly the same instances in exactly the same way every
+                # time we train, even when starting from a checkpoint, so that we update the randomness
+                # generators in the same way each time.
+                self._epochs_completed += 1
+                self._batches_in_epoch_completed = 0
+                continue
+            if training_start_time is None:
+                training_start_time = epoch_start_time
 
             # get peak of memory usage
             for key, value in train_metrics.items():
@@ -104,8 +99,7 @@ class BrokaTrainer(GradientDescentTrainer):
             # Create overall metrics dict
             training_elapsed_time = time.time() - training_start_time
             metrics["training_duration"] = str(datetime.timedelta(seconds=training_elapsed_time))
-            metrics["training_start_epoch"] = epoch_counter
-            metrics["training_epochs"] = epochs_trained
+            metrics["training_epochs"] = self._epochs_completed
             metrics["epoch"] = epoch
 
             for key, value in train_metrics.items():
@@ -146,39 +140,63 @@ class BrokaTrainer(GradientDescentTrainer):
                 self._learning_rate_scheduler.step(this_epoch_val_metric)
             if self._momentum_scheduler:
                 self._momentum_scheduler.step(this_epoch_val_metric)
+            for callback in self._callbacks:
+                callback.on_epoch(self, metrics=metrics, epoch=epoch, is_primary=self._primary)
 
+            self._epochs_completed += 1
+            self._batches_in_epoch_completed = 0
+
+            # The checkpointer saves state from the learning rate scheduler, momentum scheduler, moving
+            # average, and callbacks, so we have to make sure those are updated before we save the
+            # checkpoint here.
             if self._primary and self._checkpointer is not None:
-                self._checkpointer.save_checkpoint(
-                    epoch, self, is_best_so_far=self._metric_tracker.is_best_so_far()
+                self._checkpointer.maybe_save_checkpoint(
+                    self, self._epochs_completed, self._batches_in_epoch_completed
                 )
-
             # Wait for the primary process to finish saving the checkpoint
             if self._distributed:
                 dist.barrier()
 
-            for callback in self._callbacks:
-                callback.on_epoch(self, metrics=metrics, epoch=epoch, is_primary=self._primary)
+            if self._primary and self._serialization_dir and self._metric_tracker.is_best_so_far():
+                self._best_model_filename = os.path.join(self._serialization_dir, "best.th")
+                if self._moving_average is None:
+                    torch.save(self.model.state_dict(), self._best_model_filename)
+                else:
+                    self._moving_average.assign_average_value()
+                    try:
+                        torch.save(self.model.state_dict(), self._best_model_filename)
+                    finally:
+                        self._moving_average.restore()
+            # Wait for the primary process to finish saving the best
+            if self._distributed:
+                dist.barrier()
 
             epoch_elapsed_time = time.time() - epoch_start_time
             logger.info("Epoch duration: %s", datetime.timedelta(seconds=epoch_elapsed_time))
 
+            if self._metric_tracker.should_stop_early():
+                logger.info("Ran out of patience. Stopping training.")
+                break
+
             if epoch < self._num_epochs - 1:
-                training_elapsed_time = time.time() - training_start_time
-                estimated_time_remaining = training_elapsed_time * (
-                    (self._num_epochs - epoch_counter) / float(epoch - epoch_counter + 1) - 1
+                time_per_epoch = training_elapsed_time / (
+                    (epoch + 1) - self._start_after_epochs_completed
                 )
+                # Note: If the first non-skipped epoch is half skipped (because it was checkpointed half-way
+                # through), then this estimate is going to be optimistic.
+                estimated_time_remaining = (
+                    time_per_epoch * self._num_epochs
+                ) - training_elapsed_time
                 formatted_time = str(datetime.timedelta(seconds=int(estimated_time_remaining)))
                 logger.info("Estimated training time remaining: %s", formatted_time)
-
-            epochs_trained += 1
         else:
             epoch = self._num_epochs - 1
 
         # Load the best model state before returning
-        best_model_state = (
-            None if self._checkpointer is None else self._checkpointer.best_model_state()
-        )
-        if best_model_state:
-            self.model.load_state_dict(best_model_state)
+        if self._best_model_filename is None or self._metric_tracker.is_best_so_far():
+            self._finalize_model()
+        else:
+            # The model we're loading here has already been finalized.
+            self.model.load_state_dict(torch.load(self._best_model_filename))
 
         return metrics, epoch

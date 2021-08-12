@@ -2,9 +2,12 @@ import logging
 from pathlib import Path
 from typing import List
 
+from allennlp.common.util import ensure_list
 from allennlp.data.tokenizers import SpacyTokenizer
+from allennlp_models.common.ontonotes import Ontonotes
+from allennlp_models.structured_prediction import SrlReader
 
-from multioie.model.AllenNLP import AllenOpenIE, MultiOIEToken
+from multioie.model.AllenNLP import AllenOpenIE, MultiOIEToken, EmbeddingType
 import typer
 
 app = typer.Typer()
@@ -20,7 +23,7 @@ class MultiOIE:
         pass
 
     def predict_line(self, input_str: str, model_path: Path):
-        tokenizer = SpacyTokenizer(language="pt_core_news_lg")
+        tokenizer = SpacyTokenizer(language="pt_core_news_lg", split_on_spaces=True)
 
         model = AllenOpenIE(model_folder=model_path)
 
@@ -28,8 +31,7 @@ class MultiOIE:
         tokens = [MultiOIEToken(token=x.text, pos=x.pos_) for x in spacy_tokens]
 
         prediction = model.predict(tokens)
-        print(tokens)
-
+        print(prediction)
 
     def _read_dataset(self, path: Path):
 
@@ -39,47 +41,31 @@ class MultiOIE:
         # Our tokenizer
         tokenizer = SpacyTokenizer(language="pt_core_news_lg", split_on_spaces=True)
 
-        with path.open("r", encoding="utf-8") as f:
+        _reader = Ontonotes()
 
-            token_buffer = []
-            tags_buffer = []
-            for line in f:
-                line = line.strip()
-                if len(line) < 2:
-
-                    if len(token_buffer) > 0:
-                        str_phrase = " ".join(token_buffer)
-                        spacy_tokens = tokenizer.tokenize(str_phrase)
-                        tokens.append(
-                            [MultiOIEToken(token=x.text, pos=x.pos_) for x in spacy_tokens]
-                        )
-                        tags.append(tags_buffer)
-
-                    token_buffer = []
-                    tags_buffer = []
-                    continue
-
-                parts = line.split("\t")
-                # TODO parse the other parts of line
-                word = parts[3].strip()
-                tag = parts[11].strip()
-
-                token_buffer.append(word)
-                tags_buffer.append(tag)
-
-        # Last item
-        if len(token_buffer) > 0:
-            str_phrase = " ".join(token_buffer)
+        for sentence in _reader.sentence_iterator(path):
+            str_phrase = " ".join(sentence.words)
             spacy_tokens = tokenizer.tokenize(str_phrase)
-            tokens.append([MultiOIEToken(token=x.text, pos=x.pos_) for x in spacy_tokens])
-            tags.append(tags_buffer)
+
+            if not sentence.srl_frames:
+                # Sentence contains no predicates.
+                tokens.append([MultiOIEToken(token=x.text, pos=x.pos_) for x in spacy_tokens])
+                tags.append(["O" for _ in spacy_tokens])
+
+            else:
+                for (_, sent_tags) in sentence.srl_frames:
+                    tokens.append([MultiOIEToken(token=x.text, pos=x.pos_) for x in spacy_tokens])
+                    tags.append(sent_tags)
 
         return tokens, tags
 
     def train(self, input_path: Path, destination_model_path: Path):
-        model = AllenOpenIE(max_iterations=self.max_iterations,
-                            model_folder=destination_model_path,
-                            layers=self.layers)
+        model = AllenOpenIE(
+            max_iterations=self.max_iterations,
+            model_folder=destination_model_path,
+            layers=self.layers,
+            embedding=EmbeddingType.GLOVE,
+        )
 
         tokens, tags = self._read_dataset(input_path)
 
@@ -89,9 +75,15 @@ class MultiOIE:
 
 
 @app.command()
-def train(input_path_str: str, model_output_path_str: Path, max_iterations: int = 20, layers: int = 1):
+def train(
+    input_path_str: str, model_output_path_str: Path, max_iterations: int = 20, layers: int = 1
+):
     input_path = Path(input_path_str).resolve()
     output_path = Path(model_output_path_str).resolve()
+
+    conll_reader = SrlReader()
+    instances = conll_reader.read(Path("../saida/teste").resolve())
+    test = ensure_list(instances)
 
     oie_system = MultiOIE(max_iterations=max_iterations, layers=layers)
     oie_system.train(input_path=input_path, destination_model_path=output_path)

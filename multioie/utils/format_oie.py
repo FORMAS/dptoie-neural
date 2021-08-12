@@ -2,22 +2,13 @@
     <file-name> --in=INPUT_FILE --out=OUTPUT_FILE [--debug]
 """
 # External imports
-import logging
-from pprint import pprint
-from pprint import pformat
-from docopt import docopt
-import json
 from collections import defaultdict
-from tqdm import tqdm
-from allennlp.pretrained import open_information_extraction_stanovsky_2018
-from allennlp.predictors.open_information_extraction import consolidate_predictions
-from allennlp.predictors.open_information_extraction import join_mwp
-from allennlp.predictors.open_information_extraction import make_oie_string
-from allennlp.predictors.open_information_extraction import get_predicate_text
+from multioie.model.openie_predictor import join_mwp
 
 # Local imports
 
 # =----
+from multioie.model.openie_predictor import consolidate_predictions
 
 
 class Mock_token:

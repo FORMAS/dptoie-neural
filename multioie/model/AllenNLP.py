@@ -9,16 +9,15 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 import random
-from typing import Iterator, List, Iterable, Any, Dict
+from typing import Iterator, List, Iterable, Any, Dict, Union
 
 import torch
 from allennlp.data.data_loaders import MultiProcessDataLoader
-from allennlp.modules import FeedForward
 from allennlp.training import Checkpointer, TrainerCallback
 from allennlp_models.structured_prediction import SemanticRoleLabeler, OpenIePredictor
 from flair.embeddings import FlairEmbeddings
 from flair.file_utils import cached_path
-from torch.nn import LSTM, GRU
+from torch.nn import LSTM
 
 from allennlp.data import Instance
 from allennlp.data.dataset_readers import DatasetReader
@@ -51,6 +50,7 @@ from multioie.model.allen_helpers.broka_trainer import BrokaTrainer
 from multioie.model.allen_helpers.flair_char_indexer import FlairCharIndexer
 from multioie.model.allen_helpers.flair_token_embedder import FlairEmbedder
 from multioie.model.featurizer import Featurizer
+from multioie.model.openie_predictor import MultiOIEOpenIePredictor
 from multioie.optimizers.madgrad_wd import Madgrad_wd
 
 from multioie.utils.token_iter import gen_split_overlap
@@ -128,79 +128,6 @@ class TokenBroka(Token):
     one_hot: bool
 
 
-def split_huge_dataset(tags, tokens, window, overlap):
-    temp_tokens = []
-    temp_tags = []
-    have_huge_item = False
-    for tokens_elem, tags_elem in zip(tokens, tags):
-
-        if len(tokens_elem) > window:
-
-            have_huge_item = True
-
-            buffer_tags = []
-            buffer_tokens = []
-            last_buffer_tags = []
-            last_buffer_tokens = []
-
-            getting_buffer = True
-            for pos, tag in enumerate(tags_elem):
-                token = tokens_elem[pos]
-                if tag.startswith("B"):
-                    if not getting_buffer:
-                        actual_pos_rev = 0
-                        for rev_pos in reversed(range(len(last_buffer_tags))):
-                            tag_rev = last_buffer_tags[rev_pos]
-                            if tag_rev.startswith("B"):
-                                if actual_pos_rev >= overlap:
-                                    break
-                            actual_pos_rev += 1
-
-                        if last_buffer_tags and len(last_buffer_tags) > actual_pos_rev + 1:
-                            temp_tokens.append(
-                                last_buffer_tokens[actual_pos_rev + 1 :] + buffer_tokens
-                            )
-                            temp_tags.append(last_buffer_tags[actual_pos_rev + 1 :] + buffer_tags)
-                        else:
-                            temp_tokens.append(buffer_tokens)
-                            temp_tags.append(buffer_tags)
-
-                        last_buffer_tags = buffer_tags
-                        last_buffer_tokens = buffer_tokens
-
-                        buffer_tags = []
-                        buffer_tokens = []
-                        getting_buffer = True
-
-                if len(buffer_tags) > window:
-                    getting_buffer = False
-
-                buffer_tags.append(tag)
-                buffer_tokens.append(token)
-            # Save last
-            if len(buffer_tokens) > 0:
-                actual_pos_rev = 0
-                for rev_pos in reversed(range(len(last_buffer_tags))):
-                    tag_rev = last_buffer_tags[rev_pos]
-                    if tag_rev.startswith("B"):
-                        if actual_pos_rev >= overlap:
-                            break
-                    actual_pos_rev += 1
-
-                if last_buffer_tags and len(last_buffer_tags) > actual_pos_rev + 1:
-                    temp_tokens.append(last_buffer_tokens[actual_pos_rev + 1 :] + buffer_tokens)
-                    temp_tags.append(last_buffer_tags[actual_pos_rev + 1 :] + buffer_tags)
-                else:
-                    temp_tokens.append(buffer_tokens)
-                    temp_tags.append(buffer_tags)
-        else:
-            temp_tokens.append(tokens_elem)
-            temp_tags.append(tags_elem)
-    tokens = temp_tokens
-    tags = temp_tags
-    return have_huge_item, tags, tokens
-
-
 class BrokaReader(DatasetReader):
     ONE_HOT_FEATURES = [
         "dummy_one_hot",
@@ -253,17 +180,85 @@ class BrokaReader(DatasetReader):
 
         return features
 
+    def token_to_instances_to_prediction(self, tokens: List[object]) -> List[Instance]:
+
+        sentence_field = self._create_sentence_field(tokens)
+
+        fields = {"tokens": sentence_field}
+
+        # Find all verbs in the input sentence
+        pred_ids = [i for (i, t) in enumerate(sentence_field.tokens) if t.pos_ in ["VERB", "AUX"]]
+
+        instances = []
+        for predicate_index in pred_ids:
+
+            verb_labels = [0 for _ in sentence_field.tokens]
+            verb_labels[predicate_index] = 1
+
+            fields["verb_indicator"] = SequenceLabelField(
+                verb_labels, sequence_field=sentence_field
+            )
+
+            # Set metadata- Needed for SemanticRoleLabeler
+            metadata_dict: Dict[str, Any] = {}
+
+            if all(x == 0 for x in verb_labels):
+                verb = None
+                verb_index = None
+            else:
+                verb_index = verb_labels.index(1)
+                verb = tokens[verb_index].token
+
+            metadata_dict["words"] = [x.token for x in tokens]
+            metadata_dict["verb"] = verb
+            metadata_dict["verb_index"] = verb_index
+
+            fields["metadata"] = MetadataField(metadata_dict)
+
+            instances.append(Instance(fields))
+        return instances
+
     def token_to_instance(self, tokens: List[object], tags: List[str] = None) -> Instance:
 
-        token_list = []
-        LIMIT = self.limit
-        featurizer = Featurizer()
+        sentence_field = self._create_sentence_field(tokens)
 
+        fields = {"tokens": sentence_field}
+
+        verb_indicator = [
+            1 if token.pos_ in ["VERB", "AUX"] else 0 for token in sentence_field.tokens
+        ]
+
+        fields["verb_indicator"] = SequenceLabelField(verb_indicator, sequence_field=sentence_field)
+
+        metadata_dict: Dict[str, Any] = {}
+
+        if all(x == 0 for x in verb_indicator):
+            verb = None
+            verb_index = None
+        else:
+            verb_index = verb_indicator.index(1)
+            verb = tokens[verb_index].token
+
+        metadata_dict["words"] = [x.token for x in tokens]
+        metadata_dict["verb"] = verb
+        metadata_dict["verb_index"] = verb_index
+
+        if tags:
+            label_field = SequenceLabelField(labels=tags, sequence_field=sentence_field)
+            fields["tags"] = label_field
+
+            metadata_dict["gold_tags"] = tags
+
+        fields["metadata"] = MetadataField(metadata_dict)
+
+        return Instance(fields)
+
+    def _create_sentence_field(self, tokens):
+        token_list = []
+        featurizer = Featurizer()
         count = 0
         for token in tokens:
             count += 1
-            if LIMIT is not None and (count > LIMIT):
-                break
 
             if self.simple_text:
                 transformed_token = token
@@ -288,62 +283,23 @@ class BrokaReader(DatasetReader):
                     token = Token(transformed_token)
 
             token_list.append(token)
-
         token_indexer = {
             "tokens": SingleIdTokenIndexer(),
         }
-
         if self.use_char_cnn:
             token_indexer["token_characters"] = TokenCharactersIndexer(min_padding_length=3)
-
         if not self.simple_text:
             token_indexer["word_shape_degen"] = SingleIdTokenIndexer(
                 namespace="word_shape_degen", feature_name="word_shape_degen"
             )
             # token_indexer["one_hot"] = ArrayIndexer(namespace="one_hot", feature_name="one_hot")
-
         if self.use_elmo:
             token_indexer["elmo"] = ELMoTokenCharactersIndexer()
-
         if self.use_flair and self.flair_fw_embedding_path is not None:
             token_indexer["flair"] = FlairCharIndexer(self.flair_fw_embedding_path)
         if self.flair_bw_embedding_path is not None:
             token_indexer["flair-back"] = FlairCharIndexer(self.flair_bw_embedding_path)
-
-        sentence_field = TextField(token_list, token_indexers=token_indexer)
-
-        fields = {"tokens": sentence_field}
-
-        verb_indicator = [1 if token.pos_ in ["VERB", "AUX"] else 0 for token in token_list]
-
-        # print(verb_indicator)
-        fields["verb_indicator"] = SequenceLabelField(verb_indicator, sequence_field=sentence_field)
-
-        metadata_dict: Dict[str, Any] = {}
-
-        if all(x == 0 for x in verb_indicator):
-            verb = None
-            verb_index = None
-        else:
-            verb_index = verb_indicator.index(1)
-            verb = tokens[verb_index].token
-
-        metadata_dict["words"] = [x.token for x in tokens]
-        metadata_dict["verb"] = verb
-        metadata_dict["verb_index"] = verb_index
-
-        if tags:
-            if LIMIT is not None:
-                label_field = SequenceLabelField(labels=tags[:LIMIT], sequence_field=sentence_field)
-            else:
-                label_field = SequenceLabelField(labels=tags, sequence_field=sentence_field)
-            fields["tags"] = label_field
-
-            metadata_dict["gold_tags"] = tags
-
-        fields["metadata"] = MetadataField(metadata_dict)
-
-        return Instance(fields)
+        return TextField(token_list, token_indexers=token_indexer)
 
     def read(self, dataset) -> Iterator[Instance]:
         tokens, tags = dataset
@@ -647,8 +603,8 @@ class AllenOpenIE:
             total_embedding_dim += 128
             active_embedders["token_characters"] = char_embedding
 
-        if self.use_elmo:
-            raise NotImplementedError()
+        # if self.use_elmo:
+        #    elmo_emmbedder = ElmoTokenEmbedder.from_params(vocab=vocab, params=elmo_params)
 
         if self.use_flair:
 
@@ -723,7 +679,7 @@ class AllenOpenIE:
             encoder = PytorchSeq2SeqWrapper(network)
         elif self.network in [LearningType.SRU, LearningType.SRUPP]:
             from sru import SRU, SRUpp  # Python will cache multiple imports anyway
-            from webstruct.allennlp.transformers.my_fast_transformers import MySRUWrapper
+            from multioie.model.allen_helpers.sru_wrapper import MySRUWrapper
 
             if self.network == LearningType.SRU:
                 network = SRU(
@@ -733,8 +689,9 @@ class AllenOpenIE:
                     dropout=0.0 if self.layers == 1 else self.dropout_layers,
                     # dropout applied between RNN layers
                     bidirectional=self.bidirectional,  # bidirectional RNN
-                    layer_norm=True,  # apply layer normalization on the output of each layer
-                    highway_bias=-3,  # initial bias of highway gate (<= 0)
+                    layer_norm=False,  # apply layer normalization on the output of each layer
+                    normalize_after=False,
+                    highway_bias=-2,  # initial bias of highway gate (<= 0)
                     rescale=False,  # whether to use scaling correction
                     nn_rnn_compatible_return=False,
                 )
@@ -749,7 +706,8 @@ class AllenOpenIE:
                     dropout=self.dropout_layers,
                     # dropout applied between RNN layers
                     bidirectional=self.bidirectional,  # bidirectional RNN
-                    layer_norm=True,  # apply layer normalization on the output of each layer
+                    layer_norm=False,  # apply layer normalization on the output of each layer
+                    normalize_after=False,
                     highway_bias=-2,  # initial bias of highway gate (<= 0)
                     rescale=False,  # whether to use scaling correction
                     nn_rnn_compatible_return=False,
@@ -796,15 +754,8 @@ class AllenOpenIE:
         validation_tokens=None,
         validation_tags=None,
         resume=False,
-        reset_training=False,
         progress_callback=None,
     ):
-
-        # Lets split huge datasets with overlap
-
-        have_huge_item, tags, tokens = split_huge_dataset(
-            tags, tokens, window=self.train_window, overlap=self.train_overlap
-        )
 
         reader = BrokaReader(
             limit=self.token_limit,
@@ -823,12 +774,6 @@ class AllenOpenIE:
         train_dataset = reader.read((tokens, tags))
 
         if validation_tokens:
-            _, validation_tags, validation_tokens = split_huge_dataset(
-                validation_tags,
-                validation_tokens,
-                window=self.train_window,
-                overlap=self.train_overlap,
-            )
             validation_dataset = reader.read((validation_tokens, validation_tags))
 
         # Once we've read in the datasets, we use them to create our <code>Vocabulary</code>
@@ -849,7 +794,7 @@ class AllenOpenIE:
             shutil.rmtree(check_point_folder, ignore_errors=True)
             check_point_folder.mkdir(parents=True)
 
-        checkpointer = Checkpointer(check_point_folder, num_serialized_models_to_keep=3)
+        checkpointer = Checkpointer(check_point_folder, keep_most_recent_by_count=3)
 
         # Set variables
         self.one_hot_layout = one_hot_layout
@@ -882,7 +827,7 @@ class AllenOpenIE:
             optimizer,
             factor=0.3,
             patience=self.lr_patience,
-            cooldown=3,
+            cooldown=10,
             threshold=0.01,
             mode="max",
             verbose=True,  # Vamos tentar ser maior que o lookahaed
@@ -1076,7 +1021,7 @@ class AllenOpenIE:
     def is_neural(self):
         return True
 
-    def predict(self, tokens, use_window=True):
+    def predict(self, tokens):
 
         if type(tokens[0]) == list:
             return [self.predict_single(X_single) for X_single in tokens]
@@ -1085,9 +1030,10 @@ class AllenOpenIE:
 
     def predict_single(self, tokens):
         predictor, reader = self.prepare_predict()
-        instance = reader.token_to_instance(tokens)
-        prediction = predictor.predict_instance(instance)
-        return prediction["tags"]
+        # Todo , speedup this by not reloading the predictor for every prediction
+        instances = reader.token_to_instances_to_prediction(tokens)
+        prediction = predictor.predict_structured_json(instances)
+        return prediction
 
     def prepare_predict(self):
         if self.model is None:
@@ -1111,9 +1057,11 @@ class AllenOpenIE:
             flair_bw_embedding_path=self.flair_bw_embedding_path,
             use_char_cnn=self.use_char_cnn,
         )
-        #predictor = Predictor(self.model.eval(), dataset_reader=reader)
+        # predictor = Predictor(self.model.eval(), dataset_reader=reader)
         # TODO - Make this multilingual
-        predictor = OpenIePredictor(self.model.eval(), dataset_reader=reader, language="pt_core_news_lg")
+        predictor = MultiOIEOpenIePredictor(
+            self.model.eval(), dataset_reader=reader, language="pt_core_news_lg"
+        )
 
         return predictor, reader
 
