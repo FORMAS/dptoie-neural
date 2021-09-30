@@ -1,0 +1,151 @@
+""" Usage:
+    <file-name> --in=INPUT_FILE --out=OUTPUT_FILE[--debug]
+"""
+# External imports
+import logging
+
+from allennlp.data.tokenizers import WordTokenizer
+from allennlp.data.tokenizers.word_splitter import SpacyWordSplitter
+from docopt import docopt
+from tqdm import tqdm
+from allennlp.pretrained import open_information_extraction_stanovsky_2018, PretrainedModel
+from collections import defaultdict
+from operator import itemgetter
+import functools
+import operator
+
+# Local imports
+from format_oie import format_extractions, Mock_token
+
+# =-----
+
+
+def chunks(l, n):
+    """
+    Yield successive n-sized chunks from l.
+    """
+    for i in range(0, len(l), n):
+        yield l[i : i + n]
+
+
+def create_instances(model, sent):
+    """
+    Convert a sentence into a list of instances.
+    """
+
+    # Vou usar um tokenizador em portugues
+
+    pt_splitter = SpacyWordSplitter(language="pt_core_news_sm", pos_tags=True)
+
+    tokenizer = WordTokenizer(word_splitter=pt_splitter)
+
+    sent_tokens = tokenizer.tokenize(sent)
+
+    print(sent_tokens)
+    for token in sent_tokens:
+        print(f"{token}-{token.pos_}")
+
+    # Find all verbs in the input sentence
+    pred_ids = [i for (i, t) in enumerate(sent_tokens) if t.pos_ == "VERB" or t.pos_ == "AUX"]
+
+    # Create instances
+    instances = [{"sentence": sent_tokens, "predicate_index": pred_id} for pred_id in pred_ids]
+
+    return instances
+
+
+def get_confidence(model, tag_per_token, class_probs):
+    """
+    Get the confidence of a given model in a token list, using the class probabilities
+    associated with this prediction.
+    """
+    token_indexes = [
+        model._model.vocab.get_token_index(tag, namespace="labels") for tag in tag_per_token
+    ]
+
+    # Get probability per tag
+    probs = [class_prob[token_index] for token_index, class_prob in zip(token_indexes, class_probs)]
+
+    # Combine (product)
+    prod_prob = functools.reduce(operator.mul, probs)
+
+    return prod_prob
+
+
+def run_oie(lines, batch_size=1, debug=False):
+    """
+    Run the OIE model and process the output.
+    """
+
+    if debug:
+        logging.basicConfig(level=logging.DEBUG)
+    else:
+        logging.basicConfig(level=logging.INFO)
+
+    # Init OIE
+    # model = open_information_extraction_stanovsky_2018()
+    model = PretrainedModel("saida_modelo/model.tar.gz", "open-information-extraction")
+    model = model.predictor()  # type: ignore
+
+    # process sentences
+    logging.info("Processing sentences")
+    oie_lines = []
+    for chunk in tqdm(chunks(lines, batch_size)):
+        oie_inputs = []
+        for sent in chunk:
+            oie_inputs.extend(create_instances(model, sent))
+        if not oie_inputs:
+            # No predicates in this sentence
+            continue
+
+        # Run oie on sents
+        sent_preds = model.predict_batch_json(oie_inputs)
+
+        # Collect outputs in batches
+        predictions_by_sent = defaultdict(list)
+        for outputs in sent_preds:
+            sent_tokens = outputs["words"]
+            tags = outputs["tags"]
+            sent_str = " ".join(sent_tokens)
+            assert len(sent_tokens) == len(tags)
+            predictions_by_sent[sent_str].append((outputs["tags"], outputs["class_probabilities"]))
+
+        # Create extractions by sentence
+        for sent_tokens, predictions_for_sent in predictions_by_sent.items():
+            raw_tags = list(map(itemgetter(0), predictions_for_sent))
+            class_probs = list(map(itemgetter(1), predictions_for_sent))
+
+            # Compute confidence per extraction
+            confs = [
+                get_confidence(model, tag_per_token, class_prob)
+                for tag_per_token, class_prob in zip(raw_tags, class_probs)
+            ]
+
+            extractions, tags = format_extractions(
+                [Mock_token(tok) for tok in sent_tokens.split(" ")], raw_tags
+            )
+
+            oie_lines.extend(
+                [extraction + f"\t{conf}" for extraction, conf in zip(extractions, confs)]
+            )
+    logging.info("DONE")
+    return oie_lines
+
+
+if __name__ == "__main__":
+    # Parse command line arguments
+    args = docopt(__doc__)
+    inp_fn = args["--in"]
+    out_fn = args["--out"]
+    batch_size = 1
+
+    debug = args["--debug"]
+
+    lines = [line.strip() for line in open(inp_fn, encoding="utf8")]
+
+    oie_lines = run_oie(lines, batch_size, debug)
+
+    # Write to file
+    logging.info(f"Writing output to {out_fn}")
+    with open(out_fn, "w", encoding="utf8") as fout:
+        fout.write("\n".join(oie_lines))

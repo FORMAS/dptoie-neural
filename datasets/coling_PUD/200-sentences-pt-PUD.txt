@@ -1,0 +1,2056 @@
+1	Embora uma grande parte da transição digital nos Estados Unidos seja sem precedentes, a transição pacífica de poder não o é, escreveu Kori Schulman, assistente especial de Obama, numa publicação no blog, na segunda-feira.
+precedentes	escreveu	Kori Schulman	1	0	0
+precedentes	escreveu	assistente	1	0	0
+uma grande parte de a transição digital em os Estados Unidos	seja	sem precedentes	1	0	0
+Kori Schulman	escreveu	em uma publicação em o blog	1	0	0
+Kori Schulman	escreveu	em a segunda - feira	1	0	0
+uma grande parte da transição digital nos Estados Unidos	seja	sem precedentes	1	0	0
+a transição pacífica de poder	não o é	Embora uma grande parte da transição digital nos Estados Unidos seja sem precedentes	1	0	0
+uma grande parte de a transição digital	seja em	os Estados Unidos	1	0	0
+uma grande parte de a transição digital	seja sem	precedentes	1	0	0
+2	Para aqueles que seguem as transições das redes sociais no Capitol Hill, esta será um pouco diferente.
+esta	será um pouco	diferente	1	0	0
+aqueles	seguem	as transições de as redes sociais	1	1	1
+aqueles	seguem	as transições de as redes sociais em o Capitol Hill esta será um pouco diferente	1	0	0
+esta	será	um pouco diferente	1	1	1
+Para aqueles	seguem as transições	das redes sociais no Capitol Hill	1	0	0
+esta	será um pouco	Para aqueles	1	0	0
+3	Mas numa pausa da sua retórica passada acerca da restrição da imigração, o nomeado da GOP anunciou que, como presidente, ele iria permitir "números tremendos" de imigrantes legais, baseado num "sistema de mérito".
+o nomeado da GOP	anunciou que	baseado em um sistema	1	0	0
+o nomeado da GOP	iria permitir	números tremendos	1	0	0
+restrição da imigração	baseado em	um sistema de mérito	1	1	1
+o nomeado da GOP	permitou	números tremendos	1	0	0
+o nomeado da GOP	ainda permitou	números tremendos	1	0	0
+nomeado de a GOP	anunciou	o	1	0	0
+ele	iria permitir	números tremendos	1	1	1
+ele	iria permitir	números tremendos de imigrantes legais	1	1	1
+ele	iria permitir	números tremendos de imigrantes legais baseado em um sistema de mérito	1	0	0
+ele	iria permitir	números tremendos de imigrantes legais como presidente	1	0	0
+nomeado de a GOP	anunciou	que	1	0	0
+ele	iria permitir números tremendos	como presidente	1	0	0
+ele	iria permitir números tremendos	de imigrantes legais	1	0	0
+ele	iria permitir números tremendos	baseado num sistema de mérito	1	0	0
+ele	iria	permitir números tremendos de imigrantes legais	1	0	0
+4	Então, eu odeio pôr um pouco de pressão em vocês, mas o destino dos republicanos está nos meus ombros, disse ele à multidão reunida num campo esportivo da Universidade de Carolina do Norte.
+ele à multidão	reunida em	um campo esportivo da Universidade de Carolina do Norte	1	0	0
+eu	odeio	pôr um pouco de pressão	1	0	0
+eu	odeio	pôr um pouco de pressão em vocês	1	0	0
+eu	odeio	pôr um pouco de pressão em vocês mas o destino de os republicanos está em os meus ombros	1	0	0
+eu	odeio	pôr um pouco de pressão em vocês Então	1	0	0
+o destino de os republicanos	está	em os meus ombros	1	0	0
+eu	odeio pôr um pouco	de pressão em vocês	1	0	0
+o destino dos republicanos	está	nos meus ombros	1	0	0
+o destino de os republicanos	está em	os meus ombros	1	0	0
+eu	odeio	pôr	1	0	0
+5	Os novos gastos são alimentados pela grande conta bancária de Clinton.
+Os novos gastos	são alimentados pela	grande conta bancária de Clinton	1	0	0
+Os novos gastos	são alimentados	por a grande conta bancária de Clinton	1	0	0
+Os novos gastos	são alimentados	pela grande conta bancária de Clinton	1	0	0
+Os novos gastos	são alimentados por	a grande conta bancária de Clinton	1	1	1
+6	O que ele está dizendo e o que ela está fazendo, na verdade, é inacreditável.
+O e o	é	inacreditável	1	0	0
+O e o	é	inacreditável em a verdade	1	0	0
+O e o	está dizendo	que	1	0	0
+ela	está fazendo	na verdade	1	0	0
+ela	está fazendo em	a verdade	1	0	0
+dizendo e fazendo	é	inacreditável	1	0	0
+7	$5,000 por pessoa, o máximo permitido.
+o máximo	permitido	$ 5000	1	1	1
+8	No início de outubro, a equipe de transição utilizou o mesmo local para se encontrar com os lobistas, convidando os representantes da Uber, da Motion Picture Association of America, da Consumer Technology Association de outros grupos.
+a equipe de transição	utilizou o mesmo local para encontrar com	os lobistas	1	1	1
+início de outubro	convidando os representantes da	Uber	1	1	1
+a equipe de transição	utilizou	o mesmo local	1	1	1
+a equipe de transição	utilizou	o mesmo local para se encontrar com os lobistas	1	0	0
+a equipe de transição	utilizou	o mesmo local para se encontrar com os lobistas convidando os representantes de a Uber de a Motion Association of America	1	0	0
+a equipe de transição	utilizou	o mesmo local para se encontrar com os lobistas convidando os representantes de a Uber de a Motion Association of America de a Consumer Technology Association de outros grupos	1	0	0
+a equipe de transição	utilizou	o mesmo local em o início de outubro	1	0	0
+a equipe de transição	utilizou	o mesmo local convidando os representantes de a Uber de a Motion Association of America	1	0	0
+a equipe de transição	utilizou	o mesmo local convidando os representantes de a Uber de a Motion Association de a Consumer Technology Association de outros grupos	1	0	0
+a equipe de transição	utilizou o mesmo local	No início de outubro	1	0	0
+a equipe de transição	utilizou o mesmo local	para se encontrar com os lobistas	1	0	0
+a equipe de transição	utilizou No	início de outubro	1	0	0
+9	O encontro foi originalmente marcado para o Clube Metropolitano Privado de Washington, na Rua H, a uns quarteirões de distância.
+O encontro	foi originalmente marcado	para o Clube Metropolitano Privado de Washington	1	1	1
+O encontro	foi originalmente marcado	para o Clube Metropolitano Privado de Washington em a Rua H	1	1	0
+O encontro	foi originalmente marcado	para o Clube Metropolitano Privado de Washington em a Rua H a uns quarteirões de distância	1	1	0
+O encontro	foi originalmente marcado	em a Rua H	1	0	0
+O encontro	foi originalmente marcado	a uns quarteirões de distância	1	0	0
+O encontro	foi originalmente marcado	na Rua H	1	0	0
+O encontro	foi marcado	a uns quarteirões de distância	1	0	0
+O encontro	foi marcado a uns quarteirões de distância para	o Clube Metropolitano Privado de Washington	1	0	0
+10	Possivelmente a indumentária aconselhada foi muito rígida.
+a indumentária	aconselhada foi muito	rígida	1	0	0
+a indumentária aconselhada	foi	muito rígida	1	1	1
+a indumentária aconselhada	foi	muito rígida Possivelmente	1	0	0
+a indumentária	foi	muito rígida	1	1	1
+11	Por exemplo, em vez de o método científico ser ensinado como uma unidade separada, os estudantes aprendem conteúdos científicos aplicando-os.
+uma unidade	separada	os estudantes	1	0	0
+uma unidade	aprendem	conteúdos científicos	1	0	0
+os estudantes	aprendem	conteúdos científicos aplicando - os	1	0	0
+os estudantes	aprendem	conteúdos científicos aplicando - os ser ensinado Por exemplo	1	0	0
+os estudantes	aprendem	conteúdos científicos aplicando - os ser ensinado Por exemplo em vez de o método científico	1	0	0
+os estudantes	aprendem	conteúdos científicos aplicando - os ser ensinado Por exemplo em vez de o método científico como uma unidade separada	1	0	0
+os estudantes	aprendem	conteúdos científicos	1	1	1
+os estudantes	aprendem conteúdos científicos	aplicando os	1	1	1
+12	Eles estão, na média nacional, na categoria 4 e, melhores que a média nacional, na categoria 8.
+Eles	estão na	categoria 8	1	0	0
+Eles	estão	em a média nacional	1	0	0
+Eles	estão	em a média nacional em a categoria 4	1	0	0
+Eles	estão	em a média nacional em a categoria 4 e melhores que	1	0	0
+Eles	estão	em a categoria 4	1	0	0
+Eles	estão	em a categoria e melhores que	1	0	0
+Eles	estão	em a média nacional 4 melhores que	1	0	0
+Eles	estão	na média nacional	1	0	0
+Eles	estão	na categoria 4	1	0	0
+Eles	estão	4	1	0	0
+Eles	estão 4 em	a média nacional	1	0	0
+Eles	estão 4 em	a categoria	1	0	0
+13	Por comparação, custou $103.7 milhões construir o interior da estação de metrô do NoMa, que abriu em 2004.
+comparação	custou	$1037 milhões	1	0	0
+$1037 milhões	construir o interior da	estação de metrô do NoMa	1	0	0
+o interior da estação de metrô do NoMa	abriu em	2004	1	0	0
+$ 1037 milhões	construir	o interior de a estação de metrô	1	0	0
+$ 1037 milhões	construir	o interior de a estação de metrô de o NoMa	1	0	0
+$ 1037 milhões	construir	o interior de a estação de metrô de o NoMa que abriu em 2004	1	0	0
+a estação de metrô de o NoMa	abriu	em 2004	1	1	1
+$	construir o interior	da estação de metrô do NoMa	1	0	0
+o interior da estação de metrô do NoMa	abriu	em 2004	1	0	0
+o interior de a estação de metrô de o NoMa	abriu em	2004	1	0	0
+14	Nós enfrentamos muita concorrência, e achamos que o transporte pode ajudar, disse o presidente do Georgetown BID, Joe Sternlieb.
+Nós	enfrentamos	muita concorrência	1	1	1
+Nós	achamos que	o transporte	1	0	0
+o transporte	pode ajudar	Joe Sternlieb	1	0	0
+muita concorrência	disse o presidente do	Georgetown BID	1	0	0
+muita concorrência	disse o presidente do	Joe Sternlieb	1	0	0
+o presidente de o Georgetown BID	é	Joe Sternlieb	1	1	1
+Nós	achamos	que	1	0	0
+Nós	enfrentamos muita concorrência	disse o presidente do Georgetown BID	1	0	0
+15	O estudo de viabilidade estima que os passageiros iriam levar quatro minutos para atravessar o Rio Potomac na gôndola.
+O estudo de viabilidade	estima que	os passageiros	1	0	0
+os passageiros	iriam levar quatro minutos para atravessar o Rio Potomac na	gôndola	1	0	0
+os passageiros	levaram quatro minutos para atravessar o Rio Potomac na	gôndola	1	0	0
+os passageiros	ainda levaram quatro minutos para atravessar o Rio Potomac na	gôndola	1	0	0
+os passageiros	iriam levar	quatro minutos para atravessar o Rio Potomac	1	0	0
+os passageiros	iriam levar	quatro minutos para atravessar o Rio Potomac em a gôndola	1	0	0
+O estudo de viabilidade	estima	que	1	0	0
+O estudo de viabilidade	estima	que os passageiros iriam levar quatro minutos	1	0	0
+O estudo de viabilidade	estima	que os passageiros iriam levar para atravessar o Rio Potomac	1	0	0
+O estudo de viabilidade	estima	que os passageiros iriam levar para atravessar o Rio Potomac na gôndola	1	0	0
+os passageiros	iriam levar	quatro minutos	1	1	1
+os passageiros	iriam levar	para atravessar o Rio Potomac	1	0	0
+os passageiros	iriam levar	para atravessar o Rio Potomac na gôndola	1	0	0
+O estudo de viabilidade	estima	que os passageiros iriam levar quatro minutos para atravessar o Rio Potomac em a gôndola	1	0	0
+os passageiros	iriam	levar quatro minutos para atravessar o Rio Potomac em a gôndola	1	0	0
+16	Uma testemunha contou à polícia que a vítima tinha atacado o suspeito em abril.
+Uma testemunha	contou à	polícia	1	1	1
+a vítima	tinha atacado o suspeito em	abril	1	1	1
+Uma testemunha	contou	a a polícia	1	0	0
+a vítima	tinha atacado	o suspeito	1	1	1
+a vítima	tinha atacado	o suspeito em abril	1	0	0
+Uma testemunha	contou	a a polícia que	1	0	0
+Uma testemunha	contou	à polícia	1	0	0
+Uma testemunha	contou à polícia	que a vítima tinha atacado o suspeito em abril	1	0	0
+a vítima	tinha atacado o suspeito	em abril	1	0	0
+Uma testemunha	contou	que a vítima tinha atacado o suspeito em abril	1	0	0
+Uma testemunha	contou que a vítima tinha atacado o suspeito em abril a	a polícia	1	1	1
+17	Há comparações a traçar aqui entre jogos e a nossa vida quotidiana.
+18	Aquela quota tem aumentado firmemente ao longo dos anos - apenas 11 por cento dos votos totais foram lançados antes do dia eleitoral, em 1996, de acordo com a Agência dos Censos -- e parece que vai aumentar de novo este ano.
+Aquela quota	tem aumentado firmemente ao	longo dos anos	1	0	0
+apenas 11 por cento dos votos totais	foram lançados antes do	dia eleitoral	1	1	1
+apenas 11 por cento dos votos totais	parece que vai aumentar de novo	este ano	1	0	0
+Aquela quota	tem	aumentado firmemente a o longo de os anos - apenas 11 por cento de os votos totais foram lançados antes de o dia eleitoral	1	0	0
+Aquela quota	tem	aumentado firmemente a o longo de os anos - apenas 11 por cento de os votos totais foram lançados antes de o dia eleitoral em 1996	1	0	0
+Aquela quota	tem	aumentado firmemente a o longo de os anos - apenas 11 por cento de os votos totais foram lançados antes de o dia eleitoral em 1996 de acordo com a Agência de os Censos	1	0	0
+Aquela quota	tem	aumentado firmemente a o longo de os anos - apenas 11 por cento de os votos totais foram lançados antes de o dia eleitoral em 1996 de acordo com a Agência de os Censos -- e parece que vai aumentar de novo este ano	1	0	0
+Aquela quota	tem	aumentado firmemente	1	1	1
+Aquela quota	tem aumentado firmemente	ao longo dos anos	1	1	1
+19	Hoje em dia, Khanzir deve ser um porco solitário, mas ele não está sempre sozinho.
+Khanzir	deve ser	um porco solitário	1	1	1
+ser um porco solitário	deve	Khanzir	1	0	0
+Khanzir	deve ser um porco	solitário mas ele não está sempre sozinho	1	0	0
+Khanzir	deve ser um porco	Hoje em dia	1	0	0
+Khanzir	deve ser um porco	mas ele não está sempre sozinho	1	0	0
+ele	não está	sempre sozinho	1	1	1
+Khanzir	deve ser	um porco Hoje em dia	1	0	0
+Khanzir	deve ser	ele não está sempre sozinho	1	0	0
+ele	não está	sozinho	1	1	1
+20	Pedimos a outras nações para nos ajudarem a povoar o jardim zoológico com diferentes espécies de animais, incluindo um porco, disse Saqib.
+a outras nações para nos	ajudarem a povoar o jardim zoológico com	diferentes espécies de	1	0	0
+o jardim zoológico com diferentes espécies de animais	incluindo	um porco	1	0	0
+o jardim zoológico com diferentes espécies de animais	disse	Saqib	1	0	0
+o jardim com diferentes espécies de animais	disse	Pedimos a outras nações	1	0	0
+o jardim com diferentes espécies de animais	disse	Pedimos a outras nações para em os ajudarem a povoar	1	0	0
+Saqib	disse	Pedimos a outras nações	1	0	0
+Saqib	disse	Pedimos a outras nações para em os ajudarem a povoar	1	0	0
+o jardim com diferentes espécies de animais	incluindo	um porco	1	0	0
+21	Houve um tempo, disse o Sr. Panvalkar, em que ele sentiu que deviam abandonar o edifício.
+um tempo	disse	o Sr Panvalkar	1	0	0
+um tempo	sentiu que deviam abandonar	o edifício	1	0	0
+ele	sentiu	que deviam abandonar o edifício	1	0	0
+ele	sentiu	em que	1	0	0
+ele	sentiu que deviam abandonar o edifício	o Sr Panvalkar	1	0	0
+22	Ela foi também acusada de ter tentado matar a sua filha de dois anos.
+Ela	foi também acusada de ter tentado matar a sua filha de	dois anos	1	1	1
+Ela	foi também acusada	de ter tentado matar a sua filha de dois anos	1	0	0
+Ela	foi	matar a sua filha de dois anos	1	0	0
+Ela	foi matar a sua filha de dois anos de	ter tentado	1	0	0
+23	Ela matou o Andre Price III ao pressionar a cara dele contra um colchão de ar na sua sala de estar, antes de tentar fazer o mesmo à sua filha, Angel, disse a polícia.
+Ela	matou o Andre Price III ao	pressionar a cara dele contra um colchão de ar na	1	0	0
+o Andre Price III	pressionar a cara dele	contra um colchão de ar na	1	0	0
+a cara dele contra um colchão de ar na sua sala	estar disse	a polícia	1	0	0
+Ela	matou	o Andre Price III	1	1	1
+Ela	matou	o Andre Price III a o pressionar a cara	1	0	0
+Ela	matou	o Andre Price III a o pressionar a cara contra um colchão de ar	1	0	0
+Ela	matou	o Andre Price III a o pressionar a cara contra um colchão de ar em a sua sala de estar	1	0	0
+Ela	matou	o Andre Price III a o pressionar a cara contra um colchão de ar em a sua sala de estar antes de tentar fazer o mesmo	1	0	0
+Ela	matou	o Andre Price III a o pressionar a cara contra um colchão de ar em a sua sala de estar antes de tentar fazer o mesmo a a sua filha Angel	1	0	0
+Ela	matou	o Andre Price III a o pressionar a cara contra um colchão de ar em a sua sala de estar antes de tentar fazer o mesmo a a sua filha Angel disse a polícia	1	0	0
+Ela	matou	o Andre Price III contra um colchão de ar	1	0	0
+Ela	matou	o Andre Price III contra um colchão em a sua sala de estar	1	0	0
+Ela	matou	o Andre Price III antes de tentar fazer o mesmo	1	0	0
+Ela	matou	o Andre Price III antes de tentar fazer a a sua filha Angel	1	0	0
+Ela	matou	o Andre Price III antes de tentar disse a polícia	1	0	0
+a sua filha	é	Angel	1	1	1
+Ela	matou o Andre Price III	ao pressionar a cara dele	1	0	0
+Ela	matou o Andre Price III	ao pressionar a cara dele contra um colchão de ar	1	0	0
+Ela	matou o Andre Price III	ao pressionar a cara dele na sua sala de estar	1	0	0
+Ela	matou o Andre Price III a	o pressionar a cara de ele contra um colchão de ar em a sua sala	1	0	0
+Ela	matou o Andre Price III de	estar	1	0	0
+24	Eu vou para a cadeia de qualquer maneira, espero que tenha valido a pena.
+Eu	vou para	a cadeia de qualquer maneira	1	1	0
+a cadeia de qualquer maneira	espero que tenha valido	a pena	1	0	0
+Eu	vou	para a cadeia de qualquer maneira	1	0	0
+Eu	espero	que tenha valido a pena	1	0	0
+25	Primeiro, uma das mulheres yazidis começou a chorar, depois uma das suas amigas.
+uma das mulheres yazidis	começou a chorar	depois uma das	1	0	0
+uma de as mulheres yazidis	começou a chorar	depois uma de as suas amigas	1	0	0
+uma de as mulheres yazidis	começou a chorar	Primeiro	1	0	0
+Primeiro	começou	a chorar	1	0	0
+Primeiro	começou a chorar	depois uma das suas amigas	1	0	0
+26	O Sr. Osborne inscreveu-se na agência americana de oradores depois de ter sido despedido em julho.
+O Sr Osborne	inscreveu -se na	agência americana de oradores	1	0	0
+na agência americana de oradores depois	ter sido despedido em	julho	1	0	0
+O Sr	inscreveu - se	em a agência americana de oradores	1	0	0
+O Sr	inscreveu - se	em a agência americana de oradores depois de ter sido despedido em julho	1	0	0
+O Sr	inscreveu - se	depois de ter sido despedido em julho	1	0	0
+O Sr	é	Osborne	1	0	0
+Osborne	inscreveu - se	em a agência americana de oradores	1	0	0
+Osborne	inscreveu - se	em a agência americana de oradores depois de ter sido despedido em julho	1	0	0
+Osborne	inscreveu - se	depois de ter sido despedido em julho	1	0	0
+O Sr	inscreveu-se	na agência americana de oradores	1	0	0
+O Sr	inscreveu-se	depois de ter sido despedido em julho	1	0	0
+O Sr Osborne	inscreveu se em	a agência americana de oradores	1	1	1
+27	Michael Fallon disse que a data para cortar o primeiro aço ajudaria a assegurar o novo investimento e a salvaguardar centenas de trabalhos qualificados, até 2035.
+o primeiro aço	ajudaria a assegurar o novo investimento	a salvaguardar	1	0	0
+novo investimento e	salvaguardar centenas de	trabalhos qualificados	1	0	0
+o primeiro aço	ajudou a assegurar o novo investimento	a salvaguardar	1	0	0
+o primeiro aço	ainda ajudou a assegurar o novo investimento	a salvaguardar	1	0	0
+Michael Fallon	disse	que a data para cortar o primeiro aço	1	0	0
+Michael Fallon	disse	que a data para cortar o primeiro aço ajudaria a assegurar o novo investimento	1	0	0
+Michael Fallon	disse	que a data para cortar o primeiro aço ajudaria a assegurar o novo investimento e a salvaguardar centenas de trabalhos qualificados	1	0	0
+Michael Fallon	disse	que a data para cortar o primeiro aço ajudaria a assegurar o novo investimento e a salvaguardar centenas de trabalhos qualificados até 2035	1	0	0
+Michael Fallon	disse	que a data para cortar ajudaria a assegurar o novo investimento	1	0	0
+Michael Fallon	disse	que a data para cortar ajudaria a assegurar e a salvaguardar centenas de trabalhos qualificados	1	0	0
+Michael Fallon	disse	que a data para cortar ajudaria a assegurar e a salvaguardar centenas até 2035	1	0	0
+Michael Fallon	disse	que a data para cortar o primeiro aço ajudaria o novo investimento a a salvaguardar centenas de trabalhos qualificados	1	0	0
+Michael Fallon	disse	que a data para cortar o primeiro aço ajudaria	1	0	0
+a data para cortar o primeiro aço	ajudaria	a assegurar o novo investimento	1	1	1
+28	A promessa das novas ordens da Marinha Real para assegurar a construção de barcos da indústria Clyde foi feita antes do referendo de independência escocesa, em 2014.
+A promessa das novas ordens da Marinha Real	assegurar a construção de	barcos da indústria	1	0	0
+Clyde	foi feita antes do	referendo de independência escocesa	1	0	0
+A promessa de as novas ordens de a Marinha Real para assegurar a construção de barcos de a indústria	foi feita	antes de o referendo de independência escocesa	1	1	1
+A promessa de as novas ordens de a Marinha Real para assegurar a construção de barcos de a indústria	foi feita	antes de o referendo de independência escocesa em 2014	1	1	1
+A promessa de as novas ordens de a Marinha Real para assegurar a construção de barcos de a indústria	foi feita	antes de o referendo em 2014	1	1	1
+a construção de barcos de a indústria	é	Clyde	1	0	0
+A promessa de as novas ordens de a Marinha Real para assegurar Clyde	foi feita	antes de o referendo de independência escocesa	1	0	0
+A promessa de as novas ordens de a Marinha Real para assegurar Clyde	foi feita	antes de o referendo de independência escocesa em 2014	1	0	0
+A promessa de as novas ordens de a Marinha Real para assegurar Clyde	foi feita	antes de o referendo em 2014	1	0	0
+A promessa das novas ordens da Marinha Real de barcos da indústria	foi feita	antes do referendo de independência escocesa	1	0	0
+A promessa das novas ordens da Marinha Real de barcos da indústria	foi feita	em 2014	1	0	0
+A promessa de as novas ordens de a Marinha Real para assegurar a construção de barcos de a indústria Clyde	foi feita de	o referendo de independência escocesa	1	0	0
+A promessa de as novas ordens de a Marinha Real para assegurar a construção de barcos de a indústria Clyde	foi feita em	2014	1	1	1
+29	É mais óbvio quando o nome de uma celebridade é, inicialmente, bastante raro.
+o nome de uma celebridade	é bastante	raro	1	0	0
+o nome de uma celebridade	é	inicialmente	1	0	0
+o nome de uma celebridade	é	inicialmente bastante raro	1	0	0
+o nome de uma celebridade	é	bastante raro inicialmente	1	0	0
+o nome de uma celebridade	é	bastante raro	1	0	0
+o nome de uma celebridade	é	raro	1	0	0
+30	E em 2007, no pico da sua popularidade (e, talvez, na de Knightley) este foi um nome top 50, com três vezes mais bebês chamados Keira do que Kiera.
+2007	foi	um nome top 50	1	0	0
+mais bebês	chamados Keira do	Kiera	1	0	0
+um nome top 50	foi	2007	1	0	0
+este	foi um nome	top 50	1	0	0
+este	foi um nome	top 50 com três vezes mais bebês chamados Keira de o que Kiera	1	0	0
+este	foi um nome	com três vezes mais bebês chamados Keira de o que Kiera	1	0	0
+este	foi	um nome top 50	1	1	1
+este	foi	bebês	1	0	0
+este	foi bebês com	três vezes	1	1	1
+31	A companhia sul-coreana inicialmente pensou que a culpa seria de uma falha na bateria e substituiu o componente de fabricação própria por um de fabricação externa.
+a culpa	seria de	uma falha na bateria	1	1	1
+a culpa	substituiu o componente de	fabricação própria por um de fabricação externa	1	0	0
+a culpa	serou de	uma falha na bateria	1	0	0
+a culpa	ainda serou de	uma falha na bateria	1	0	0
+a culpa	seria	de uma falha em a bateria	1	0	0
+A companhia sul - coreana	substituiu	o componente de fabricação própria	1	1	1
+A companhia sul - coreana	substituiu	o componente de fabricação própria por um de fabricação externa	1	0	0
+A companhia sul - coreana	inicialmente pensou	que	1	0	0
+A companhia sul-coreana	pensou	que a culpa seria de uma falha na bateria	1	0	0
+a culpa	seria	de uma falha na bateria	1	0	0
+A companhia sul-coreana	substituiu	o componente de fabricação própria	1	1	1
+A companhia sul-coreana	substituiu o componente de fabricação própria por	um de fabricação externa	1	1	1
+A companhia sul-coreana	pensou	que a culpa seria de uma falha em a bateria	1	0	0
+a culpa	seria de	uma falha	1	1	1
+a culpa	seria em	a bateria	1	0	0
+32	Vários analistas sugeriram que a Huawei está melhor colocada para se beneficiar do retrocesso da Samsung.
+Vários analistas	sugeriram que	a Huawei	1	1	1
+a Huawei	está melhor colocada parabeneficiar do	retrocesso da Samsung	1	0	0
+a Huawei	está	melhor colocada para se beneficiar de o retrocesso de a Samsung	1	0	0
+Vários analistas	sugeriram	que	1	0	0
+Vários analistas	sugeriram	que a Huawei está	1	0	0
+Vários analistas	sugeriram	colocada para se beneficiar de o retrocesso de a Samsung	1	0	0
+a Huawei	está	melhor	1	0	0
+33	Os telefones Mate 9 carecem de uma interface de inteligência artificial, como o Assistente do Google ou a Siri da Apple.
+Mate 9	carecem de	uma interface de inteligência artificial	1	0	0
+Os telefones	carecem	de uma interface de inteligência artificial	1	0	0
+Os telefones	carecem	de uma interface de inteligência artificial como o Assistente de o Google	1	0	0
+Os telefones	carecem	de uma interface de inteligência artificial como o Assistente de o Google ou a Siri de a Apple	1	0	0
+Os telefones	carecem	de uma interface como o Assistente de o Google	1	0	0
+Os telefones	carecem	de uma interface como o Assistente ou a Siri de a Apple	1	0	0
+Os telefones	carecem	de uma interface de inteligência artificial de o Google a Siri	1	0	0
+Os telefones	é	Mate 9	1	1	1
+Mate 9	carecem	de uma interface de inteligência artificial	1	0	0
+Mate 9	carecem	de uma interface de inteligência artificial como o Assistente de o Google	1	0	0
+Mate 9	carecem	de uma interface de inteligência artificial como o Assistente de o Google ou a Siri de a Apple	1	0	0
+Mate 9	carecem	de uma interface como o Assistente de o Google	1	0	0
+Mate 9	carecem	de uma interface como o Assistente ou a Siri de a Apple	1	0	0
+Mate 9	carecem	de uma interface de inteligência artificial de o Google a Siri	1	0	0
+Os telefones	carecem	como o Assistente do Google	1	0	0
+34	Mas um especialista em viagens avisou que a internet durante os voos é frequentemente falível e é pouco provável que influencie as escolhas das companhias aéreas dos passageiros
+um especialista em viagens	avisou que a internet durante	os voos	1	0	0
+a internet durante os voos	é frequentemente falível	é pouco provável	1	0	0
+a internet durante os voos	é pouco provável que influencie as escolhas das	companhias aéreas dos	1	1	1
+a internet durante os voos	é	frequentemente falível	1	1	1
+a internet durante os voos	é	pouco provável	1	0	0
+um especialista em viagens	avisou	que	1	0	0
+um especialista em viagens	avisou	que a internet durante os voos é frequentemente falível e é pouco provável	1	0	0
+a internet durante os voos falível	é	pouco provável	1	0	0
+a internet	é	falível	1	1	1
+a internet	é falível durante	os voos	1	1	1
+a internet	ser pouco provável que durante	os voos	1	0	0
+um especialista	avisou em	viagens	1	0	0
+35	Mas pode ser que a BA e a IAG o tenham descoberto e possam oferecer algo vagamente confiável.
+IAG	tenham descoberto e possam oferecer	algo vagamente confiável	1	1	1
+a BA e a IAG	o tenham	descoberto	1	1	1
+36	A empresa disse à BBC que seria da responsabilidade de cada companhia aérea decidir se cobra dos passageiros uma taxa de acesso.
+responsabilidade de cada companhia aérea	decidir cobra dos	passageiros	1	0	0
+A empresa	disse	a a BBC	1	0	0
+que	seria	de a responsabilidade de cada companhia aérea	1	0	0
+que	seria	de a responsabilidade de cada companhia aérea decidir	1	0	0
+que	seria	de a responsabilidade decidir	1	0	0
+A empresa	disse	à BBC	1	0	0
+A empresa	disse à BBC	que seria da responsabilidade de cada companhia aérea	1	0	0
+A empresa	disse à BBC	dos passageiros	1	0	0
+A empresa	disse à BBC	uma taxa de acesso	1	0	0
+A empresa	disse	que seria de a responsabilidade de cada companhia aérea decidir	1	0	0
+A empresa	disse que seria de a responsabilidade de cada companhia aérea decidir a	a BBC	1	1	1
+37	A maioria das pessoas acharia o wi-fi nos aeroportos mais útil do que ser capaz de enviar emails num avião.
+A maioria das pessoas	acharia o wi -	fi nos aeroportos mais útil	1	0	0
+o wi	fi nos	aeroportos mais útil do	1	0	0
+aeroportos mais útil do	ser capaz de enviar emails em	um avião	1	0	0
+A maioria das pessoas	acharou o wi -	fi nos aeroportos mais útil	1	0	0
+A maioria das pessoas	ainda acharou o wi -	fi nos aeroportos mais útil	1	0	0
+A maioria de as pessoas	acharia	o wi - fi	1	0	0
+A maioria de as pessoas	acharia	o wi - fi em os aeroportos mais útil de	1	0	0
+A maioria das pessoas	acharia o wi-fi	nos aeroportos útil	1	0	1
+A maioria das pessoas	acharia o wi-fi	do que ser capaz de enviar emails	1	0	0
+A maioria das pessoas	acharia o wi-fi	do que ser capaz de enviar emails num avião	1	0	0
+A maioria de as pessoas	acharia	mais útil	1	0	0
+A maioria de as pessoas	acharia mais útil em	os aeroportos	1	0	0
+38	É como um superpoder, às vezes.
+39	O esquema faz dinheiro através de patrocínios e publicidade.
+O esquema	faz	dinheiro	1	1	1
+O esquema	faz	dinheiro através de patrocínios e publicidade	1	0	0
+O esquema	faz	dinheiro através de patrocínios	1	0	0
+O esquema	faz	dinheiro através de publicidade	1	0	0
+O esquema	faz	dinheiro de patrocínios e publicidade	1	0	0
+40	O curso de 10 semanas foi "certificado" pela agência de espionagem britânica GCHQ.
+O curso de 10	foi certificado	pela agência	1	0	0
+O curso de 10 semanas	foi certificado	por a agência de espionagem	1	0	0
+O curso de 10 semanas	foi certificado	por a agência de espionagem britânica GCHQ	1	0	0
+O curso de 10 semanas	foi certificado	por a agência britânica GCHQ	1	0	0
+a agência de espionagem britânica	é	GCHQ	1	1	1
+O curso de 10 semanas	foi certificado	pela agência de espionagem britânica GCHQ	1	0	0
+O curso de 10 semanas	foi	certificado	1	0	0
+O curso de 10 semanas	foi certificado por	a agência de espionagem britânica GCHQ	1	1	1
+41	Mas alguns especialistas de segurança levantaram questões acerca da necessidade do curso e da intenção por trás dele.
+alguns especialistas	levantaram questões acerca da	necessidade do curso	1	0	0
+alguns especialistas de segurança	levantaram	questões acerca de a necessidade de o curso e de a intenção por trás dele	1	1	1
+alguns especialistas de segurança	levantaram	questões acerca de a necessidade de o curso	1	1	1
+alguns especialistas de segurança	levantaram	questões acerca de a necessidade de a intenção por trás dele	1	1	1
+alguns especialistas de segurança	levantaram questões	acerca da necessidade do curso	1	0	0
+alguns especialistas de segurança	levantaram	questões	1	1	1
+42	Anteriormente, os jatos só tinham sido vistos pelos blogueiros.
+os jatos	tinham sido vistos pelos	blogueiros	1	0	0
+os jatos	só tinham sido vistos	por os blogueiros	1	0	0
+os jatos	só tinham sido vistos	Anteriormente	1	0	0
+os jatos	tinham sido vistos	pelos blogueiros	1	0	0
+os jatos	tinham sido	vistos	1	1	1
+43	Naturalmente, a China irá apresentar muitos outros equipamentos militares esta semana, desde helicópteros de ataque até aeroplanos.
+a China	irá apresentar	muitos outros equipamentos militares	1	1	1
+a China	irá apresentar	muitos outros equipamentos semana	1	0	0
+a China	irá apresentar	muitos outros equipamentos militares esta semana desde helicópteros de ataque	1	0	0
+a China	irá apresentar	muitos outros equipamentos militares esta semana desde helicópteros de ataque até aeroplanos	1	0	0
+a China	irá apresentar	muitos outros equipamentos militares Naturalmente	1	0	0
+a China	irá apresentar	muitos outros equipamentos militares até aeroplanos	1	0	0
+a China	irá apresentar muitos outros equipamentos militares	desde helicópteros de ataque até aeroplanos	1	0	0
+a China	irá apresentar	esta semana	1	1	1
+a China	irá apresentar esta semana desde	helicópteros de ataque até aeroplanos	1	1	1
+44	E com a China pronta para se tornar, na próxima década, o maior mercado de aviação do mundo, o espectáculo é uma oportunidade para Pequim mostrar as suas ambições tanto na aviação civil como de defesa.
+a China pronta	tornar	o espectáculo	1	0	0
+a China pronta	é uma oportunidade para	Pequim	1	0	0
+uma oportunidade para Pequim	mostrar as suas ambições tanto na	aviação civil	1	0	0
+a China pronta	mostrar as suas ambições tanto na	aviação civil	1	0	0
+uma oportunidade para Pequim	é	a China pronta	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim mostrar as suas ambições	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim mostrar as suas ambições tanto em a aviação civil como de defesa	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	com a China pronta	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	com a China pronta para se tornar em a próxima década	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	mostrar as suas ambições	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	mostrar tanto em a aviação civil como de defesa	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim mostrar as suas ambições tanto em a aviação civil	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim mostrar as suas ambições tanto em a aviação civil com a China pronta para se tornar em a próxima década	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim mostrar as suas ambições civil de defesa	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é uma oportunidade	para Pequim mostrar as suas ambições civil de defesa com a China pronta para se tornar em a próxima década	1	0	0
+o maior mercado de aviação de o mundo o espectáculo	é	uma oportunidade com a China pronta	1	0	0
+o maior mercado de aviação do mundo	mostrar	as suas ambições	1	0	0
+o maior mercado de aviação do mundo	mostrar as suas ambições	tanto na aviação civil	1	0	0
+o maior mercado de aviação do mundo	é uma oportunidade	para Pequim	1	0	0
+o espectáculo	é	mostrar as suas ambições tanto em a aviação civil	1	0	0
+o espectáculo	é mostrar as suas ambições tanto em a aviação civil com	a China pronta para se tornar	1	0	0
+o espectáculo	é mostrar as suas ambições tanto em a aviação civil para	Pequim	1	0	0
+45	Infelizmente, mais uma vez, os poucos arruinam tudo para os muitos, escreveu Jesse LaBrocca, fundadora do Hack Forums, numa mensagem que explica o porquê de a seção ter sido fechada.
+os	arruinam tudo para	os	1	0	0
+uma mensagem	explica o porquê de	a	1	0	0
+os poucos	arruinam	tudo	1	1	1
+os poucos	arruinam	tudo para os muitos	1	0	0
+os poucos	arruinam	tudo Infelizmente	1	0	0
+os poucos	arruinam	tudo Infelizmente mais uma vez	1	0	0
+os poucos	arruinam tudo	uma vez	1	0	0
+os poucos	arruinam tudo	para os muitos	1	0	0
+os poucos	arruinam tudo	escreveu Jesse LaBrocca fundadora	1	0	0
+numa mensagem	explica	o porquê	1	1	1
+numa mensagem	explica o porquê	de a seção ter sido fechada	1	0	0
+uma vez	escreveu	Jesse LaBrocca	1	0	0
+uma vez	escreveu Jesse LaBrocca em	uma mensagem	1	0	0
+uma mensagem	explica	ter sido fechada	1	0	0
+46	Os "eventos recentes" são provavelmente os ataques de 21 de outubro, que rapidamente derrubaram sites populares como o Reddit, o Twitter e o Spotify, bem como muitos outros.
+Os eventos recentes	são provavelmente os ataques de	21 de outubro	1	0	0
+Os eventos recentes	são	provavelmente os ataques de 21 de outubro	1	1	1
+Os eventos recentes	são	provavelmente os ataques de 21 de outubro que rapidamente derrubaram sites populares	1	1	1
+Os eventos recentes	são	provavelmente os ataques de 21 de outubro que rapidamente derrubaram sites populares como o Reddit	1	1	1
+Os eventos recentes	são	provavelmente os ataques de 21 de outubro que rapidamente derrubaram sites populares como o Reddit o Twitter e o Spotify bem como muitos outros	1	1	1
+Os eventos recentes	são	provavelmente os ataques que rapidamente derrubaram sites populares	1	1	1
+Os eventos recentes	são	provavelmente os ataques que rapidamente derrubaram como o Reddit	1	0	0
+Os eventos recentes	são	provavelmente os ataques que	1	0	0
+Os eventos recentes	são	provavelmente os ataques que o Twitter e o Spotify bem como muitos outros	1	0	0
+Os eventos recentes	são	provavelmente os ataques de 21 de outubro que rapidamente derrubaram sites populares como o Reddit o Twitter	1	1	1
+Os eventos recentes	são	provavelmente os ataques de 21 de outubro que rapidamente derrubaram sites populares como o Reddit o Spotify	1	1	1
+Os eventos recentes	são provavelmente os ataques	de 21 de outubro	1	0	0
+os ataques de 21 de outubro	derrubaram	sites populares como o Reddit	1	1	1
+Os eventos recentes	são	os ataques de 21 de outubro	1	1	1
+47	As análises revelaram que quantidades históricas de informação foram utilizadas para causar a ruptura.
+As análises	revelaram que quantidades históricas de	informação	1	0	0
+quantidades históricas de informação	foram utilizadas para causar	a ruptura	1	1	1
+quantidades históricas de informação	foram utilizadas	para causar a ruptura	1	0	0
+As análises	revelaram	que	1	0	0
+As análises	revelaram	que quantidades históricas de informação foram utilizadas para causar a ruptura	1	0	0
+quantidades históricas de informação	foram utilizadas para	causar a ruptura	1	1	1
+48	Um estudo da UN sobre planos nacionais para reduzir o carbono diz que estes estão bem abaixo dos níveis necessários para manter o aumento de temperatura global abaixo dos 2°C.
+o carbono	diz que	estão bem abaixo dos níveis necessários	1	0	0
+Um estudo de a UN	diz	sobre planos nacionais	1	0	0
+Um estudo de a UN	diz	sobre planos nacionais para reduzir	1	0	0
+o carbono	diz	sobre planos nacionais	1	0	0
+o carbono	diz	sobre planos nacionais para reduzir	1	0	0
+estes	estão	bem abaixo de os níveis necessários para manter o aumento de temperatura global	1	0	0
+estes	estão	bem abaixo de os níveis necessários para manter o aumento de temperatura global abaixo de os 2 ° C	1	1	1
+estes	estão	bem abaixo de os níveis necessários para manter abaixo de os 2 ° C	1	0	0
+Um estudo de a UN	diz	que	1	0	0
+o carbono	diz	que	1	0	0
+Um estudo da UN sobre planos nacionais	diz	que estes estão bem abaixo dos níveis necessários	1	0	0
+Um estudo da UN sobre planos nacionais	diz	que estes estão para manter o aumento de temperatura global	1	0	0
+Um estudo da UN sobre planos nacionais	diz	que estes estão para manter o aumento abaixo dos 2°C	1	0	0
+estes	estão	para manter o aumento de temperatura global	1	0	0
+estes	estão	para manter o aumento abaixo dos 2°C	1	0	0
+Um estudo de a UN sobre planos nacionais para reduzir o carbono	diz	que estes estão bem abaixo de os níveis necessários	1	0	0
+Um estudo de a UN sobre planos nacionais para reduzir o carbono	diz que estes estão bem abaixo de os níveis necessários para	manter o aumento de temperatura global abaixo de os 2°C	1	1	1
+estes	estão de	os níveis necessários	1	0	0
+49	Muitos cientistas dizem que a tecnologia para remover carbono do ar será agora necessária para atingir os objetivos de Paris.
+Muitos cientistas	dizem que a tecnologia para remover carbono do	ar	1	0	0
+carbono do ar	será agora necessária para atingir os objetivos de	Paris	1	0	0
+Muitos cientistas	dizem	que a tecnologia para remover carbono de o ar	1	0	0
+Muitos cientistas	dizem	que a tecnologia para remover carbono de o ar será agora necessária	1	0	0
+Muitos cientistas	dizem	que a tecnologia para remover carbono de o ar será agora necessária para atingir os objetivos de Paris	1	0	0
+Muitos cientistas	dizem	que a tecnologia para remover carbono do ar será agora necessária para atingir os objetivos	1	0	0
+Muitos cientistas	dizem	que a tecnologia para remover carbono do ar será agora necessária para atingir os objetivos de Paris	1	0	0
+a tecnologia do ar	será agora necessária	para atingir os objetivos	1	0	0
+a tecnologia do ar	será agora necessária	para atingir os objetivos de Paris	1	0	0
+a tecnologia para remover carbono de o ar	será	necessária	1	1	1
+a tecnologia para remover carbono de o ar	será necessária para	atingir os objetivos de Paris	1	1	1
+50	Estamos indo na direção certa: o Acordo de Paris vai lentamente diminuir as alterações climáticas, bem como a recente Emenda de Kigali vai reduzir os HFCs, disse Erik Solheim, chefe de Ambiente da UN.
+o Acordo de Paris	vai lentamente diminuir	as alterações climáticas	1	1	1
+a recente Emenda de Kigali	vai reduzir	os HFCs	1	1	1
+as alterações climáticas	disse	Erik Solheim	1	0	0
+as alterações climáticas	vai reduzir	os HFCs	1	0	0
+bem como a recente Emenda de Kigali	vai reduzir	os HFCs	1	0	0
+Erik Solheim	disse	Estamos indo em a direção certa	1	0	0
+o Acordo de Paris	vai lentamente diminuir	as alterações climáticas Emenda	1	0	0
+o Acordo de Paris	vai diminuir	as alterações climáticas	1	1	1
+51	Os investimentos nesta área aumentaram 6% em 2015, para $221bn.
+Os investimentos nesta área	aumentaram 6 % em	2015	1	1	1
+Os investimentos nesta área	aumentaram	6 % em 2015	1	0	0
+Os investimentos nesta área	aumentaram	6 % em 2015 para $ 221bn	1	0	0
+Os investimentos nesta área	aumentaram	para $ 221bn	1	0	0
+Os investimentos nesta área	aumentaram	6 %	1	1	1
+Os investimentos nesta área	aumentaram	em 2015	1	1	1
+Os investimentos	aumentaram	6%	1	1	1
+Os investimentos	aumentaram 6% em	esta área	1	1	1
+Os investimentos	aumentaram 6% em	2015	1	1	1
+Os investimentos	aumentaram 6% para	221bn	1	1	1
+52	É fantástico que eles tenham conseguido o Acordo de Paris, mas as suas contribuições no momento não estão nem perto do objectivo de 1.5 grau.
+fantástico	tenham conseguido o Acordo de	Paris	1	0	0
+as suas contribuições no momento	estão nem perto do	o objectivo de 15 grau	1	0	0
+eles	tenham conseguido	o Acordo de Paris	1	0	0
+eles	tenham conseguido	o Acordo de Paris mas as suas contribuições em o momento não estão nem perto de o objectivo de 15 grau	1	0	0
+as suas contribuições em o momento	não estão	nem perto de o objectivo de 15 grau	1	0	0
+eles	tenham conseguido o Acordo	de Paris	1	0	0
+as suas contribuições	não estão em	o momento	1	0	0
+53	Foi realizado na costa mexicana, de abril a junho.
+54	Isto colocará novos limites à natureza das mudanças ambientais, que ocorreram na Terra e que conduziram tantas espécies - não só os dinossauros - à extinção.
+Terra	conduziram tantas espécies -	não só	1	0	0
+Isto	colocará	novos limites	1	0	0
+Isto	colocará	novos limites a a natureza de as mudanças ambientais	1	1	1
+Isto	colocará novos limites	à natureza das mudanças ambientais	1	0	0
+a natureza de as mudanças ambientais	ocorreram em	a Terra	1	0	0
+Isto	colocará novos limites a	a natureza de as mudanças ambientais	1	1	1
+55	O indicador deste material meteorítico será provavelmente elevado em níveis do elemento irídio.
+O indicador deste material meteorítico	será provavelmente elevado em	níveis do elemento	1	0	0
+O indicador deste material meteorítico	será	provavelmente elevado em níveis de o elemento irídio	1	0	0
+O indicador de este material meteorítico	será elevado em	níveis de o elemento irídio	1	1	1
+56	Um pouco mais de 70% das plantas crescidas a partir de sementes terrestres estavam vivas ao fim de 17 dias - ligeiramente mais do que as plantas crecidas a partir de sementes espaciais - pouco mais de 66%.
+Um pouco mais de 70 % das plantas	crescidas a partir de	terrestres	1	0	0
+sementes terrestres	estavam vivas ao	fim de 17 dias	1	0	0
+as plantas	crecidas a partir de	espaciais	1	0	0
+mais de 70 % de as plantas crescidas a partir de sementes terrestres	estavam	vivas a o fim de 17 dias - plantas	1	0	0
+mais de 70 % de as plantas crescidas a partir de sementes terrestres	estavam	vivas a o fim de 17 dias - plantas crecidas a partir de sementes - % espaciais	1	0	0
+57	Os resultados desta experiência fornecem um suporte adicional à ideia de que as sementes espaciais podem voar e ser armazenadas na Estação Espacial Internacional durante seis meses, sem haver impactos significativos na sua habilidade de germinar e crescer na Terra.
+Os resultados desta	fornecem um suporte adicional à	ideia	1	1	1
+Os resultados desta	podem voar	Estação Espacial Internacional durante seis meses	1	0	0
+Os resultados desta	serarmazenadas na	Estação Espacial Internacional durante seis meses	1	0	0
+impactos significativos na sua habilidade	germinar e crescer na	Terra	1	0	0
+as sementes espaciais	podem voar	em a Estação Espacial Internacional	1	0	0
+as sementes espaciais	podem voar	em a Estação Espacial Internacional durante seis meses	1	0	0
+as sementes espaciais	podem voar	em a Estação Espacial Internacional durante seis meses sem haver impactos significativos	1	0	0
+as sementes espaciais	podem voar	em a Estação Espacial Internacional durante seis meses sem haver impactos significativos em a sua habilidade de germinar e crescer em a Terra	1	0	0
+as sementes espaciais	podem voar	durante seis meses	1	0	0
+as sementes espaciais	podem voar	sem haver impactos significativos	1	0	0
+as sementes espaciais	podem voar	sem haver em a sua habilidade de germinar e crescer em a Terra	1	0	0
+as sementes espaciais	ser armazenadas	em a Estação Espacial Internacional	1	0	0
+as sementes espaciais	ser armazenadas	em a Estação Espacial Internacional durante seis meses	1	0	0
+as sementes espaciais	ser armazenadas	em a Estação Espacial Internacional durante seis meses sem haver impactos significativos	1	0	0
+as sementes espaciais	ser armazenadas	em a Estação Espacial Internacional durante seis meses sem haver impactos significativos em a sua habilidade de germinar e crescer em a Terra	1	0	0
+as sementes espaciais	ser armazenadas	durante seis meses	1	0	0
+as sementes espaciais	ser armazenadas	sem haver impactos significativos	1	0	0
+as sementes espaciais	ser armazenadas	sem haver em a sua habilidade de germinar e crescer em a Terra	1	0	0
+a Estação	é	Espacial Internacional	1	0	0
+Os resultados desta experiência	fornecem	um suporte adicional	1	1	1
+Os resultados desta experiência	fornecem um suporte adicional	à ideia de que as sementes espaciais podem voar	1	0	0
+as sementes espaciais	podem voar em	a Estação Espacial Internacional	1	0	0
+as sementes espaciais	podem voar durante	seis meses	1	0	0
+as sementes espaciais	ser armazenadas em	a Estação Espacial Internacional	1	0	0
+as sementes espaciais	ser armazenadas durante	seis meses	1	0	0
+Os resultados de esta experiência	fornecem	um suporte adicional	1	0	0
+Os resultados de esta experiência	fornecem um suporte adicional a	a ideia	1	1	1
+58	O RHS recolheu comentários enviados por alunos e professores envolvidos na experiência.
+O RHS	recolheu comentários enviados por	alunos	1	1	1
+O RHS	recolheu comentários enviados por	professores	1	1	1
+professores	envolvidos na	experiência	1	0	0
+O RHS	recolheu	comentários enviados por alunos e professores envolvidos em a experiência	1	1	1
+O RHS	recolheu	comentários enviados por alunos	1	1	1
+O RHS	recolheu	comentários enviados por professores	1	1	1
+O RHS	recolheu	comentários	1	1	1
+O RHS	recolheu comentários	envolvidos em a experiência	1	0	0
+59	Ainda há o fator 'yuk' relacionado à ideia de comprar e usar partes do corpo de outras pessoas, diz ela.
+yuk'	relacionado à	ideia	1	1	1
+ideia	comprar	corpo de outras pessoas	1	0	0
+ideia	usar partes do	corpo de outras pessoas	1	0	0
+partes do corpo de outras pessoas	diz	ela	1	0	0
+60	Na China, o cabelo é normalmente colocado num banho químico para remover por completo a cutícula, explica Tarlo.
+o cabelo	é normalmente colocado em	um banho químico	1	0	0
+um banho químico	remover por	completo a cutícula	1	0	0
+China	explica	Tarlo	1	0	0
+o cabelo	é normalmente colocado	em um banho químico	1	0	0
+o cabelo	é normalmente colocado	em um banho químico para remover por completo a cutícula	1	1	1
+o cabelo	é normalmente colocado	em um banho químico para remover por completo a cutícula explica Tarlo	1	0	0
+o cabelo	é normalmente colocado	em a China	1	0	0
+o cabelo	é normalmente colocado	para remover por completo a cutícula	1	0	0
+o cabelo	é normalmente colocado	explica Tarlo	1	0	0
+o cabelo	é normalmente colocado	Na China	1	0	0
+o cabelo	é normalmente colocado	num banho químico	1	0	0
+o cabelo	é colocado Na	China	1	0	0
+o cabelo	é colocado em	um banho químico	1	0	0
+o cabelo	é colocado para	remover	1	0	0
+61	Ao longo da história, o mercado internacional de cabelo tem tido sempre uma dimensão política, diz Tarlo.
+o mercado internacional de cabelo	tem tido sempre	uma dimensão política	1	1	1
+longo da história	diz	Tarlo	1	0	0
+o mercado internacional de cabelo	tem tido	sempre uma dimensão política diz Tarlo	1	0	0
+o mercado internacional de cabelo	tem tido	a o longo de a história	1	0	0
+o mercado internacional de cabelo	tem tido uma dimensão política	Ao longo da história	1	1	1
+o mercado internacional de cabelo	tem tido	uma dimensão política	1	1	1
+o mercado internacional de cabelo	tem tido uma dimensão política	diz	1	0	0
+o mercado internacional de cabelo	tem tido uma dimensão política Ao	longo de a história	1	0	0
+62	Hoje à noite vamos dar prosseguimento aos castigos usando uma luz forte, diz o jornal.
+noite	vamos dar prosseguimento aos	castigos	1	0	0
+prosseguimento aos castigos	usando	uma luz forte	1	0	0
+uma luz forte	diz	o jornal	1	0	0
+o jornal	diz	vamos dar Hoje a a noite	1	0	0
+o jornal	diz	vamos dar Hoje a a noite prosseguimento	1	0	0
+o jornal	diz	vamos dar Hoje a a noite prosseguimento a os castigos	1	0	0
+o jornal	diz	vamos dar Hoje a a noite prosseguimento a os castigos usando uma luz forte	1	0	0
+Hoje à noite	vamos dar prosseguimento	aos castigos	1	0	0
+Hoje à noite	vamos dar prosseguimento	diz o jornal	1	0	0
+63	A polícia de trânsito de Shenzhen tem optado, antes, por sanções não convencionais.
+A polícia de trânsito de Shenzhen	tem optado por	sanções não convencionais	1	1	1
+A polícia de trânsito de Shenzhen	tem optado	antes	1	0	0
+A polícia de trânsito de Shenzhen	tem optado	antes por sanções não convencionais	1	0	0
+A polícia de trânsito de Shenzhen	tem optado	por sanções não convencionais	1	0	0
+A polícia de trânsito de Shenzhen	tem	optado	1	0	0
+A polícia de trânsito de Shenzhen	tem optado não por	sanções convencionais	1	0	0
+64	Quem são eles?
+Quem	são	eles	1	0	0
+65	Grande parte do debate, do lado Democrático deste ano, tem sido sobre a identidade de homens brancos.
+Grande	parte do	debate	1	0	0
+debate	tem sido sobre	a identidade de homens brancos	1	1	1
+Grande	parte	de o debate de o lado Democrático deste ano	1	0	0
+de o lado	é	Democrático deste ano	1	0	0
+Grande parte do debate	tem sido	sobre a identidade de homens brancos	1	0	0
+Grande parte de o debate	tem sido sobre	a identidade de homens brancos	1	1	1
+66	Mais tarde, eu perguntei-lhe se ela entendeu por que é que as pessoas poderiam votar em Trump.
+as pessoas	poderiam votar em	Trump	1	1	1
+as pessoas	votaram em	Trump	1	0	0
+as pessoas	ainda votaram em	Trump	1	0	0
+eu	perguntei -	lhe	1	1	1
+eu	perguntei -	lhe Mais tarde	1	0	0
+ela	entendeu	por que	1	0	0
+as pessoas	poderiam votar	em Trump	1	0	0
+eu	perguntei -	lhe se	1	0	0
+eu	perguntei-lhe	se ela entendeu que as pessoas poderiam votar em Trump	1	0	0
+ela	entendeu	que as pessoas poderiam votar em Trump	1	0	0
+eu	perguntei lhe se	ela	1	0	0
+67	Nem todo mundo pode superar isso.
+todo mundo	pode superar	isso	1	0	0
+todo mundo	pode superar	isso Nem	1	0	0
+mundo	pode superar	isso	1	0	0
+68	Felizmente, alguém na Sony Austrália estava do tipo, 'Olá, por falar nisso, vocês repararam?' diz Pall.
+alguém na Sony Austrália	estava do	tipo	1	0	0
+'	diz	Pall	1	0	0
+alguém em a Sony Austrália	estava	de o tipo	1	0	0
+alguém em a Sony Austrália	estava	de o tipo ' Olá	1	0	0
+alguém em a Sony Austrália	estava	de o tipo ' Olá por falar nisso	1	0	0
+alguém em a Sony Austrália	estava	de o tipo ' Olá por falar nisso '	1	1	1
+alguém em a Sony Austrália	estava	Felizmente	1	0	0
+alguém em a Sony Austrália	estava	' Olá	1	0	0
+alguém em a Sony Austrália	estava	por falar nisso	1	0	0
+alguém em a Sony Austrália	estava	por falar	1	0	0
+Felizmente alguém na Sony Austrália	estava	do tipo	1	0	0
+Felizmente alguém na Sony Austrália	estava	' Olá	1	0	0
+Felizmente alguém na Sony Austrália	estava	por falar nisso	1	0	0
+alguém	estava em	a Sony Austrália	1	1	1
+alguém	estava de	o tipo	1	0	0
+alguém	estava por	falar em isso	1	0	0
+69	Seagel fez manchetes quando descreveu as ações da Rússia na Crimeia, que foram consideradas em 2014, como "muito razoáveis".
+Seagel	fez	manchetes	1	1	1
+manchetes	descreveu as ações da	Rússia na Crimeia	1	0	0
+Seagel	fez	manchetes quando descreveu as ações de a Rússia	1	0	0
+Seagel	fez	manchetes quando descreveu as ações de a Rússia em a Crimeia	1	0	0
+Seagel	fez	manchetes quando descreveu as ações de a Rússia em a Crimeia que foram consideradas em 2014 como muito razoáveis	1	0	0
+Seagel	fez	manchetes quando descreveu em a Crimeia	1	0	0
+Seagel	fez	manchetes quando descreveu que foram consideradas em 2014 como muito razoáveis	1	0	0
+as ações de a Rússia em a Crimeia	foram consideradas	em 2014 como muito razoáveis	1	0	0
+Seagel	fez manchetes	quando descreveu as ações da Rússia na Crimeia	1	0	0
+as ações da Rússia na Crimeia	foram consideradas	em 2014	1	1	1
+as ações da Rússia na Crimeia	foram consideradas	como muito razoáveis	1	0	0
+a Crimeia	foram consideradas em	2014	1	0	0
+70	Um grande guitarrista, ele deu um concerto lá, no mesmo ano.
+Um grande guitarrista	deu	um concerto	1	1	1
+Um grande guitarrista	deu	um concerto lá em o mesmo ano	1	0	0
+Um grande guitarrista	deu	um concerto em o mesmo ano	1	0	0
+ele	deu um concerto	Um grande guitarrista	1	0	0
+ele	deu	um concerto	1	1	1
+ele	deu um concerto	no mesmo ano	1	0	0
+71	Seage, cuja avó era de Vladivostok, no extremo leste da Rússia, fez viagens regulares à Rússica nos últimos anos e visitou Kamchatka e Sakhalin, em setembro.
+cuja avó	era de	Vladivostok	1	0	0
+cuja avó	leste da	Rússia	1	0	0
+Seage	fez viagens regulares à	Rússica nos últimos anos	1	1	1
+Seage	visitou Kamchatka	Sakhalin	1	0	0
+cuja avó	era	de Vladivostok	1	0	0
+cuja avó	era	de Vladivostok em o extremo leste de a Rússia	1	0	0
+cuja avó	era	de Vladivostok em o extremo leste de a Rússia fez viagens regulares a a Rússica	1	0	0
+cuja avó	era	de Vladivostok em o extremo leste de a Rússia fez viagens regulares a a Rússica em os últimos anos	1	0	0
+cuja avó	era	de Vladivostok em o extremo leste de a Rússia fez viagens regulares a a Rússica em os últimos anos em setembro	1	0	0
+cuja avó	era	em o extremo leste de a Rússia	1	0	0
+cuja avó	era	em o extremo	1	0	0
+cuja avó	era	fez viagens regulares a a Rússica	1	0	0
+cuja avó	era	fez em os últimos anos	1	0	0
+cuja avó	era	em setembro	1	0	0
+cuja avó	visitou	Kamchatka e Sakhalin	1	0	0
+cuja avó	visitou	Kamchatka	1	0	0
+cuja avó	visitou	Sakhalin	1	0	0
+Seage	fez	viagens regulares	1	1	1
+Seage	fez viagens regulares	à Rússica	1	0	0
+Seage	fez viagens regulares	nos últimos anos	1	0	0
+avó	era	Seage	1	0	0
+avó	era Seage de	Vladivostok	1	0	0
+72	No início deste ano, foi dada a Seagel a nacionalidade sérvia, depois deste se oferecer para criar uma escola de artes marciais na capital Belgrado.
+início deste ano	foi dada a	Seagel	1	0	0
+a Seagel	foi dada	em o início deste ano	1	0	0
+a capital	é	Belgrado	1	1	1
+73	Um porta-voz da polícia contou à Associated Press que houve "uma troca de palavras", seguida de uma "discussão" mas que nenhum ferimento foi reportado.
+Um porta-voz da polícia	contou à	Associated Press	1	0	0
+Associated Press	houve	uma troca	1	0	0
+Um porta - voz de a polícia	contou	a a Associated Press que houve	1	0	0
+Um porta - voz de a polícia	contou	a a Associated Press que houve uma troca de palavras	1	0	0
+Um porta - voz de a polícia	contou	a a Associated Press que houve uma troca de palavras seguida de uma discussão mas que nenhum ferimento foi reportado	1	0	0
+Um porta - voz de a polícia	contou	a a Associated Press uma troca de palavras	1	0	0
+Um porta - voz de a polícia	contou	a a Associated Press	1	0	0
+Um porta - voz de a polícia	contou	a a Associated Press mas que nenhum ferimento foi reportado	1	1	1
+nenhum ferimento	foi reportado	que	1	0	0
+Um porta-voz da polícia	contou	à Associated Press	1	1	1
+Um porta-voz da polícia	contou à Associated Press	que houve uma troca de palavras	1	0	0
+Um porta-voz da polícia	contou à Associated Press	que houve uma troca seguida de uma discussão	1	0	0
+nenhum ferimento	foi	reportado	1	1	1
+Um porta-voz de a polícia	contou	que houve uma troca de palavras	1	1	1
+Um porta-voz de a polícia	contou que houve uma troca de palavras a	a Associated Press	1	1	1
+74	Cuarón, cujo último filme foi o vencedor de Óscar Gravity, segundo as notícias, não estava no grupo na hora do incidente.
+cujo último filme	foi o vencedor de	Óscar Gravity	1	0	0
+o vencedor de Óscar Gravity	foi	cujo último filme	1	0	0
+Cuarón	não estava	em o grupo	1	0	0
+Cuarón	não estava	em o grupo em a hora de o incidente	1	0	0
+Cuarón	não estava	cujo último filme foi o vencedor de Óscar Gravity	1	0	0
+Cuarón	não estava	cujo último filme foi o vencedor de Óscar Gravity segundo as notícias	1	0	0
+Cuarón	não estava	em a hora de o incidente	1	0	0
+cujo último filme	foi o vencedor	de Óscar Gravity	1	0	0
+cujo último filme	foi	o vencedor de Óscar Gravity	1	0	0
+Cuarón	não estava	no grupo na hora do incidente	1	0	0
+cujo último filme	foi o vencedor	segundo as notícias	1	0	0
+Cuarón	não estava em	o grupo	1	1	1
+Cuarón	não estava em	a hora de o incidente	1	0	0
+último filme	foi	o vencedor de Óscar Gravity	1	1	1
+75	De acordo com o departamento da polícia da cidade, uma luta começou depois de "um grande grupo de pessoas... que se identificaram como autoridades do distrito" chegarem ao grupo na terça-feira.
+um grande grupo de pessoas	identificaram como autoridades do	distrito	1	0	0
+autoridades do distrito	chegarem ao	grupo na terça-feira	1	0	0
+uma luta	começou	depois de um grande grupo de pessoas	1	0	0
+uma luta	começou	depois de um grande grupo de pessoas que se identificaram como autoridades de o distrito	1	0	0
+uma luta	começou	depois de um grande grupo de pessoas que se identificaram como autoridades de o distrito chegarem a o grupo	1	1	1
+uma luta	começou	depois de um grande grupo de pessoas que se identificaram como autoridades de o distrito chegarem a o grupo em a terça - feira	1	1	1
+uma luta	começou	De acordo com o departamento de a polícia de a cidade	1	0	0
+uma luta	começou	depois de um grande grupo que se identificaram como autoridades de o distrito	1	0	0
+uma luta	começou	depois de um grande grupo que se identificaram	1	0	0
+uma luta	começou	chegarem a o grupo	1	0	0
+uma luta	começou	chegarem em a terça - feira	1	0	0
+depois de um grande grupo de pessoas	se identificaram	como autoridades de o distrito	1	0	0
+uma luta	começou	De acordo com o departamento da polícia	1	0	0
+uma luta	começou	De acordo com o departamento da cidade	1	0	0
+uma luta	começou	de um grande grupo de pessoas	1	0	0
+uma luta	começou De	acordo com o departamento de a polícia de a cidade	1	0	0
+uma luta	começou de	um grande grupo de pessoas	1	0	0
+76	Os pesquisadores vêm investigando o potencial de contraceptivos hormonais masculinos há cerca de 20 anos.
+Os pesquisadores	vêm investigando o potencial de	contraceptivos hormonais masculinos há cerca de 20 anos	1	0	0
+Os pesquisadores	vêm investigando	o potencial de contraceptivos hormonais	1	1	1
+Os pesquisadores	vêm investigando	o potencial de contraceptivos hormonais masculinos	1	1	1
+Os pesquisadores	vêm investigando	o potencial de contraceptivos hormonais masculinos há 20 anos	1	0	0
+Os pesquisadores	vêm investigando o potencial	de contraceptivos hormonais masculinos	1	0	0
+Os pesquisadores	vêm investigando o potencial	há 20 anos	1	0	0
+Os pesquisadores	vêm	investigando o potencial de contraceptivos hormonais masculinos	1	0	0
+77	Ele acrescentou: "Este foi um passo na longa jornada para encontrar a combinação certa para a contracepção hormonal masculina."
+um passo na longa jornada	encontrar a combinação certa para	a contracepção hormonal masculina	1	0	0
+Este	foi um passo	em a longa jornada	1	0	0
+Este	foi um passo	em a longa jornada para encontrar a combinação certa	1	0	0
+Este	foi um passo	em a longa jornada para encontrar a combinação certa para a contracepção hormonal masculina	1	0	0
+Este	foi um passo	para encontrar a combinação certa	1	0	0
+Este	foi um passo	para encontrar para a contracepção hormonal masculina	1	0	0
+Este	foi	um passo em a longa jornada	1	1	1
+Este	foi um passo	na longa	1	0	0
+Este	foi	um passo	1	1	1
+Este	foi um passo em	a longa jornada	1	1	1
+Este	foi um passo para	encontrar a combinação certa para a contracepção hormonal masculina	1	1	1
+78	Contudo houve muitos MLASs, com profundas crenças religiosas, que se oposeram à nova legislação.
+Contudo	houve	muitos MLASs	1	0	0
+com profundas crenças religiosas	se oposeram	a a nova legislação	1	0	0
+muitos MLASs	se oposeram a	a nova legislação	1	1	1
+79	Os investigadores dizem que analisar o DNA do tumor poderá ajudar a explicar causas subjacentes de outros cânceres.
+Os investigadores	dizem que analisar o DNA do	tumor	1	0	0
+o DNA do tumor	poderá ajudar a explicar causas subjacentes de	outros cânceres	1	1	1
+Os investigadores	dizem	analisar o DNA de o tumor poderá ajudar a explicar causas subjacentes de outros cânceres	1	0	0
+Os investigadores	dizem	que analisar o DNA do tumor	1	0	0
+80	A análise mostra uma relação direta entre o número de cigarros fumados durante a vida e o número de mutações no DNA do tumor.
+A análise	mostra uma relação direta entre	o número de cigarros	1	1	1
+uma relação direta entre o número de cigarros	fumados durante	a vida	1	0	0
+A análise	mostra	uma relação direta entre o número de cigarros fumados	1	0	0
+A análise	mostra	uma relação direta entre o número de cigarros fumados durante a vida	1	0	0
+A análise	mostra	uma relação direta entre o número de cigarros fumados durante a vida e o número de mutações	1	1	1
+A análise	mostra	uma relação direta entre o número de cigarros fumados durante a vida e o número de mutações em o DNA de o tumor	1	1	1
+A análise	mostra	uma relação direta de cigarros fumados durante a vida entre o número de mutações	1	0	0
+A análise	mostra uma relação direta	entre o número de cigarros fumados durante a vida	1	0	0
+A análise	mostra uma relação direta entre o número de cigarros fumados durante	a vida e o número de mutações	1	0	0
+A análise	mostra uma relação direta entre o número de cigarros fumados em	o DNA de o tumor	1	0	0
+81	Contudo, eles não conseguiram encontrar esse mesmo padrão em tecidos como a bexiga, que não estão diretamente expostos.
+eles	conseguiram encontrar esse mesmo padrão em tecidos como	a bexiga	1	0	0
+eles	não conseguiram	encontrar esse mesmo padrão	1	1	1
+eles	não conseguiram	encontrar esse mesmo padrão em tecidos como a bexiga	1	1	1
+eles	não conseguiram	encontrar esse mesmo padrão em tecidos como a bexiga que não estão diretamente expostos	1	1	1
+eles	não conseguiram	encontrar esse mesmo padrão em tecidos como a bexiga Contudo	1	0	0
+tecidos como a bexiga	não estão	diretamente expostos	1	1	1
+eles	não conseguiram encontrar esse mesmo padrão	em tecidos como a bexiga	1	0	0
+eles	não conseguiram encontrar esse mesmo padrão	que não estão diretamente expostos	1	0	0
+tecidos como a bexiga	não estão	expostos	1	1	1
+eles	não conseguiram	encontrar	1	1	1
+82	A Sr.ª Pugh recebeu tratamento nos hospitais Papworth e Addenbrooke, em Cambridgeshire.
+A Srª Pugh	recebeu tratamento nos	hospitais Papworth	1	0	0
+A Srª Pugh	recebeu tratamento nos	hospitais Addenbrooke	1	0	0
+A Sr ª Pugh	recebeu	tratamento	1	1	1
+A Sr ª Pugh	recebeu	tratamento em os hospitais Papworth e Addenbrooke	1	0	0
+A Sr ª Pugh	recebeu	tratamento em os hospitais Papworth e Addenbrooke em Cambridgeshire	1	0	0
+A Sr ª Pugh	recebeu	tratamento em Cambridgeshire	1	0	0
+A Sr ª Pugh	recebeu	tratamento em os hospitais Papworth	1	0	0
+A Sr ª Pugh	recebeu	tratamento em os hospitais Addenbrooke	1	0	0
+A Srª Pugh	recebeu tratamento	nos hospitais Papworth em Cambridgeshire	1	1	1
+ª Pugh	recebeu	tratamento	1	0	0
+ª Pugh	recebeu tratamento em	os hospitais Papworth e Addenbrooke	1	0	0
+ª Pugh	recebeu tratamento em	Cambridgeshire	1	0	0
+83	Mas o exame mostrou que o tumor do pulmão direito da Sr.ª Pugh está crescendo, e ela teve de deixar o experimento.
+Srª Pugh	está crescendo	e	1	0	0
+Srª Pugh	teve de deixar	o experimento	1	1	1
+o tumor de o pulmão direito de a Sr ª Pugh	está crescendo	e ela teve de deixar o experimento	1	0	0
+ela	teve de deixar	o experimento	1	1	1
+o exame	mostrou	que	1	0	0
+o exame	mostrou	que o tumor do pulmão direito da Srª Pugh está crescendo	1	0	0
+ela	teve	de deixar o experimento	1	1	1
+ela	de deixar	o experimento	1	0	0
+ª Pugh	está	crescendo	1	0	0
+84	Se o Donald Trump se tornar presidente, o governo daqui ainda terá de trabalhar com ele para avançar com alguma agenda partilhada que exista, para garantir que os negócios e os interesses canadenses estão representados em Washington.
+de aqui	terá de trabalhar com	ele	1	0	0
+ele	avançar com	alguma agenda partilhada	1	0	0
+alguma agenda	partilhada exista para garantir que os negócios e	os interesses canadenses	1	0	0
+os interesses canadenses	estão representados em	Washington	1	0	0
+o Donald Trump	tornar se presidente	o governo daqui ainda terá de trabalhar com ele	1	0	0
+o Donald Trump	tornar se presidente	o governo daqui ainda terá de trabalhar com ele para avançar com alguma agenda partilhada	1	0	0
+o Donald Trump	tornar se presidente	o governo daqui ainda terá de trabalhar com ele para avançar com alguma agenda partilhada que exista	1	0	0
+o Donald Trump	tornar se presidente	o governo daqui ainda terá de trabalhar para avançar com alguma agenda partilhada	1	0	0
+o Donald Trump	tornar se presidente	o governo daqui ainda terá de trabalhar para avançar com alguma agenda que exista	1	0	0
+os negócios e os interesses canadenses	estão representados	em Washington	1	0	0
+o Donald Trump	tornar	se presidente o governo daqui ainda terá de trabalhar com ele	1	0	0
+o Donald Trump	tornar se presidente	o governo daqui ainda terá de trabalhar com ele para avançar com alguma agenda partilhada que exista para garantir que	1	0	0
+o Donald Trump	tornar se presidente	que	1	0	0
+o Donald Trump	partilhada	o governo daqui ainda terá de trabalhar com ele	1	0	0
+o Donald Trump	partilhada	o governo daqui ainda terá de trabalhar para avançar com alguma agenda	1	0	0
+o Donald Trump	partilhada	que exista para garantir que os negócios e os interesses canadenses estão representados em Washington	1	0	0
+os negócios	estão representados	em Washington	1	0	0
+o governo de aqui	de trabalhar com	ele	1	0	0
+o governo de aqui	de trabalhar para	avançar com alguma agenda partilhada	1	0	0
+os negócios e os interesses canadenses	estão	representados em Washington	1	0	0
+o Donald Trump	se tornar	presidente	1	0	0
+85	Trudeau estenderá este este convite ao 45º presidente dos Estados Unidos, quem quer que ele ou ela seja.
+Trudeau	estenderá este este convite ao	45º presidente dos Estados Unidos	1	0	0
+Trudeau	estenderá	este este convite	1	0	0
+Trudeau	estenderá	este este convite a o 45º presidente de os Estados Unidos	1	0	0
+quem	quer	que	1	0	0
+Trudeau	estenderá este este convite	ao 45º presidente dos Estados Unidos	1	0	0
+Trudeau	estenderá este este convite a	o 45º presidente de os Estados Unidos	1	1	1
+86	Apesar do lançamento de uma foto nesta manhã, a polícia em B.C. diz que eles têm mais perguntas do que respostas acerca de um homem aparentemente sem-teto acusado de um apunhalamento fatal de uma adolescente na sua escola em Abbotsford.
+a polícia em BC	têm mais perguntas do	respostas	1	0	0
+um homem	acusado de	um apunhalamento fatal de uma adolescente na sua escola em Abbotsford	1	1	1
+a polícia em BC	diz	Apesar de o lançamento de uma foto	1	0	0
+a polícia em BC	diz	Apesar de o lançamento de uma foto nesta manhã	1	0	0
+eles	têm	mais perguntas de o que respostas acerca de um homem aparentemente sem - teto acusado de um apunhalamento fatal de uma adolescente	1	1	1
+eles	têm	mais perguntas de o que respostas acerca de um homem aparentemente sem - teto acusado de um apunhalamento fatal de uma adolescente em a sua escola	1	1	1
+eles	têm	mais perguntas de o que respostas acerca de um homem aparentemente sem - teto acusado de um apunhalamento fatal de uma adolescente em a sua escola em Abbotsford	1	1	1
+a polícia em BC	diz	que	1	0	0
+a polícia em BC	diz	Apesar do lançamento de uma foto	1	0	0
+a polícia em BC	diz	Apesar do lançamento nesta manhã	1	0	0
+a polícia em BC	diz	que eles têm mais perguntas	1	0	0
+eles	têm	mais perguntas	1	0	0
+respostas acerca de um homem sem-teto	acusado	do que	1	0	0
+respostas acerca de um homem sem-teto	acusado	de um apunhalamento fatal de uma adolescente na sua escola em Abbotsford	1	0	0
+a polícia	diz	que eles têm mais perguntas	1	0	0
+a polícia	diz que eles têm mais perguntas em	BC	1	0	0
+eles	têm	perguntas	1	1	1
+87	A polícia, em B.C., disse anteriormente que Klein não aparentava ter um histórico criminal e divulgou vagos detalhes sobre a sua localização recente.
+Klein	aparentava ter um histórico criminal	divulgou vagos detalhes sobre a sua localização	1	0	0
+Klein	divulgou vagos detalhes sobre	a sua localização recente	1	1	1
+Klein	não aparentava	ter um histórico criminal	1	1	1
+Klein	divulgou	vagos detalhes sobre a sua localização recente	1	1	1
+A polícia em BC	disse	anteriormente que	1	0	0
+A polícia em BC	disse	que	1	0	0
+A polícia	disse	que Klein não aparentava ter	1	0	0
+88	Nós não acreditamos que o suspeito tenha vínculos com esta escola, com as duas meninas ou, especificamente, com a área de Abbotsford, disse ela.
+vínculos com esta escola	disse	ela	1	0	0
+o suspeito	tenha	vínculos com esta escola	1	0	0
+o suspeito	tenha	vínculos com esta escola com as duas meninas ou especificamente com a área de Abbotsford	1	0	0
+o suspeito	tenha	vínculos com esta escola com as duas meninas	1	0	0
+o suspeito	tenha	vínculos com esta escola especificamente	1	0	0
+Nós	não acreditamos	que	1	0	0
+Nós	não acreditamos	que o suspeito tenha vínculos com esta escola	1	0	0
+Nós	não acreditamos	que o suspeito tenha vínculos com as duas meninas	1	0	0
+Nós	não acreditamos	disse	1	0	0
+o suspeito	tenha vínculos	com esta escola	1	0	0
+o suspeito	tenha vínculos	com as duas meninas	1	0	0
+o suspeito	tenha vínculos com esta escola com	as duas meninas	1	0	0
+89	Ele disse também que Klein estava pouco comunicativo, pouco cooperativo e relutante em sair das celas debaixo do tribunal para assistir à sua audiência.
+Klein	estava pouco	comunicativo	1	0	0
+Klein	sair das	celas	1	0	0
+tribunal	assistir à	sua audiência	1	0	0
+Klein	estava	pouco comunicativo	1	1	1
+Klein	estava	pouco comunicativo pouco cooperativo e relutante em sair de as celas	1	1	0
+Klein	estava	pouco comunicativo pouco cooperativo e relutante em sair de as celas debaixo de o tribunal	1	1	0
+Klein	estava	pouco comunicativo pouco cooperativo e relutante em sair de as celas debaixo de o tribunal para assistir a a sua audiência	1	0	0
+Klein	estava	pouco comunicativo pouco cooperativo debaixo de o tribunal	1	0	0
+Klein	estava	pouco comunicativo pouco cooperativo debaixo para assistir a a sua audiência	1	0	0
+Klein	estava	pouco comunicativo pouco cooperativo	1	0	0
+Klein	estava	pouco comunicativo relutante	1	0	0
+Ele	disse	também que	1	0	0
+Ele	disse	que	1	0	0
+Ele	disse	que Klein estava pouco comunicativo	1	0	0
+Ele	disse	que Klein estava pouco comunicativo pouco cooperativo em sair das celas	1	0	0
+Ele	disse	que Klein estava pouco comunicativo pouco cooperativo em sair debaixo	1	0	0
+Ele	disse	que Klein estava pouco comunicativo pouco cooperativo em sair do tribunal	1	0	0
+Ele	disse	que Klein estava pouco comunicativo pouco cooperativo em sair para assistir à sua audiência	1	0	0
+Klein	estava pouco comunicativo	em sair das celas	1	0	0
+Klein	estava pouco comunicativo	em sair debaixo	1	0	0
+Klein	estava pouco comunicativo	em sair do tribunal	1	0	0
+Klein	estava pouco comunicativo	em sair para assistir à sua audiência	1	0	0
+90	A associação que representa os agentes imobiliários do estado de Ontário disse que precisa ser feito mais para proteger os consumidores e punir os agentes com comportamentos pouco éticos.
+A associação	representa os agentes imobiliários do	estado de Ontário	1	0	0
+os agentes imobiliários do estado de Ontário	disse que precisa ser feito mais para proteger os consumidores	punir os agentes com comportamentos comportamentos	1	0	0
+os agentes imobiliários do estado de Ontário	punir os agentes com	comportamentos pouco éticos	1	0	0
+A associação	disse	que precisa ser feito para proteger mais	1	0	0
+A associação	disse	que precisa ser feito para proteger mais os consumidores	1	0	0
+A associação	disse	que precisa ser feito para proteger mais os consumidores e punir os agentes	1	0	0
+A associação	disse	que precisa ser feito para proteger mais os consumidores e punir os agentes com comportamentos pouco éticos	1	0	0
+A associação	disse	que precisa ser feito para proteger os consumidores	1	0	0
+A associação	disse	que precisa ser feito para proteger e punir os agentes	1	0	0
+A associação	disse	que precisa ser feito para proteger e punir com comportamentos pouco éticos	1	0	0
+A associação	representa	os agentes imobiliários de o estado	1	1	1
+A associação	representa	os agentes imobiliários de o estado de Ontário	1	1	1
+A associação	disse	que precisa ser feito mais	1	0	0
+A associação	representa os agentes imobiliários	do estado de Ontário	1	0	0
+91	Ele também gostaria de ver um maior cumprimento e investigação de poderes para o Conselho Imobliliário de Ontario (RECO), que regula os agentes na jurisdição.
+Ele	gostaria de ver um maior cumprimento	investigação de poderes para o Conselho Imobliliário de Ontario	1	0	0
+Ele	gostaria de ver um maior cumprimento	investigação de poderes para o RECO	1	0	0
+Ele	gostou de ver um maior cumprimento	investigação de poderes para o Conselho Imobliliário de Ontario	1	0	0
+Ele	gostou de ver um maior cumprimento	investigação de poderes para o RECO	1	0	0
+Ele	ainda gostou de ver um maior cumprimento	investigação de poderes para o Conselho Imobliliário de Ontario	1	0	0
+Ele	ainda gostou de ver um maior cumprimento	investigação de poderes para o RECO	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação de poderes para o Conselho Imobliliário de Ontario	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação de poderes para o Conselho Imobliliário de Ontario RECO	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação de poderes para o Conselho Imobliliário de Ontario RECO que regula os agentes	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação de poderes para o Conselho Imobliliário de Ontario RECO que regula os agentes em a jurisdição	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação RECO	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação que regula os agentes	1	0	0
+Ele	também gostaria	de ver um maior cumprimento e investigação que regula em a jurisdição	1	0	0
+Ele	também gostaria	de ver um maior cumprimento	1	0	0
+Ele	também gostaria	de ver investigação de poderes	1	0	0
+o Conselho Imobliliário de Ontario	regula	os agentes	1	1	1
+o Conselho Imobliliário de Ontario	regula	os agentes em a jurisdição	1	0	0
+o Conselho Imobliliário de Ontario	é	RECO	1	1	1
+RECO	regula	os agentes	1	1	1
+RECO	regula	os agentes em a jurisdição	1	0	0
+Ele	gostaria	de ver um maior cumprimento	1	0	0
+para o Conselho Imobliliário de Ontario	regula os agentes	na jurisdição	1	0	0
+o Conselho Imobliliário de Ontario	regula os agentes em	a jurisdição	1	1	1
+Ele	gostaria de	ver um maior cumprimento e investigação de poderes	1	1	1
+Ele	gostaria para	o Conselho Imobliliário de Ontario	1	0	0
+92	Atualmente, a multa máxima que a RECO pode cobrar de um agente é $25,000.
+a RECO	pode cobrar de	um agente	1	1	1
+um agente	é	$25000	1	0	0
+a multa máxima	é	$ 25000	1	1	1
+a multa máxima	é	$ 25000 Atualmente	1	0	0
+a RECO	pode cobrar	de um agente	1	0	0
+a RECO	pode cobrar	que	1	0	0
+93	Mas a crescente classe média chinesa tem sido incomumente verbal nas suas queixas acerca do ar tóxico em cidades como Pequim, que vê dia após dia poluição que asfixia os pulmões.
+chinesa	tem sido incomumente verbal nas	suas	1	0	0
+incomumente verbal nas	acerca do	ar tóxico em cidades cidades	1	0	0
+poluição	asfixia	os pulmões	1	1	1
+a crescente classe média chinesa	tem sido	incomumente verbal	1	1	1
+a crescente classe média chinesa	tem sido	incomumente verbal em as suas queixas acerca de o ar tóxico	1	1	0
+a crescente classe média chinesa	tem sido	incomumente verbal em as suas queixas acerca de o ar tóxico em cidades como Pequim que vê dia após dia poluição	1	1	0
+a crescente classe média chinesa	tem sido	incomumente verbal em as suas queixas acerca de o ar tóxico em cidades como Pequim que vê dia após dia poluição que asfixia os pulmões	1	1	1
+a crescente classe média chinesa	tem sido	incomumente verbal em as suas queixas em cidades como Pequim que vê dia após dia poluição	1	0	0
+a crescente classe média chinesa	tem sido	incomumente verbal em as suas queixas em cidades como Pequim que vê dia que asfixia os pulmões	1	0	0
+Pequim	vê	dia após dia poluição	1	0	0
+Pequim	vê	dia após dia poluição que asfixia os pulmões	1	0	0
+dia após dia poluição	asfixia	os pulmões	1	0	0
+a crescente classe média chinesa	tem sido incomumente verbal	nas suas queixas acerca do ar tóxico	1	0	0
+a crescente classe média chinesa	tem sido incomumente verbal	em cidades como Pequim	1	0	0
+a crescente classe média chinesa	tem sido incomumente verbal	que vê dia	1	0	0
+a crescente classe média chinesa	tem sido incomumente verbal	que vê dia após dia	1	0	0
+a crescente classe média chinesa	tem sido incomumente verbal	que vê dia poluição	1	0	0
+cidades como Pequim	vê	dia	1	0	0
+cidades como Pequim	vê dia após	dia poluição	1	0	0
+dia poluição	asfixia	os pulmões	1	0	0
+a crescente classe média chinesa	tem sido	verbal em as suas queixas	1	0	0
+94	Estamos vendo muitos, muitos países e especialmente grandes emissores, como o Brasil, a África do Sul, a Índia e a China, tendo um papel importante na redução de emissões, disse Guilbeault.
+muitos	disse	Guilbeault	1	0	0
+muitos	disse	Guilbeault muitos países grandes emissores	1	0	0
+muitos	disse	Guilbeault muitos países grandes emissores como o Brasil	1	0	0
+muitos	disse	Guilbeault muitos países grandes emissores como o Brasil a África de o Sul	1	0	0
+muitos	disse	Guilbeault muitos países grandes emissores como o Brasil a África de o Sul a Índia e a China tendo um papel importante	1	0	0
+muitos	disse	Guilbeault muitos países grandes emissores como o Brasil a África de o Sul a Índia e a China tendo um papel importante em a redução de emissões	1	0	0
+muitos	disse	a Índia	1	0	0
+muitos	disse	a Índia muitos países grandes emissores como o Brasil a África de o Sul	1	0	0
+muitos	disse	a China	1	0	0
+muitos	disse	a China muitos países grandes emissores como o Brasil a África de o Sul	1	0	0
+o Brasil	disse	Guilbeault	1	0	0
+95	Ele poderia também esperar até o fim do seu primeiro mandato para usar uma cláusula do acordo de Paris para sair do pacto.
+Ele	poderia também esperar até	o fim do seu primeiro mandato	1	1	1
+uma cláusula do acordo de Paris	sair do	pacto	1	0	0
+Ele	podou também esperar até	o fim do seu primeiro mandato	1	0	0
+Ele	ainda podou também esperar até	o fim do seu primeiro mandato	1	0	0
+Ele	poderia também esperar	até o fim de o seu primeiro mandato	1	0	0
+Ele	poderia também esperar	até o fim de o seu primeiro mandato para usar uma cláusula de o acordo de Paris	1	0	0
+Ele	poderia também esperar	até o fim de o seu primeiro mandato para usar uma cláusula de o acordo de Paris para sair de o pacto	1	0	0
+Ele	poderia também esperar	para usar uma cláusula de o acordo de Paris	1	0	0
+Ele	poderia também esperar	para usar para sair de o pacto	1	0	0
+Ele	poderia também esperar	até o fim do seu primeiro mandato	1	0	0
+Ele	poderia também esperar	para usar uma cláusula	1	0	0
+Ele	poderia também esperar	para usar uma cláusula do acordo de Paris	1	0	0
+Ele	poderia também esperar	para usar uma cláusula para sair do pacto	1	0	0
+Ele	poderia esperar até	o fim de o seu primeiro mandato	1	1	1
+Ele	poderia esperar para	usar uma cláusula de o acordo de Paris para sair de o pacto	1	1	1
+96	Clinton e aliados, nesse meio de tempo, estão procurando manter o foco em Trump, reforçando que seus comentários depreciativos sobre mulheres e minorias, e o seu temperamento, o tornam inadequado para a função.
+aliados	estão procurando manter o foco em	Trump	1	1	1
+aliados	reforçando que seus comentários depreciativos sobre	mulheres	1	0	0
+aliados	reforçando que seus comentários depreciativos sobre	minorias	1	0	0
+Clinton e aliados nesse meio de tempo	estão procurando	manter o foco	1	0	0
+Clinton e aliados nesse meio de tempo	estão procurando	manter o foco em Trump	1	0	0
+Clinton e aliados nesse meio de tempo	estão procurando	manter o foco em Trump reforçando e o seu temperamento o tornam inadequado para a função	1	0	0
+o seu temperamento	tornam	inadequado para a função	1	0	0
+Clinton e aliados nesse meio de tempo	estão procurando	manter o foco em Trump reforçando e o seu temperamento o tornam inadequado para a função que	1	0	0
+seus comentários	depreciativos	sobre mulheres e minorias	1	0	0
+seus comentários	depreciativos	sobre mulheres	1	0	0
+seus comentários	depreciativos	sobre minorias	1	0	0
+Clinton nesse meio de tempo	estão procurando manter o foco	em Trump	1	0	0
+Clinton e aliados	estão procurando	manter o foco em Trump	1	1	1
+97	Isto não é o que precisamos no nosso país, pessoal.
+Isto	é	precisamos no nosso país	1	0	0
+é	precisamos no	nosso país	1	0	0
+é	precisamos no	nosso pessoal	1	0	0
+Isto	não é o	que precisamos em o nosso país pessoal	1	0	0
+Isto	não é	o	1	0	0
+Isto	que precisamos	no nosso país pessoal	1	0	0
+98	A mulher de Trump, Melania Trump, fez a sua primeira aparição pública desde a convenção Republicana, em julho.
+A mulher de Trump	fez a sua primeira aparição pública desde	a convenção	1	1	1
+A mulher de Melania Trump	fez a sua primeira aparição pública desde	a convenção	1	0	0
+A mulher de Trump	fez	a sua primeira aparição pública	1	0	0
+A mulher de Trump	fez	a sua primeira aparição pública desde a convenção Republicana	1	1	1
+A mulher de Trump	fez	a sua primeira aparição pública desde a convenção Republicana em julho	1	0	0
+A mulher de Trump	fez	a sua primeira aparição em julho	1	0	0
+A mulher de Trump	é	Melania Trump	1	1	1
+a convenção	é	Republicana	1	1	1
+Melania Trump	fez	a sua primeira aparição pública	1	0	0
+Melania Trump	fez	a sua primeira aparição pública desde a convenção Republicana	1	1	1
+Melania Trump	fez	a sua primeira aparição pública desde a convenção Republicana em julho	1	0	0
+Melania Trump	fez	a sua primeira aparição em julho	1	0	0
+A mulher de Trump	fez a sua primeira aparição pública	desde a convenção Republicana	1	0	0
+A mulher de Trump	fez a sua primeira aparição pública	em julho	1	0	0
+A mulher de Trump	fez a sua primeira aparição pública desde	a convenção Republicana	1	1	1
+A mulher de Trump	fez a sua primeira aparição pública em	julho	1	0	0
+99	Estudantes como a Rai têm se encontrado com conselheiros, na escola, para falar sobre o que aconteceu, mas ela disse que o maior conforto foi ver seus amigos
+a Rai	têm encontrado com	conselheiros	1	0	0
+Estudantes como a Rai	têm se encontrado	com conselheiros em a escola	1	0	0
+Estudantes como a Rai	têm se encontrado	com conselheiros em a escola para falar sobre o que aconteceu	1	0	0
+Estudantes como a Rai	têm se encontrado	para falar sobre o que aconteceu	1	0	0
+o maior conforto	foi ver	seus amigos	1	1	1
+Estudantes como a Rai	têm se encontrado	com conselheiros em a escola para falar sobre o que aconteceu mas ela disse que	1	0	0
+Estudantes como a Rai	têm se encontrado	que	1	0	0
+ela	disse	que	1	0	0
+Estudantes como a Rai	têm se encontrado	com conselheiros	1	1	1
+Estudantes como a Rai	têm se encontrado	na escola	1	0	0
+Estudantes como a Rai	têm se encontrado	para falar sobre o	1	0	0
+ela	disse	que o maior conforto foi ver seus amigos	1	0	0
+Estudantes como a Rai	têm se encontrado com	conselheiros	1	1	1
+Estudantes como a Rai	têm se encontrado para	falar	1	1	1
+100	Este é um desastre para os pacientes que sofrem, disse Mailis, numa entrevista à CBC News, na quinta-feira.
+um desastre para os pacientes	sofrem na	quinta-feira	1	0	0
+que sofrem	disse	Mailis	1	0	0
+Este	é um desastre	para os pacientes que sofrem	1	0	0
+Mailis	disse	em uma entrevista a a CBC News	1	0	0
+Mailis	disse	em uma entrevista em a quinta - feira	1	0	0
+Este	é	um desastre para os pacientes	1	0	0
+Este	é um desastre	para os pacientes	1	0	0
+Este	é um desastre	numa entrevista à CBC News	1	0	0
+Este	é um desastre	na quinta-feira	1	0	0
+Este	é	um desastre	1	1	1
+Este	é um desastre para	os pacientes	1	1	1
+101	Os médicos não têm estas ferramentas, eles apenas têm um livro de receitas e uma injeção, disse Mailis.
+eles	têm um livro de	receitas	1	1	1
+estas ferramentas	disse	Mailis	1	0	0
+Os médicos	não têm	estas ferramentas	1	1	1
+eles	apenas têm	um livro de receitas	1	1	1
+eles	apenas têm	um livro de receitas e uma injeção	1	1	0
+eles	apenas têm	de receitas uma injeção	1	0	0
+eles	têm um livro	de receitas	1	0	0
+eles	têm	um livro de receitas e uma injeção	1	0	0
+102	O diretor de revisão independente da Polícia de Ontario, Gerry McNeilly, definiu os termos para a sua análise desta semana, após terem sido levantadas "questões alarmantes" sobre a forma como os oficiais interagiam com os povos indígenas.
+O diretor de revisão independente da Polícia de Ontario	definiu os termos para	a sua análise desta	1	0	0
+O diretor de revisão independente da Gerry McNeilly	definiu os termos para	a sua análise desta	1	0	0
+os oficiais	interagiam com	os povos indígenas	1	0	0
+os povos indígenas	interagiam com	os oficiais	1	0	0
+O diretor de revisão independente de a Polícia de Ontario	definiu	os termos para a sua análise desta semana	1	1	1
+O diretor de revisão independente de a Polícia de Ontario	é	Gerry McNeilly	1	1	1
+Gerry McNeilly	definiu	os termos para a sua análise desta semana	1	1	1
+O diretor de revisão independente de Ontario da Polícia	definiu os termos	para a sua análise desta semana	1	0	0
+O diretor de revisão independente de Ontario da Polícia	definiu os termos	com os povos indígenas	1	0	0
+O diretor de revisão independente de a Polícia de Ontario	definiu	os termos	1	1	1
+O diretor de revisão independente de a Polícia de Ontario	definiu os termos para	a sua análise de esta semana	1	1	1
+103	A inspeção também está investigando as publicações inflamatórias de setembro, no Facebook, alegadamente provenientes de agentes da polícia da região norte da cidade de Ontário.
+A inspeção	também está investigando	as publicações inflamatórias de setembro	1	1	1
+A inspeção	também está investigando	as publicações inflamatórias de setembro em o Facebook	1	1	1
+A inspeção	também está investigando	as publicações inflamatórias de setembro em o Facebook alegadamente provenientes de agentes de a polícia	1	0	0
+A inspeção	também está investigando	as publicações inflamatórias de setembro em o Facebook alegadamente provenientes de agentes de a polícia de a região norte de a cidade de Ontário	1	0	0
+A inspeção	está investigando as publicações inflamatórias	de setembro	1	0	0
+A inspeção	está investigando as publicações inflamatórias	no Facebook	1	0	0
+A inspeção	está investigando as publicações inflamatórias	alegadamente provenientes de agentes da polícia	1	0	0
+A inspeção	está investigando as publicações inflamatórias	alegadamente provenientes de agentes da região norte da cidade de Ontário	1	0	0
+A inspeção	está investigando	provenientes de agentes de a polícia de a região norte de a cidade de Ontário	1	0	0
+104	Os executivos também receberam a chamada "remuneração por desempenho" por corresponderem ou superarem as expectativas, dividindo uma quantia de $1,5 milhões entre eles, ou em média, $15.000 para cada um deles.
+Os executivos	receberam	a chamada	1	0	0
+por desempenho	corresponderem	as expectativas	1	0	0
+por desempenho	superarem	as expectativas	1	0	0
+as expectativas	dividindo uma quantia de	$15 milhões entre eles	1	0	0
+Os executivos	também receberam	a chamada remuneração por desempenho	1	1	1
+Os executivos	também receberam	a chamada remuneração por desempenho por corresponderem ou superarem as expectativas	1	0	0
+Os executivos	também receberam	a chamada remuneração por desempenho por corresponderem ou superarem as expectativas dividindo uma quantia de $ 15 milhões	1	0	0
+Os executivos	também receberam	a chamada remuneração por desempenho por corresponderem ou superarem as expectativas dividindo uma quantia de $ 15 milhões entre eles ou em média $ 15000	1	0	0
+Os executivos	também receberam	a chamada remuneração por desempenho por corresponderem ou superarem as expectativas dividindo uma quantia de $ 15 milhões entre eles ou em média $ 15000 para cada um deles	1	0	0
+Os executivos	também receberam	a chamada por corresponderem ou superarem as expectativas	1	0	0
+Os executivos	também receberam	a chamada dividindo uma quantia de $ 15 milhões	1	0	0
+Os executivos	também receberam	a chamada dividindo entre eles ou em média $ 15000	1	0	0
+Os executivos	também receberam	a chamada dividindo entre eles ou em média para cada um deles	1	0	0
+Os executivos	também receberam	a chamada remuneração por desempenho por corresponderem as expectativas dividindo uma quantia de $ 15 milhões entre eles	1	0	0
+Os executivos	também receberam	a chamada remuneração por desempenho por corresponderem as expectativas dividindo uma quantia de $ 15 milhões em média $ 15000	1	0	0
+Os executivos	receberam a chamada remuneração	por desempenho	1	0	0
+Os executivos	receberam a chamada remuneração	por corresponderem	1	1	1
+Os executivos	receberam	a chamada remuneração	1	0	0
+Os executivos	receberam a chamada remuneração por	desempenho	1	0	0
+105	O orçamento anual é maior que $1.4 bilhões e emprega mais de 6.000 pessoas.
+O orçamento anual	é maior que	$14 bilhões	1	1	1
+O orçamento anual	emprega mais de	6000 pessoas	1	1	1
+O orçamento anual	é	maior que $ 14 bilhões	1	1	1
+O orçamento anual	emprega	6000 pessoas	1	0	0
+O orçamento anual	é	maior	1	0	0
+106	O governo federal reporta proativamente a remuneração de desempenho agregada e os níveis de bônus para cada departamento, mas a última publicação na internet é de 2013-2014 - ou com dois anos de atraso.
+O governo federal	reporta proativamente a remuneração de	desempenho agregada	1	0	0
+a remuneração de desempenho	agregada	bônus para cada departamento	1	0	0
+a remuneração de desempenho	os níveis de	bônus para cada departamento	1	0	0
+a última publicação na internet	é de	2013-2014 -	1	1	1
+O governo federal	reporta	proativamente a remuneração de desempenho agregada	1	0	0
+O governo federal	reporta	proativamente a remuneração de desempenho agregada e os níveis de bônus	1	0	0
+O governo federal	reporta	proativamente a remuneração de desempenho agregada e os níveis de bônus para cada departamento	1	0	0
+O governo federal	reporta	proativamente a remuneração de desempenho agregada e os níveis de bônus para cada departamento mas a última publicação em a internet é de 2013 - 2014 -	1	0	0
+O governo federal	reporta	proativamente a remuneração de desempenho agregada e os níveis de bônus para cada departamento mas a última publicação em a internet é de 2013 - 2014 - ou com dois anos de atraso	1	0	0
+O governo federal	reporta	a remuneração de desempenho agregada e os níveis de bônus para cada departamento	1	1	1
+O governo federal	reporta	a remuneração de desempenho agregada e os níveis de bônus mas a última publicação em a internet é de 2013 - 2014 -	1	0	0
+O governo federal	reporta	a remuneração ou com dois anos de atraso	1	0	0
+O governo federal	reporta	proativamente de desempenho agregada os níveis de bônus	1	0	0
+a última publicação em a internet	é	de 2013 - 2014 -	1	0	0
+a última publicação em a internet	é	de 2013 - 2014 - ou com dois anos de atraso	1	0	0
+a última publicação em a internet	é	ou com dois anos de atraso	1	0	0
+O governo federal	reporta a remuneração	de desempenho agregada	1	0	0
+a última publicação na internet	é	de 2013-2014 -	1	0	0
+a última publicação	é em	a internet	1	0	0
+a última publicação	é de	2013-2014	1	1	1
+O governo federal	reporta	agregada	1	0	0
+107	O total de remuneração por desempenho e bônus, naquele ano, foi de $1,5 milhões, quase no mesmo nível que o de 2015-2016.
+bônus	foi de	$15 milhões	1	0	0
+O total de remuneração por desempenho e bônus naquele ano	foi	de $ 15 milhões	1	0	0
+O total de remuneração	foi por	desempenho e bônus	1	0	0
+O total de remuneração	foi de	15 milhões	1	1	1
+108	Gomery, que liderou a comissão de inquérito no escândalo do patrocínio federal, entre 2004 e 2006, disse que esses corpos eram essenciais para ajudar a restaurar a confiança pública no estado de direito.
+Gomery	disse que	esses corpos	1	0	0
+esses corpos	eram essenciais para ajudar a restaurar a confiança pública no	estado de direito	1	0	0
+esses corpos	eram	essenciais	1	0	0
+esses corpos	eram	essenciais para ajudar a restaurar a confiança pública	1	0	0
+esses corpos	eram	essenciais para ajudar a restaurar a confiança pública em o estado de direito	1	0	0
+esses corpos	eram	essenciais em o estado de direito	1	0	0
+Gomery entre 2004 e 2006	liderou	a comissão de inquérito	1	0	0
+Gomery entre 2004 e 2006	liderou	a comissão de inquérito em o escândalo de o patrocínio federal	1	0	0
+Gomery entre 2004 e 2006	disse	que	1	0	0
+esses corpos	eram essenciais	para ajudar a restaurar a confiança pública	1	0	0
+esses corpos	eram essenciais	para ajudar a restaurar a confiança pública no estado de direito	1	0	0
+esses corpos	eram	a restaurar a confiança pública em o estado de direito	1	0	0
+esses corpos	eram a restaurar a confiança pública em o estado de direito para	ajudar	1	0	0
+Gomery	liderou	a comissão de inquérito	1	1	1
+Gomery	liderou a comissão de inquérito em	o escândalo de o patrocínio federal	1	1	1
+Gomery	liderou a comissão de inquérito entre	2004	1	0	0
+109	Isso levou a revelações nos últimos dois dias de que ao menos seis outros jornalistas de Quebec foram indiciados por operações de vigilância da polícia local.
+menos seis outros jornalistas de Quebec	foram indiciados por	operações de vigilância da polícia local	1	0	0
+Isso	levou	a revelações	1	0	0
+Isso	levou	a revelações em os últimos dois dias de que a o menos seis outros jornalistas de Quebec foram indiciados por operações de vigilância	1	0	0
+Isso	levou	a revelações em os últimos dois dias de que a o menos seis outros jornalistas de Quebec foram indiciados por operações de vigilância de a polícia local	1	0	0
+Isso	levou	a revelações em os últimos dois dias de que a o menos seis outros jornalistas de Quebec foram indiciados de a polícia local	1	0	0
+outros menos seis jornalistas de Quebec	foram indiciados	por operações de vigilância	1	0	0
+outros menos seis jornalistas de Quebec	foram indiciados	por operações de vigilância de a polícia local	1	0	0
+outros menos seis jornalistas de Quebec	foram indiciados	por operações de a polícia local	1	0	0
+Isso	levou a revelações	nos últimos dois dias	1	0	0
+Isso	levou a revelações	de que ao menos seis outros jornalistas de Quebec foram indiciados por operações de vigilância da polícia local	1	0	0
+seis outros jornalistas de Quebec	foram indiciados	por operações de vigilância da polícia local	1	0	0
+Isso	levou a revelações em	os últimos dois dias	1	1	1
+outros jornalistas de Quebec	foram indiciados por	operações de vigilância de a polícia local	1	1	1
+110	Não deve haver acesso privilegiado ao governo, ou aparente acesso privilegiado, concedido a indivíduos ou a organizações porque fizeram contribuições econômicas para os políticos e para os partidos políticos, lê-se nas diretrizes.
+acesso privilegiado ao governo	concedido a	indivíduos	1	0	0
+a organizações	fizeram contribuições econômicas para	os políticos	1	0	0
+acesso privilegiado ao governo	lê -se nas	diretrizes	1	0	0
+111	No julgamento de fraude e quebra de confiança de Duffy, o juiz acabou por determinar que estavam dentro das regras do Senado quando declarou Duffy livre de qualquer acusação.
+o juiz	acabou por determinar que estavam dentro das	as regras do Senado	1	0	0
+as regras do Senado	declarou Duffy livre de	qualquer acusação	1	0	0
+o juiz	acabou por determinar	que estavam dentro de as regras de o Senado	1	0	0
+o juiz	acabou por determinar	que estavam dentro de as regras de o Senado declarou quando	1	0	0
+o juiz	acabou por determinar	que estavam dentro de as regras de o Senado declarou quando Duffy livre de qualquer acusação	1	0	0
+o juiz	acabou por determinar	em o julgamento de fraude e quebra de confiança de Duffy	1	0	0
+o juiz	acabou por determinar	que estavam dentro declarou quando	1	0	0
+o juiz	acabou por determinar	que estavam dentro Duffy livre de qualquer acusação	1	0	0
+o juiz	acabou por determinar	de quebra	1	0	0
+o juiz	acabou por determinar	de quebra em o julgamento de fraude de confiança de Duffy	1	0	0
+o juiz	acabou por determinar	em o julgamento de fraude de confiança de Duffy	1	0	0
+o juiz	acabou	No julgamento de fraude	1	0	0
+o juiz	acabou	por determinar dentro das regras do Senado	1	0	0
+o juiz	acabou	por determinar quando declarou Duffy livre	1	0	0
+o juiz	acabou	por determinar quando declarou Duffy livre de qualquer acusação	1	0	0
+o juiz	por determinar	que estavam dentro de as regras de o Senado	1	0	0
+o juiz	por determinar que estavam dentro de as regras de o Senado No	julgamento de fraude e quebra de confiança de Duffy	1	0	0
+112	Nossos celulares são muito mais que telefones hoje em dia.
+Nossos celulares	são muito mais que	telefones	1	1	1
+Nossos celulares	são	muito mais que telefones hoje em dia	1	0	0
+Nossos celulares	são	mais que telefones hoje	1	0	0
+Nossos celulares	são	mais que telefones em dia	1	0	0
+113	É incrível, reportou a cliente de dados ilimitados da SaskTel, Lindsay Gay, no mês passado.
+incrível	reportou a cliente de	dados ilimitados da SaskTel	1	0	0
+incrível	reportou a cliente de	dados ilimitados da Lindsay Gay	1	0	0
+114	Ele também mostrou que Rogers introduziu, recentemente, um novo app que ajuda os clientes a monitorizar o seu uso de dados.
+Ele	mostrou que	Rogers	1	0	0
+Rogers	introduziu	um novo app	1	1	1
+um novo app	ajuda os clientes a monitorizar o seu uso de	dados	1	1	1
+Rogers	introduziu	recentemente	1	0	0
+Rogers	introduziu	recentemente um novo app que ajuda os clientes	1	0	0
+Rogers	introduziu	recentemente um novo app que ajuda os clientes a monitorizar o seu uso de dados	1	0	0
+Rogers	introduziu	um novo app recentemente	1	0	0
+um novo app	ajuda	os clientes	1	1	1
+um novo app	ajuda	os clientes a monitorizar o seu uso de dados	1	0	0
+Ele	também mostrou	que	1	0	0
+Ele	mostrou	que Rogers introduziu recentemente	1	0	0
+um novo app	ajuda os clientes	a monitorizar o seu uso de dados	1	0	0
+Ele	mostrou	que Rogers introduziu	1	0	0
+115	É isso que nos mantém voltando para mais.
+É isso	nos mantém voltando	para mais	1	0	0
+isso	voltando	isso	1	0	0
+isso	voltando para	mais	1	0	0
+116	Estas estimativas coincidem com as porcentagens de novos condomínios entrando para o mercado de aluguéis antes de estarem completos, indicando o importante papel que os investidores (privados) têm no mercado de habitação GTA.
+as porcentagens de novos condomínios	entrando para	o mercado de aluguéis	1	0	0
+mercado de aluguéis antes de	estarem	completos	1	0	0
+mercado de aluguéis antes completos	estarem	completos	1	0	0
+completos	indicando	o importante papel	1	0	0
+os investidores	têm no	mercado de habitação	1	0	0
+Estas estimativas	coincidem	com as porcentagens de novos condomínios	1	0	0
+Estas estimativas	coincidem	com as porcentagens de novos condomínios entrando para o mercado	1	0	0
+Estas estimativas	coincidem	com as porcentagens de novos condomínios entrando para o mercado de aluguéis	1	0	0
+Estas estimativas	coincidem	com as porcentagens de novos condomínios entrando para o mercado de aluguéis antes de estarem completos	1	0	0
+Estas estimativas	coincidem	com as porcentagens de novos condomínios entrando para o mercado de aluguéis antes de estarem completos indicando o importante papel que os investidores privados têm em o mercado de habitação	1	0	0
+Estas estimativas	coincidem	com as porcentagens de novos condomínios entrando para o mercado de aluguéis antes de estarem completos indicando o importante papel que os investidores privados têm em o mercado de habitação GTA	1	0	0
+Estas estimativas	coincidem	entrando para o mercado	1	0	0
+Estas estimativas	coincidem	entrando de aluguéis	1	0	0
+Estas estimativas	coincidem	entrando antes de estarem completos	1	0	0
+Estas estimativas	coincidem	indicando o importante papel que os investidores privados têm em o mercado de habitação	1	0	0
+Estas estimativas	coincidem	indicando o importante papel que os investidores privados têm em o mercado GTA	1	0	0
+os investidores privados	têm	em o mercado de habitação	1	0	0
+os investidores privados	têm	em o mercado de habitação GTA	1	0	0
+os investidores privados	têm	que	1	0	0
+os investidores privados	têm	em o mercado GTA	1	0	0
+o mercado de habitação	é	GTA	1	0	0
+Estas estimativas	coincidem	indicando o importante papel	1	0	0
+Estas estimativas	coincidem	indicando o importante papel que os investidores privados têm no mercado de habitação GTA	1	0	0
+os investidores	têm	no mercado de habitação GTA	1	0	0
+Estas estimativas	coincidem com	as porcentagens de novos condomínios	1	0	0
+os investidores	têm	o importante papel	1	0	0
+os investidores	têm o importante papel em	o mercado de habitação GTA	1	0	0
+117	Esta cepa ajuda com dor nas costas, esta cepa ajuda com náuseas, este produto te faz dormir à noite, diz Dietrich, da sede da companhia em Denver, Colorado, onde a erva é vendida legalmente.
+esta cepa	ajuda com	náuseas	1	1	1
+te	faz dormir à	noite	1	0	0
+dor nas costas	diz	Dietrich	1	0	0
+Esta	ajuda	com náuseas	1	1	1
+esta cepa	ajuda	com náuseas	1	0	0
+te	faz	dormir	1	0	0
+te	faz	dormir a a noite	1	0	0
+te	faz	dormir este produto	1	0	0
+a erva	é vendida	legalmente	1	0	0
+a erva	é vendida	onde	1	0	0
+de a sede de a companhia em Denver	é	Colorado	1	0	0
+Esta cepa	ajuda	com dor nas costas	1	0	0
+este produto	te faz dormir	à noite	1	0	0
+Dietrich	é	vendida legalmente	1	0	0
+este produto	te faz	dormir a a noite	1	0	0
+118	Mas sem um quadro legislativo, e com as origens populares da erva como um remédio de mudança de estado de espírito popular, as empresas ficam com dúvidas.
+um quadro legislativo	ficam com	dúvidas	1	0	0
+dúvidas	ficam com	um quadro legislativo	1	0	0
+as empresas	ficam	com dúvidas	1	0	0
+as empresas	ficam	sem um quadro legislativo	1	0	0
+as empresas	ficam com	as origens populares de a erva como um remédio de mudança de estado de espírito popular	1	0	0
+as empresas	ficam com	dúvidas	1	1	1
+119	O ferro é um elemento essencial requerido pelo corpo para produzir hemoglobina, a proteína encontrada nas células de glóbulos vermelhos que são responsáveis por transportar oxigênio para tecidos no corpo.
+O ferro	é	um elemento essencial	1	1	1
+O ferro	requerido pelo	corpo	1	0	0
+corpo	produzir	hemoglobina	1	1	1
+a proteína	encontrada nas	células de glóbulos vermelhos	1	0	0
+células de glóbulos vermelhos	são responsáveis por transportar oxigênio para tecidos no	corpo	1	0	0
+um elemento essencial	é	O ferro	1	1	1
+O ferro	é um elemento	essencial requerido por o corpo	1	0	0
+O ferro	é um elemento	essencial requerido por o corpo para produzir hemoglobina	1	0	0
+O ferro	é um elemento	essencial requerido por o corpo para produzir hemoglobina a proteína encontrada em as células de glóbulos vermelhos	1	0	0
+O ferro	é um elemento	essencial requerido por o corpo para produzir hemoglobina a proteína encontrada em as células de glóbulos vermelhos que são responsáveis por transportar oxigênio para tecidos	1	0	0
+O ferro	é um elemento	essencial requerido por o corpo para produzir hemoglobina a proteína encontrada em as células de glóbulos vermelhos que são responsáveis por transportar oxigênio para tecidos em o corpo	1	0	0
+O ferro	é um elemento	requerido por o corpo	1	1	1
+O ferro	é um elemento	requerido para produzir hemoglobina	1	1	1
+O ferro	é um elemento	a proteína encontrada em as células de glóbulos vermelhos	1	0	0
+O ferro	é um elemento	a proteína encontrada em as células que são responsáveis por transportar oxigênio para tecidos	1	0	0
+O ferro	é um elemento	a proteína encontrada em as células que são responsáveis por transportar em o corpo	1	0	0
+as células de glóbulos vermelhos	são	responsáveis por transportar oxigênio para tecidos	1	1	1
+as células de glóbulos vermelhos	são	responsáveis por transportar oxigênio para tecidos em o corpo	1	0	0
+de glóbulos vermelhos	são responsáveis	por transportar oxigênio para tecidos no corpo	1	0	0
+O ferro	é	um elemento essencial requerido	1	0	0
+O ferro	é um elemento essencial requerido por	o corpo	1	1	1
+O ferro	é um elemento essencial requerido para	produzir hemoglobina	1	0	0
+120	O atual período de espera é de oito semanas.
+O atual período	é de	oito	1	0	0
+O atual período de espera	é	de oito semanas	1	0	0
+O atual período de espera	é de	oito semanas	1	1	1
+121	É possível ter níveis normais de hemoglobina, mas ter baixas reservas de ferro, em geral, diz o Serviço Canadense de Sangue (CBS).
+níveis normais de hemoglobina	ter baixas reservas de	ferro	1	0	0
+níveis normais de hemoglobina	diz	o Serviço Canadense de Sangue	1	0	0
+níveis normais de hemoglobina	diz	o CBS	1	0	0
+o Serviço	é	Canadense de Sangue	1	0	0
+Canadense de Sangue	é	CBS	1	0	0
+122	As novas orientações de valores de ferro dizem que serão necessários mais dadores.
+As novas orientações de valores de ferro	dizem que serão	necessários mais dadores	1	0	0
+mais dadores	que serão	necessários	1	0	0
+As novas orientações de valores de ferro	dizem	que serão necessários mais	1	0	0
+As novas orientações de valores de ferro	dizem	que serão necessários dadores	1	0	0
+As novas orientações de valores de ferro	dizem	que serão necessários mais dadores	1	0	0
+123	O que começou como um ultrassom de rotina, tornou-se complicado quando a futura mãe Margaret Boemer, de Plano, Texas, foi informada de que o seu feto tinha uma condição rara e precisava de uma cirurgia para sobreviver.
+um ultrassom de rotina	tornou -se complicado quando	a futura mãe	1	0	0
+um ultrassom de rotina	foi informada de	o seu feto	1	0	0
+o seu feto	tinha uma condição rara	precisava	1	0	0
+o seu feto	precisava de	uma cirurgia	1	1	1
+a futura mãe de Plano Texas	foi informada	de que o seu feto tinha uma condição rara	1	0	0
+a futura mãe de Plano Texas	foi informada	de que o seu feto tinha uma condição rara e precisava de uma cirurgia	1	0	0
+a futura mãe de Plano Texas	foi informada	de que o seu feto tinha uma condição rara e precisava de uma cirurgia para sobreviver	1	0	0
+a futura mãe de Plano Texas	foi informada	de que o seu feto tinha e precisava de uma cirurgia	1	0	0
+a futura mãe de Plano Texas	foi informada	de que o seu feto tinha e precisava para sobreviver	1	0	0
+o seu feto	tinha	uma condição rara	1	1	1
+O	começou	como um ultrassom de rotina	1	0	0
+o seu feto	precisava	de uma cirurgia	1	0	0
+o seu feto	precisava	de uma cirurgia para sobreviver	1	0	0
+o seu feto	precisava	para sobreviver	1	0	0
+a futura mãe	é	Margaret Boemer	1	1	1
+Margaret Boemer de Plano Texas	foi informada	de que o seu feto tinha uma condição rara	1	0	0
+Margaret Boemer de Plano Texas	foi informada	de que o seu feto tinha uma condição rara e precisava de uma cirurgia	1	0	0
+Margaret Boemer de Plano Texas	foi informada	de que o seu feto tinha uma condição rara e precisava de uma cirurgia para sobreviver	1	0	0
+Margaret Boemer de Plano Texas	foi informada	de que o seu feto tinha e precisava de uma cirurgia	1	0	0
+Margaret Boemer de Plano Texas	foi informada	de que o seu feto tinha e precisava para sobreviver	1	0	0
+O	começou	quando a futura mãe Margaret Boemer de Plano Texas foi informada de que o seu feto tinha que o seu feto tinha uma condição rara	1	0	0
+a futura mãe Margaret Boemer	foi informada	de que o seu feto tinha que o seu feto tinha uma condição rara	1	0	0
+o seu feto	tinha uma condição rara de	uma cirurgia	1	0	0
+o seu feto	tinha uma condição rara para	sobreviver	1	0	0
+o seu feto	precisava para	sobreviver	1	0	0
+124	O teratoma sacrococcígeo é um tumor que se desenvolve antes do nascimento e cresce no cóccix do bebê.
+um tumor	desenvolve antes do	nascimento	1	0	0
+um tumor	cresce no	cóccix do bebê	1	0	0
+O teratoma sacrococcígeo	é um tumor	que se desenvolve antes de o nascimento e cresce em o cóccix de o bebê	1	0	0
+um tumor	se desenvolve	antes de o nascimento e cresce em o cóccix de o bebê	1	0	0
+O teratoma sacrococcígeo	é	um tumor	1	1	1
+O teratoma	sacrococcígeo	é um tumor	1	0	0
+é um tumor	desenvolve	antes do nascimento	1	0	0
+um tumor	se desenvolve de	o nascimento	1	0	0
+125	É o tumor mais comum de se encontrar em bebês, ocorrendo um em cada 35.000 nascimentos.
+bebês	ocorrendo um em	cada 35000 nascimentos	1	0	0
+um	ocorrendo em	cada 35000 nascimentos	1	0	0
+126	Ela tem 84 anos.
+Ela	tem	84 anos	1	1	1
+127	Ele a descreve como uma mulher "memorável" e "amorosa e maravilhosa" que deixou a sua marca no mundo literário com as suas histórias.
+a	descreve como	uma mulher memorável	1	0	0
+amorosa e maravilhosa	deixou a sua marca no	mundo literário com as suas histórias	1	0	0
+Ele	a descreve	como uma mulher memorável	1	0	0
+Ele	a descreve	como uma mulher memorável e amorosa e maravilhosa	1	0	0
+Ele	a descreve	como uma mulher memorável e amorosa e maravilhosa que deixou a sua marca	1	0	0
+Ele	a descreve	como uma mulher memorável e amorosa e maravilhosa que deixou a sua marca em o mundo literário	1	0	0
+Ele	a descreve	como uma mulher memorável e amorosa e maravilhosa que deixou a sua marca em o mundo literário com as suas histórias	1	0	0
+Ele	a descreve	como uma mulher memorável que deixou a sua marca	1	0	0
+Ele	a descreve	como uma mulher memorável que deixou em o mundo literário	1	0	0
+Ele	a descreve	como uma mulher memorável que deixou com as suas histórias	1	0	0
+Ele	a descreve	memorável como amorosa e maravilhosa	1	0	0
+amorosa e maravilhosa	deixou	a sua marca	1	0	0
+amorosa e maravilhosa	deixou	a sua marca em o mundo literário	1	0	0
+amorosa e maravilhosa	deixou	a sua marca em o mundo literário com as suas histórias	1	0	0
+amorosa e maravilhosa	deixou	a sua marca com as suas histórias	1	0	0
+Ele	descreve	como uma mulher memorável	1	0	0
+Ele a descreve como uma mulher memorável	deixou	a sua marca	1	0	0
+Ele a descreve como uma mulher memorável	deixou a sua marca	no mundo literário com as suas histórias	1	0	0
+maravilhosa	deixou	a sua marca	1	0	0
+maravilhosa	deixou a sua marca em	o mundo literário com as suas histórias	1	0	0
+128	Alguns homens entendem e Bono é um desses homens, disse Leive em uma entrevista recente.
+Alguns homens	entendem	Bono	1	0	0
+Bono	é um desses	homens	1	0	0
+um desses homens	disse Leive em	uma entrevista recente	1	0	0
+Alguns homens	é um desses	homens	1	0	0
+Bono	disse Leive em	uma entrevista recente	1	0	0
+um desses homens	é	Bono	1	0	0
+Alguns homens	entendem	e Bono é um desses homens	1	0	0
+Alguns homens	entendem	é um desses homens	1	0	0
+Leive	disse	em uma entrevista recente	1	0	0
+Bono	é	um de esse homens	1	0	0
+129	Com apenas 20, ela é uma voz forte contra o bullying e uma voz positiva para ajudar meninas a abraçarem os seus próprios padrões de beleza.
+apenas 20	é uma voz forte contra	o bullying	1	0	0
+uma voz positiva	ajudar	meninas	1	0	0
+meninas	abraçarem os seus próprios padrões de	beleza	1	0	0
+uma voz forte contra o bullying	é	apenas 20	1	0	0
+ela	é uma voz	forte contra o bullying	1	0	0
+ela	é uma voz	forte contra o bullying e uma voz positiva para ajudar meninas	1	0	0
+ela	é uma voz	forte contra o bullying e uma voz positiva para ajudar meninas a abraçarem os seus próprios padrões de beleza	1	0	0
+ela	é uma voz	Com apenas 20	1	0	0
+ela	é uma voz	contra o bullying	1	0	0
+ela	é uma voz	e uma voz positiva para ajudar meninas	1	0	0
+ela	é uma voz	e uma voz positiva a abraçarem os seus próprios padrões de beleza	1	0	0
+ela	é	uma voz Com apenas 20	1	0	0
+ela	é	uma voz positiva	1	1	1
+ela	é	uma voz forte	1	1	1
+ela	é uma voz forte contra	o bullying e uma voz positiva	1	0	0
+ela	é uma voz forte para	ajudar meninas a abraçarem os seus próprios padrões de beleza	1	0	0
+130	A voz dela literalmente deu uma volta ao mundo, disse Leive.
+A voz dela	deu uma volta ao	mundo	1	0	0
+uma volta ao mundo	disse	Leive	1	0	0
+A voz	literalmente deu	uma volta	1	0	0
+A voz	literalmente deu	uma volta a o mundo	1	0	0
+A voz	deu uma volta	ao mundo	1	0	0
+A voz de ela	deu	uma volta	1	0	0
+A voz de ela	deu uma volta a	o mundo	1	1	1
+131	Assim que as fotografias oficiais da festa foram lançadas, as redes sociais se encheram de comentários - e eles foram muito pouco favoráveis.
+as fotografias oficiais da festa	foram lançadas	as redes sociais	1	0	1
+as redes sociais	encheram de	comentários	1	1	1
+as redes sociais	se encheram -	de comentários	1	0	0
+as redes sociais	se encheram -	de comentários e eles foram pouco favoráveis	1	0	0
+as redes sociais	se encheram -	e eles foram pouco favoráveis	1	0	0
+eles	foram	pouco favoráveis	1	1	1
+as redes sociais	se encheram	Assim que as fotografias oficiais da festa foram lançadas	1	0	0
+as redes sociais	se encheram	de comentários	1	0	0
+as redes sociais	se encheram de	comentários	1	1	1
+eles	foram	favoráveis	1	0	0
+132	Muitas pessoas, incluindo grupos indígenas, argumentam que eles banalizam a cultura das Primeiras Nações.
+Muitas pessoas	incluindo	grupos indígenas	1	0	0
+Muitas pessoas	argumentam que	eles	1	0	0
+Muitas pessoas	banalizam a cultura das	Primeiras Nações	1	0	0
+eles	banalizam	a cultura de as Primeiras Nações	1	0	0
+Muitas pessoas	argumentam	que	1	0	0
+Muitas pessoas	argumentam	que eles banalizam a cultura das Primeiras Nações	1	0	0
+eles	banalizam a cultura	das Primeiras Nações	1	0	0
+Muitas pessoas	argumentam	que eles banalizam a cultura de as Primeiras Nações	1	0	0
+133	O objetivo destas audiências da CRTC é de coletar respostas das partes interessadas da indústria e do público.
+O objetivo destas audiências da CRTC	é de coletar respostas das	partes interessadas da indústria	1	0	0
+respostas das partes	interessadas da	indústria	1	0	0
+O objetivo destas audiências de a CRTC	é	de coletar respostas de as partes interessadas de a indústria e de o público	1	0	0
+O objetivo destas audiências de a CRTC	é	de coletar respostas de as partes interessadas de a indústria	1	0	0
+O objetivo destas audiências de a CRTC	é	de coletar respostas de as partes interessadas de o público	1	0	0
+O objetivo de estas audiências de a CRTC	é de	coletar respostas de as partes	1	0	0
+134	Isto não se aplicaria apenas ao conteúdo de entretenimento, mas igualmente ao da educação, ao da investigação científica e, talvez mais importante, ao do discurso político.
+Isto	aplicaria apenas ao	conteúdo de entretenimento	1	0	0
+Isto	aplicou apenas ao	conteúdo de entretenimento	1	0	0
+Isto	ainda aplicou apenas ao	conteúdo de entretenimento	1	0	0
+Isto	não se aplicaria	apenas a o conteúdo de entretenimento	1	0	0
+Isto	não se aplicaria	apenas a o conteúdo de entretenimento mas igualmente a o de a educação a o de a investigação científica e talvez mais importante	1	0	0
+Isto	não se aplicaria	apenas a o conteúdo de entretenimento mas igualmente a o de a educação a o de a investigação científica e talvez mais importante a	1	0	0
+Isto	não se aplicaria	a o conteúdo de entretenimento	1	0	0
+Isto	não se aplicaria	mas igualmente a o de a educação a o de a investigação científica e talvez mais importante	1	0	0
+Isto	não se aplicaria	mas igualmente a o de a educação a o de a investigação científica a	1	0	0
+Isto	não se aplicaria	apenas a o conteúdo de entretenimento mas igualmente a o de a educação a o de a investigação científica	1	0	0
+Isto	não se aplicaria	apenas a o conteúdo de entretenimento mas igualmente a o de a educação a o de a investigação talvez mais importante	1	0	0
+Isto	não se aplicaria	apenas ao conteúdo de entretenimento	1	0	0
+Isto	não se aplicaria	do discurso político	1	0	0
+ao da	ao	do discurso político	1	0	0
+Isto	não se aplicaria a	o conteúdo de entretenimento	1	0	0
+135	Apesar de tudo, a internet não é um luxo; é uma ferramenta essencial.
+é uma ferramenta essencial	um luxo	é	1	0	0
+uma ferramenta essencial	é	um luxo	1	0	0
+10	a internet	não é um luxo	1	0	0
+um não Apesar de tudo luxo	é uma ferramenta	essencial	1	0	0
+a internet	não é	um luxo Apesar de tudo	1	0	0
+um não Apesar de tudo luxo	é	uma ferramenta essencial	1	0	0
+a internet	não é um luxo	Apesar de tudo	1	0	0
+136	Os detritos formaram um anel ao redor do equador da Terra e, por fim, foram reunidos pela gravidade para formar a lua.
+Os detritos	formaram um anel ao	redor do equador da Terra	1	0	0
+um anel ao redor do equador da Terra	foram reunidos pela	gravidade	1	0	0
+gravidade	formar	a lua	1	0	0
+Os detritos	formaram	um anel a o redor de o equador de a Terra	1	1	1
+Os detritos	formaram	um anel a o redor de o equador de a Terra e por fim foram reunidos	1	0	0
+Os detritos	formaram	um anel a o redor de o equador de a Terra e por fim foram reunidos por a gravidade	1	0	0
+Os detritos	formaram	um anel a o redor de o equador de a Terra e por fim foram reunidos por a gravidade para formar a lua	1	0	0
+Os detritos	formaram	um anel por a gravidade	1	0	0
+Os detritos	formaram	um anel para formar a lua	1	0	0
+Os detritos	formaram um anel	ao redor do equador da Terra	1	0	0
+Os detritos	foram reunidos por	fim	1	0	0
+Os detritos	foram reunidos por	a gravidade	1	1	1
+Os detritos	foram reunidos para	formar a lua	1	0	0
+Os detritos	formaram	um anel	1	1	1
+Os detritos	formaram um anel a	o redor de o equador de a Terra	1	1	1
+137	Ainda assim, há perguntas deixadas sem resposta.
+138	Na cidade de Hillsborough, próxima de Chaper Hill, alguém incendiou, no mês passado, a sede do Partido Republicano.
+mês	passado	a sede do Partido Republicano	1	0	0
+alguém	incendiou	em o mês passado	1	0	0
+alguém	incendiou	em a cidade de Hillsborough	1	0	0
+alguém	incendiou	em a cidade de Hillsborough próxima de Chaper Hill	1	0	0
+a sede de o Partido Republicano	incendiou	em o mês passado	1	0	0
+a sede de o Partido Republicano	incendiou	em a cidade de Hillsborough	1	0	0
+a sede de o Partido Republicano	incendiou	em a cidade de Hillsborough próxima de Chaper Hill	1	0	0
+alguém	incendiou	Na cidade próxima de Hillsborough	1	0	0
+alguém	incendiou	no mês passado	1	0	0
+alguém	incendiou Na	cidade de Hillsborough	1	0	0
+alguém	incendiou em	o mês	1	0	0
+alguém	incendiou	passado	1	0	0
+139	Após a Carolina do Norte ter passado a sua lei que restringe o direito de voto em 2013, Campbell andou pelas igrejas ensinando às pessoas como lidar com as dificuldades no seu registro.
+a Carolina do Norte	ter passado	a sua lei	1	0	0
+a sua lei	restringe o direito de	voto em 2013	1	0	0
+Campbell	andou pelas	igrejas	1	0	0
+igrejas	ensinando às	pessoas	1	0	0
+igrejas	lidar com	as dificuldades no seu registro	1	0	0
+a sua lei	restringe	o direito de voto	1	1	1
+a sua lei	restringe	o direito de voto em 2013	1	0	0
+a sua lei	restringe o direito	de voto em 2013	1	0	0
+Campbell	andou	pelas igrejas	1	1	1
+Campbell	andou	como lidar com as dificuldades no seu registro	1	0	0
+sua lei	restringe	o direito de voto	1	1	1
+sua lei	restringe o direito de voto em	2013	1	0	0
+Campbell	andou	ensinando a as pessoas	1	0	0
+Campbell	andou ensinando a as pessoas por	as igrejas	1	1	1
+140	Ele podia detectar os efeitos da eleição à sua volta, nas explosões de conflito e na curiosa intersecção de novas ideias com antigas.
+Ele	podia detectar os efeitos da	eleição à sua volta	1	0	0
+Ele	podia detectar	os efeitos de a eleição	1	1	1
+Ele	podia detectar	os efeitos de a eleição a a sua volta	1	0	0
+Ele	podia detectar	os efeitos de a eleição a a sua volta em as explosões de conflito	1	0	0
+Ele	podia detectar	os efeitos de a eleição a a sua volta em as explosões de conflito e em a curiosa intersecção de novas ideias com antigas	1	0	0
+Ele	podia detectar	os efeitos de a eleição em as explosões de conflito	1	0	0
+Ele	podia detectar	os efeitos de a eleição e em a curiosa intersecção de novas ideias com antigas	1	1	1
+Ele	podia detectar os efeitos	da eleição à sua volta	1	0	0
+Ele	podia detectar os efeitos	nas explosões de conflito	1	0	0
+Ele	podia detectar os efeitos de a eleição a	a sua volta	1	0	0
+Ele	podia detectar os efeitos de a eleição em	as explosões de conflito e em a curiosa intersecção	1	0	0
+Ele	podia detectar os efeitos de a eleição de	novas ideias com antigas	1	0	0
+141	Este desacordo entre os dados econômicos e a retórica política é familiar, ou deveria ser.
+a retórica política	é	familiar	1	0	0
+Este desacordo entre os dados econômicos	é	familiar	1	0	0
+desacordo entre os dados econômicos e a retórica política	é	familiar	1	1	1
+142	Os economistas republicanos advertem contra tomar estes dados como prova de que o seu partido é péssimo na política econômica.
+Os economistas republicanos	advertem contra tomar	estes dados	1	0	0
+Os economistas republicanos	prova de	o seu partido	1	0	0
+o seu partido	é péssimo na	política econômica	1	0	0
+Os economistas	advertem	contra tomar estes dados	1	0	0
+republicanos	advertem	contra tomar estes dados	1	0	0
+o seu partido	é péssimo	em a política econômica	1	0	0
+o seu partido	é	péssimo em a política econômica	1	0	0
+Os economistas	advertem	contra tomar estes dados como prova de que	1	0	0
+Os economistas	advertem	que	1	0	0
+republicanos	advertem	contra tomar estes dados como prova de que	1	0	0
+republicanos	advertem	que	1	0	0
+Os economistas	republicanos	advertem contra	1	0	0
+o seu partido	é péssimo	na política econômica	1	0	0
+o seu partido	ser mau em	a política econômica	1	0	0
+Os economistas republicanos	advertem contra	tomar estes dados como prova	1	0	0
+Os economistas republicanos	advertem de	que o seu partido ser mau em a política econômica	1	0	0
+143	Eu não sei qual foi o crescimento do G.D.P durante as administrações de Washington e Lincoln, mas o desenvolvimento institucional naqueles termos teve efeitos grandes e de longa duração.
+Eu	sei qual foi o crescimento do	GDP durante as administrações de Washington	1	0	0
+Eu	sei qual foi o crescimento do	GDP durante as administrações de Lincoln	1	0	0
+o desenvolvimento institucional naqueles termos	teve efeitos grandes	de longa	1	0	0
+qual foi o crescimento do GDP durante as administrações de Washington	sei	Eu	1	0	0
+qual foi o crescimento do GDP durante as administrações de Lincoln	sei	Eu	1	0	0
+o desenvolvimento institucional naqueles termos	teve	efeitos grandes e de longa duração	1	1	1
+o desenvolvimento institucional naqueles termos	teve	efeitos grandes	1	1	1
+o desenvolvimento institucional naqueles termos	teve	efeitos de longa duração	1	1	1
+o desenvolvimento institucional	teve	efeitos grandes	1	0	0
+o desenvolvimento institucional	teve efeitos grandes em	aqueles termos	1	0	0
+144	Há mais diferenças entre Sulla e Trump, Roma e U.S, do que há similaridades, mas isso não descredita as semelhanças.
+isso	descredita	as	1	0	0
+isso	não descredita	as semelhanças	1	1	1
+145	E, admitiu ela, "vocês têm de olhar para onde ela reconheceu que nós precisamos de alguma coisa diferente - nós podemos fazer melhor - e onde ela expressou pesar.
+vocês	têm de	olhar	1	0	0
+vocês	reconheceu que	nós	1	0	0
+nós	precisamos de	alguma coisa diferente	1	0	0
+nós	podemos fazer melhor -	e	1	0	0
+nós	precisamos	de alguma coisa diferente	1	0	0
+nós	podemos fazer -	melhor	1	0	0
+ela	expressou	pesar	1	0	0
+ela	expressou	pesar onde	1	0	0
+olhar	reconheceu	para onde	1	0	0
+vocês	têm -	de olhar onde ela reconheceu que	1	0	0
+vocês	têm -	que	1	0	0
+olhar	reconheceu	que	1	0	0
+ela	reconheceu	para onde	1	0	0
+ela	reconheceu	que nós precisamos de alguma coisa	1	0	0
+nós	precisamos	de alguma coisa	1	0	0
+ela	reconheceu	que nós precisamos de alguma coisa diferente	1	0	0
+nós	podemos fazer	melhor	1	0	0
+vocês	têm para	onde ela reconheceu que nós precisamos de alguma coisa diferente	1	0	0
+146	Mas, à medida que a crítica contra Clinton como Primeira Dama se tornou mais ácida, Karel demonstrou mais empatia.
+Primeira Dama	tornou mais	ácida	1	0	0
+Karel	demonstrou mais	empatia	1	1	1
+a crítica	demonstrou	mais empatia	1	0	0
+Karel	demonstrou	mais empatia	1	1	1
+a crítica contra Clinton como Primeira Dama	demonstrou	mais empatia	1	0	0
+a crítica	se tornou	ácida	1	1	1
+a crítica	se tornou ácida contra	Clinton como Primeira Dama	1	0	0
+Karel	demonstrou	empatia	1	1	1
+Karel	demonstrou empatia a	a medida	1	0	0
+147	Quando estou interpretando ele, eu me sinto poderoso, explicou o personificador de Donald Trump, John Di Domenico, à Slate, no ano passado.
+me	sinto	poderoso	1	0	0
+ele	explicou o personificador de	Donald Trump	1	0	0
+ele	explicou o personificador de	John Di Domenico	1	0	0
+eu	me sinto	poderoso	1	0	0
+eu	me sinto	poderoso Quando estou interpretando ele	1	0	0
+o personificador de Donald Trump John a a Slate	explicou	em o ano passado	1	0	0
+eu	sinto poderoso	Quando estou interpretando	1	0	0
+eu	sinto	poderoso	1	0	0
+eu	sinto poderoso	no ano passado	1	0	0
+148	Com a histeria das eleições presidenciais de 2016 se intensificando, uma ameaça mais preocupante do que a estupidez preocupa Karel.
+a histeria das eleições presidenciais de 2016	intensificando	uma ameaça mais preocupante do	1	0	0
+a histeria das eleições presidenciais de 2016	preocupa	Karel	1	0	0
+a estupidez	preocupa	Karel	1	0	0
+a estupidez	preocupa	Karel de o que	1	0	0
+Karel	preocupa	Com a histeria das eleições presidenciais de 2016	1	0	0
+Karel	preocupa	Com a histeria se intensificando	1	0	0
+Karel	preocupa	Com a histeria uma ameaça preocupante do que a estupidez	1	0	0
+149	Eles são normalmente artistas que querem fazer um monte de coisas.
+Eles	são normalmente	artistas	1	0	0
+artistas	querem fazer um monte de	coisas	1	0	0
+Eles	são	normalmente artistas que querem fazer um monte de coisas	1	0	0
+normalmente artistas	querem	fazer um monte de coisas	1	0	0
+Eles são normalmente artistas	querem fazer um monte	de coisas	1	0	0
+Eles	são	artistas	1	1	1
+artistas	querem	fazer um monte de coisas	1	0	0
+150	Então o anúncio termina.
+o anúncio	termina	Então	1	0	0
+151	Os produtores de Miami Bass eram clínicos na arte de mexer bundas - a sua maior preocupação.
+Os produtores de Miami Bass	eram clínicos na	arte	1	0	0
+clínicos na arte	mexer bundas -	a sua maior preocupação	1	0	0
+Os produtores de Miami	eram	clínicos em a arte de mexer bundas - preocupação	1	0	0
+Os produtores de Miami	é	Bass	1	0	0
+Bass	eram	clínicos em a arte de mexer bundas - preocupação	1	0	0
+Os produtores de Miami Bass	eram clínicos	na arte	1	0	0
+Os produtores de Miami Bass	eram clínicos	de mexer bundas	1	0	0
+Os produtores de Miami Bass	eram	clínicos	1	0	0
+Os produtores de Miami Bass	eram clínicos em	a arte	1	0	0
+Os produtores de Miami Bass	eram clínicos de	mexer bundas	1	0	0
+152	Numa entrevista recente, Zay e Zayion descreveram a gravação da sua versão de "Knuck If You Buck" em um laptop em casa.
+Zayion	descreveram a gravação da	sua versão de	1	0	0
+Zay e Zayion	descreveram	a gravação de a sua versão de Knuck If You Buck	1	1	1
+Zay e Zayion	descreveram	a gravação de a sua versão de Knuck If You Buck em um laptop em casa	1	1	1
+Zay e Zayion	descreveram	a gravação de a sua versão de Knuck em um laptop em casa em uma entrevista recente	1	0	0
+Knuck	é	If You Buck	1	0	0
+Zay	descreveram a gravação	Numa entrevista recente	1	0	0
+Zay	descreveram a gravação	da sua versão de Knuck If You Buck	1	0	0
+Zay	descreveram a gravação	em um laptop em casa	1	0	0
+153	Mas os desafios, assim como as músicas que os instrumentam, adicionam à massa contorcida de vídeos desfocados em looping um sistema nervoso interligado e rastreável.
+as	instrumentam	adicionam à massa contorcida	1	0	0
+os desafios	adicionam à	massa contorcida de vídeos	1	0	0
+os desafios	contorcida de	vídeos	1	0	0
+massa contorcida de vídeos	desfocados em	looping	1	0	0
+um sistema nervoso	interligado	rastreável	1	0	0
+assim as músicas	desfocados	em looping	1	0	0
+as músicas	adicionam a	a massa	1	0	0
+as músicas	adicionam	desfocados em looping um sistema nervoso	1	0	0
+154	Os seus reaparecimentos sublinham o apelo de um bom desafio, artístico ou de outra forma: desconforto, crescimento, e uma conexão significativa.
+Os seus reaparecimentos	sublinham o apelo de	um bom desafio	1	1	1
+Os seus reaparecimentos	sublinham o apelo	de um bom desafio	1	0	0
+Os seus reaparecimentos	sublinham o apelo	artístico ou de outra forma : desconforto crescimento e uma conexão significativa	1	0	0
+Os seus reaparecimentos	sublinham	o apelo de um bom desafio	1	1	1
+155	Seria muito mais seguro, pensou Plato, conferir o poder a guardiões cuidadosamente educados.
+156	Como muitas pessoas que conheço, passei os meses recentes acordado até tarde, lendo as sondagens em terror.
+muitas pessoas	conheço lendo as sondagens em	terror	1	0	0
+que conheço	passei	os meses recentes	1	0	0
+os meses recentes	acordado até	tarde	1	0	0
+muitas pessoas	lendo	as sondagens	1	0	0
+muitas pessoas	lendo	as sondagens em terror	1	0	0
+pessoas	passei	os meses recentes	1	0	0
+157	Caplan descarta o voto retrospectivo, citando um par de estudiosos que o chamam "não mais racional do que matar o faraó quando o Nilo não inunda."
+Caplan	descarta	o voto retrospectivo	1	1	1
+o voto retrospectivo	citando um par de	estudiosos	1	0	0
+um par de	chamam	não não	1	0	0
+Caplan	descarta	o voto retrospectivo citando um par de estudiosos	1	0	0
+Caplan	descarta	o voto retrospectivo citando um par de estudiosos que o chamam não mais racional de o que matar o faraó	1	0	0
+Caplan	descarta	o voto retrospectivo que o chamam não mais racional de o que matar o faraó	1	0	0
+um par de estudiosos	o chamam	não mais racional de o que matar o faraó	1	0	0
+Caplan	descarta	o voto retrospectivo citando um par de estudiosos que o chamam não mais racional de o que matar o faraó quando	1	0	0
+Caplan	descarta	quando	1	0	0
+um par de estudiosos	o chamam	não mais racional de o que matar o faraó quando	1	0	0
+o chamam racional	matar o faraó	do que	1	0	0
+o chamam racional	matar o faraó	quando o Nilo não inunda	1	0	0
+um par de estudiosos	o chamam não	racional	1	0	0
+158	Mas não havia mais nada obviamente artístico sobre ela ou no seu comportamento com outras pessoas.
+Mas	não havia	artístico	1	0	0
+159	Em 2010, a fundação lançou uma edição formatada de "Zettel's Traum", removendo a barra de entrada para aqueles que hesitaram com a sensação de rascunho do photo-offset.
+a fundação	lançou	uma edição formatada de Zettel's Traum	1	1	1
+a fundação	formatada de	Zettel's Traum	1	0	0
+2010	removendo a barra de	entrada para	1	0	0
+a barra de entrada para	hesitaram com	a sensação de rascunho do photo-offset	1	0	0
+a fundação	lançou	uma edição formatada de Zettel's Traum	1	1	1
+a fundação	lançou	uma edição formatada de Zettel's Traum removendo a barra de entrada	1	0	0
+a fundação	lançou	uma edição formatada de Zettel's Traum removendo a barra de entrada para aqueles que hesitaram com a sensação de rascunho	1	0	0
+a fundação	lançou	uma edição formatada de Zettel's Traum removendo a barra de entrada para aqueles que hesitaram com a sensação de rascunho de o photo - offset	1	0	0
+a fundação	lançou	uma edição formatada de Zettel's Traum Em 2010	1	0	0
+a fundação	lançou	uma edição para aqueles que hesitaram com a sensação de rascunho	1	0	0
+a fundação	lançou	uma edição para aqueles que hesitaram com a sensação de o photo - offset	1	0	0
+aqueles	hesitaram	com a sensação de rascunho	1	0	0
+aqueles	hesitaram	com a sensação de rascunho de o photo - offset	1	0	0
+aqueles	hesitaram	com a sensação de o photo - offset	1	0	0
+a fundação	lançou uma edição formatada	Em 2010	1	0	0
+a fundação	lançou uma edição formatada	de Zettel Traum	1	0	0
+para aqueles	hesitaram	com a sensação de rascunho do photo-offset	1	0	0
+a fundação	lançou	uma edição formatada de Zettel ' s Traum	1	1	1
+a fundação	lançou uma edição formatada de Zettel ' s Traum Em	2010	1	1	1
+160	Correspondendo com Woods por e-mail, eu tentei a minha sorte para descobrir o verdadeiro sentido.
+- mail	tentei a minha sorte para descobrir	o verdadeiro	1	0	0
+eu	tentei	a minha sorte	1	1	1
+eu	tentei	a minha sorte para descobrir o verdadeiro sentido	1	0	0
+eu	tentei	a minha sorte Correspondendo com Woods por e - mail	1	0	0
+eu	tentei a minha sorte	para descobrir o verdadeiro sentido	1	0	0
+eu	tentei a minha sorte para	descobrir o verdadeiro sentido	1	0	0
+161	Completa negligência da sua própria saúde, reportou a sua mulher, Alice.
+negligência da sua própria saúde	reportou	a sua mulher	1	0	0
+negligência da sua própria saúde	reportou	a sua Alice	1	0	0
+162	Cada mapa na exposição conta a sua própria história, nem todas factuais.
+Cada mapa na	conta	a sua própria história	1	0	0
+Cada mapa em a exposição	conta	a sua própria história	1	1	1
+Cada mapa em a exposição	conta	a sua própria história nem todas factuais	1	0	0
+Cada mapa na exposição	conta	a sua própria história	1	1	1
+Cada mapa	conta	a sua própria história	1	1	1
+Cada mapa	conta a sua própria história em	a exposição	1	1	1
+163	Também estão sendo exibidos, pela primeira vez, os mapas do Ministério da Defesa britânico, que representam batalhas da guerra fria e que foram usados ​​em exames militares da faculdade.
+os mapas do Ministério da Defesa britânico	representam batalhas da	guerra fria e	1	0	0
+batalhas da guerra fria e	foram usados <U+200B> <U+200B>em	exames militares da faculdade	1	0	0
+os mapas de o Ministério de a Defesa britânico	Também estão sendo exibidos	por a primeira vez	1	0	0
+o Ministério de a Defesa britânico	representam	batalhas de a guerra fria e que foram usados em exames militares de a faculdade	1	0	0
+os mapas do Ministério da Defesa britânico	representam batalhas	da guerra fria	1	0	0
+a primeira vez	representam	batalhas de a guerra fria	1	0	0
+164	O círculo eleitoral está na área do conselho de Kesteven do Norte, onde 62% dos eleitores apoiaram a saída da UE.
+O círculo	está na	área do conselho de Kesteven do Norte	1	0	0
+O círculo	apoiaram a saída da	UE	1	0	0
+O círculo eleitoral	está	em a área de o conselho de Kesteven	1	0	0
+O círculo eleitoral	está	em a área de o conselho de Kesteven de o Norte	1	0	0
+O círculo eleitoral	está	em a área de o conselho de Kesteven de o Norte onde 62 % de os eleitores apoiaram a saída de a UE	1	0	0
+O círculo eleitoral	está	em a área de o conselho de o Norte	1	0	0
+O círculo eleitoral	está	em a área onde 62 % de os eleitores apoiaram a saída de a UE	1	0	0
+62 % de os eleitores	apoiaram	a saída de a UE	1	1	1
+62 % de os eleitores	apoiaram	a saída de a UE onde	1	0	0
+O círculo eleitoral	está	na área do conselho de Kesteven do Norte	1	0	0
+do conselho de Kesteven do Norte	apoiaram a saída	da UE	1	0	0
+O círculo eleitoral	está em	a área de o conselho de Kesteven de o Norte	1	1	1
+165	A sua habilidade para obter respostas para os contribuintes trará uma profunda saudade.
+A sua habilidade	obter respostas para	os contribuintes	1	0	0
+respostas para os contribuintes	trará	uma profunda saudade	1	0	0
+A sua habilidade para obter respostas para os contribuintes	trará	uma profunda saudade	1	1	1
+A sua habilidade para os contribuintes	trará	uma profunda saudade	1	0	0
+166	Christian Wolmar, que escreveu vários livros sobre história ferroviária, participará na competição em 1º de dezembro.
+Christian Wolmar	participará na	competição em 1º de dezembro	1	0	0
+Christian Wolmar	participará	em a competição	1	0	0
+Christian Wolmar	participará	em a competição em 1º de dezembro	1	0	0
+Christian Wolmar	participará	em 1º de dezembro	1	0	0
+Christian Wolmar	escreveu	vários livros sobre história ferroviária	1	1	1
+Christian Wolmar	escreveu vários livros	sobre história ferroviária	1	0	0
+Christian Wolmar	participará em	a competição	1	1	1
+Christian Wolmar	participará em	1º de dezembro	1	0	0
+167	Os democratas liberais, que representaram o abastado subúrbio até 2010, esperam recuperá-lo com a sua candidata Sarah Olney.
+Os democratas liberais	esperam recuperá -lo com	a sua candidata	1	1	1
+Os democratas liberais	esperam	recuperá - lo	1	0	0
+Os democratas liberais	esperam	recuperá - lo com a sua candidata Sarah Olney	1	0	0
+Os democratas liberais	representaram	o abastado subúrbio	1	1	1
+Os democratas liberais	representaram	o abastado subúrbio até 2010	1	0	0
+a sua candidata	é	Sarah Olney	1	1	1
+Os democratas liberais	esperam recuperá-lo	com a sua candidata Sarah	1	0	0
+Os democratas liberais	representaram o abastado subúrbio	até 2010	1	0	0
+Os democratas liberais	esperam	recuperá lo com a sua candidata Sarah Olney	1	0	0
+Os democratas liberais	representaram o abastado subúrbio até	2010	1	1	1
+168	Entretanto, a distanciada mulher de um chefe de governo lançou a sua campanha para tomar o lugar.
+a distanciada mulher de um chefe de governo	lançou a sua campanha para tomar	o lugar	1	1	1
+a distanciada mulher de um chefe de governo	lançou	a sua campanha	1	1	1
+a distanciada mulher de um chefe de governo	lançou	a sua campanha para tomar o lugar	1	1	1
+a distanciada mulher de um chefe de governo	lançou	a sua campanha Entretanto	1	0	0
+a distanciada mulher de um chefe de governo	lançou a sua campanha	para tomar o lugar	1	0	0
+a distanciada mulher de um chefe de governo	lançou a sua campanha para	tomar o lugar	1	0	0
+169	Ele era completamente gracioso e o enfrentou como um homem, eu estou para lá de furioso
+Ele	era completamente gracioso	enfrentou como um homem	1	0	0
+gracioso e	enfrentou como	um homem	1	0	0
+Ele	era	completamente gracioso e o enfrentou como um homem	1	0	0
+eu	estou	para lá de furioso	1	1	1
+Ele	estou	para lá de furioso	1	1	1
+Ele	era	completamente gracioso	1	1	1
+eu	estou para	lá	1	0	0
+Ele	era	gracioso	1	1	1
+Ele	o enfrentou	como um homem	1	0	0
+170	Mais de 330 tripulantes estão a bordo do navio.
+330 tripulantes	estão a	bordo do navio	1	1	1
+330 tripulantes	estão	a bordo do navio	1	0	0
+171	Vega sugeriu que, por causa da sua idade, muitos seriam desconhecedores da sua história.
+Vega	sugeriu que	seriam desconhecedores da sua história	1	0	0
+muitos	seriam desconhecedores	de a sua história	1	0	0
+muitos	seriam desconhecedores	por causa de a sua idade	1	0	0
+muitos	seriam	desconhecedores por causa de a sua idade	1	0	0
+Vega	sugeriu	que	1	0	0
+Vega	sugeriu	que por causa da sua idade muitos seriam desconhecedores da sua história	1	0	0
+muitos	seriam desconhecedores	por causa da sua idade	1	0	0
+muitos	seriam desconhecedores	da sua história	1	0	0
+muitos	seriam	desconhecedores de a sua história	1	1	1
+muitos	seriam desconhecedores de a sua história por	causa de a sua idade	1	0	0
+Vega	sugeriu	que por causa de a sua idade muitos seriam desconhecedores de a sua história	1	0	0
+172	As pessoas foram mortas lá.
+As pessoas	foram	mortas	1	1	1
+As pessoas	foram	mortas lá	1	0	0
+173	Uma central elétrica a carvão em Badarpur, sudeste de Deli, vai parar de operar por 10 dias, juntamente com os geradores a diesel na cidade.
+Uma central elétrica a carvão em Badarpur	vai parar de operar por	10 dias	1	1	1
+Uma central elétrica a carvão em Badarpur de Deli	vai parar	de operar por 10 dias	1	0	0
+Uma central elétrica a carvão em Badarpur de Deli	vai parar	de operar juntamente com os geradores a diesel na cidade	1	0	0
+a carvão	vai parar em	Badarpur	1	0	0
+a carvão	vai parar de	operar por 10 dias	1	0	0
+174	Ele passou, então, quatro anos com a rádio BBC World Service, na casa Bush.
+Ele	passou na	casa Bush	1	0	0
+Ele	passou	então quatro anos com a rádio BBC World	1	0	0
+Ele	passou	então quatro anos com a rádio BBC World Service	1	0	0
+Ele	passou	então quatro anos com a rádio BBC World Service em a casa Bush	1	0	0
+Ele	passou	então quatro anos com a rádio Service	1	0	0
+Ele	passou	então quatro anos	1	0	0
+Ele	passou	então em a casa Bush	1	0	0
+a rádio	é	BBC World	1	0	0
+a rádio	é	Service	1	0	0
+a casa	é	Bush	1	0	0
+Ele	passou	quatro anos com a rádio BBC World Service	1	0	0
+Ele	passou quatro anos com a rádio BBC World Service em	a casa Bush	1	1	1
+175	Ele trabalhou para a BBC por uma década.
+Ele	trabalhou para	a BBC por uma década	1	0	0
+Ele	trabalhou	para a BBC	1	0	0
+Ele	trabalhou	para a BBC por uma década	1	0	0
+Ele	trabalhou	por uma década	1	0	0
+Ele	trabalhou para	a BBC	1	1	1
+Ele	trabalhou por	uma década	1	1	1
+176	Uma das suas muitas publicações de lamento no Facebook tem uma linha que teria encantado Chris: "Mais africano do que você, eu não conheço."
+Uma das suas muitas publicações de lamento no Facebook	tem	uma linha	1	1	1
+uma linha	teria encantado	Chris	1	1	1
+uma linha	terou encantado	Chris	1	0	0
+uma linha	ainda terou encantado	Chris	1	0	0
+Uma de as suas muitas publicações de lamento em o Facebook	tem	uma linha que teria encantado Chris	1	1	1
+eu	não conheço	que você	1	0	0
+Uma das suas muitas publicações de lamento no Facebook	tem	uma linha africano	1	0	0
+uma linha africano	teria encantado	Chris	1	0	0
+muitas publicações de lamento	tem	que teria encantado Chris	1	0	0
+muitas publicações de lamento	tem que teria encantado Chris em	o Facebook	1	0	0
+177	Quem pode parar o lado da Austrália?
+Quem	pode parar	o lado de a Austrália	1	0	0
+Quem	pode parar o lado	da Austrália	1	0	0
+178	Seria o seu direito divino para o manto, uma vez que o melhor do mundo já não justificava?
+o melhor de o mundo	não justificava	uma vez	1	0	0
+179	Eles têm uma hipótese de redenção, vencendo a Inglaterra.
+Eles	têm uma hipótese de	redenção	1	1	1
+uma hipótese de redenção	vencendo	a Inglaterra	1	0	0
+Eles	têm	uma hipótese de redenção	1	1	1
+Eles	têm	uma hipótese de redenção vencendo a Inglaterra	1	0	0
+Eles	têm uma hipótese	de redenção	1	0	0
+180	A África do Sul está quase em um beco sem saída e nós temos que conseguir alcançar suas expectativas.
+A África do Sul	está quase em	um beco sem saída	1	1	1
+nós	temos que conseguir alcançar	suas expectativas	1	1	1
+A África de o Sul	está	quase em um beco sem saída	1	0	0
+A África de o Sul	está	quase em um beco sem saída e nós temos que conseguir alcançar suas expectativas	1	0	0
+A África de o Sul	está	em um beco sem saída	1	0	0
+A África de o Sul	está	em um beco e nós temos que conseguir alcançar suas expectativas	1	0	0
+nós	temos	que conseguir alcançar suas expectativas	1	0	0
+nós	temos que conseguir	alcançar suas expectativas	1	0	0
+nós	que conseguir	alcançar suas expectativas	1	0	0
+A África de o Sul	está em	um beco sem saída	1	1	1
+181	Ele tem um jogo duro mas também tem umas mãos suaves.
+Ele	tem um jogo duro mas tem	umas mãos suaves	1	0	0
+Ele	tem	um jogo duro	1	1	1
+Ele	tem	um jogo duro mas também tem umas mãos suaves	1	0	0
+Ele	tem	umas mãos suaves	1	1	1
+182	Nós temos uma boa equipe e esta é uma oportunidade para nós levarmos o navio para a frente.
+Nós	temos uma boa equipe	é uma oportunidade para nós	1	0	0
+Nós	é uma oportunidade para	nós	1	0	0
+uma oportunidade para nós	levarmos o navio para	a frente	1	0	0
+Nós	levarmos o navio para	a frente	1	0	0
+uma oportunidade para nós	é	Nós	1	0	0
+Nós	temos	uma boa equipe	1	1	1
+Nós	temos	uma boa equipe e esta é uma oportunidade para nós levarmos o navio para a frente	1	0	0
+esta	é uma oportunidade	para nós levarmos o navio para a frente	1	0	0
+nós	levarmos	o navio para a frente	1	0	0
+esta	é	uma oportunidade para nós levarmos o navio para a frente	1	1	1
+esta	é uma oportunidade	para nós	1	0	0
+esta	é	levarmos o navio para a frente	1	0	0
+esta	é levarmos o navio para a frente para	nós	1	0	0
+183	Você tem que resistir a isso e eu preferiria ser perseguido do que cercado.
+Você	tem que resistir a	e eu	1	0	0
+Você	preferiria ser perseguido do	cercado	1	0	0
+Você	perseguou do	cercado	1	0	0
+Você	ainda perseguou do	cercado	1	0	0
+Você	tem que resistir	a isso	1	0	0
+Você	tem que resistir	a isso e eu preferiria ser perseguido de o que cercado	1	0	0
+Você	tem que resistir	ser perseguido de o que cercado	1	0	0
+Você	tem	que resistir a isso	1	0	0
+eu	preferiria	ser perseguido	1	0	0
+Você	que resistir a	isso	1	1	1
+184	Era como se ele estivesse passando a bola de um lado para o outro, debaixo de três copos virados para baixo.
+três copos	virados para	baixo	1	0	0
+ele	estivesse passando	a bola de um lado	1	0	0
+ele	se estivesse passando a	bola de um lado	1	0	0
+185	A Austrália, calejada pelos seus jogos recentes no Campeonato de Rugby, estava com uma velocidade superior.
+A Austrália	calejada pelos	jogos recentes no Campeonato de Rugby	1	0	0
+A Austrália	estava com	uma velocidade superior	1	1	1
+A Austrália	estava	com uma velocidade superior	1	0	0
+A Austrália	calejada	por os seus jogos recentes	1	0	0
+A Austrália	calejada	por os seus jogos recentes em o Campeonato de Rugby	1	0	0
+A Austrália	calejada	em o Campeonato de Rugby	1	0	0
+186	Uma vitória de Donald Trump imediatamente tornaria o mundo mais preocupante e inseguro do que ele já é.
+Uma vitória de Donald Trump	tornaria o mundo mais preocupante	inseguro do	1	0	0
+Uma vitória de Donald Trump	tornou o mundo mais preocupante	inseguro do	1	0	0
+Uma vitória de Donald Trump	ainda tornou o mundo mais preocupante	inseguro do	1	0	0
+Uma vitória de Donald Trump	tornaria	o mundo preocupante	1	1	1
+o mundo preocupante	é	do que	1	0	0
+ele	é	o mundo mais preocupante e inseguro	1	0	0
+Uma vitória de Donald Trump	tornaria	o mundo mais preocupante e inseguro	1	0	0
+187	A Senhora Clinton tem uma reputação de um aspecto de falcão, mas isto será temperado por uma opinião pública deprimida pela guerra, nos EUA.
+A Senhora Clinton	tem uma reputação de	um aspecto de falcão	1	1	1
+uma opinião pública	deprimida pela	guerra	1	0	0
+A Senhora Clinton	tem	uma reputação de um aspecto de falcão	1	1	1
+A Senhora Clinton	tem	uma reputação de um aspecto de falcão mas isto será temperado por uma opinião pública deprimida por a guerra	1	0	0
+A Senhora Clinton	tem	uma reputação de um aspecto de falcão mas isto será temperado por uma opinião pública deprimida por a guerra em os EUA	1	0	0
+A Senhora Clinton	tem	uma reputação de um aspecto em os EUA	1	0	0
+isto	será temperado	por uma opinião pública deprimida por a guerra	1	0	0
+isto	será temperado	por uma opinião pública deprimida por a guerra em os EUA	1	0	0
+isto	será temperado	por uma opinião em os EUA	1	0	0
+A Senhora Clinton	tem uma reputação	de um aspecto de falcão	1	0	0
+isto	será temperado	por uma opinião pública	1	0	0
+isto	será temperado por	uma opinião pública deprimida	1	1	1
+isto	será temperado por	a guerra	1	0	0
+isto	será temperado em	os EUA	1	0	0
+188	Ele falou a favor da tortura.
+Ele	falou a	favor da tortura	1	0	0
+Ele	falou	a favor de a tortura	1	0	1
+Ele	falou	a favor da tortura	1	0	0
+189	Eu também luto com as senhas.
+Eu	luto com	as	1	0	0
+as	luto com	Eu	1	0	0
+Eu	também luto	com as senhas	1	0	0
+Eu	luto	com as senhas	1	0	0
+190	Então, há histórias chamadas de verdadeiras que são publicadas em uma série de imagens significativas, com texto correndo por baixo.
+histórias chamadas de verdadeiras	são publicadas em	uma série de imagens significativas	1	1	1
+texto	correndo por	baixo	1	0	0
+histórias chamadas de verdadeiras	são publicadas	em uma série de imagens significativas	1	0	0
+191	Claro, eu entendo que a Alemanha dos dias modernos deve ser separada do regime Nazi.
+a Alemanha dos dias modernos	deve ser separada do	regime Nazi	1	0	0
+eu	entendo	Claro	1	0	0
+a Alemanha de os dias modernos	deve ser separada	de o regime Nazi	1	0	0
+o regime	é	Nazi	1	0	0
+eu	entendo	que	1	0	0
+eu	entendo	que a Alemanha dos dias modernos deve ser separada do regime Nazi	1	0	0
+a Alemanha dos dias modernos	deve ser separada	do regime Nazi	1	0	0
+a Alemanha de os dias modernos	deve ser	separada de o regime Nazi	1	0	0
+eu	entendo	que a Alemanha de os dias modernos deve ser separada de o regime Nazi	1	0	0
+192	No canto, está uma menina com um lenço na cabeça e calça jeans, com um ar tão modesto que penso ser outra assistente.
+canto	está uma menina com	um lenço na	1	0	0
+um ar tão modesto	penso ser	outra assistente	1	0	0
+uma menina com um lenço em a cabeça e calça jeans com um ar tão modesto	está	em o canto	1	0	0
+com um ar tão modesto	penso	ser outra assistente	1	0	0
+uma menina com um lenço na cabeça com um ar modesto	está	No canto	1	0	0
+uma menina com um lenço na cabeça com um ar modesto	está	ser outra assistente	1	0	0
+um ar tão modesto	penso	ser outra assistente	1	0	0
+193	Os artistas alcançam as pessoas no seu coração; é a única vez que nos encontramos em um lugar e colocamos as nossas diferenças de lado.
+é a única vez que nos encontramos em um lugar e colocamos as nossas diferenças de lado	Os artistas	alcançam as pessoas no	1	0	0
+as pessoas no seu coração	é	a única vez	1	0	0
+nos	encontramos em	um lugar	1	0	0
+nos	colocamos as nossas diferenças de	lado	1	0	0
+a única vez	é	as pessoas no seu coração	1	0	0
+10	Os artistas	alcançam	1	0	0
+Os artistas	alcançam	as pessoas	1	1	1
+Os artistas	alcançam as pessoas	no seu coração	1	0	0
+Os artistas	alcançam as pessoas em	o seu coração	1	1	1
+194	Os seus títulos menos comuns incluem embaixador global da saúde da cidade de Nova Iorque e na Sociedade dos Hospitais, e um lugar na Escola de Gestão de Harvard.
+Os seus títulos menos comuns	incluem embaixador global da	saúde da cidade de Nova Iorque	1	0	0
+Os seus títulos	incluem	embaixador global de a saúde	1	1	1
+Os seus títulos	incluem	embaixador global de a saúde de a cidade de Nova Iorque	1	1	1
+Os seus títulos	incluem	embaixador global de a saúde de a cidade de Nova Iorque e em a Sociedade de os Hospitais e um lugar em a Escola de Gestão	1	0	0
+Os seus títulos	incluem	embaixador global de a saúde de a cidade de Nova Iorque e em a Sociedade de os Hospitais e um lugar em a Escola de Gestão de Harvard	1	0	0
+Os seus títulos	incluem	global de a saúde de a cidade de Nova Iorque em a Sociedade de os Hospitais	1	0	0
+Os seus títulos	incluem	global de a saúde de a cidade de Nova Iorque um lugar em a Escola de Gestão	1	0	0
+menos comuns	incluem	embaixador global de a saúde	1	0	0
+menos comuns	incluem	embaixador global de a saúde de a cidade de Nova Iorque	1	0	0
+menos comuns	incluem	embaixador global de a saúde de a cidade de Nova Iorque e em a Sociedade de os Hospitais e um lugar em a Escola de Gestão	1	0	0
+menos comuns	incluem	embaixador global de a saúde de a cidade de Nova Iorque e em a Sociedade de os Hospitais e um lugar em a Escola de Gestão de Harvard	1	0	0
+menos comuns	incluem	global de a saúde de a cidade de Nova Iorque em a Sociedade de os Hospitais	1	0	0
+menos comuns	incluem	global de a saúde de a cidade de Nova Iorque um lugar em a Escola de Gestão	1	0	0
+Os seus títulos menos comuns	incluem embaixador global	da saúde	1	0	0
+Os seus títulos menos comuns	incluem embaixador global	da cidade de Nova Iorque	1	0	0
+Os seus títulos menos comuns	incluem	embaixador global de a saúde de a cidade	1	1	1
+195	Posso fazer só isso da minha vida.
+Posso	fazer	isso	1	1	1
+Posso	fazer isso	da minha vida	1	0	0
+196	Eu queria vê-lo com eles, mas eles decidiram, por fim, que preferem vê-lo sem mim.
+Eu	queria vê -lo com	eles	1	1	1
+Eu	decidiram que	preferem vê -lo	1	0	0
+Eu	queria	vê - lo	1	0	0
+Eu	queria	vê - lo com eles	1	0	0
+Eu	queria	vê - lo com eles mas eles decidiram por fim	1	0	0
+eles	decidiram	por fim	1	0	0
+que	preferem	vê - lo	1	0	0
+que	preferem	vê - lo sem mim	1	0	0
+Eu	queria	com eles	1	0	0
+eles	decidiram por	fim	1	0	0
+197	Nós não podemos deixar que a presidência vá para o Donald Trump, alguém tão racista, sexista e incrivelmente desqualificado para ser comandante-chefe.
+Nós	podemos deixar que	a presidência	1	0	0
+a presidência	vá para	o Donald Trump	1	0	0
+sexista e	desqualificado para ser	comandante-chefe	1	0	0
+a presidência	vá	para o Donald Trump alguém tão racista	1	0	0
+a presidência	vá	para o Donald Trump alguém tão racista sexista e incrivelmente desqualificado para ser comandante - chefe	1	0	0
+a presidência	vá	para o Donald Trump alguém sexista e incrivelmente desqualificado para ser comandante - chefe	1	0	0
+Nós	não podemos deixar	que	1	0	0
+Nós	não podemos deixar	que a presidência vá para o Donald Trump	1	0	0
+Nós	não podemos deixar	que a presidência vá alguém tão racista	1	0	0
+a presidência	vá alguém tão racista	para o Donald Trump	1	0	0
+a presidência	vá	alguém tão racista	1	0	0
+198	Mais pessoas estão apelando para o crédito... Enquanto estes empréstimos podem ser gerenciáveis por enquanto, uma mudança súbita nas circunstâncias pode levar a problemas de dívidas.
+pessoas	estão apelando para	o crédito	1	1	1
+pessoas	podem ser	gerenciáveis	1	0	0
+uma mudança súbita nas circunstâncias	pode levar a	problemas de dívidas	1	1	1
+Mais pessoas	estão apelando	para o crédito	1	0	0
+apelando para o crédito	pode levar	a problemas de dívidas	1	0	0
+estes empréstimos	podem ser gerenciáveis	por enquanto	1	0	0
+uma mudança súbita em as circunstâncias	estão apelando	para o crédito	1	0	0
+Mais pessoas	estão apelando	para o crédito Enquanto	1	0	0
+Mais pessoas	estão apelando	Enquanto	1	0	0
+uma mudança súbita em as circunstâncias	estão apelando	para o crédito Enquanto	1	0	0
+uma mudança súbita em as circunstâncias	estão apelando	Enquanto	1	0	0
+Mais pessoas	estão apelando	Enquanto estes empréstimos podem ser gerenciáveis por enquanto uma mudança súbita nas circunstâncias pode levar enquanto uma mudança súbita nas circunstâncias pode levar a problemas de dívidas	1	0	0
+estes empréstimos	podem ser gerenciáveis	por enquanto uma mudança súbita nas circunstâncias pode levar enquanto uma mudança súbita nas circunstâncias pode levar a problemas de dívidas	1	0	0
+uma mudança	pode levar a problemas	de dívidas	1	0	0
+estes empréstimos	podem ser gerenciável por	enquanto	1	0	0
+uma mudança súbita	pode levar	a problemas de dívidas	1	0	0
+uma mudança súbita	pode levar a problemas de dívidas em	as circunstâncias	1	0	0
+199	A sua razão é que isso providencia insuficiente proteção aos trabalhadores americanos cujos trabalhos e padrões de vida podem ser afetados.
+A sua razão	é que	providencia insuficiente	1	0	0
+isso	providencia	insuficiente proteção a os trabalhadores americanos	1	1	1
+isso	providencia	insuficiente proteção a os trabalhadores americanos trabalhos e padrões de vida podem ser afetados	1	0	0
+trabalhos e padrões de vida	podem ser afetados	os trabalhadores americanos	1	0	0
+A sua razão	é	que isso providencia insuficiente proteção a os trabalhadores americanos	1	0	0
+isso	providencia	insuficiente proteção	1	0	1
+isso	providencia insuficiente proteção a	os trabalhadores americanos	1	1	1
+200	Neste contexto, fazer campanha contra as negociações faz sentido.
+contexto	fazer campanha contra	as negociações	1	0	0

@@ -10,11 +10,12 @@
 - Eu treino usando o verbo do spacy, mas o original considera a tag para o verb_indicator
 - 
 
+Testar o dataset do https://www.kaggle.com/shankkumar/multilingualopenrelations15/
 
 # Future
 https://github.com/princeton-nlp/PURE
 Testar https://gaotianyu1350.github.io/assets/simcse/simcse.pdf
 
 
-# Moon-shorts
+# Moon-shots
 - Use GPT as a way to validate extractions

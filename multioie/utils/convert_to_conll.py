@@ -1,194 +1,383 @@
 # Portuguese dataset
+import re
+from dataclasses import dataclass
 from pathlib import Path
 from typing import List
 
+from allennlp.data.tokenizers import SpacyTokenizer
+from allennlp_models.structured_prediction.models.srl import convert_bio_tags_to_conll_format
 
-def find_sublist_match(phrase, string_to_find, start=0):
+from multioie.utils.contractions import transform_portuguese_contractions, clean_extraction
+
+tokenizer = SpacyTokenizer(language="pt_core_news_lg", split_on_spaces=True)
+
+
+def find_sublist_match(tokens: List, string_to_find: str, start=0):
+    # TODO implement a Needleman-Wunsch or Smith-Waterman algorithms
     start_match = 0
     end_match = 0
 
-    string_to_find = string_to_find.split(" ")
-
-    phrase_tokens = phrase.split(" ")
+    if len(string_to_find) < 1:
+        return None, None
 
     if start is None:
         start = 0
 
-    if len(string_to_find) < 1:
-        print("STRING_TO_FIND Vazio!")
+    string_to_find = tokenizer.tokenize(string_to_find)
 
-    def clean_word(word):
-        return word.strip("'").strip('"').strip(".")
+    first_to_find = string_to_find[0]
+    last_to_find = string_to_find[-1]
 
-    first_to_find = clean_word(string_to_find[0])
-    last_to_find = clean_word(string_to_find[-1])
+    achou = False
+    while not achou and (len(tokens) - start) > len(string_to_find):
 
-    for pos in range(start, len(phrase_tokens)):
-        if first_to_find == clean_word(phrase_tokens[pos]):
-            print(f"ACHEI {first_to_find} NA POSICAO {pos}")
-            start_match = pos
+        for pos in range(start, len(tokens)):
+            if first_to_find.text == tokens[pos].text:
+                # print(f"Achei {first_to_find} na pos {pos}")
+                start_match = pos
 
-            for pos_fim in range(pos, len(phrase_tokens)):
-                if (last_to_find == clean_word(phrase_tokens[pos_fim])) and (
-                    pos_fim - start_match >= len(string_to_find) - 2
+                for pos_fim in range(pos, len(tokens)):
+                    if (last_to_find.text == tokens[pos_fim].text) and (
+                        pos_fim - start_match >= len(string_to_find) - 2
+                    ):
+                        # print(f"Achei o FIM {last_to_find} na pos {pos_fim}")
+                        end_match = pos_fim
+                        achou = True
+                        break
+                if (len(string_to_find) == 1 or end_match > 0) and (
+                    (abs((end_match - start_match) - len(string_to_find)) < 20)
+                    or ((end_match - start_match) > len(string_to_find))
                 ):
-                    print(f"ACHEI O FIM {last_to_find} NA POSICAO {pos_fim}")
-                    end_match = pos_fim
                     break
-            if (len(string_to_find) == 1 or end_match > 0) and (
-                (abs((end_match - start_match) - len(string_to_find)) < 10)
-                or ((end_match - start_match) > len(string_to_find))
-            ):
-                print("BREAK FROM 2o IF")
-                break
+        if achou:
+            break
+        start += 1
 
-    tokens = []
-
-    if (len(string_to_find) > 1 and end_match == 0) or (
-        (abs((end_match - start_match) - len(string_to_find)) > 10)
-        and ((end_match - start_match) < len(string_to_find))
-    ):
-        print(
-            f"[ERROR] NAO ENCONTREI {string_to_find} SENTENCA {phrase} | FIRST_TO_FIND {first_to_find} LAST_TO_FIND {last_to_find}"
-        )
-
+    if end_match == 0 and start_match > 0:
         return None, None
-        # sentence = Sentence(' '.join(string_to_find))
-        # # embed words in sentence
-        # if list(embeddings[0]._embeddings.keys())[0].startswith('bert'):
-        #     result = EMBEDDING.embed(sentence)[0]
-        # else:
-        #     result = EMBEDDING_XLI.embed(sentence)[0]
-        #
-        # for token in result.tokens:
-        #     tokens.append(token)
-
-    else:
-        print(start_match, end_match)
-        print(
-            f"[OK] ENCONTREI {string_to_find} SENTENCA {phrase} | FIRST_TO_FIND {first_to_find} LAST_TO_FIND {last_to_find}"
-        )
-        # for pos in range(start_match, end_match + 1):
-        #     tokens.append(embeddings.tokens[pos])
-
     return start_match, end_match
 
 
-def convert_to_conll(sentence):
-    global qt_quebrados, qt_funfando
-    frase = sentence["phase"]
-    extracao = sentence["extractions"][0]
+def convert_to_conll(sentence, pos_sentence):
+    frase = sentence["phrase"]
 
-    start_pos_arg1, end_pos_arg1 = find_sublist_match(frase, extracao["arg1"])
-    start_pos_rel, end_pos_rel = find_sublist_match(frase, extracao["rel"], end_pos_arg1)
-    start_pos_arg2, end_pos_arg2 = find_sublist_match(frase, extracao["arg2"], end_pos_rel)
+    # Find all verbs in the input sentence
+    spacy_tokens = tokenizer.tokenize(frase)
 
-    # TODO, so pegamos a 1º extracao
-    # TODO, nao está funcionando quando a palavra é decomposta = num => em um
+    pred_ids = [i for (i, t) in enumerate(spacy_tokens) if t.pos_ in ["VERB", "AUX"]]
 
+    sentence["broken"] = 0
+    sentence["correct"] = 0
+
+    for extracao in sentence["extractions"]:
+        start_pos_arg1, end_pos_arg1 = find_sublist_match(spacy_tokens, extracao["arg1"])
+        start_pos_rel, end_pos_rel = find_sublist_match(spacy_tokens, extracao["rel"], end_pos_arg1)
+        start_pos_arg2, end_pos_arg2 = find_sublist_match(
+            spacy_tokens, extracao["arg2"], end_pos_rel
+        )
+
+        if any(elem is None for elem in [start_pos_arg1, start_pos_rel, start_pos_arg2]):
+            print(
+                f"Elemento quebrado: {spacy_tokens} - {extracao['arg1']=} - {extracao['rel']=} - {extracao['arg2']=}"
+            )
+            sentence["broken"] += 1
+        else:
+            sentence["correct"] += 1
+
+            tags = []
+
+            for pos in range(len(spacy_tokens)):
+                if pos == start_pos_arg1:
+                    tags.append("B-ARG0")
+                elif pos == start_pos_rel:
+                    tags.append("B-V")
+                elif pos == start_pos_arg2:
+                    tags.append("B-ARG1")
+
+                elif end_pos_arg1 >= pos > start_pos_arg1:
+                    tags.append("I-ARG0")
+                elif end_pos_arg2 >= pos > start_pos_arg2:
+                    tags.append("I-ARG1")
+                elif end_pos_rel >= pos > start_pos_rel:
+                    tags.append("I-V")
+                else:
+                    tags.append("O")
+
+            convertido = convert_bio_tags_to_conll_format(tags)
+
+            result = []
+            for idx, token in enumerate(frase.split(" ")):
+                actual_tag = convertido[idx]
+                line = f"{pos_sentence}\t{idx}\t{token}\tXX\t-\t-\t-\t-\t-\t*\t{actual_tag}\t-"
+
+                result.append(line)
+
+            extracao["conll"] = result
+    # Set a empty tag if the sentence is empty
     result = []
+    for idx, token in enumerate(frase.split(" ")):
+        line = f"{pos_sentence}\t{idx}\t{token}\tXX\t-\t-\t-\t-\t-\t*\tO\t-"
+        result.append(line)
 
-    if any(elem is None for elem in [start_pos_arg1, start_pos_rel, start_pos_arg2]):
-        print("Elemento quebrado")
-        qt_quebrados += 1
-    else:
-        qt_funfando += 1
-        print("Elemento Funfando")
-
-        for idx, token in enumerate(frase.split(" ")):
-
-            actual_tag = "*"
-
-            if idx == start_pos_arg1 and idx == end_pos_arg1:
-                actual_tag = "(ARG0*)"
-            elif idx == start_pos_arg1:
-                actual_tag = "(ARG0*"
-            elif end_pos_arg1 < idx > start_pos_arg1:
-                actual_tag = "*"
-            elif idx == end_pos_arg1:
-                actual_tag = "*)"
-
-            if idx == start_pos_rel and idx == end_pos_rel:
-                actual_tag = "(V*)"
-            elif idx == start_pos_rel:
-                actual_tag = "(V*"
-            elif end_pos_rel < idx > start_pos_rel:
-                actual_tag = "*"
-            elif idx == end_pos_rel:
-                actual_tag = "*)"
-
-            if idx == start_pos_arg2 and idx == end_pos_arg2:
-                actual_tag = "(ARG1*)"
-            elif idx == start_pos_arg2:
-                actual_tag = "(ARG1*"
-            elif end_pos_arg2 < idx > start_pos_arg2:
-                actual_tag = "*"
-            elif idx == end_pos_arg2:
-                actual_tag = "*)"
-            line = f"0\t{idx}\t{token}\tXX\t-\t-\t-\t-\t-\t*\t{actual_tag}\t-"
-
-            result.append(line)
-
-    return result
+    sentence["empty_tags"] = result
 
 
-def load_dataset():
+def load_pragmatic_wiki_dataset():
     dataset_pt = dict()
 
-    pt = Path("../pragmatic_dataset/wiki200.txt")
-    # pt = Path("gamalho_dataset/sentences.txt")
+    pt = Path("../datasets/pragmatic_dataset/wiki200.txt")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             line = line.strip()
-            pos, phase = line.split("\t", 1)
-            dataset_pt[int(pos)] = {"phase": phase.strip(), "extractions": []}
+            pos, phrase = line.split("\t", 1)
+            phrase = clean_extraction(phrase)
+            dataset_pt[int(pos)] = {
+                "phrase": transform_portuguese_contractions(phrase.strip()),
+                "extractions": [],
+            }
 
-    pt = Path("../pragmatic_dataset/wiki200-labeled.csv")
-    # pt = Path("gamalho_dataset/argoe-pt-labeled.csv")
+    pt = Path("../datasets/pragmatic_dataset/wiki200-labeled.csv")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             if "\t" in line:
                 partes = line.split("\t")
                 pos = int(partes[0])
-                arg1 = partes[1].strip('"')
-                rel = partes[2].strip('"')
-                arg2 = partes[3].strip('"')
+                arg1 = clean_extraction(partes[1])
+                rel = clean_extraction(partes[2])
+                arg2 = clean_extraction(partes[3])
                 valid = partes[-1].strip()
 
                 if valid != "1":
                     continue  # so queremos pegar as positivas
 
                 dataset_pt[pos]["extractions"].append(
-                    {"arg1": arg1, "rel": rel, "arg2": arg2, "valid": int(valid)}
+                    {
+                        "arg1": transform_portuguese_contractions(arg1),
+                        "rel": transform_portuguese_contractions(rel),
+                        "arg2": transform_portuguese_contractions(arg2),
+                        "valid": int(valid),
+                    }
                 )
     return dataset_pt
 
 
-if __name__ == "__main__":
-    global qt_quebrados, qt_funfando
-    qt_quebrados = 0
-    qt_funfando = 0
-    dataset = load_dataset()
-    actual_pos = 0
+def load_pragmatic_ceten_dataset():
+    dataset_pt = dict()
 
-    with open("../meu_dataset/wiki200_saida.gold_conll", "w", encoding="utf-8") as f_out:
-        with open("../saida/wiki200_sentencas_teste.txt", "w", encoding="utf-8") as f_teste:
-            for idx, value in dataset.items():
-                if len(value["extractions"]) > 0:
-                    result = convert_to_conll(value)
+    pt = Path("../datasets/pragmatic_dataset/ceten200.txt")
+    with open(pt, "r", encoding="utf-8") as f_pt:
+        for line in f_pt:
+            line = line.strip()
+            pos, phrase = line.split("\t", 1)
+            phrase = clean_extraction(phrase)
+            dataset_pt[int(pos)] = {
+                "phrase": transform_portuguese_contractions(phrase.strip()),
+                "extractions": [],
+            }
 
-                    if len(result) < 1:
-                        f_teste.write(f"{value['phase']}\n")
+    pt = Path("../datasets/pragmatic_dataset/ceten200-labeled.csv")
+    with open(pt, "r", encoding="utf-8") as f_pt:
+        for line in f_pt:
+            if "\t" in line:
+                partes = line.split("\t")
+                pos = int(partes[0])
+                arg1 = clean_extraction(partes[1])
+                rel = clean_extraction(partes[2])
+                arg2 = clean_extraction(partes[3])
+                valid = partes[-1].strip()
+
+                if valid != "1":
+                    continue  # so queremos pegar as positivas
+
+                dataset_pt[pos]["extractions"].append(
+                    {
+                        "arg1": transform_portuguese_contractions(arg1),
+                        "rel": transform_portuguese_contractions(rel),
+                        "arg2": transform_portuguese_contractions(arg2),
+                        "valid": int(valid),
+                    }
+                )
+    return dataset_pt
+
+
+def load_pud200():
+    # Portuguese dataset
+    dataset_pt = dict()
+    for name in ["200-sentences-pt-PUD.txt"]:
+        pt = Path(f"../datasets/coling_PUD/{name}")
+        with open(pt, "r", encoding="utf-8") as f_pt:
+            actual_pos = None
+            for line in f_pt:
+                line = line.strip()
+                pos, phrase = line.split("\t", 1)
+                phrase = clean_extraction(phrase)
+
+                if pos.isnumeric() and phrase.count("\t") < 1:
+                    actual_pos = int(pos)
+                    phrase = transform_portuguese_contractions(phrase)
+                    # phrase = re.sub(r',|\.|"', "", phrase)
+                    dataset_pt[actual_pos] = {"phrase": phrase, "extractions": []}
+                else:
+                    partes = line.split("\t")
+                    arg1 = clean_extraction(partes[0])
+                    rel = clean_extraction(partes[1])
+                    arg2 = clean_extraction(partes[2])
+                    valid = int(partes[-2].strip())
+
+                    if valid != 1:
+                        continue  # so queremos pegar as positivas
+
+                    dataset_pt[actual_pos]["extractions"].append(
+                        {
+                            "arg1": transform_portuguese_contractions(arg1),
+                            "rel": transform_portuguese_contractions(rel),
+                            "arg2": transform_portuguese_contractions(arg2),
+                            "valid": valid,
+                        }
+                    )
+
+    return dataset_pt
+
+
+def load_pud100():
+    # Portuguese dataset
+    dataset_pt = dict()
+    for name in ["coling2020.txt"]:
+        pt = Path(f"../datasets/coling_PUD/{name}")
+        with open(pt, "r", encoding="utf-8") as f_pt:
+            actual_pos = None
+            for line in f_pt:
+                line = line.strip()
+                pos, phrase = line.split("\t", 1)
+                # phrase = clean_extraction(phrase)
+
+                if pos.isnumeric() and phrase.count("\t") < 1:
+                    actual_pos = int(pos)
+                    # phrase = transform_portuguese_contractions(phrase)
+                    # phrase = re.sub(r',|\.|"', "", phrase)
+                    dataset_pt[actual_pos] = {"phrase": phrase, "extractions": []}
+                else:
+                    partes = line.split("\t")
+                    arg1 = clean_extraction(partes[0])
+                    rel = clean_extraction(partes[1])
+                    arg2 = clean_extraction(partes[2])
+                    valid = int(partes[-2].strip())
+
+                    if valid != 1:
+                        continue  # so queremos pegar as positivas
+
+                    dataset_pt[actual_pos]["extractions"].append(
+                        {
+                            "arg1": transform_portuguese_contractions(arg1),
+                            "rel": transform_portuguese_contractions(rel),
+                            "arg2": transform_portuguese_contractions(arg2),
+                            "valid": valid,
+                        }
+                    )
+
+    return dataset_pt
+
+
+def load_gamalho():
+    # Portuguese dataset
+    dataset_pt = dict()
+
+    pt = Path("../datasets/gamalho/sentences.txt")
+    with open(pt, "r", encoding="utf-8") as f_pt:
+        for line in f_pt:
+            line = line.strip()
+            pos, phrase = line.split("\t", 1)
+            phrase = clean_extraction(phrase)
+            dataset_pt[int(pos)] = {
+                "phrase": transform_portuguese_contractions(phrase),
+                "extractions": [],
+            }
+
+    pt = Path("../datasets/gamalho/argoe-pt-labeled.csv")
+    with open(pt, "r", encoding="utf-8") as f_pt:
+        for line in f_pt:
+            if "\t" in line:
+                partes = line.split("\t")
+                pos = int(partes[0])
+                arg1 = clean_extraction(partes[1])
+                rel = clean_extraction(partes[2])
+                arg2 = clean_extraction(partes[3])
+                if len(partes[-1].strip()) < 1:
+                    continue
+                valid = int(partes[-1].strip())
+
+                if valid != 1:
+                    continue  # so queremos pegar as positivas
+
+                dataset_pt[pos]["extractions"].append(
+                    {
+                        "arg1": transform_portuguese_contractions(arg1),
+                        "rel": transform_portuguese_contractions(rel),
+                        "arg2": transform_portuguese_contractions(arg2),
+                        "valid": valid,
+                    }
+                )
+
+    return dataset_pt
+
+
+def save_data_as_conll(pos_dataset, output_path,dataset_to_save):
+    with open(output_path
+            , "w", encoding="utf-8"
+              ) as f_out:
+        for sentence in dataset_to_save:
+            if len(sentence["extractions"]) < 1:
+
+                #if sentence['broken'] > 0:  # We going to skip if it is our fault
+                #    continue
+                for line in sentence["empty_tags"]:
+                    f_out.write(f"train/train/{pos_dataset}\t{line}\n")
+                f_out.write("\n")
+
+            else:
+                for extraction in sentence["extractions"]:
+                    if "conll" not in extraction:
+                        for line in sentence["empty_tags"]:
+                            f_out.write(f"train/train/{pos_dataset}\t{line}\n")
+                        f_out.write("\n")
                         continue
 
-                    actual_pos += 1
-                    for line in result:
-                        f_out.write(f"train/train/01\t{line}\n")
-
+                    for line in extraction["conll"]:
+                        f_out.write(f"train/train/{pos_dataset}\t{line}\n")
                     f_out.write("\n")
-                else:
-                    f_teste.write(f"{value['phase']}\n")
+        f_out.write("\n")
 
-    print("Qtd de elementos quebrados: ", qt_quebrados)
-    print("Qtd de elementos funfando: ", qt_funfando)
-    print("Qtd de elementos totais: ", qt_quebrados + qt_funfando)
+
+if __name__ == "__main__":
+    global qt_quebrados, qt_funfando
+    datasets = [
+        # {"name": "pragmatic_wiki", "dataset": load_pragmatic_wiki_dataset(), "broken": 0, "correct": 0},
+        # {"name": "pragmatic_ceten", "dataset": load_pragmatic_ceten_dataset(), "broken": 0, "correct": 0},
+        # {"name": "gamalho", "dataset": load_gamalho(), "broken": 0, "correct": 0},
+        # {"name": "pud_200", "dataset": load_pud200(), "broken": 0, "correct": 0},
+        # {"name": "pud_100", "dataset": load_pud100(), "broken": 0, "correct": 0},
+    ]
+
+    actual_pos = 0
+
+    for dataset_to_process in datasets:
+
+        extractions = dataset_to_process["dataset"]
+
+        for pos_sentence, value in enumerate(extractions.values()):
+            print(value["phrase"])
+            convert_to_conll(value, pos_sentence)
+            dataset_to_process["broken"] += value["broken"]
+            dataset_to_process["correct"] += value["correct"]
+
+    for pos_dataset, dataset_to_process in enumerate(datasets):
+        print(dataset_to_process["name"])
+        qt_quebrados = dataset_to_process["broken"]
+        qt_funfando = dataset_to_process["correct"]
+        print("Qtd de elementos quebrados: ", qt_quebrados)
+        print("Qtd de elementos funfando: ", qt_funfando)
+        print("Qtd de elementos totais: ", qt_quebrados + qt_funfando)
+
+        output_path = f"../datasets/meu_dataset/{dataset_to_process['name']}.conll"
+        dataset_to_save = dataset_to_process["dataset"].values()
+        save_data_as_conll(pos_dataset, output_path, dataset_to_save)

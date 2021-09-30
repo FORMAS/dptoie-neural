@@ -126,7 +126,7 @@ class BrokaTrainer(GradientDescentTrainer):
             if self._validation_data_loader is None:
                 fake_metrics = {
                     "loss": metrics["training_loss"],
-                    "f1-measure-overall": metrics["training_f1-measure-overall"],
+                    # "f1-measure-overall": metrics["training_f1-measure-overall"],
                 }
                 this_epoch_val_metric = self._metric_tracker.combined_score(fake_metrics)
                 self._metric_tracker.add_metrics(fake_metrics)

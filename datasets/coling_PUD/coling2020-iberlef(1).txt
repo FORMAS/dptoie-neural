@@ -1,0 +1,812 @@
+SENTENCE_ID	RELATION_ID	SENTENCE	ARGUMENT_1	ARGUMENT_1_CATEGORY1	RELATION	ARGUMENT_2	ARGUMENT_2_CATEGORY
+201	1	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	poderia abrir quatro contas Tesco	ganhar 3 % em £12000 –	none
+201	2	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	ganhar 3 % em	£12000 – £360	none
+201	3	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	abrirou quatro contas Tesco	ganhar 3 % em £12000 –	none
+201	4	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	ainda abrirou quatro contas Tesco	ganhar 3 % em £12000 –	none
+201	5	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	poderia abrir	quatro contas Tesco	none
+201	6	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	poderia abrir	quatro contas Teoricamente	none
+201	7	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	ganhar	3 %	none
+201	8	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	ganhar	3 % em £ 12000 – £ 360	none
+201	9	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	quatro contas	none	é	Tesco	none
+201	10	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	ganhar	3%	none
+201	11	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.	um casal	none	ganhar 3% em	£12000	none
+202	1	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes do Banco da Escócia	none	ganham 3 % em	balanços de £3000- £5000	none
+202	2	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	3 % em balanços de £3000- £5000	none	adicionam a opção gratuita Vantage às	suas contas	none
+202	3	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 %	none
+202	4	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 % em balanços de £	none
+202	5	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 % em balanços de £ 3000 - £ 5000	none
+202	6	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 % em balanços de £ 3000 - £ 5000 quando adicionam a opção gratuita Vantage a as suas contas	none
+202	7	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 % Entretanto	none
+202	8	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 % 3000 - £ 5000	none
+202	9	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	3 % quando adicionam a opção gratuita Vantage a as suas contas	none
+202	10	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	a opção gratuita	none	é	Vantage a as suas contas	none
+202	11	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes do Banco da Escócia	none	ganham 3 %	em balanços de £3000-£5000	none
+202	12	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes do Banco da Escócia	none	ganham 3 %	quando adicionam a opção gratuita Vantage às suas contas	none
+202	13	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham	-£5000	none
+202	14	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.	os clientes de o Banco de a Escócia	none	ganham -£5000 em	balanços de £3000	none
+203	1	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é capaz de acessar	dinheiro	none
+203	2	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é	capaz de acessar seu dinheiro	none
+203	3	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é	capaz de acessar seu dinheiro sempre que quiser	none
+203	4	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é	capaz de acessar seu dinheiro sempre Com isto	none
+203	5	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é	capaz de acessar seu dinheiro sempre Com isto em teoria	none
+203	6	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é capaz	Com isto em teoria	none
+203	7	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é capaz	de acessar seu dinheiro	none
+203	8	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	ser capaz	que quiser	none
+203	9	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	ser capaz que quiser Com	isto	none
+203	10	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	ser capaz que quiser de	acessar seu dinheiro sempre	none
+203	11	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.	você	none	é capaz de	acessar seu dinheiro	none
+204	1	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	Esta taxa de 3 %	none	aplica a titulares de	cartão Nectar	none
+204	2	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	a titulares de cartão Nectar	none	pensam em pedir emprestado	£15001-£19999	none
+204	3	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	Esta taxa de 3 %	none	também se aplica	titulares de cartão Nectar	none
+204	4	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	Esta taxa de 3 %	none	também se aplica	titulares de cartão Nectar que pensam em pedir emprestado 15001 - £ 19999	none
+204	5	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	Esta taxa de 3 %	none	também se aplica	titulares de cartão Nectar que pensam em pedir emprestado 15001 - £ 19999 durante um período de dois a três anos	none
+204	6	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	Esta taxa de 3 %	none	também se aplica	titulares de cartão Nectar que pensam durante um período de dois a três anos	none
+204	7	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	Esta taxa de 3 %	none	aplica a titulares	de cartão Nectar	none
+204	8	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	de cartão	none	pensam	em pedir emprestado £15001-£19999	none
+204	9	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	de cartão	none	pensam	em pedir emprestado £15001-£19999 durante um período de dois	none
+204	10	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	de cartão	none	pensam	em pedir emprestado £15001-£19999 durante um período a três anos	none
+204	11	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	a titulares de cartão Nectar	none	pensam	-£19999	none
+204	12	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	a titulares de cartão Nectar	none	pensam -£19999 em	pedir	none
+204	13	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	a titulares de cartão Nectar	none	pensam -£19999	emprestado £15001	none
+204	14	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	a titulares de cartão Nectar	none	pensam -£19999 durante	um período de dois a três anos	none
+204	15	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	taxa de 3%	none	se aplica	a titulares de cartão Nectar	none
+204	16	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.	taxa de 3%	none	se aplica a	titulares de cartão Nectar	none
+205	1	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	os solos no Reino Unido	none	são naturalmente deficientes deste	mineral	none
+205	2	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é um nutriente	vital para o crescimento saudável de as plantas	none
+205	3	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é um nutriente	vital para o crescimento saudável de as plantas mas os solos em o Reino Unido são naturalmente deficientes deste mineral	none
+205	4	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é um nutriente	para o crescimento saudável de as plantas	none
+205	5	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é um nutriente	mas os solos em o Reino Unido são naturalmente deficientes deste mineral	none
+205	6	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	os solos em o Reino Unido	none	são	naturalmente deficientes deste mineral	none
+205	7	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é	um nutriente vital	none
+205	8	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é	os solos em o Reino Unido são naturalmente deficientes deste mineral	none
+205	9	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é um nutriente	para o crescimento saudável das plantas	none
+205	10	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	os solos no Reino Unido	none	são naturalmente deficientes	deste mineral	none
+205	11	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	os solos	none	são	deficientes de este mineral	none
+205	12	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	os solos	none	são deficientes de este mineral em	o Reino Unido	none
+205	13	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	O enxofre	none	é um nutriente vital para	o crescimento saudável de as plantas	none
+205	14	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.	os solos no Reino Unido	none	são naturalmente deficientes de	este mineral	none
+206	1	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	avanço rápido para 2016 e	none	é cada vez mais digno de	atenção	none
+206	2	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	Um avanço	none	rápido	para 2016	none
+206	3	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	Um avanço	none	rápido	para 2016 e isso é cada vez mais digno de atenção	none
+206	4	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	Um avanço	none	rápido	e isso é cada vez mais digno de atenção	none
+206	5	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	isso	none	é cada vez	mais digno de atenção	none
+206	6	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	isso	none	é	cada vez mais digno de atenção	none
+206	7	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.	isso	none	é	mais digno de atenção	none
+207	1	Surpreendentemente como pode parecer, até as nuvens de chuvas ácidas podem ter um lado positivo.	as nuvens de chuvas ácidas	none	podem ter	um lado positivo	none
+207	2	Surpreendentemente como pode parecer, até as nuvens de chuvas ácidas podem ter um lado positivo.	como Surpreendentemente parecer até as nuvens de chuvas ácidas	none	podem ter	um lado positivo	none
+208	1	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar enfurecido	no entanto	none
+208	2	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	absurdo -	no entanto	none
+208	3	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	pelo	none	tem dignidade para continuar a protestar contra	esse fato	none
+208	4	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar	enfurecido - e absurdo em o entanto	none
+208	5	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar	enfurecido -	none
+208	6	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar	absurdo	none
+208	7	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	alguém	none	tem	dignidade	none
+208	8	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	alguém	none	tem	dignidade para continuar a protestar contra esse fato	none
+208	9	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	alguém	none	tem	dignidade por o menos	none
+208	10	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar	enfurecido	none
+208	11	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar enfurecido	dignidade para continuar a protestar	none
+208	12	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	O mundo	none	pode estar enfurecido	dignidade para continuar a protestar contra esse fato	none
+208	13	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	alguém	none	tem dignidade	pelo menos	none
+208	14	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	alguém	none	tem dignidade	para continuar a protestar	none
+208	15	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.	alguém	none	tem dignidade	para continuar a protestar contra esse fato	none
+209	1	Acaba ouvindo mais intensamente o barulho seguinte e ficando mais irritado quando ele surge.	o barulho	none	ficando mais irritado quando	ele	none
+209	2	Acaba ouvindo mais intensamente o barulho seguinte e ficando mais irritado quando ele surge.	Acaba	none	ouvindo	mais intensamente o barulho seguinte	none
+209	3	Acaba ouvindo mais intensamente o barulho seguinte e ficando mais irritado quando ele surge.	Acaba	none	ficando	mais irritado	none
+209	4	Acaba ouvindo mais intensamente o barulho seguinte e ficando mais irritado quando ele surge.	Acaba	none	ficando	mais irritado quando	none
+210	1	Isso é legitimamente horrível.	Isso	none	é	legitimamente horrível	none
+210	2	Isso é legitimamente horrível.	Isso	none	é	horrível	none
+211	1	É justo dizer que Rocco Catalano trabalha, vive e respira retro.	Rocco Catalano	none	respira	retro	none
+212	1	Penso que é por isso que eles se imergiram em padrões e cor.	Penso	none	é por	eles que eles	none
+212	2	Penso que é por isso que eles se imergiram em padrões e cor.	eles	none	imergiram em	padrões	none
+212	3	Penso que é por isso que eles se imergiram em padrões e cor.	eles	none	imergiram em	cor	none
+212	4	Penso que é por isso que eles se imergiram em padrões e cor.	por isso	none	imergiram	em padrões	none
+212	5	Penso que é por isso que eles se imergiram em padrões e cor.	eles	none	se imergiram em	padrões e cor	none
+212	6	Penso que é por isso que eles se imergiram em padrões e cor.	eles	none	imergiram em	padrões e cor	none
+213	1	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou para	a área	none
+213	2	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	área depois	none	viver em	Londres	none
+213	3	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	para a área	none
+213	4	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	para a área depois de viver em Londres	none
+213	5	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	para a área depois de viver em Londres e em Glasgow onde estudou design de jóias	none
+213	6	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	para a área depois de viver em Londres e em Glasgow onde estudou design de jóias em a Glasgow School of Art	none
+213	7	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	depois de viver em Londres	none
+213	8	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	depois de viver e em Glasgow onde estudou design de jóias	none
+213	9	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	depois de viver e em Glasgow onde estudou em a Glasgow School of Art	none
+213	10	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	para a área em Londres em Glasgow	none
+213	11	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou	onde estudou design de jóias na Glasgow School of Art	none
+213	12	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou para	a área depois de viver em Londres	none
+213	13	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou para	a área depois de viver em Londres e em Glasgow onde estudou design de jóias	none
+213	14	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou para	a área depois de viver em Londres e em Glasgow onde estudou design de jóias em a Glasgow School of Art	none
+213	15	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou para	a área em Londres em Glasgow	none
+213	16	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.	Catalano	none	voltou depois de	viver em Londres	none
+214	1	Eu adorei as cores tropicais, diz ele.	Eu	none	adorei	as cores tropicais	none
+214	2	Eu adorei as cores tropicais, diz ele.	as cores tropicais	none	diz	ele	none
+214	3	Eu adorei as cores tropicais, diz ele.	Eu	none	adorei	as cores tropicais diz ele	none
+214	4	Eu adorei as cores tropicais, diz ele.	Eu	none	adorei as cores tropicais	diz	none
+215	1	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários na	Universidade de Northampton	none
+215	2	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	os espetáculos universitários na Universidade de Northampton	none	encontrar	novos talentos	none
+215	3	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	novos talentos	none	diz	ele	none
+215	4	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei	os espetáculos universitários	none
+215	5	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei	os espetáculos universitários em a Universidade de Northampton	none
+215	6	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei	os espetáculos universitários em a Universidade de Northampton para encontrar novos talentos	none
+215	7	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei	os espetáculos universitários em a Universidade de Northampton para encontrar novos talentos diz	none
+215	8	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei	os espetáculos universitários para encontrar novos talentos	none
+215	9	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei	os espetáculos universitários diz	none
+215	10	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários	na Universidade de Northampton	none
+215	11	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários	para encontrar novos talentos	none
+215	12	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários	diz	none
+215	13	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários em	a Universidade de Northampton	none
+215	14	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários para	encontrar novos talentos	none
+215	15	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.	Eu	none	visitei os espetáculos universitários em	a Universidade de Northampton para encontrar novos talentos	none
+216	1	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	ela	none	use	a Frank	none
+216	2	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	ela	none	use	a Frank como sua modelo	none
+216	3	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	eu	none	sugiro	que	none
+216	4	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	ela	none	ri	quando	none
+216	5	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	eu	none	sugiro	que ela use a Frank como sua modelo	none
+216	6	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	ela	none	use a Frank	como sua modelo	none
+216	7	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.	ela	none	ri	quando eu sugiro que ela use a Frank como sua modelo	none
+217	1	Naturalmente, a paisagem do escritório apresenta muitas roupas e, no sentido de comida, pouco.	a paisagem de o escritório	none	apresenta	muitas roupas	none
+217	2	Naturalmente, a paisagem do escritório apresenta muitas roupas e, no sentido de comida, pouco.	a paisagem de o escritório	none	apresenta	muitas roupas e em o sentido de comida pouco	none
+217	3	Naturalmente, a paisagem do escritório apresenta muitas roupas e, no sentido de comida, pouco.	a paisagem de o escritório	none	apresenta	muitas roupas Naturalmente	none
+217	4	Naturalmente, a paisagem do escritório apresenta muitas roupas e, no sentido de comida, pouco.	a paisagem do escritório	none	apresenta	muitas roupas	none
+218	1	A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.	A própria Wintour	none	aparece rapidamente	e é filmada colocando	none
+218	2	A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.	A própria Wintour	none	é filmada colocando seus óculos de	sol	none
+218	3	A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.	A própria Wintour	none	é	filmada	none
+219	1	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.	Olhei para o motocross e	none	olhava em	fotografias	none
+219	2	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.	quanto	none	continuava a surgir a cara desta	mulher	none
+219	3	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.	fotografias	none	pareciam ser dos	anos 70	none
+219	4	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.	em fotografias	none	pareciam ser	de os anos 70	none
+219	5	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.	a cara de esta mulher	none	a surgir em	fotografias	none
+219	6	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.	70	none	pareciam	ser de os anos	none
+220	1	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	jogar com	e estou sempre à procura de musas	none
+220	2	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	estou sempre à	procura de musas	none
+220	3	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	procura de musas	none	encaixem porque é tão	interessante	none
+220	4	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	jogar	com isso	none
+220	5	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	estou	sempre a a procura de musas	none
+220	6	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	estou	sempre a a procura de musas que se encaixem	none
+220	7	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	estou	a a procura de musas	none
+220	8	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	estou	a a procura que se encaixem	none
+220	9	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	jogar com	isso	none
+220	10	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.	Amo	none	estou a	a procura de musas	none
+221	1	Na melhor das hipóteses, é ingênuo e, na pior, deixaria novamente o lobby das armas fora dos problemas.	melhor das hipóteses	none	é ingênuo	deixaria novamente o lobby das armas	none
+221	2	Na melhor das hipóteses, é ingênuo e, na pior, deixaria novamente o lobby das armas fora dos problemas.	melhor das hipóteses	none	deixaria novamente o lobby das	armas fora dos os problemas	none
+221	3	Na melhor das hipóteses, é ingênuo e, na pior, deixaria novamente o lobby das armas fora dos problemas.	melhor das hipóteses	none	deixou novamente o lobby das	armas fora dos os problemas	none
+221	4	Na melhor das hipóteses, é ingênuo e, na pior, deixaria novamente o lobby das armas fora dos problemas.	melhor das hipóteses	none	ainda deixou novamente o lobby das	armas fora dos os problemas	none
+222	1	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria espantado se uma proibição	um licenciamento	none
+222	2	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	um licenciamento	none	fosse com	base nestes fundamentos	none
+222	3	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficou espantado se uma proibição	um licenciamento	none
+222	4	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ainda ficou espantado se uma proibição	um licenciamento	none
+222	5	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	uma proibição ou um licenciamento	none	fosse	com base nestes fundamentos	none
+222	6	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	O seu representante de políticas de a natureza	none	é	Jeff Knott	none
+222	7	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria espantado	se	none
+222	8	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria	espantado	none
+222	9	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria espantado	se uma proibição ou um licenciamento fosse com base nestes fundamentos	none
+222	10	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	uma proibição	none	fosse	com base nestes fundamentos	none
+222	11	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria	se	none
+222	12	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria se com	base	none
+222	13	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	ficaria se em	estes fundamentos	none
+222	14	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	fosse com	base	none
+222	15	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".	Eu	none	fosse em	estes fundamentos	none
+223	1	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou em	conflito com muitos líderes conservadores desde o autor de a petição	none
+223	2	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou	em conflito	none
+223	3	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou	em conflito com muitos líderes conservadores desde o autor de a petição	none
+223	4	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou em	conflito com muitos líderes conservadores desde o autor de a petição Mark Avery a o apresentador de TV Chris Packham	none
+223	5	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou	com muitos líderes conservadores desde o autor de a petição	none
+223	6	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou	com muitos líderes conservadores desde o autor	none
+223	7	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou	com muitos líderes conservadores desde o autor Mark Avery a o apresentador de TV Chris Packham	none
+223	8	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	desde o autor de a petição	none	é	Mark Avery a o apresentador de TV Chris Packham	none
+223	9	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura do RSPB	none	colocou	em conflito com muitos líderes conservadores	none
+223	10	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura do RSPB	none	colocou	desde o autor da petição	none
+223	11	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura do RSPB	none	colocou	Mark Avery apresentador	none
+223	12	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	o colocou em	conflito com muitos líderes conservadores	none
+223	13	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	o colocou desde	o autor de a petição	none
+223	14	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	o colocou a	o apresentador de TV Chris Packham	none
+223	15	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou em	conflito	none
+223	16	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou em	conflito com muitos líderes conservadores desde o autor de a petição	none
+223	17	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.	A postura de o RSPB	none	também o colocou	em conflito com muitos líderes conservadores desde o autor de a petição Mark Avery a o apresentador de TV Chris Packham	none
+224	1	Vamos simplesmente dizer que ele está errado.	ele	none	está	errado	none
+226	1	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	um ponto diário em Marrocos	none	será em	pleno sábado	none
+226	2	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países	none	desenvolvidos questionam publicamente sobre	planos e	none
+226	3	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	Nisto	none	será	em pleno sábado	none
+226	4	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países desenvolvidos	none	se questionam	publicamente sobre seus planos e ambições	none
+226	5	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países desenvolvidos	none	se questionam	sobre seus planos e ambições	none
+226	6	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países desenvolvidos	none	se questionam	publicamente sobre seus planos	none
+226	7	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países desenvolvidos	none	se questionam	publicamente sobre ambições	none
+226	8	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	Nisto	none	será	em pleno sábado quando	none
+226	9	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	Nisto	none	será	quando	none
+226	10	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países	none	desenvolvidos	se questionam publicamente	none
+226	11	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	países	none	desenvolvidos	se questionam sobre seus planos	none
+226	12	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	um ponto diário	none	será em	Marrocos	none
+226	13	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.	um ponto diário	none	será em	pleno sábado	none
+227	1	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.	procura de formas possíveis	none	limitar o âmbito do	litígio	none
+227	2	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.	do litígio para apenas	none	tenham uma posição real no	projeto	none
+227	3	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.	apenas aqueles	none	tenham	uma posição real	none
+227	4	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.	apenas aqueles	none	tenham	uma posição real em o projeto	none
+227	5	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.	para apenas aqueles	none	tenham uma posição real	no projeto	none
+228	1	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	Céltico	none	pode colapsar disse um oficial da	UE	none
+228	2	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	os limites	none	propostos	disse um oficial da	none
+228	3	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau de o mar	none	pode colapsar	sem os limites propostos	none
+228	4	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau de o mar	none	pode colapsar	sem os limites propostos disse um oficial de a UE	none
+228	5	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau de o mar	none	pode colapsar	disse um oficial de a UE	none
+228	6	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau de o mar	none	é	Céltico	none
+228	7	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	Céltico	none	pode colapsar	sem os limites propostos	none
+228	8	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	Céltico	none	pode colapsar	sem os limites propostos disse um oficial de a UE	none
+228	9	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	Céltico	none	pode colapsar	disse um oficial de a UE	none
+228	10	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau do mar	none	pode colapsar	sem os limites	none
+228	11	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau do mar	none	pode colapsar	disse um oficial da UE	none
+228	12	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau de o mar Céltico	none	pode colapsar sem	os limites	none
+228	13	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.	O bacalhau de o mar	none	pode colapsar sem	os limites propostos	none
+229	1	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.	grandes promoções para o bacalhau a solha	none	foram também previstas	o linguado	none
+229	2	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.	grandes promoções para o bacalhau a solha	none	foram também previstas	o linguado o linguado - areeiro e o escamudo em os mares Celtas e Irlandeses	none
+229	3	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.	grandes promoções para o bacalhau a solha	none	foram também previstas	o linguado o linguado - areeiro	none
+229	4	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.	grandes promoções para o bacalhau a solha	none	foram também previstas	o linguado o escamudo	none
+229	5	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.	grandes promoções para o bacalhau a solha	none	foram também previstas	o linguado o escamudo em os mares Irlandeses	none
+230	1	Os conservacionistas saudaram o anúncio da comissão.	Os conservacionistas	none	saudaram o anúncio da	comissão	none
+230	2	Os conservacionistas saudaram o anúncio da comissão.	Os conservacionistas	none	saudaram	o anúncio de a comissão	none
+230	3	Os conservacionistas saudaram o anúncio da comissão.	Os conservacionistas	none	saudaram o anúncio	da comissão	none
+231	1	Apenas 50 eram mercados.	Apenas 50	none	eram	mercados	none
+232	1	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	O	none	foi apenas por	convite	none
+232	2	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	você	none	souber como pesquisar	acrescenta	none
+232	3	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	convite	none	acrescenta	o Dr Lee	none
+232	4	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	O	none	Agora foi	apenas por convite	none
+232	5	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	O	none	Agora foi	por convite	none
+232	6	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	muitos destes mercados	none	estão	facilmente acessíveis	none
+232	7	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	você	none	souber	pesquisar como	none
+232	8	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	muitos destes mercados	none	estão	facilmente acessíveis se	none
+232	9	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	O Agora	none	foi	por convite	none
+232	10	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	muitos destes mercados	none	estão facilmente acessíveis se você souber como pesquisar acrescenta	o Dr Lee	none
+232	11	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	você	none	souber	como pesquisar	none
+232	12	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.	muitos de esse mercados	none	estão	se você souber	none
+233	1	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	não	none	tinham no	nosso tempo	none
+233	2	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	pessoas sem crianças	none	expressam através da	sua desaprovação	none
+233	3	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	Eles	none	não os tinham	em o nosso tempo	none
+233	4	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	Eles	none	não os tinham	em o nosso tempo e pessoas sem crianças se expressam através de a sua desaprovação o seu ódio por a parentalidade moderna	none
+233	5	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	Eles	none	não os tinham	o seu ódio por a parentalidade moderna	none
+233	6	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	Eles	none	não os tinham	no nosso tempo	none
+233	7	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	Eles	none	não os tinham	sem crianças	none
+233	8	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	pessoas sem crianças	none	se expressam de	a sua desaprovação	none
+233	9	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.	Eles	none	não os tinham em	o nosso tempo	none
+235	1	Dia três, eu estava de volta no EMicro.	Dia três	none	estava de	volta no EMicro	none
+235	2	Dia três, eu estava de volta no EMicro.	eu	none	estava	de volta	none
+235	3	Dia três, eu estava de volta no EMicro.	eu	none	estava	de volta em o EMicro	none
+235	4	Dia três, eu estava de volta no EMicro.	eu	none	estava	Dia três	none
+235	5	Dia três, eu estava de volta no EMicro.	eu	none	estava	em o EMicro	none
+235	6	Dia três, eu estava de volta no EMicro.	eu	none	estava	de volta no EMicro	none
+235	7	Dia três, eu estava de volta no EMicro.	eu	none	estava em	o EMicro	none
+235	8	Dia três, eu estava de volta no EMicro.	eu	none	estava de	volta	none
+236	1	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando uma escassez de	pessoas com as habilidades necessárias	none
+236	2	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	uma escassez de pessoas com as habilidades necessárias	none	montar	uma defesa eficaz	none
+236	3	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando	uma escassez de pessoas	none
+236	4	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando	uma escassez de pessoas por extensão	none
+236	5	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando uma escassez	por extensão	none
+236	6	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando uma escassez	de pessoas	none
+236	7	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando uma escassez	com as habilidades necessárias	none
+236	8	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando uma escassez	para montar uma defesa eficaz	none
+236	9	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.	o Reino Unido	none	está enfrentando uma escassez de	pessoas	none
+237	1	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.	As empresas	none	podem tentar	criar um firewall entre sistemas sensíveis e potências estrangeiras	none
+237	2	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.	As empresas	none	podem tentar	criar um firewall entre sistemas sensíveis e potências estrangeiras mas nem sempre funciona	none
+237	3	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.	As empresas	none	podem tentar	criar um firewall entre sistemas sensíveis	none
+237	4	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.	As empresas	none	podem tentar	criar um firewall sensíveis entre potências estrangeiras	none
+237	5	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.	As empresas	none	podem tentar criar um firewall	entre sistemas sensíveis	none
+237	6	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.	As empresas	none	podem tentar criar um firewall entre	sistemas sensíveis	none
+238	1	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	um conceito	none	conhecido como	defesa ativa	none
+238	2	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	eles	none	podem por o menos colocar	armadilhas	none
+238	3	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	eles	none	podem por o menos colocar	armadilhas para confundir e impedir - um conceito conhecido como defesa ativa	none
+238	4	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	eles	none	podem pelo menos colocar armadilhas	pelo menos	none
+238	5	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	eles	none	podem pelo menos colocar	armadilhas	none
+238	6	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	eles	none	podem pelo menos colocar armadilhas	para confundir - um conceito conhecido como defesa ativa	none
+238	7	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".	eles	none	podem por	o menos colocar armadilhas	none
+239	1	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.	a minha lista	none	cresceu muito	cobriu quase todos os estados	none
+239	2	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.	a minha lista	none	cobriu quase todos os estados da	união	none
+239	3	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.	a minha lista	none	cresceu	Depois de ter descoberto uma rica discussão em a internet	none
+239	4	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.	a minha lista	none	cresceu	Depois de ter descoberto uma rica discussão em a internet sobre o assunto	none
+239	5	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.	a minha lista	none	cobriu	quase todos os estados de a união	none
+239	6	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.	a minha lista	none	cresceu	Depois de ter descoberto uma rica	none
+240	1	Eu avistei algumas.	Eu	none	avistei	algumas	none
+241	1	A minha próxima parada foi Bellingham, bem perto da fronteira canadense.	A minha próxima parada	none	foi	Bellingham	none
+241	2	A minha próxima parada foi Bellingham, bem perto da fronteira canadense.	A minha próxima parada	none	foi	Bellingham bem perto de a fronteira canadense	none
+242	1	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos em	direção ao o sul	none
+242	2	De volta ao trem, nós continuamos em direção ao o sul.	volta nós a o trem	none	continuamos	em direção a o o sul	none
+242	3	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos	De volta ao trem	none
+242	4	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos	em direção ao o sul	none
+242	5	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos	o sul	none
+242	6	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos o sul De	volta a o trem	none
+242	7	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos o sul em	direção	none
+242	8	De volta ao trem, nós continuamos em direção ao o sul.	nós	none	continuamos o sul a	o	none
+244	1	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda a plataforma	um trabalhador	none
+244	2	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda ao	longo do trem com um martelo	none
+244	3	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	cada estação	none	batendo gentilmente na	parte de baixo da carruagem	none
+244	4	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma	none
+244	5	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma e um trabalhador anda a o longo de o trem	none
+244	6	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma e um trabalhador anda a o longo de o trem com um martelo	none
+244	7	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma e um trabalhador anda a o longo de o trem com um martelo batendo gentilmente	none
+244	8	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma e um trabalhador anda a o longo de o trem com um martelo batendo gentilmente em a parte de baixo de a carruagem	none
+244	9	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma Em cada estação	none
+244	10	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma com um martelo	none
+244	11	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma batendo gentilmente	none
+244	12	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma batendo em a parte de baixo de a carruagem	none
+244	13	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	a o longo de o trem	none
+244	14	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	a o longo de o trem com um martelo	none
+244	15	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	a o longo de o trem com um martelo batendo gentilmente	none
+244	16	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	a o longo de o trem com um martelo batendo gentilmente em a parte de baixo de a carruagem	none
+244	17	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	com um martelo	none
+244	18	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	batendo gentilmente	none
+244	19	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda	batendo em a parte de baixo de a carruagem	none
+244	20	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda a plataforma	Em cada estação	none
+244	21	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda	a plataforma e um trabalhador	none
+244	22	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um guarda de chapéu vermelho	none	comanda a plataforma e um trabalhador Em	cada estação	none
+244	23	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda a	o longo de o trem	none
+244	24	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda a	o longo de o trem com um martelo	none
+244	25	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda a	o longo de o trem com um martelo batendo gentilmente	none
+244	26	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda a	o longo de o trem com um martelo batendo gentilmente em a parte de baixo de a carruagem	none
+244	27	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda com	um martelo	none
+244	28	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.	um trabalhador	none	anda ao longo de	o trem	none
+245	1	Depois, procure no mercado matinal (6:30 - 10:00): pirulitos de arroz, casulos de vespa (as pupas são consideradas um petisco), asas de frango, casca e folhas de moscadeira, sapos vivos e bagre.	as pupas	none	são consideradas	um petisco	none
+245	2	Depois, procure no mercado matinal (6:30 - 10:00): pirulitos de arroz, casulos de vespa (as pupas são consideradas um petisco), asas de frango, casca e folhas de moscadeira, sapos vivos e bagre.	pirulitos de arroz	none	são consideradas	um petisco	none
+246	1	A intervenção de Pequim é, possivelmente, a de maior alcance, desde a entrega de Hong Kong pelo Reino Unido em 1997.	A intervenção de Pequim	none	é desde	a entrega de Hong Kong pelo Reino Unido em 1997	none
+246	2	A intervenção de Pequim é, possivelmente, a de maior alcance, desde a entrega de Hong Kong pelo Reino Unido em 1997.	A intervenção de Pequim	none	é	a de maior alcance	none
+246	3	A intervenção de Pequim é, possivelmente, a de maior alcance, desde a entrega de Hong Kong pelo Reino Unido em 1997.	A intervenção de Pequim	none	é a de maior alcance desde	a entrega de Hong Kong por o Reino Unido	none
+246	4	A intervenção de Pequim é, possivelmente, a de maior alcance, desde a entrega de Hong Kong pelo Reino Unido em 1997.	A intervenção de Pequim	none	é a de maior alcance em	1997	none
+247	1	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.	O juramento	none	envolve legisladores jurando lealdade a	Hong Kong	none
+247	2	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.	O juramento	none	envolve	legisladores jurando lealdade a Hong Kong	none
+247	3	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.	O juramento	none	envolve	legisladores jurando lealdade a Hong Kong como parte de a República Popular de a China	none
+247	4	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.	O juramento	none	envolve legisladores jurando	lealdade a Hong Kong parte	none
+247	5	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.	O juramento	none	envolve	legisladores	none
+247	6	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.	O juramento	none	envolve legisladores	jurando lealdade a Hong Kong	none
+248	1	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	O governo de Hong Kong	none	argumentou que	o par	none
+248	2	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	o par	none	deve tomar	posse	none
+248	3	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	o par	none	não deve tomar	posse	none
+248	4	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	O governo de Hong Kong	none	é liderado	por legisladores pró - Pequim	none
+248	5	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	O governo de Hong Kong	none	argumentou	que	none
+248	6	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	O governo de Hong Kong	none	argumentou	que o par não deve tomar posse	none
+248	7	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	O governo de Hong Kong	none	é	liderado	none
+248	8	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.	O governo de Hong Kong	none	é liderado por	legisladores pró-Pequim	none
+249	1	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a sua intervenção	none	é necessária para evitar a paralisia legislativa contínua na	cidade	none
+249	2	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a paralisia legislativa contínua na cidade	none	disse	ele	none
+249	3	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a sua intervenção	none	é	necessária	none
+249	4	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a sua intervenção	none	é	necessária para evitar a paralisia legislativa contínua	none
+249	5	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a sua intervenção	none	é	necessária para evitar a paralisia legislativa contínua em a cidade	none
+249	6	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a sua intervenção	none	é	necessária em a cidade	none
+249	7	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	Pequim	none	acredita	que	none
+249	8	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	Pequim	none	acredita	que a sua intervenção é necessária	none
+249	9	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	Pequim	none	acredita	disse	none
+249	10	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	Pequim	none	acredita	que a sua intervenção é necessária para evitar a paralisia legislativa contínua em a cidade	none
+249	11	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.	a sua intervenção	none	é necessária para	evitar a paralisia legislativa contínua em a cidade	none
+250	1	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.	Hong Kong	none	estar se preparando	para uma onda de protestos	none
+250	2	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.	Hong Kong	none	estar se preparando	Entretanto	none
+250	3	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.	Hong Kong	none	estar se preparando	Entretanto parece	none
+250	4	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.	Hong Kong	none	parece estar se preparando	para uma onda de protestos	none
+250	5	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.	Hong Kong	none	parece estar se preparando para	uma onda de protestos	none
+251	1	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	Uma eleição legislativa	none	é francamente	a última coisa	none
+251	2	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	Ele	none	disse	em o Andrew Marr Show de a BBC	none
+251	3	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	o Governo	none	quer	que	none
+251	4	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	Ele	none	disse	no Andrew Marr Show da BBC	none
+251	5	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	Uma eleição legislativa	none	é	francamente	none
+251	6	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	a última coisa	none	é	francamente	none
+251	7	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	Uma eleição legislativa	none	é	a última coisa	none
+251	8	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	Ele	none	disse em	o Andrew Marr Show de a BBC	none
+251	9	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."	o Governo	none	quer	a última coisa	none
+252	1	É o sonho dele terminar a sua carreira aqui.	o sonho	none	terminar	a sua carreira	none
+253	1	Empatar um jogo que você dominou é simples de esquecer, mas fazê-lo três vezes em seguida sugere fraqueza.	você	none	dominou é simples de esquecer mas fazê -lo três vezes emsugere	fraqueza	none
+253	2	Empatar um jogo que você dominou é simples de esquecer, mas fazê-lo três vezes em seguida sugere fraqueza.	um jogo	none	é	simples de esquecer	none
+253	3	Empatar um jogo que você dominou é simples de esquecer, mas fazê-lo três vezes em seguida sugere fraqueza.	um jogo	none	dominou	que	none
+253	4	Empatar um jogo que você dominou é simples de esquecer, mas fazê-lo três vezes em seguida sugere fraqueza.	você	none	dominou	um jogo	none
+254	1	Estávamos tão desapontados porque perdemos seis pontos jogando em casa.	seis pontos	none	jogando em	casa	none
+255	1	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.	o caso de Andy quando	none	enfrentou	Benoît Paire	none
+255	2	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.	o caso de Andy Benoît Paire	none	enfrentou	Benoît Paire	none
+255	3	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.	Esse	none	foi	sem dúvida	none
+255	4	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.	o caso de Andy	none	foi	sem dúvida	none
+255	5	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.	Esse	none	foi	o caso de Andy	none
+255	6	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.	Esse	none	foi o caso de Andy sem	dúvida	none
+256	1	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está	fora de questão	none
+256	2	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está	fora de questão e ele parece estar a a procura de respostas	none
+256	3	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está	fora de questão e ele parece estar a a procura de respostas a toda hora	none
+256	4	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está	agora	none
+256	5	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está	e ele parece estar a a procura de respostas	none
+256	6	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está	e ele parece estar a toda hora	none
+256	7	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	ele	none	parece	estar a a procura de respostas	none
+256	8	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	ele	none	parece	estar a a procura de respostas a toda hora	none
+256	9	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	ele	none	parece estar	à procura de respostas a toda hora	none
+256	10	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	a toda hora	none	parece	estar a a procura de respostas	none
+256	11	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	tudo	none	está de	questão e ele	none
+256	12	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	ele	none	parece estar à	procura de respostas a toda hora	none
+256	13	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.	ele	none	parece estar a	a procura de respostas a toda hora	none
+257	1	Eu também penso se a Taça Davis desempenhou algum papel.	Eu	none	penso se	a Taça Davis	none
+257	2	Eu também penso se a Taça Davis desempenhou algum papel.	a Taça Davis	none	desempenhou	algum papel	none
+257	3	Eu também penso se a Taça Davis desempenhou algum papel.	Eu	none	também penso	se	none
+257	4	Eu também penso se a Taça Davis desempenhou algum papel.	Eu	none	penso	se a Taça Davis desempenhou algum papel	none
+258	1	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	A pesquisa anual	none	revelou que as preocupações sobre assumir	novos encargos financeiros	none
+258	2	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	A pesquisa anual	none	também revelou	que as preocupações sobre assumir novos encargos financeiros	none
+258	3	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	A pesquisa anual	none	também revelou	que as preocupações sobre assumir novos encargos financeiros têm disparado	none
+258	4	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	A pesquisa anual	none	também revelou	que as preocupações sobre assumir têm disparado	none
+258	5	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	A pesquisa anual	none	revelou	que as preocupações sobre assumir novos encargos financeiros têm disparado	none
+258	6	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	as preocupações financeiros	none	têm	disparado	none
+258	7	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.	as preocupações sobre assumir novos encargos financeiros	none	têm	disparado	none
+259	1	O senhor Hopley acrescentou: "O aumento do risco político não deve passar despercebido".	Hopley	none	acrescentou	: O aumento do	none
+259	2	O senhor Hopley acrescentou: "O aumento do risco político não deve passar despercebido".	O senhor	none	é	Hopley	none
+259	3	O senhor Hopley acrescentou: "O aumento do risco político não deve passar despercebido".	O aumento do risco político	none	não deve passar	despercebido	none
+259	4	O senhor Hopley acrescentou: "O aumento do risco político não deve passar despercebido".	O aumento de o risco político	none	não deve passar	despercebido	none
+260	1	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	-	none	tinha funcionado durante	anos	none
+260	2	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	anos	none	limpou dezenas de	bilhões de euros do valor da VW	none
+260	3	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	anos	none	custou ao	executivo principal	none
+260	4	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	anos	none	custou ao	executivo Martin Winterkorn	none
+260	5	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	limpou	dezenas de bilhões de euros de o valor de a VW	none
+260	6	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	limpou	dezenas de bilhões de euros de o valor de a VW Martin Winterkorn	none
+260	7	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	limpou	dezenas de bilhões de euros de o valor de a VW Martin Winterkorn o seu trabalho	none
+260	8	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	limpou	dezenas de bilhões de euros de o valor de a VW durante anos -	none
+260	9	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	limpou	dezenas de bilhões de euros de o valor de a VW o seu trabalho	none
+260	10	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	custou	a o executivo principal	none
+260	11	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	limpou dezenas de bilhões de euros de o valor de a VW	none	é	Martin Winterkorn	none
+260	12	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia da fraude da companhia -	none	limpou dezenas	de bilhões de euros	none
+260	13	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia da fraude da companhia -	none	limpou dezenas	do valor da VW	none
+260	14	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	da fraude da companhia -	none	tinha funcionado	durante anos	none
+260	15	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de a fraude de a companhia -	none	custou a	o executivo principal	none
+260	16	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia da fraude da companhia -	none	limpou dezenas de	bilhões de euros	none
+260	17	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.	A notícia de fraude da companhia	none	custou a	o executivo principal	none
+261	1	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	abriu a	VW para reivindicações	none
+261	2	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	viu elas levarem mais que	€16 bilhões de provisões	none
+261	3	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	também abriu	a VW	none
+261	4	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	também abriu	a VW para reivindicações e ações legais imensas	none
+261	5	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	também abriu	a VW para reivindicações	none
+261	6	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	também abriu	a VW para ações legais imensas	none
+261	7	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	elas	none	levarem	mais que € 16 bilhões	none
+261	8	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	elas	none	levarem	mais que € 16 bilhões de provisões	none
+261	9	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	elas	none	levarem	que € 16 bilhões	none
+261	10	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	elas	none	levarem	que € de provisões	none
+261	11	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	viu	elas levarem mais que € 16 bilhões	none
+261	12	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	viu	elas levarem mais que € 16 bilhões de provisões	none
+261	13	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	abriu	a VW	none
+261	14	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	abriu a VW	para reivindicações	none
+261	15	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	elas	none	levarem	mais que €16 bilhões de provisões	none
+261	16	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	abriu a VW para	reivindicações e ações legais imensas	none
+261	17	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.	Isso	none	abriu a VW para	reivindicações	none
+262	1	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou em	junho	none
+262	2	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	Herbert Diess	none	permanece na	fabricante de automóveis	none
+262	3	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	em junho	none
+262	4	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	em junho com foco em o Sr Winterkorn	none
+262	5	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	em junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess	none
+262	6	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	em junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess que permanece em a fabricante de automóveis	none
+262	7	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	com foco em o Sr Winterkorn	none
+262	8	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	com foco em o Sr e em o chefe de marca Herbert Diess	none
+262	9	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	com foco em o Sr que permanece em a fabricante de automóveis	none
+262	10	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	em junho com foco Winterkorn em o chefe de marca	none
+262	11	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	o Sr e em o chefe de marca	none	permanece	em a fabricante de automóveis	none
+262	12	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	o Sr	none	é	Winterkorn	none
+262	13	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	o Sr	none	é	Herbert Diess	none
+262	14	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	Winterkorn e em o chefe de marca	none	permanece	em a fabricante de automóveis	none
+262	15	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	Herbert Diess e em o chefe de marca	none	permanece	em a fabricante de automóveis	none
+262	16	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou	com foco no Sr	none
+262	17	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	no chefe de marca	none	permanece	na fabricante de automóveis	none
+262	18	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	marca	none	permanece em	a fabricante de automóveis	none
+262	19	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou com	foco em o Sr Winterkorn e em o chefe	none
+262	20	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou de	marca	none
+262	21	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou em	junho com foco em o Sr Winterkorn	none
+262	22	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou em	junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess	none
+262	23	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou em	junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess que permanece em a fabricante de automóveis	none
+262	24	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.	A sondagem	none	começou com	foco em o Sr Winterkorn	none
+263	1	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.	Ele	none	foi promovido a	presidente em outubro de 2015	none
+263	2	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.	Ele	none	foi promovido a presidente	em outubro de 2015	none
+263	3	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.	o mês seguinte	none	ter sido descoberto a	o escândalo	none
+263	4	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.	Ele	none	foi promovido	a presidente	none
+263	5	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.	Ele	none	foi promovido a presidente em	outubro de 2015	none
+264	1	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	vez	none	têm conseguido manter	o crescimento constante	none
+264	2	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	As empresas	none	esperavam	começar a decrescer em julho	none
+264	3	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	As empresas	none	esperavam	começar a decrescer em julho imediatamente após o voto de o Brexit	none
+264	4	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	As empresas	none	esperavam	começar a decrescer em julho imediatamente após o voto de o Brexit mas em vez disso têm conseguido manter o crescimento constante	none
+264	5	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	As empresas	none	esperavam começar a decrescer	em julho	none
+264	6	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	As empresas	none	esperavam começar a decrescer	imediatamente após o voto do Brexit	none
+264	7	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.	As empresas	none	esperavam começar a decrescer em	julho	none
+265	1	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	atacado expandiram	uma vez	none
+265	2	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	os lojistas	none	continuam otimistas	as companhias de serviço ao cliente	none
+265	3	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	também cresceram	se expandiram uma vez que os lojistas continuam otimistas e as companhias de serviço a o cliente	none
+265	4	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	também cresceram	as companhias	none
+265	5	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	também cresceram	as companhias se expandiram de serviço	none
+265	6	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	também cresceram	se expandiram de serviço	none
+265	7	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	que os lojistas	none	continuam	otimistas	none
+265	8	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	atacado	se expandiram	none
+265	9	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	atacado	uma vez que os lojistas continuam otimistas	none
+265	10	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	Os negócios de varejo	none	atacado	também cresceram	none
+265	11	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	os lojistas	none	continuam	otimistas	none
+265	12	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.	as companhias de serviço	none	cresceram a	o cliente	none
+266	1	No entanto, haverá limites para a sua capacidade de gastar uma vez que o Governo ainda tem um grande déficit orçamental.	limites para a sua capacidade	none	gastar	uma vez	none
+266	2	No entanto, haverá limites para a sua capacidade de gastar uma vez que o Governo ainda tem um grande déficit orçamental.	o Governo	none	tem	um grande déficit orçamental	none
+266	3	No entanto, haverá limites para a sua capacidade de gastar uma vez que o Governo ainda tem um grande déficit orçamental.	o Governo	none	ainda tem	um grande déficit orçamental	none
+267	1	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	O custo	none	vai mudar mensalmente	é esperado	none
+267	2	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	O custo	none	é esperado que	o preço	none
+267	3	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	o preço	none	aumente no	inverno	none
+267	4	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	o preço	none	aumente	em o inverno	none
+267	5	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	preço que aumente tal	none	aumenta	como o uso	none
+267	6	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	o preço	none	aumente em	o inverno	none
+267	7	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.	o preço	none	aumente	no inverno	none
+268	1	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa	none	fixa da	Eon	none
+268	2	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	Eon	none	custa £760	os clientes da Avro Energy	none
+268	3	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	os clientes da Avro Energy	none	pagariam cerca de £760 pela	sua tarifa Simple and Select	none
+268	4	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	os clientes da Avro Energy	none	pagaram cerca de £760 pela	sua tarifa Simple and Select	none
+268	5	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	os clientes da Avro Energy	none	ainda pagaram cerca de £760 pela	sua tarifa Simple and Select	none
+268	6	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa fixa de a Eon	none	custa	760 e os clientes de a Avro Energy	none
+268	7	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa fixa de a Eon	none	custa	760 e os clientes de a Avro Energy pagariam £ 760	none
+268	8	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa fixa de a Eon	none	custa	760 e os clientes de a Avro Energy pagariam £ 760 por a sua tarifa Simple and	none
+268	9	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa fixa de a Eon	none	custa	760 e os clientes de a Avro Energy por a sua tarifa Simple and	none
+268	10	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	a sua tarifa	none	é	Simple and	none
+268	11	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa fixa da Eon	none	custa	£760	none
+268	12	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	os clientes de a Avro Energy	none	pagariam de	£760	none
+268	13	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	os clientes de a Avro Energy	none	pagariam por	a sua tarifa Simple	none
+268	14	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	A taxa	none	custa	£760	none
+268	15	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.	os clientes da Avro Energy	none	pagariam cerca de £760 por	sua tarifa Simple and Select	none
+270	1	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	£10000 em títulos	none	poderia esperar receber £125 em	prêmios	none
+270	2	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	£10000 em títulos	none	esperou receber £125 em	prêmios	none
+270	3	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	£10000 em títulos	none	ainda esperou receber £125 em	prêmios	none
+270	4	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	Um investidor com alguma sorte e £ 10000 em títulos	none	poderia esperar	receber £ 125 em prêmios	none
+270	5	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	Um investidor com alguma sorte e £ 10000 em títulos	none	poderia esperar	receber £ 125 em prêmios por ano	none
+270	6	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	Um investidor com alguma sorte	none	poderia esperar receber	£125	none
+270	7	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	Um investidor com alguma sorte	none	poderia esperar receber	em prêmios	none
+270	8	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.	Um investidor com alguma sorte	none	poderia esperar receber	por ano	none
+271	1	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	seria indistinguível das	contas poupança	none
+271	2	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	serou indistinguível das	contas poupança	none
+271	3	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	ainda serou indistinguível das	contas poupança	none
+271	4	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	seria	Se	none
+271	5	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	seria indistinguível	Se eles o fizessem	none
+271	6	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	seria indistinguível	das contas	none
+271	7	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.	a Premium Bonds	none	seria	comuns	none
+272	1	O dinheiro investido no Premium Bonds, e em outras contas do National Savings & Investments, é usado para ajudar a financiar os gastos do Governo.	O dinheiro	none	investido no	Premium Bonds	none
+272	2	O dinheiro investido no Premium Bonds, e em outras contas do National Savings & Investments, é usado para ajudar a financiar os gastos do Governo.	Premium Bonds	none	é usado para ajudar a financiar os gastos do	Governo	none
+272	3	O dinheiro investido no Premium Bonds, e em outras contas do National Savings & Investments, é usado para ajudar a financiar os gastos do Governo.	O dinheiro	none	investido	no Premium Bonds	none
+273	1	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	impediu os investidores de reunirem para colocar o seu dinheiro nos	fundos	none
+273	2	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu	os investidores de se reunirem para colocar o seu dinheiro	none
+273	3	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu	os investidores de se reunirem para colocar o seu dinheiro em os fundos	none
+273	4	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu os investidores	de se reunirem para colocar o seu dinheiro	none
+273	5	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu os investidores	de se reunirem para colocar o seu dinheiro nos fundos	none
+273	6	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu	os investidores	none
+273	7	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu os investidores de	se reunirem	none
+273	8	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu os investidores para	colocar o seu dinheiro em os fundos	none
+273	9	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu os investidores de	se reunirem para colocar o seu dinheiro	none
+273	10	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.	Isso	none	não impediu os investidores de	se reunirem para colocar o seu dinheiro nos fundos	none
+274	1	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	Ele	none	foi seguido pelos	fundos Aviva Investors Multi Strategy Target Return and Income	none
+274	2	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram £	2bn	none
+274	3	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	Ele	none	foi seguido	por os fundos Aviva Investors Multi Strategy Target Return and	none
+274	4	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	£ 2bn e £ 14bn respectivamente	none
+274	5	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	em os quais	none
+274	6	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	£ 2bn	none
+274	7	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	£ 2bn em os quais	none
+274	8	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	£ 14bn	none
+274	9	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	£ 14bn em os quais	none
+274	10	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os fundos	none	é	Aviva Investors Multi Strategy	none
+274	11	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	Aviva Investors Multi Strategy	none	é	Target Return and	none
+274	12	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	Ele	none	foi seguido	pelos fundos Aviva	none
+274	13	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	Ele	none	foi seguido	nos quais os investidores	none
+274	14	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram	2bn	none
+274	15	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	os investidores	none	colocaram 2bn	Income	none
+274	16	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.	Ele	none	foi seguido pelos	fundos Aviva Investors Multi Strategy Target Return	none
+275	1	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram	de a elevação que a queda de a libra deu a os ativos financeiros	none
+275	2	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram	de a elevação que a queda de a libra deu a os ativos financeiros exteriores	none
+275	3	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram	de a elevação que a queda de a libra deu exteriores	none
+275	4	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	a queda de a libra	none	deu	a os ativos financeiros	none
+275	5	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	a queda de a libra	none	deu	a os ativos financeiros exteriores	none
+275	6	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	a queda de a libra	none	deu	a os ativos financeiros que	none
+275	7	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	Isto	none	significa	que	none
+275	8	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	Isto	none	significa	que eles não se beneficiaram da elevação	none
+275	9	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram	da elevação	none
+275	10	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	a queda de a libra	none	deu	a elevação	none
+275	11	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	a queda de a libra	none	deu a elevação a	os ativos financeiros exteriores	none
+275	12	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	Isto	none	significa	que eles não se beneficiaram de a elevação	none
+275	13	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram de	a elevação	none
+275	14	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram de	a elevação que a queda de a libra deu a os ativos financeiros	none
+275	15	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.	eles	none	não se beneficiaram de	a elevação que a queda de a libra deu a os ativos financeiros exteriores	none
+276	1	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando a limpar os oceanos da	Terra	none
+276	2	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os oceanos da Terra	none	usando	os resíduos	none
+276	3	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	mundo	none	fazer	sapatos	none
+276	4	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando	a limpar os oceanos de a Terra	none
+276	5	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando	a limpar os oceanos de a Terra usando os resíduos que flutuam por o mundo	none
+276	6	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando	a limpar os oceanos de a Terra usando os resíduos que flutuam por o mundo para fazer sapatos	none
+276	7	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando	usando os resíduos que flutuam por o mundo	none
+276	8	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando	usando os resíduos que flutuam para fazer sapatos	none
+276	9	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os resíduos	none	flutuam	por o mundo	none
+276	10	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os resíduos	none	flutuam	por o mundo para fazer sapatos	none
+276	11	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os resíduos	none	flutuam	para fazer sapatos	none
+276	12	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	A Adidas	none	está ajudando	a limpar os oceanos da Terra	none
+276	13	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os resíduos	none	flutuam	pelo mundo	none
+276	14	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os resíduos	none	flutuam por	o mundo	none
+276	15	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.	os resíduos	none	flutuam para	fazer sapatos	none
+277	1	O consumidor pode impulsionar a procura pela mudança.	O consumidor	none	pode impulsionar a procura pela	mudança	none
+277	2	O consumidor pode impulsionar a procura pela mudança.	O consumidor	none	pode impulsionar	a procura por a mudança	none
+277	3	O consumidor pode impulsionar a procura pela mudança.	O consumidor	none	pode impulsionar a procura	pela mudança	none
+277	4	O consumidor pode impulsionar a procura pela mudança.	O consumidor	none	pode impulsionar	a procura	none
+277	5	O consumidor pode impulsionar a procura pela mudança.	O consumidor	none	pode impulsionar a procura por	a mudança	none
+278	1	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam mais plástico do	peixes até 2050	none
+278	2	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	o mundo	none	tomasse uma atitude radical para impedir que	os lixos	none
+278	3	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os lixos	none	vazassem para	os mares	none
+278	4	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	contaram mais plástico do	peixes até 2050	none
+278	5	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	ainda contaram mais plástico do	peixes até 2050	none
+278	6	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse	Em janeiro	none
+278	7	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	tomasse	uma atitude radical	none
+278	8	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os lixos	none	vazassem	para os mares	none
+278	9	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam	mais plástico de o que peixes	none
+278	10	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam	mais plástico de o que peixes até 2050	none
+278	11	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam	mais plástico de o que peixes até 2050 a menos que o mundo	none
+278	12	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam	mais plástico de o que peixes a menos que o mundo	none
+278	13	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse	que	none
+278	14	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	tomasse	uma atitude radical para impedir	none
+278	15	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	tomasse	uma atitude radical para impedir que	none
+278	16	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	tomasse	que	none
+278	17	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse	que os oceanos conteriam mais plástico	none
+278	18	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse	que os oceanos conteriam mais plástico do que peixes até 2050	none
+278	19	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse	que os oceanos conteriam mais plástico a menos que o mundo tomasse uma atitude radical	none
+278	20	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse	que os oceanos conteriam mais plástico a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares	none
+278	21	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam	mais plástico	none
+278	22	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam mais plástico	do que peixes até 2050	none
+278	23	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam mais plástico	a menos que o mundo tomasse uma atitude radical	none
+278	24	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam mais plástico	a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares	none
+278	25	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	o mundo	none	tomasse	uma atitude radical	none
+278	26	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	o mundo	none	tomasse uma atitude radical	para impedir que os lixos vazassem para os mares	none
+278	27	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	os oceanos	none	conteriam	plástico	none
+278	28	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	o mundo	none	tomasse	que os lixos vazassem para os mares	none
+278	29	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	o mundo	none	tomasse que os lixos vazassem para os mares para	impedir	none
+278	30	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.	um relatório importante	none	disse que os oceanos conteriam mais plástico Em	janeiro	none
+279	1	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	algumas cirurgias geniais e	none	trabalho duro de	reabilitação	none
+279	2	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	algumas cirurgias geniais e	none	tive	uma recuperação completa	none
+279	3	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	eu	none	tive	uma recuperação completa	none
+279	4	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	eu	none	tive	uma recuperação completa Após algumas cirurgias geniais e muito trabalho duro de reabilitação	none
+279	5	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	eu	none	tive	Após muito trabalho	none
+279	6	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	eu	none	tive	Após muito trabalho Após algumas cirurgias geniais duro de reabilitação	none
+279	7	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	eu	none	tive	uma recuperação completa Após algumas cirurgias geniais duro de reabilitação	none
+279	8	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.	eu	none	tive uma recuperação completa	Após algumas cirurgias geniais	none
+280	1	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	o SNS	none	estava agora sob	enorme pressão	none
+280	2	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	o SNS	none	pediu ao	público	none
+280	3	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	público	none	assumir mais responsabilidade pela	sua própria saúde	none
+280	4	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	o SNS	none	estava	agora sob enorme pressão	none
+280	5	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	o SNS	none	estava	sob enorme pressão	none
+280	6	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu	a o público para assumir mais responsabilidade	none
+280	7	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu	a o público por a sua própria saúde	none
+280	8	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu	a o público para assumir mais responsabilidade por a sua própria saúde que	none
+280	9	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu	a o público	none
+280	10	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu	a o público para assumir mais responsabilidade por a sua própria saúde	none
+280	11	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	o SNS	none	estava	sob enorme pressão	none
+280	12	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu	ao público	none
+280	13	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu ao público	para assumir mais responsabilidade pela sua própria saúde	none
+280	14	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu a	o público	none
+280	15	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu para	assumir mais responsabilidade por a sua própria saúde	none
+280	16	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	o SNS	none	estava sob	enorme pressão	none
+280	17	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu a	o público para assumir mais responsabilidade	none
+280	18	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.	ele	none	pediu a	o público para assumir mais responsabilidade por a sua própria saúde que	none
+281	1	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram feridos	devido ao mau tempo	none
+281	2	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	nove em cada dez	none	subestimam o quão fria a	Grã-Bretanha	none
+281	3	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	o quão fria a Grã-Bretanha	none	pode ser no	inverno	none
+281	4	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram	feridos	none
+281	5	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram	feridos devido a o mau tempo	none
+281	6	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram	feridos devido a o mau tempo subestimam enquanto nove em cada dez	none
+281	7	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram	feridos devido a o mau tempo subestimam enquanto nove em cada dez o	none
+281	8	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram	feridos subestimam enquanto nove em cada dez	none
+281	9	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram	feridos o	none
+281	10	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	quão fria a Grã - Bretanha	none	pode ser	em o inverno	none
+281	11	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro em cada 10 adultos	none	ficaram feridos	devido ao mau tempo	none
+281	12	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	nove em cada dez	none	subestimam o quão fria	a Grã-Bretanha	none
+281	13	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro	none	ficaram	feridos	none
+281	14	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro	none	ficaram feridos em	cada 10 adultos	none
+281	15	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro	none	ficaram feridos	devido a o mau tempo	none
+281	16	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.	Quatro	none	ficaram feridos devido	ao mau tempo	none
+282	1	Eles vão atuar no sábado, 10 de junho.	Eles	none	vão atuar no	sábado	none
+282	2	Eles vão atuar no sábado, 10 de junho.	Eles	none	vão atuar	em o sábado 10 de junho	none
+282	3	Eles vão atuar no sábado, 10 de junho.	Eles	none	vão atuar	no sábado	none
+282	4	Eles vão atuar no sábado, 10 de junho.	Eles	none	vão atuar	10 de junho	none
+282	5	Eles vão atuar no sábado, 10 de junho.	Eles	none	vão atuar em	o sábado 10 de junho	none
+282	6	Eles vão atuar no sábado, 10 de junho.	Eles	none	vão atuar em	o sábado	none
+283	1	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano	none	passado foi um ano incrível	estou	none
+283	2	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano	none	estou pronto para possamos voltar ainda melhor em	2017	none
+283	3	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	foi um ano incrível e estou	none	passado	O ano	none
+283	4	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano passado	none	estou	pronto	none
+283	5	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano passado	none	estou	pronto para que possamos voltar ainda melhor	none
+283	6	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano passado	none	estou	pronto para que possamos voltar ainda melhor em 2017	none
+283	7	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano passado	none	estou	pronto em 2017	none
+283	8	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano passado	none	foi	um ano incrível	none
+283	9	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano	none	foi	pronto	none
+283	10	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.	O ano	none	estou	pronto	none
+284	1	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou no	RSC no meio dos anos	none
+284	2	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	RSC no meio dos anos	none	atuando como internada de	asilo no Marat/Sade	none
+284	3	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	em o RSC	none
+284	4	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	em o RSC em o meio de os anos sessenta	none
+284	5	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	em o RSC em o meio de os anos sessenta atuando como internada de asilo	none
+284	6	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	em o RSC em o meio de os anos sessenta atuando como internada de asilo em o Marat Sade	none
+284	7	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	em o meio de os anos sessenta	none
+284	8	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	atuando como internada de asilo	none
+284	9	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	atuando em o Marat Sade	none
+284	10	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	no RSC	none
+284	11	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	no meio dos anos sessenta	none
+284	12	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou	atuando como internada de asilo no Marat/Sade	none
+284	13	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou em	o RSC	none
+284	14	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou em	o meio de os anos sessenta	none
+284	15	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou em	o RSC em o meio de os anos sessenta atuando como internada de asilo	none
+284	16	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou em	o RSC em o meio de os anos sessenta	none
+284	17	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.	Ela	none	começou em	o RSC em o meio de os anos sessenta atuando como internada de asilo em o Marat Sade	none
+285	1	O vestido é contemporâneo.	O vestido	none	é	contemporâneo	none
+286	1	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?	uma força	none	induzir ondas de	choque	none
+286	2	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?	essa sua voz	none	pode explodir	com uma força	none
+286	3	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?	essa sua voz	none	pode explodir	com uma força para induzir ondas de choque	none
+286	4	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?	essa sua voz	none	pode explodir	para induzir ondas de choque	none
+286	5	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?	sua voz	none	pode explodir com	uma força	none
+286	6	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?	essa sua voz	none	pode explodir com	uma força para induzir ondas de choque	none
+287	1	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	O seu pescoço	none	avança em	confronto com veias acentuadas	none
+287	2	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	confronto com veias	none	acentuadas	as suas mãos	none
+287	3	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	O seu pescoço	none	avança	em confronto	none
+287	4	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	O seu pescoço	none	avança	em confronto com veias acentuadas	none
+287	5	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	O seu pescoço	none	avança	em confronto com veias acentuadas as suas mãos tremem	none
+287	6	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	O seu pescoço	none	avança	com veias acentuadas	none
+287	7	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.	O seu pescoço	none	avança	as suas mãos tremem	none
+288	1	Mas tendo permitido que Glenda mandasse tão bem, quem poderia culpá-lo?	Glenda	none	mandasse	tão bem	none
+288	2	Mas tendo permitido que Glenda mandasse tão bem, quem poderia culpá-lo?	quem	none	poderia culpá -	lo	none
+289	1	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou no	das	none
+289	2	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou	em o setor de as notícias	none
+289	3	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou	em o setor de as notícias e de os assuntos atuais em a rádio e em a televisão durante décadas	none
+289	4	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou	em o setor e de os assuntos atuais em a rádio e em a televisão durante décadas	none
+289	5	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou	de as notícias de os assuntos atuais em a televisão durante décadas	none
+289	6	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou	no setor das notícias	none
+289	7	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou	na rádio durante décadas	none
+289	8	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou em	o setor de as notícias e em a rádio	none
+289	9	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou em	a rádio durante décadas	none
+289	10	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou em	o setor de as notícias	none
+289	11	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou em a rádio durante	décadas	none
+289	12	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.	Ele	none	trabalhou em	o setor de as notícias e rádio	none
+292	1	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	a própria contagem do diretor	none	fez	oito longas-metragens	none
+292	2	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	ele	none	fez	oito longas - metragens	none
+292	3	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	ele	none	fez	Segundo a própria contagem de o diretor	none
+292	4	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	ele	none	fez	Segundo a própria contagem de o diretor até a a data	none
+292	5	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	do diretor	none	fez	oito longas-metragens	none
+292	6	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	ele	none	fez	oito longas-metragens	none
+292	7	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.	ele	none	fez oito longas-metragens a	a data	none
+293	1	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	O cinema	none	tinha mudado tão drasticamente que	Hollywood	none
+293	2	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	Hollywood	none	tinha alienado	o público familiar	none
+293	3	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	Hollywood	none	tinha	alienado o público familiar	none
+293	4	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	O cinema	none	tinha mudado	tão drasticamente que	none
+293	5	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	O cinema	none	tinha mudado	que	none
+293	6	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	O cinema	none	tinha mudado	tão drasticamente	none
+293	7	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	tão drasticamente	none	tinha	alienado o público familiar	none
+293	8	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	O cinema	none	tinha mudado	que Hollywood tinha alienado o público familiar	none
+293	9	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.	Hollywood	none	tinha	o público familiar	none
+294	1	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é	um ato precário	none
+294	2	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	ponto de vista do realizador	none	balançando -se entre	comédias familiares	none
+294	3	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	um ato precário	none	é	o filme	none
+294	4	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	precário balançando - entre comédias familiares e dramas sociais	none
+294	5	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	precário balançando - entre comédias familiares e dramas sociais profundos	none
+294	6	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	de o ponto de vista	none
+294	7	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	de o ponto de vista de o realizador	none
+294	8	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	balançando - entre comédias familiares e dramas sociais	none
+294	9	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	balançando - entre comédias familiares profundos	none
+294	10	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	precário balançando - entre comédias familiares	none
+294	11	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	precário balançando - entre comédias familiares de o ponto de vista de o realizador	none
+294	12	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	precário balançando - entre comédias dramas sociais	none
+294	13	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	precário balançando - entre comédias dramas sociais de o ponto de vista de o realizador	none
+294	14	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é	um ato de o ponto de vista	none
+294	15	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato	Do ponto de vista do realizador	none
+294	16	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.	o filme	none	é um ato precário Do	ponto de vista de o realizador	none
+295	1	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	A um nível	none	funciona como um aconchegador de	corações amigável e despretensioso	none
+295	2	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito à	medida para uma sessão de domingo à tarde	none
+295	3	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito	a a medida	none
+295	4	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito	a a medida para uma sessão de domingo	none
+295	5	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito	a a medida para uma sessão de domingo a a tarde	none
+295	6	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito	para uma sessão de domingo	none
+295	7	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito	para uma sessão a a tarde	none
+295	8	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	A um nível	none	parece feito	à medida para uma sessão de domingo	none
+295	9	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	A um nível	none	parece feito	à medida para uma sessão à tarde	none
+295	10	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	A um nível	none	parece	feito a a medida para uma sessão	none
+295	11	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito a	a medida	none
+295	12	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.	um aconchegador de corações amigável e despretensioso	none	parece feito para	uma sessão a a tarde	none
+297	1	O resultado, então, dificilmente é o pijama do gato.	O resultado	none	então dificilmente é o pijama	de o gato	none
+297	2	O resultado, então, dificilmente é o pijama do gato.	O resultado	none	então dificilmente é	o pijama de o gato	none
+297	3	O resultado, então, dificilmente é o pijama do gato.	O resultado	none	é o pijama	do gato	none
+297	4	O resultado, então, dificilmente é o pijama do gato.	O resultado	none	é	o pijama de o gato	none
+298	1	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem à	esfera do inimaginável	none
+298	2	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	a a esfera de o inimaginável	none
+298	3	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	Para as audiências modernas	none
+298	4	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	Para as audiências modernas maioria	none
+298	5	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	Para as audiências modernas maioria de as quais	none
+298	6	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	Para as audiências modernas maioria de as quais com pouca experiência em conflitos de primeira linha	none
+298	7	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	Para as audiências modernas maioria das quais com pouca experiência em conflitos de primeira linha	none
+298	8	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem	à esfera do inimaginável	none
+298	9	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem de	maioria	none
+298	10	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem com	pouca experiência em conflitos de primeira linha	none
+298	11	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.	os feitos de Doss	none	pertencem a	a esfera	none
+299	1	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.	A história do Doss	none	tem	uma qualidade improvável	none
+299	2	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.	A história de o Doss	none	também tem	uma qualidade improvável	none
+299	3	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.	A história de o Doss	none	também tem	uma qualidade improvável que torna tudo ainda mais atraente	none
+299	4	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.	uma qualidade improvável	none	torna	tudo ainda mais atraente	none
+299	5	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.	A história de o Doss	none	tem	mais atraente	none
+300	1	Todos os médicos estavam armados, exceto eu.	Todos os médicos	none	estavam	armados	none
+300	2	Todos os médicos estavam armados, exceto eu.	Todos os médicos	none	estavam	armados exceto eu	none

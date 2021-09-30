@@ -1,0 +1,911 @@
+201	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.
+um casal	poderia abrir quatro contas Tesco	ganhar 3 % em £12000 –	1	0	0
+um casal	ganhar 3 % em	£12000 – £360	1	0	0
+um casal	abrirou quatro contas Tesco	ganhar 3 % em £12000 –	1	0	0
+um casal	ainda abrirou quatro contas Tesco	ganhar 3 % em £12000 –	1	0	0
+um casal	poderia abrir	quatro contas Tesco	1	1	0
+um casal	poderia abrir	quatro contas Teoricamente	1	1	0
+um casal	ganhar	3 %	1	0	0
+um casal	ganhar	3 % em £ 12000 – £ 360	1	0	0
+quatro contas	é	Tesco	1	0	0
+um casal	ganhar	3%	1	0	0
+um casal	ganhar 3% em	£12000	1	0	0
+202	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.
+os clientes do Banco da Escócia	ganham 3 % em	balanços de £3000- £5000	1	0	0
+3 % em balanços de £3000- £5000	adicionam a opção gratuita Vantage às	suas contas	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 %	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 % em balanços de £	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 % em balanços de £ 3000 - £ 5000	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 % em balanços de £ 3000 - £ 5000 quando adicionam a opção gratuita Vantage a as suas contas	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 % Entretanto	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 % 3000 - £ 5000	1	0	0
+os clientes de o Banco de a Escócia	ganham	3 % quando adicionam a opção gratuita Vantage a as suas contas	1	0	0
+a opção gratuita	é	Vantage a as suas contas	1	0	0
+os clientes do Banco da Escócia	ganham 3 %	em balanços de £3000-£5000	1	0	0
+os clientes do Banco da Escócia	ganham 3 %	quando adicionam a opção gratuita Vantage às suas contas	1	0	0
+os clientes de o Banco de a Escócia	ganham	-£5000	1	0	0
+os clientes de o Banco de a Escócia	ganham -£5000 em	balanços de £3000	1	0	0
+203	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.
+você	é capaz de acessar	dinheiro	1	0	0
+você	é	capaz de acessar seu dinheiro	1	0	0
+você	é	capaz de acessar seu dinheiro sempre que quiser	1	0	0
+você	é	capaz de acessar seu dinheiro sempre Com isto	1	0	0
+você	é	capaz de acessar seu dinheiro sempre Com isto em teoria	1	0	0
+você	é capaz	Com isto em teoria	1	0	0
+você	é capaz	de acessar seu dinheiro	1	0	0
+você	ser capaz	que quiser	1	0	0
+você	ser capaz que quiser Com	isto	1	0	0
+você	ser capaz que quiser de	acessar seu dinheiro sempre	1	0	0
+você	é capaz de	acessar seu dinheiro	1	0	0
+204	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.
+Esta taxa de 3 %	aplica a titulares de	cartão Nectar	1	0	0
+a titulares de cartão Nectar	pensam em pedir emprestado	£15001-£19999	1	0	0
+Esta taxa de 3 %	também se aplica	titulares de cartão Nectar	1	0	0
+Esta taxa de 3 %	também se aplica	titulares de cartão Nectar que pensam em pedir emprestado 15001 - £ 19999	1	0	0
+Esta taxa de 3 %	também se aplica	titulares de cartão Nectar que pensam em pedir emprestado 15001 - £ 19999 durante um período de dois a três anos	1	0	0
+Esta taxa de 3 %	também se aplica	titulares de cartão Nectar que pensam durante um período de dois a três anos	1	0	0
+Esta taxa de 3 %	aplica a titulares	de cartão Nectar	1	0	0
+de cartão	pensam	em pedir emprestado £15001-£19999	1	0	0
+de cartão	pensam	em pedir emprestado £15001-£19999 durante um período de dois	1	0	0
+de cartão	pensam	em pedir emprestado £15001-£19999 durante um período a três anos	1	0	0
+a titulares de cartão Nectar	pensam	-£19999	1	0	0
+a titulares de cartão Nectar	pensam -£19999 em	pedir	1	0	0
+a titulares de cartão Nectar	pensam -£19999	emprestado £15001	1	0	0
+a titulares de cartão Nectar	pensam -£19999 durante	um período de dois a três anos	1	0	0
+taxa de 3%	se aplica	a titulares de cartão Nectar	1	0	0
+taxa de 3%	se aplica a	titulares de cartão Nectar	1	0	0
+205	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.
+os solos no Reino Unido	são naturalmente deficientes deste	mineral	1	0	0
+O enxofre	é um nutriente	vital para o crescimento saudável de as plantas	1	0	0
+O enxofre	é um nutriente	vital para o crescimento saudável de as plantas mas os solos em o Reino Unido são naturalmente deficientes deste mineral	1	0	0
+O enxofre	é um nutriente	para o crescimento saudável de as plantas	1	0	0
+O enxofre	é um nutriente	mas os solos em o Reino Unido são naturalmente deficientes deste mineral	1	0	0
+os solos em o Reino Unido	são	naturalmente deficientes deste mineral	1	1	0
+O enxofre	é	um nutriente vital	1	1	0
+O enxofre	é	os solos em o Reino Unido são naturalmente deficientes deste mineral	1	0	0
+O enxofre	é um nutriente	para o crescimento saudável das plantas	1	0	0
+os solos no Reino Unido	são naturalmente deficientes	deste mineral	1	0	0
+os solos	são	deficientes de este mineral	1	0	0
+os solos	são deficientes de este mineral em	o Reino Unido	1	1	0
+O enxofre	é um nutriente vital para	o crescimento saudável de as plantas	1	1	0
+os solos no Reino Unido	são naturalmente deficientes de	este mineral	1	1	0
+206	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.
+avanço rápido para 2016 e	é cada vez mais digno de	atenção	1	0	0
+Um avanço	rápido	para 2016	1	0	0
+Um avanço	rápido	para 2016 e isso é cada vez mais digno de atenção	1	0	0
+Um avanço	rápido	e isso é cada vez mais digno de atenção	1	0	0
+isso	é cada vez	mais digno de atenção	1	0	0
+isso	é	cada vez mais digno de atenção	1	1	0
+isso	é	mais digno de atenção	1	0	0
+207	Surpreendentemente como pode parecer, até as nuvens de chuvas ácidas podem ter um lado positivo.
+as nuvens de chuvas ácidas	podem ter	um lado positivo	1	1	0
+como Surpreendentemente parecer até as nuvens de chuvas ácidas	podem ter	um lado positivo	1	0	0
+208	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.
+O mundo	pode estar enfurecido	no entanto	1	0	0
+O mundo	absurdo -	no entanto	1	0	0
+pelo	tem dignidade para continuar a protestar contra	esse fato	1	0	0
+O mundo	pode estar	enfurecido - e absurdo em o entanto	1	0	0
+O mundo	pode estar	enfurecido -	1	0	0
+O mundo	pode estar	absurdo	1	1	1
+alguém	tem	dignidade	1	1	1
+alguém	tem	dignidade para continuar a protestar contra esse fato	1	1	0
+alguém	tem	dignidade por o menos	1	1	0
+O mundo	pode estar	enfurecido	1	1	1
+O mundo	pode estar enfurecido	dignidade para continuar a protestar	1	0	0
+O mundo	pode estar enfurecido	dignidade para continuar a protestar contra esse fato	1	0	0
+alguém	tem dignidade	pelo menos	1	0	0
+alguém	tem dignidade	para continuar a protestar	1	0	0
+alguém	tem dignidade	para continuar a protestar contra esse fato	1	0	0
+209	Acaba ouvindo mais intensamente o barulho seguinte e ficando mais irritado quando ele surge.
+o barulho	ficando mais irritado quando	ele	1	0	0
+Acaba	ouvindo	mais intensamente o barulho seguinte	1	0	0
+Acaba	ficando	mais irritado	1	0	0
+Acaba	ficando	mais irritado quando	1	0	0
+210	Isso é legitimamente horrível.
+Isso	é	legitimamente horrível	1	1	0
+Isso	é	horrível	1	1	1
+211	É justo dizer que Rocco Catalano trabalha, vive e respira retro.
+Rocco Catalano	respira	retro	1	1	0
+212	Penso que é por isso que eles se imergiram em padrões e cor.
+Penso	é por	eles que eles	1	0	0
+eles	imergiram em	padrões	1	0	0
+eles	imergiram em	cor	1	0	0
+por isso	imergiram	em padrões	1	0	0
+eles	se imergiram em	padrões e cor	1	1	0
+eles	imergiram em	padrões e cor	1	0	0
+213	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.
+Catalano	voltou para	a área	1	1	0
+área depois	viver em	Londres	1	0	0
+Catalano	voltou	para a área	1	0	0
+Catalano	voltou	para a área depois de viver em Londres	1	0	0
+Catalano	voltou	para a área depois de viver em Londres e em Glasgow onde estudou design de jóias	1	0	0
+Catalano	voltou	para a área depois de viver em Londres e em Glasgow onde estudou design de jóias em a Glasgow School of Art	1	0	0
+Catalano	voltou	depois de viver em Londres	1	0	0
+Catalano	voltou	depois de viver e em Glasgow onde estudou design de jóias	1	0	0
+Catalano	voltou	depois de viver e em Glasgow onde estudou em a Glasgow School of Art	1	0	0
+Catalano	voltou	para a área em Londres em Glasgow	1	0	0
+Catalano	voltou	onde estudou design de jóias na Glasgow School of Art	1	0	0
+Catalano	voltou para	a área depois de viver em Londres	1	1	0
+Catalano	voltou para	a área depois de viver em Londres e em Glasgow onde estudou design de jóias	1	0	0
+Catalano	voltou para	a área depois de viver em Londres e em Glasgow onde estudou design de jóias em a Glasgow School of Art	1	0	0
+Catalano	voltou para	a área em Londres em Glasgow	1	0	0
+Catalano	voltou depois de	viver em Londres	1	1	0
+214	Eu adorei as cores tropicais, diz ele.
+Eu	adorei	as cores tropicais	1	0	0
+as cores tropicais	diz	ele	1	0	0
+Eu	adorei	as cores tropicais diz ele	1	0	0
+Eu	adorei as cores tropicais	diz	1	0	0
+215	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.
+Eu	visitei os espetáculos universitários na	Universidade de Northampton	1	0	0
+os espetáculos universitários na Universidade de Northampton	encontrar	novos talentos	1	0	0
+novos talentos	diz	ele	1	0	0
+Eu	visitei	os espetáculos universitários	1	1	0
+Eu	visitei	os espetáculos universitários em a Universidade de Northampton	1	1	0
+Eu	visitei	os espetáculos universitários em a Universidade de Northampton para encontrar novos talentos	1	1	0
+Eu	visitei	os espetáculos universitários em a Universidade de Northampton para encontrar novos talentos diz	1	0	0
+Eu	visitei	os espetáculos universitários para encontrar novos talentos	1	0	0
+Eu	visitei	os espetáculos universitários diz	1	0	0
+Eu	visitei os espetáculos universitários	na Universidade de Northampton	1	0	0
+Eu	visitei os espetáculos universitários	para encontrar novos talentos	1	0	0
+Eu	visitei os espetáculos universitários	diz	1	0	0
+Eu	visitei os espetáculos universitários em	a Universidade de Northampton	1	1	0
+Eu	visitei os espetáculos universitários para	encontrar novos talentos	1	0	0
+Eu	visitei os espetáculos universitários em	a Universidade de Northampton para encontrar novos talentos	1	0	0
+216	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.
+ela	use	a Frank	1	0	0
+ela	use	a Frank como sua modelo	1	0	0
+eu	sugiro	que	1	0	0
+ela	ri	quando	1	0	0
+eu	sugiro	que ela use a Frank como sua modelo	1	0	0
+ela	use a Frank	como sua modelo	1	0	0
+ela	ri	quando eu sugiro que ela use a Frank como sua modelo	1	0	0
+217	Naturalmente, a paisagem do escritório apresenta muitas roupas e, no sentido de comida, pouco.
+a paisagem de o escritório	apresenta	muitas roupas	1	1	0
+a paisagem de o escritório	apresenta	muitas roupas e em o sentido de comida pouco	1	0	0
+a paisagem de o escritório	apresenta	muitas roupas Naturalmente	1	0	0
+a paisagem do escritório	apresenta	muitas roupas	1	1	0
+218	A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.
+A própria Wintour	aparece rapidamente	e é filmada colocando	1	0	0
+A própria Wintour	é filmada colocando seus óculos de	sol	1	0	0
+A própria Wintour	é	filmada	1	1	0
+219	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.
+Olhei para o motocross e	olhava em	fotografias	1	0	0
+quanto	continuava a surgir a cara desta	mulher	1	0	0
+fotografias	pareciam ser dos	anos 70	1	0	0
+em fotografias	pareciam ser	de os anos 70	1	0	0
+a cara de esta mulher	a surgir em	fotografias	1	0	0
+70	pareciam	ser de os anos	1	0	0
+220	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.
+Amo	jogar com	e estou sempre à procura de musas	1	0	0
+Amo	estou sempre à	procura de musas	1	0	0
+procura de musas	encaixem porque é tão	interessante	1	0	0
+Amo	jogar	com isso	1	0	0
+Amo	estou	sempre a a procura de musas	1	0	0
+Amo	estou	sempre a a procura de musas que se encaixem	1	0	0
+Amo	estou	a a procura de musas	1	0	0
+Amo	estou	a a procura que se encaixem	1	0	0
+Amo	jogar com	isso	1	0	0
+Amo	estou a	a procura de musas	1	0	0
+221	Na melhor das hipóteses, é ingênuo e, na pior, deixaria novamente o lobby das armas fora dos problemas.
+melhor das hipóteses	é ingênuo	deixaria novamente o lobby das armas	1	0	0
+melhor das hipóteses	deixaria novamente o lobby das	armas fora dos os problemas	1	0	0
+melhor das hipóteses	deixou novamente o lobby das	armas fora dos os problemas	1	0	0
+melhor das hipóteses	ainda deixou novamente o lobby das	armas fora dos os problemas	1	0	0
+222	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".
+Eu	ficaria espantado se uma proibição	um licenciamento	1	0	0
+um licenciamento	fosse com	base nestes fundamentos	1	0	0
+Eu	ficou espantado se uma proibição	um licenciamento	1	0	0
+Eu	ainda ficou espantado se uma proibição	um licenciamento	1	0	0
+uma proibição ou um licenciamento	fosse	com base nestes fundamentos	1	0	0
+O seu representante de políticas de a natureza	é	Jeff Knott	1	1	0
+Eu	ficaria espantado	se	1	0	0
+Eu	ficaria	espantado	1	0	0
+Eu	ficaria espantado	se uma proibição ou um licenciamento fosse com base nestes fundamentos	1	0	0
+uma proibição	fosse	com base nestes fundamentos	1	0	0
+Eu	ficaria	se	1	0	0
+Eu	ficaria se com	base	1	0	0
+Eu	ficaria se em	estes fundamentos	1	0	0
+Eu	fosse com	base	1	0	0
+Eu	fosse em	estes fundamentos	1	0	0
+223	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.
+A postura de o RSPB	também o colocou em	conflito com muitos líderes conservadores desde o autor de a petição	1	1	0
+A postura de o RSPB	também o colocou	em conflito	1	0	0
+A postura de o RSPB	também o colocou	em conflito com muitos líderes conservadores desde o autor de a petição	1	0	0
+A postura de o RSPB	também o colocou em	conflito com muitos líderes conservadores desde o autor de a petição Mark Avery a o apresentador de TV Chris Packham	1	1	0
+A postura de o RSPB	também o colocou	com muitos líderes conservadores desde o autor de a petição	1	0	0
+A postura de o RSPB	também o colocou	com muitos líderes conservadores desde o autor	1	0	0
+A postura de o RSPB	também o colocou	com muitos líderes conservadores desde o autor Mark Avery a o apresentador de TV Chris Packham	1	0	0
+desde o autor de a petição	é	Mark Avery a o apresentador de TV Chris Packham	1	0	0
+A postura do RSPB	colocou	em conflito com muitos líderes conservadores	1	0	0
+A postura do RSPB	colocou	desde o autor da petição	1	0	0
+A postura do RSPB	colocou	Mark Avery apresentador	1	0	0
+A postura de o RSPB	o colocou em	conflito com muitos líderes conservadores	1	1	0
+A postura de o RSPB	o colocou desde	o autor de a petição	1	0	0
+A postura de o RSPB	o colocou a	o apresentador de TV Chris Packham	1	0	0
+A postura de o RSPB	também o colocou em	conflito	1	1	0
+A postura de o RSPB	também o colocou em	conflito com muitos líderes conservadores desde o autor de a petição	1	0	0
+A postura de o RSPB	também o colocou	em conflito com muitos líderes conservadores desde o autor de a petição Mark Avery a o apresentador de TV Chris Packham	1	0	0
+224	Vamos simplesmente dizer que ele está errado.
+ele	está	errado	1	0	0
+225	E a posição da Austrália?
+226	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.
+um ponto diário em Marrocos	será em	pleno sábado	1	1	0
+países	desenvolvidos questionam publicamente sobre	planos e	1	0	0
+Nisto	será	em pleno sábado	1	0	0
+países desenvolvidos	se questionam	publicamente sobre seus planos e ambições	1	0	0
+países desenvolvidos	se questionam	sobre seus planos e ambições	1	0	0
+países desenvolvidos	se questionam	publicamente sobre seus planos	1	0	0
+países desenvolvidos	se questionam	publicamente sobre ambições	1	0	0
+Nisto	será	em pleno sábado quando	1	0	0
+Nisto	será	quando	1	0	0
+países	desenvolvidos	se questionam publicamente	1	0	0
+países	desenvolvidos	se questionam sobre seus planos	1	0	0
+um ponto diário	será em	Marrocos	1	0	0
+um ponto diário	será em	pleno sábado	1	1	0
+227	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.
+procura de formas possíveis	limitar o âmbito do	litígio	1	0	0
+do litígio para apenas	tenham uma posição real no	projeto	1	0	0
+apenas aqueles	tenham	uma posição real	1	0	0
+apenas aqueles	tenham	uma posição real em o projeto	1	0	0
+para apenas aqueles	tenham uma posição real	no projeto	1	0	0
+228	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.
+Céltico	pode colapsar disse um oficial da	UE	1	0	0
+os limites	propostos	disse um oficial da	1	0	0
+O bacalhau de o mar	pode colapsar	sem os limites propostos	1	0	0
+O bacalhau de o mar	pode colapsar	sem os limites propostos disse um oficial de a UE	1	0	0
+O bacalhau de o mar	pode colapsar	disse um oficial de a UE	1	0	0
+O bacalhau de o mar	é	Céltico	1	0	0
+Céltico	pode colapsar	sem os limites propostos	1	0	0
+Céltico	pode colapsar	sem os limites propostos disse um oficial de a UE	1	0	0
+Céltico	pode colapsar	disse um oficial de a UE	1	0	0
+O bacalhau do mar	pode colapsar	sem os limites	1	0	0
+O bacalhau do mar	pode colapsar	disse um oficial da UE	1	0	0
+O bacalhau de o mar Céltico	pode colapsar sem	os limites	1	1	1
+O bacalhau de o mar	pode colapsar sem	os limites propostos	1	0	0
+229	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.
+grandes promoções para o bacalhau a solha	foram também previstas	o linguado	1	0	0
+grandes promoções para o bacalhau a solha	foram também previstas	o linguado o linguado - areeiro e o escamudo em os mares Celtas e Irlandeses	1	0	0
+grandes promoções para o bacalhau a solha	foram também previstas	o linguado o linguado - areeiro	1	0	0
+grandes promoções para o bacalhau a solha	foram também previstas	o linguado o escamudo	1	0	0
+grandes promoções para o bacalhau a solha	foram também previstas	o linguado o escamudo em os mares Irlandeses	1	0	0
+230	Os conservacionistas saudaram o anúncio da comissão.
+Os conservacionistas	saudaram o anúncio da	comissão	1	0	0
+Os conservacionistas	saudaram	o anúncio de a comissão	1	1	0
+Os conservacionistas	saudaram o anúncio	da comissão	1	0	0
+231	Apenas 50 eram mercados.
+Apenas 50	eram	mercados	1	1	1
+232	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.
+O	foi apenas por	convite	1	0	0
+você	souber como pesquisar	acrescenta	1	0	0
+convite	acrescenta	o Dr Lee	1	0	0
+O	Agora foi	apenas por convite	1	0	0
+O	Agora foi	por convite	1	0	0
+muitos destes mercados	estão	facilmente acessíveis	1	0	0
+você	souber	pesquisar como	1	0	0
+muitos destes mercados	estão	facilmente acessíveis se	1	0	0
+O Agora	foi	por convite	1	0	0
+muitos destes mercados	estão facilmente acessíveis se você souber como pesquisar acrescenta	o Dr Lee	1	0	0
+você	souber	como pesquisar	1	0	0
+muitos de esse mercados	estão	se você souber	1	0	0
+233	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.
+não	tinham no	nosso tempo	1	0	0
+pessoas sem crianças	expressam através da	sua desaprovação	1	0	0
+Eles	não os tinham	em o nosso tempo	1	0	0
+Eles	não os tinham	em o nosso tempo e pessoas sem crianças se expressam através de a sua desaprovação o seu ódio por a parentalidade moderna	1	0	0
+Eles	não os tinham	o seu ódio por a parentalidade moderna	1	0	0
+Eles	não os tinham	no nosso tempo	1	0	0
+Eles	não os tinham	sem crianças	1	0	0
+pessoas sem crianças	se expressam de	a sua desaprovação	1	0	0
+Eles	não os tinham em	o nosso tempo	1	1	0
+234	Não o chamo de besta levemente.
+235	Dia três, eu estava de volta no EMicro.
+Dia três	estava de	volta no EMicro	1	0	0
+eu	estava	de volta	1	0	0
+eu	estava	de volta em o EMicro	1	1	0
+eu	estava	Dia três	1	0	0
+eu	estava	em o EMicro	1	0	0
+eu	estava	de volta no EMicro	1	0	0
+eu	estava em	o EMicro	1	1	0
+eu	estava de	volta	1	0	0
+236	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.
+o Reino Unido	está enfrentando uma escassez de	pessoas com as habilidades necessárias	1	1	0
+uma escassez de pessoas com as habilidades necessárias	montar	uma defesa eficaz	1	0	0
+o Reino Unido	está enfrentando	uma escassez de pessoas	1	1	0
+o Reino Unido	está enfrentando	uma escassez de pessoas por extensão	1	0	0
+o Reino Unido	está enfrentando uma escassez	por extensão	1	0	0
+o Reino Unido	está enfrentando uma escassez	de pessoas	1	0	0
+o Reino Unido	está enfrentando uma escassez	com as habilidades necessárias	1	0	0
+o Reino Unido	está enfrentando uma escassez	para montar uma defesa eficaz	1	0	0
+o Reino Unido	está enfrentando uma escassez de	pessoas	1	0	0
+237	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.
+As empresas	podem tentar	criar um firewall entre sistemas sensíveis e potências estrangeiras	1	0	0
+As empresas	podem tentar	criar um firewall entre sistemas sensíveis e potências estrangeiras mas nem sempre funciona	1	0	0
+As empresas	podem tentar	criar um firewall entre sistemas sensíveis	1	0	0
+As empresas	podem tentar	criar um firewall sensíveis entre potências estrangeiras	1	0	0
+As empresas	podem tentar criar um firewall	entre sistemas sensíveis	1	0	0
+As empresas	podem tentar criar um firewall entre	sistemas sensíveis	1	1	0
+238	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".
+um conceito	conhecido como	defesa ativa	1	1	1
+eles	podem por o menos colocar	armadilhas	1	1	0
+eles	podem por o menos colocar	armadilhas para confundir e impedir - um conceito conhecido como defesa ativa	1	0	0
+eles	podem pelo menos colocar armadilhas	pelo menos	1	0	0
+eles	podem pelo menos colocar	armadilhas	1	1	0
+eles	podem pelo menos colocar armadilhas	para confundir - um conceito conhecido como defesa ativa	1	0	0
+eles	podem por	o menos colocar armadilhas	1	0	0
+239	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.
+a minha lista	cresceu muito	cobriu quase todos os estados	1	0	0
+a minha lista	cobriu quase todos os estados da	união	1	0	0
+a minha lista	cresceu	Depois de ter descoberto uma rica discussão em a internet	1	0	0
+a minha lista	cresceu	Depois de ter descoberto uma rica discussão em a internet sobre o assunto	1	0	0
+a minha lista	cobriu	quase todos os estados de a união	1	1	0
+a minha lista	cresceu	Depois de ter descoberto uma rica	1	0	0
+240	Eu avistei algumas.
+Eu	avistei	algumas	1	1	0
+241	A minha próxima parada foi Bellingham, bem perto da fronteira canadense.
+A minha próxima parada	foi	Bellingham	1	1	0
+A minha próxima parada	foi	Bellingham bem perto de a fronteira canadense	1	1	0
+242	De volta ao trem, nós continuamos em direção ao o sul.
+nós	continuamos em	direção ao o sul	1	1	0
+volta nós a o trem	continuamos	em direção a o o sul	1	0	0
+nós	continuamos	De volta ao trem	1	0	0
+nós	continuamos	em direção ao o sul	1	0	0
+nós	continuamos	o sul	1	0	0
+nós	continuamos o sul De	volta a o trem	1	0	0
+nós	continuamos o sul em	direção	1	0	0
+nós	continuamos o sul a	o	1	0	0
+243	Uma cidade pequena, com dois minaretes, desliza.
+244	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.
+um guarda de chapéu vermelho	comanda a plataforma	um trabalhador	1	0	0
+um trabalhador	anda ao	longo do trem com um martelo	1	0	0
+cada estação	batendo gentilmente na	parte de baixo da carruagem	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma	1	1	0
+um guarda de chapéu vermelho	comanda	a plataforma e um trabalhador anda a o longo de o trem	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma e um trabalhador anda a o longo de o trem com um martelo	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma e um trabalhador anda a o longo de o trem com um martelo batendo gentilmente	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma e um trabalhador anda a o longo de o trem com um martelo batendo gentilmente em a parte de baixo de a carruagem	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma Em cada estação	1	1	0
+um guarda de chapéu vermelho	comanda	a plataforma com um martelo	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma batendo gentilmente	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma batendo em a parte de baixo de a carruagem	1	0	0
+um trabalhador	anda	a o longo de o trem	1	0	0
+um trabalhador	anda	a o longo de o trem com um martelo	1	0	0
+um trabalhador	anda	a o longo de o trem com um martelo batendo gentilmente	1	0	0
+um trabalhador	anda	a o longo de o trem com um martelo batendo gentilmente em a parte de baixo de a carruagem	1	0	0
+um trabalhador	anda	com um martelo	1	0	0
+um trabalhador	anda	batendo gentilmente	1	0	0
+um trabalhador	anda	batendo em a parte de baixo de a carruagem	1	0	0
+um guarda de chapéu vermelho	comanda a plataforma	Em cada estação	1	0	0
+um guarda de chapéu vermelho	comanda	a plataforma e um trabalhador	1	0	0
+um guarda de chapéu vermelho	comanda a plataforma e um trabalhador Em	cada estação	1	0	0
+um trabalhador	anda a	o longo de o trem	1	1	0
+um trabalhador	anda a	o longo de o trem com um martelo	1	1	0
+um trabalhador	anda a	o longo de o trem com um martelo batendo gentilmente	1	0	0
+um trabalhador	anda a	o longo de o trem com um martelo batendo gentilmente em a parte de baixo de a carruagem	1	0	0
+um trabalhador	anda com	um martelo	1	1	0
+um trabalhador	anda ao longo de	o trem	1	1	0
+245	Depois, procure no mercado matinal (6:30 - 10:00): pirulitos de arroz, casulos de vespa (as pupas são consideradas um petisco), asas de frango, casca e folhas de moscadeira, sapos vivos e bagre.
+as pupas	são consideradas	um petisco	1	1	0
+pirulitos de arroz	são consideradas	um petisco	1	0	0
+246	A intervenção de Pequim é, possivelmente, a de maior alcance, desde a entrega de Hong Kong pelo Reino Unido em 1997.
+A intervenção de Pequim	é desde	a entrega de Hong Kong pelo Reino Unido em 1997	1	0	0
+A intervenção de Pequim	é	a de maior alcance	1	1	0
+A intervenção de Pequim	é a de maior alcance desde	a entrega de Hong Kong por o Reino Unido	1	0	0
+A intervenção de Pequim	é a de maior alcance em	1997	1	0	0
+247	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.
+O juramento	envolve legisladores jurando lealdade a	Hong Kong	1	0	0
+O juramento	envolve	legisladores jurando lealdade a Hong Kong	1	1	0
+O juramento	envolve	legisladores jurando lealdade a Hong Kong como parte de a República Popular de a China	1	1	0
+O juramento	envolve legisladores jurando	lealdade a Hong Kong parte	1	0	0
+O juramento	envolve	legisladores	1	1	0
+O juramento	envolve legisladores	jurando lealdade a Hong Kong	1	0	0
+248	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.
+O governo de Hong Kong	argumentou que	o par	1	0	0
+o par	deve tomar	posse	1	0	0
+o par	não deve tomar	posse	1	0	0
+O governo de Hong Kong	é liderado	por legisladores pró - Pequim	1	0	0
+O governo de Hong Kong	argumentou	que	1	0	0
+O governo de Hong Kong	argumentou	que o par não deve tomar posse	1	0	0
+O governo de Hong Kong	é	liderado	1	0	0
+O governo de Hong Kong	é liderado por	legisladores pró-Pequim	1	1	0
+249	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.
+a sua intervenção	é necessária para evitar a paralisia legislativa contínua na	cidade	1	0	0
+a paralisia legislativa contínua na cidade	disse	ele	1	0	0
+a sua intervenção	é	necessária	1	0	0
+a sua intervenção	é	necessária para evitar a paralisia legislativa contínua	1	0	0
+a sua intervenção	é	necessária para evitar a paralisia legislativa contínua em a cidade	1	0	0
+a sua intervenção	é	necessária em a cidade	1	0	0
+Pequim	acredita	que	1	0	0
+Pequim	acredita	que a sua intervenção é necessária	1	0	0
+Pequim	acredita	disse	1	0	0
+Pequim	acredita	que a sua intervenção é necessária para evitar a paralisia legislativa contínua em a cidade	1	0	0
+a sua intervenção	é necessária para	evitar a paralisia legislativa contínua em a cidade	1	0	0
+250	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.
+Hong Kong	estar se preparando	para uma onda de protestos	1	0	0
+Hong Kong	estar se preparando	Entretanto	1	0	0
+Hong Kong	estar se preparando	Entretanto parece	1	0	0
+Hong Kong	parece estar se preparando	para uma onda de protestos	1	0	0
+Hong Kong	parece estar se preparando para	uma onda de protestos	1	1	0
+251	Ele disse no Andrew Marr Show da BBC: "Uma eleição legislativa é francamente a última coisa que o Governo quer."
+Uma eleição legislativa	é francamente	a última coisa	1	0	0
+Ele	disse	em o Andrew Marr Show de a BBC	1	0	0
+o Governo	quer	que	1	0	0
+Ele	disse	no Andrew Marr Show da BBC	1	0	0
+Uma eleição legislativa	é	francamente	1	0	0
+a última coisa	é	francamente	1	0	0
+Uma eleição legislativa	é	a última coisa	1	0	0
+Ele	disse em	o Andrew Marr Show de a BBC	1	1	0
+o Governo	quer	a última coisa	1	0	0
+252	É o sonho dele terminar a sua carreira aqui.
+o sonho	terminar	a sua carreira	1	0	0
+253	Empatar um jogo que você dominou é simples de esquecer, mas fazê-lo três vezes em seguida sugere fraqueza.
+você	dominou é simples de esquecer mas fazê -lo três vezes emsugere	fraqueza	1	0	0
+um jogo	é	simples de esquecer	1	0	0
+um jogo	dominou	que	1	0	0
+você	dominou	um jogo	1	0	0
+254	Estávamos tão desapontados porque perdemos seis pontos jogando em casa.
+seis pontos	jogando em	casa	1	0	0
+255	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.
+o caso de Andy quando	enfrentou	Benoît Paire	1	0	0
+o caso de Andy Benoît Paire	enfrentou	Benoît Paire	1	0	0
+Esse	foi	sem dúvida	1	0	0
+o caso de Andy	foi	sem dúvida	1	0	0
+Esse	foi	o caso de Andy	1	1	0
+Esse	foi o caso de Andy sem	dúvida	1	0	0
+256	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.
+tudo	está	fora de questão	1	1	0
+tudo	está	fora de questão e ele parece estar a a procura de respostas	1	0	0
+tudo	está	fora de questão e ele parece estar a a procura de respostas a toda hora	1	0	0
+tudo	está	agora	1	0	0
+tudo	está	e ele parece estar a a procura de respostas	1	0	0
+tudo	está	e ele parece estar a toda hora	1	0	0
+ele	parece	estar a a procura de respostas	1	0	0
+ele	parece	estar a a procura de respostas a toda hora	1	0	0
+ele	parece estar	à procura de respostas a toda hora	1	0	0
+a toda hora	parece	estar a a procura de respostas	1	0	0
+tudo	está de	questão e ele	1	0	0
+ele	parece estar à	procura de respostas a toda hora	1	0	0
+ele	parece estar a	a procura de respostas a toda hora	1	1	0
+257	Eu também penso se a Taça Davis desempenhou algum papel.
+Eu	penso se	a Taça Davis	1	0	0
+a Taça Davis	desempenhou	algum papel	1	0	0
+Eu	também penso	se	1	0	0
+Eu	penso	se a Taça Davis desempenhou algum papel	1	0	0
+258	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.
+A pesquisa anual	revelou que as preocupações sobre assumir	novos encargos financeiros	1	0	0
+A pesquisa anual	também revelou	que as preocupações sobre assumir novos encargos financeiros	1	0	0
+A pesquisa anual	também revelou	que as preocupações sobre assumir novos encargos financeiros têm disparado	1	0	0
+A pesquisa anual	também revelou	que as preocupações sobre assumir têm disparado	1	0	0
+A pesquisa anual	revelou	que as preocupações sobre assumir novos encargos financeiros têm disparado	1	0	0
+as preocupações financeiros	têm	disparado	1	0	0
+as preocupações sobre assumir novos encargos financeiros	têm	disparado	1	0	0
+259	O senhor Hopley acrescentou: "O aumento do risco político não deve passar despercebido".
+Hopley	acrescentou	: O aumento do	1	0	0
+O senhor	é	Hopley	1	1	0
+O aumento do risco político	não deve passar	despercebido	1	1	0
+O aumento de o risco político	não deve passar	despercebido	1	1	0
+260	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.
+-	tinha funcionado durante	anos	1	0	0
+anos	limpou dezenas de	bilhões de euros do valor da VW	1	0	0
+anos	custou ao	executivo principal	1	0	0
+anos	custou ao	executivo Martin Winterkorn	1	0	0
+A notícia de a fraude de a companhia -	limpou	dezenas de bilhões de euros de o valor de a VW	1	1	0
+A notícia de a fraude de a companhia -	limpou	dezenas de bilhões de euros de o valor de a VW Martin Winterkorn	1	0	0
+A notícia de a fraude de a companhia -	limpou	dezenas de bilhões de euros de o valor de a VW Martin Winterkorn o seu trabalho	1	0	0
+A notícia de a fraude de a companhia -	limpou	dezenas de bilhões de euros de o valor de a VW durante anos -	1	0	0
+A notícia de a fraude de a companhia -	limpou	dezenas de bilhões de euros de o valor de a VW o seu trabalho	1	0	0
+A notícia de a fraude de a companhia -	custou	a o executivo principal	1	0	0
+limpou dezenas de bilhões de euros de o valor de a VW	é	Martin Winterkorn	1	0	0
+A notícia da fraude da companhia -	limpou dezenas	de bilhões de euros	1	0	0
+A notícia da fraude da companhia -	limpou dezenas	do valor da VW	1	0	0
+da fraude da companhia -	tinha funcionado	durante anos	1	0	0
+A notícia de a fraude de a companhia -	custou a	o executivo principal	1	1	0
+A notícia da fraude da companhia -	limpou dezenas de	bilhões de euros	1	1	0
+A notícia de fraude da companhia	custou a	o executivo principal	1	0	0
+261	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.
+Isso	abriu a	VW para reivindicações	1	0	0
+Isso	viu elas levarem mais que	€16 bilhões de provisões	1	0	0
+Isso	também abriu	a VW	1	0	0
+Isso	também abriu	a VW para reivindicações e ações legais imensas	1	1	0
+Isso	também abriu	a VW para reivindicações	1	1	0
+Isso	também abriu	a VW para ações legais imensas	1	1	0
+elas	levarem	mais que € 16 bilhões	1	0	0
+elas	levarem	mais que € 16 bilhões de provisões	1	0	0
+elas	levarem	que € 16 bilhões	1	0	0
+elas	levarem	que € de provisões	1	0	0
+Isso	viu	elas levarem mais que € 16 bilhões	1	0	0
+Isso	viu	elas levarem mais que € 16 bilhões de provisões	1	0	0
+Isso	abriu	a VW	1	0	0
+Isso	abriu a VW	para reivindicações	1	0	0
+elas	levarem	mais que €16 bilhões de provisões	1	0	0
+Isso	abriu a VW para	reivindicações e ações legais imensas	1	1	0
+Isso	abriu a VW para	reivindicações	1	1	1
+262	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.
+A sondagem	começou em	junho	1	1	0
+Herbert Diess	permanece na	fabricante de automóveis	1	0	0
+A sondagem	começou	em junho	1	0	0
+A sondagem	começou	em junho com foco em o Sr Winterkorn	1	0	0
+A sondagem	começou	em junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess	1	0	0
+A sondagem	começou	em junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess que permanece em a fabricante de automóveis	1	0	0
+A sondagem	começou	com foco em o Sr Winterkorn	1	0	0
+A sondagem	começou	com foco em o Sr e em o chefe de marca Herbert Diess	1	0	0
+A sondagem	começou	com foco em o Sr que permanece em a fabricante de automóveis	1	0	0
+A sondagem	começou	em junho com foco Winterkorn em o chefe de marca	1	0	0
+o Sr e em o chefe de marca	permanece	em a fabricante de automóveis	1	0	0
+o Sr	é	Winterkorn	1	1	0
+o Sr	é	Herbert Diess	1	0	0
+Winterkorn e em o chefe de marca	permanece	em a fabricante de automóveis	1	0	0
+Herbert Diess e em o chefe de marca	permanece	em a fabricante de automóveis	1	0	0
+A sondagem	começou	com foco no Sr	1	0	0
+no chefe de marca	permanece	na fabricante de automóveis	1	0	0
+marca	permanece em	a fabricante de automóveis	1	0	0
+A sondagem	começou com	foco em o Sr Winterkorn e em o chefe	1	0	0
+A sondagem	começou de	marca	1	0	0
+A sondagem	começou em	junho com foco em o Sr Winterkorn	1	0	0
+A sondagem	começou em	junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess	1	0	0
+A sondagem	começou em	junho com foco em o Sr Winterkorn e em o chefe de marca Herbert Diess que permanece em a fabricante de automóveis	1	0	0
+A sondagem	começou com	foco em o Sr Winterkorn	1	1	0
+263	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.
+Ele	foi promovido a	presidente em outubro de 2015	1	1	0
+Ele	foi promovido a presidente	em outubro de 2015	1	0	0
+o mês seguinte	ter sido descoberto a	o escândalo	1	0	0
+Ele	foi promovido	a presidente	1	0	0
+Ele	foi promovido a presidente em	outubro de 2015	1	1	0
+264	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.
+vez	têm conseguido manter	o crescimento constante	1	0	0
+As empresas	esperavam	começar a decrescer em julho	1	0	0
+As empresas	esperavam	começar a decrescer em julho imediatamente após o voto de o Brexit	1	0	0
+As empresas	esperavam	começar a decrescer em julho imediatamente após o voto de o Brexit mas em vez disso têm conseguido manter o crescimento constante	1	0	0
+As empresas	esperavam começar a decrescer	em julho	1	0	0
+As empresas	esperavam começar a decrescer	imediatamente após o voto do Brexit	1	1	0
+As empresas	esperavam começar a decrescer em	julho	1	1	0
+265	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.
+Os negócios de varejo	atacado expandiram	uma vez	1	0	0
+os lojistas	continuam otimistas	as companhias de serviço ao cliente	1	0	0
+Os negócios de varejo	também cresceram	se expandiram uma vez que os lojistas continuam otimistas e as companhias de serviço a o cliente	1	0	0
+Os negócios de varejo	também cresceram	as companhias	1	0	0
+Os negócios de varejo	também cresceram	as companhias se expandiram de serviço	1	0	0
+Os negócios de varejo	também cresceram	se expandiram de serviço	1	0	0
+que os lojistas	continuam	otimistas	1	0	0
+Os negócios de varejo	atacado	se expandiram	1	0	0
+Os negócios de varejo	atacado	uma vez que os lojistas continuam otimistas	1	0	0
+Os negócios de varejo	atacado	também cresceram	1	0	0
+os lojistas	continuam	otimistas	1	1	0
+as companhias de serviço	cresceram a	o cliente	1	0	0
+266	No entanto, haverá limites para a sua capacidade de gastar uma vez que o Governo ainda tem um grande déficit orçamental.
+limites para a sua capacidade	gastar	uma vez	1	0	0
+o Governo	tem	um grande déficit orçamental	1	1	0
+o Governo	ainda tem	um grande déficit orçamental	1	1	0
+267	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.
+O custo	vai mudar mensalmente	é esperado	1	0	0
+O custo	é esperado que	o preço	1	0	0
+o preço	aumente no	inverno	1	0	0
+o preço	aumente	em o inverno	1	0	0
+preço que aumente tal	aumenta	como o uso	1	0	0
+o preço	aumente em	o inverno	1	0	0
+o preço	aumente	no inverno	1	0	0
+268	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.
+A taxa	fixa da	Eon	1	0	0
+Eon	custa £760	os clientes da Avro Energy	1	0	0
+os clientes da Avro Energy	pagariam cerca de £760 pela	sua tarifa Simple and Select	1	0	0
+os clientes da Avro Energy	pagaram cerca de £760 pela	sua tarifa Simple and Select	1	0	0
+os clientes da Avro Energy	ainda pagaram cerca de £760 pela	sua tarifa Simple and Select	1	0	0
+A taxa fixa de a Eon	custa	760 e os clientes de a Avro Energy	1	0	0
+A taxa fixa de a Eon	custa	760 e os clientes de a Avro Energy pagariam £ 760	1	0	0
+A taxa fixa de a Eon	custa	760 e os clientes de a Avro Energy pagariam £ 760 por a sua tarifa Simple and	1	0	0
+A taxa fixa de a Eon	custa	760 e os clientes de a Avro Energy por a sua tarifa Simple and	1	0	0
+a sua tarifa	é	Simple and	1	0	0
+A taxa fixa da Eon	custa	£760	1	1	0
+os clientes de a Avro Energy	pagariam de	£760	1	0	0
+os clientes de a Avro Energy	pagariam por	a sua tarifa Simple	1	1	0
+A taxa	custa	£760	1	1	0
+os clientes da Avro Energy	pagariam cerca de £760 por	sua tarifa Simple and Select	0	1	0
+269	Ou é um classe cara ou uma tarifa de pré-pagamento?
+270	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.
+£10000 em títulos	poderia esperar receber £125 em	prêmios	1	0	0
+£10000 em títulos	esperou receber £125 em	prêmios	1	0	0
+£10000 em títulos	ainda esperou receber £125 em	prêmios	1	0	0
+Um investidor com alguma sorte e £ 10000 em títulos	poderia esperar	receber £ 125 em prêmios	1	0	0
+Um investidor com alguma sorte e £ 10000 em títulos	poderia esperar	receber £ 125 em prêmios por ano	1	0	0
+Um investidor com alguma sorte	poderia esperar receber	£125	1	1	0
+Um investidor com alguma sorte	poderia esperar receber	em prêmios	1	0	0
+Um investidor com alguma sorte	poderia esperar receber	por ano	1	0	0
+271	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.
+a Premium Bonds	seria indistinguível das	contas poupança	1	0	0
+a Premium Bonds	serou indistinguível das	contas poupança	1	0	0
+a Premium Bonds	ainda serou indistinguível das	contas poupança	1	0	0
+a Premium Bonds	seria	Se	1	0	0
+a Premium Bonds	seria indistinguível	Se eles o fizessem	1	0	0
+a Premium Bonds	seria indistinguível	das contas	1	0	0
+a Premium Bonds	seria	comuns	1	0	0
+272	O dinheiro investido no Premium Bonds, e em outras contas do National Savings & Investments, é usado para ajudar a financiar os gastos do Governo.
+O dinheiro	investido no	Premium Bonds	1	0	0
+Premium Bonds	é usado para ajudar a financiar os gastos do	Governo	1	0	0
+O dinheiro	investido	no Premium Bonds	1	0	0
+273	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.
+Isso	impediu os investidores de reunirem para colocar o seu dinheiro nos	fundos	1	0	0
+Isso	não impediu	os investidores de se reunirem para colocar o seu dinheiro	1	0	0
+Isso	não impediu	os investidores de se reunirem para colocar o seu dinheiro em os fundos	1	0	0
+Isso	não impediu os investidores	de se reunirem para colocar o seu dinheiro	1	0	0
+Isso	não impediu os investidores	de se reunirem para colocar o seu dinheiro nos fundos	1	0	0
+Isso	não impediu	os investidores	1	1	0
+Isso	não impediu os investidores de	se reunirem	1	0	0
+Isso	não impediu os investidores para	colocar o seu dinheiro em os fundos	1	0	0
+Isso	não impediu os investidores de	se reunirem para colocar o seu dinheiro	1	0	0
+Isso	não impediu os investidores de	se reunirem para colocar o seu dinheiro nos fundos	1	0	0
+274	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.
+Ele	foi seguido pelos	fundos Aviva Investors Multi Strategy Target Return and Income	1	0	0
+os investidores	colocaram £	2bn	1	0	0
+Ele	foi seguido	por os fundos Aviva Investors Multi Strategy Target Return and	1	0	0
+os investidores	colocaram	£ 2bn e £ 14bn respectivamente	1	1	0
+os investidores	colocaram	em os quais	1	0	0
+os investidores	colocaram	£ 2bn	1	1	0
+os investidores	colocaram	£ 2bn em os quais	1	0	0
+os investidores	colocaram	£ 14bn	1	1	0
+os investidores	colocaram	£ 14bn em os quais	1	0	0
+os fundos	é	Aviva Investors Multi Strategy	1	0	0
+Aviva Investors Multi Strategy	é	Target Return and	1	0	0
+Ele	foi seguido	pelos fundos Aviva	1	0	0
+Ele	foi seguido	nos quais os investidores	1	0	0
+os investidores	colocaram	2bn	1	0	0
+os investidores	colocaram 2bn	Income	1	0	0
+Ele	foi seguido pelos	fundos Aviva Investors Multi Strategy Target Return	1	0	0
+275	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.
+eles	não se beneficiaram	de a elevação que a queda de a libra deu a os ativos financeiros	1	0	0
+eles	não se beneficiaram	de a elevação que a queda de a libra deu a os ativos financeiros exteriores	1	0	0
+eles	não se beneficiaram	de a elevação que a queda de a libra deu exteriores	1	0	0
+a queda de a libra	deu	a os ativos financeiros	1	0	0
+a queda de a libra	deu	a os ativos financeiros exteriores	1	0	0
+a queda de a libra	deu	a os ativos financeiros que	1	0	0
+Isto	significa	que	1	0	0
+Isto	significa	que eles não se beneficiaram da elevação	1	0	0
+eles	não se beneficiaram	da elevação	1	0	0
+a queda de a libra	deu	a elevação	1	0	0
+a queda de a libra	deu a elevação a	os ativos financeiros exteriores	1	1	0
+Isto	significa	que eles não se beneficiaram de a elevação	1	0	0
+eles	não se beneficiaram de	a elevação	1	1	0
+eles	não se beneficiaram de	a elevação que a queda de a libra deu a os ativos financeiros	1	0	0
+eles	não se beneficiaram de	a elevação que a queda de a libra deu a os ativos financeiros exteriores	1	0	0
+276	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.
+A Adidas	está ajudando a limpar os oceanos da	Terra	1	0	0
+os oceanos da Terra	usando	os resíduos	1	0	0
+mundo	fazer	sapatos	1	0	0
+A Adidas	está ajudando	a limpar os oceanos de a Terra	1	0	0
+A Adidas	está ajudando	a limpar os oceanos de a Terra usando os resíduos que flutuam por o mundo	1	0	0
+A Adidas	está ajudando	a limpar os oceanos de a Terra usando os resíduos que flutuam por o mundo para fazer sapatos	1	0	0
+A Adidas	está ajudando	usando os resíduos que flutuam por o mundo	1	0	0
+A Adidas	está ajudando	usando os resíduos que flutuam para fazer sapatos	1	0	0
+os resíduos	flutuam	por o mundo	1	0	0
+os resíduos	flutuam	por o mundo para fazer sapatos	1	0	0
+os resíduos	flutuam	para fazer sapatos	1	0	0
+A Adidas	está ajudando	a limpar os oceanos da Terra	1	0	0
+os resíduos	flutuam	pelo mundo	1	0	0
+os resíduos	flutuam por	o mundo	1	1	0
+os resíduos	flutuam para	fazer sapatos	1	0	0
+277	O consumidor pode impulsionar a procura pela mudança.
+O consumidor	pode impulsionar a procura pela	mudança	1	0	0
+O consumidor	pode impulsionar	a procura por a mudança	1	1	0
+O consumidor	pode impulsionar a procura	pela mudança	1	0	0
+O consumidor	pode impulsionar	a procura	1	0	0
+O consumidor	pode impulsionar a procura por	a mudança	1	1	0
+278	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.
+os oceanos	conteriam mais plástico do	peixes até 2050	1	0	0
+o mundo	tomasse uma atitude radical para impedir que	os lixos	1	0	0
+os lixos	vazassem para	os mares	1	0	0
+os oceanos	contaram mais plástico do	peixes até 2050	1	0	0
+os oceanos	ainda contaram mais plástico do	peixes até 2050	1	0	0
+um relatório importante	disse	Em janeiro	1	0	0
+os oceanos	tomasse	uma atitude radical	1	0	0
+os lixos	vazassem	para os mares	1	0	0
+os oceanos	conteriam	mais plástico de o que peixes	1	1	0
+os oceanos	conteriam	mais plástico de o que peixes até 2050	1	1	0
+os oceanos	conteriam	mais plástico de o que peixes até 2050 a menos que o mundo	1	0	0
+os oceanos	conteriam	mais plástico de o que peixes a menos que o mundo	1	0	0
+um relatório importante	disse	que	1	0	0
+os oceanos	tomasse	uma atitude radical para impedir	1	0	0
+os oceanos	tomasse	uma atitude radical para impedir que	1	0	0
+os oceanos	tomasse	que	1	0	0
+um relatório importante	disse	que os oceanos conteriam mais plástico	1	0	0
+um relatório importante	disse	que os oceanos conteriam mais plástico do que peixes até 2050	1	0	0
+um relatório importante	disse	que os oceanos conteriam mais plástico a menos que o mundo tomasse uma atitude radical	1	0	0
+um relatório importante	disse	que os oceanos conteriam mais plástico a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares	1	0	0
+os oceanos	conteriam	mais plástico	1	0	0
+os oceanos	conteriam mais plástico	do que peixes até 2050	1	0	0
+os oceanos	conteriam mais plástico	a menos que o mundo tomasse uma atitude radical	1	0	0
+os oceanos	conteriam mais plástico	a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares	1	0	0
+o mundo	tomasse	uma atitude radical	1	0	0
+o mundo	tomasse uma atitude radical	para impedir que os lixos vazassem para os mares	1	0	0
+os oceanos	conteriam	plástico	1	1	0
+o mundo	tomasse	que os lixos vazassem para os mares	1	0	0
+o mundo	tomasse que os lixos vazassem para os mares para	impedir	1	0	0
+um relatório importante	disse que os oceanos conteriam mais plástico Em	janeiro	1	0	0
+279	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.
+algumas cirurgias geniais e	trabalho duro de	reabilitação	1	0	0
+algumas cirurgias geniais e	tive	uma recuperação completa	1	0	0
+eu	tive	uma recuperação completa	1	1	0
+eu	tive	uma recuperação completa Após algumas cirurgias geniais e muito trabalho duro de reabilitação	1	1	0
+eu	tive	Após muito trabalho	1	0	0
+eu	tive	Após muito trabalho Após algumas cirurgias geniais duro de reabilitação	1	0	0
+eu	tive	uma recuperação completa Após algumas cirurgias geniais duro de reabilitação	1	0	0
+eu	tive uma recuperação completa	Após algumas cirurgias geniais	1	0	0
+280	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.
+o SNS	estava agora sob	enorme pressão	1	1	0
+o SNS	pediu ao	público	1	0	0
+público	assumir mais responsabilidade pela	sua própria saúde	1	0	0
+o SNS	estava	agora sob enorme pressão	1	0	0
+o SNS	estava	sob enorme pressão	1	0	0
+ele	pediu	a o público para assumir mais responsabilidade	1	0	0
+ele	pediu	a o público por a sua própria saúde	1	0	0
+ele	pediu	a o público para assumir mais responsabilidade por a sua própria saúde que	1	0	0
+ele	pediu	a o público	1	0	0
+ele	pediu	a o público para assumir mais responsabilidade por a sua própria saúde	1	0	0
+o SNS	estava	sob enorme pressão	1	1	1
+ele	pediu	ao público	1	0	0
+ele	pediu ao público	para assumir mais responsabilidade pela sua própria saúde	1	0	0
+ele	pediu a	o público	1	0	0
+ele	pediu para	assumir mais responsabilidade por a sua própria saúde	1	0	0
+o SNS	estava sob	enorme pressão	1	1	0
+ele	pediu a	o público para assumir mais responsabilidade	1	0	0
+ele	pediu a	o público para assumir mais responsabilidade por a sua própria saúde que	1	0	0
+281	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.
+Quatro em cada 10 adultos	ficaram feridos	devido ao mau tempo	1	0	0
+nove em cada dez	subestimam o quão fria a	Grã-Bretanha	1	0	0
+o quão fria a Grã-Bretanha	pode ser no	inverno	1	0	0
+Quatro em cada 10 adultos	ficaram	feridos	1	1	0
+Quatro em cada 10 adultos	ficaram	feridos devido a o mau tempo	1	1	0
+Quatro em cada 10 adultos	ficaram	feridos devido a o mau tempo subestimam enquanto nove em cada dez	1	0	0
+Quatro em cada 10 adultos	ficaram	feridos devido a o mau tempo subestimam enquanto nove em cada dez o	1	0	0
+Quatro em cada 10 adultos	ficaram	feridos subestimam enquanto nove em cada dez	1	0	0
+Quatro em cada 10 adultos	ficaram	feridos o	1	0	0
+quão fria a Grã - Bretanha	pode ser	em o inverno	1	0	0
+Quatro em cada 10 adultos	ficaram feridos	devido ao mau tempo	1	0	0
+nove em cada dez	subestimam o quão fria	a Grã-Bretanha	1	0	0
+Quatro	ficaram	feridos	1	0	0
+Quatro	ficaram feridos em	cada 10 adultos	1	1	0
+Quatro	ficaram feridos	devido a o mau tempo	1	0	0
+Quatro	ficaram feridos devido	ao mau tempo	1	0	0
+282	Eles vão atuar no sábado, 10 de junho.
+Eles	vão atuar no	sábado	1	0	0
+Eles	vão atuar	em o sábado 10 de junho	1	0	0
+Eles	vão atuar	no sábado	1	0	0
+Eles	vão atuar	10 de junho	1	0	0
+Eles	vão atuar em	o sábado 10 de junho	1	1	0
+Eles	vão atuar em	o sábado	1	1	0
+283	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.
+O ano	passado foi um ano incrível	estou	1	0	0
+O ano	estou pronto para possamos voltar ainda melhor em	2017	1	0	0
+foi um ano incrível e estou	passado	O ano	1	0	0
+O ano passado	estou	pronto	1	0	0
+O ano passado	estou	pronto para que possamos voltar ainda melhor	1	0	0
+O ano passado	estou	pronto para que possamos voltar ainda melhor em 2017	1	0	0
+O ano passado	estou	pronto em 2017	1	0	0
+O ano passado	foi	um ano incrível	1	1	0
+O ano	foi	pronto	1	0	0
+O ano	estou	pronto	1	0	0
+284	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.
+Ela	começou no	RSC no meio dos anos	1	0	0
+RSC no meio dos anos	atuando como internada de	asilo no Marat/Sade	1	0	0
+Ela	começou	em o RSC	1	0	0
+Ela	começou	em o RSC em o meio de os anos sessenta	1	0	0
+Ela	começou	em o RSC em o meio de os anos sessenta atuando como internada de asilo	1	0	0
+Ela	começou	em o RSC em o meio de os anos sessenta atuando como internada de asilo em o Marat Sade	1	0	0
+Ela	começou	em o meio de os anos sessenta	1	0	0
+Ela	começou	atuando como internada de asilo	1	0	0
+Ela	começou	atuando em o Marat Sade	1	0	0
+Ela	começou	no RSC	1	0	0
+Ela	começou	no meio dos anos sessenta	1	0	0
+Ela	começou	atuando como internada de asilo no Marat/Sade	1	0	0
+Ela	começou em	o RSC	1	1	0
+Ela	começou em	o meio de os anos sessenta	1	1	0
+Ela	começou em	o RSC em o meio de os anos sessenta atuando como internada de asilo	1	0	0
+Ela	começou em	o RSC em o meio de os anos sessenta	1	1	0
+Ela	começou em	o RSC em o meio de os anos sessenta atuando como internada de asilo em o Marat Sade	1	0	0
+285	O vestido é contemporâneo.
+O vestido	é	contemporâneo	1	1	1
+286	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?
+uma força	induzir ondas de	choque	1	0	0
+essa sua voz	pode explodir	com uma força	1	0	0
+essa sua voz	pode explodir	com uma força para induzir ondas de choque	1	0	0
+essa sua voz	pode explodir	para induzir ondas de choque	1	0	0
+sua voz	pode explodir com	uma força	1	1	0
+essa sua voz	pode explodir com	uma força para induzir ondas de choque	1	0	0
+287	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.
+O seu pescoço	avança em	confronto com veias acentuadas	1	1	0
+confronto com veias	acentuadas	as suas mãos	1	0	0
+O seu pescoço	avança	em confronto	1	0	0
+O seu pescoço	avança	em confronto com veias acentuadas	1	0	0
+O seu pescoço	avança	em confronto com veias acentuadas as suas mãos tremem	1	0	0
+O seu pescoço	avança	com veias acentuadas	1	0	0
+O seu pescoço	avança	as suas mãos tremem	1	0	0
+288	Mas tendo permitido que Glenda mandasse tão bem, quem poderia culpá-lo?
+Glenda	mandasse	tão bem	1	0	0
+quem	poderia culpá -	lo	1	0	0
+289	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.
+Ele	trabalhou no	das	1	0	0
+Ele	trabalhou	em o setor de as notícias	1	0	0
+Ele	trabalhou	em o setor de as notícias e de os assuntos atuais em a rádio e em a televisão durante décadas	1	0	0
+Ele	trabalhou	em o setor e de os assuntos atuais em a rádio e em a televisão durante décadas	1	0	0
+Ele	trabalhou	de as notícias de os assuntos atuais em a televisão durante décadas	1	0	0
+Ele	trabalhou	no setor das notícias	1	0	0
+Ele	trabalhou	na rádio durante décadas	1	0	0
+Ele	trabalhou em	o setor de as notícias e em a rádio	1	0	0
+Ele	trabalhou em	a rádio durante décadas	1	0	0
+Ele	trabalhou em	o setor de as notícias	1	1	0
+Ele	trabalhou em a rádio durante	décadas	1	1	0
+Ele	trabalhou em	o setor de as notícias e rádio	1	1	0
+290	Em teoria, se for bem feito, não é detectável.
+291	Largue o microfone.
+292	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.
+a própria contagem do diretor	fez	oito longas-metragens	1	0	0
+ele	fez	oito longas - metragens	1	1	0
+ele	fez	Segundo a própria contagem de o diretor	1	0	0
+ele	fez	Segundo a própria contagem de o diretor até a a data	1	0	0
+do diretor	fez	oito longas-metragens	1	0	0
+ele	fez	oito longas-metragens	1	1	0
+ele	fez oito longas-metragens a	a data	1	0	0
+293	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.
+O cinema	tinha mudado tão drasticamente que	Hollywood	1	0	0
+Hollywood	tinha alienado	o público familiar	1	1	0
+Hollywood	tinha	alienado o público familiar	1	0	0
+O cinema	tinha mudado	tão drasticamente que	1	0	0
+O cinema	tinha mudado	que	1	0	0
+O cinema	tinha mudado	tão drasticamente	1	1	0
+tão drasticamente	tinha	alienado o público familiar	1	0	0
+O cinema	tinha mudado	que Hollywood tinha alienado o público familiar	1	0	0
+Hollywood	tinha	o público familiar	1	0	0
+294	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.
+o filme	é	um ato precário	1	0	0
+ponto de vista do realizador	balançando -se entre	comédias familiares	1	0	0
+um ato precário	é	o filme	1	0	0
+o filme	é um ato	precário balançando - entre comédias familiares e dramas sociais	1	0	0
+o filme	é um ato	precário balançando - entre comédias familiares e dramas sociais profundos	1	0	0
+o filme	é um ato	de o ponto de vista	1	0	0
+o filme	é um ato	de o ponto de vista de o realizador	1	0	0
+o filme	é um ato	balançando - entre comédias familiares e dramas sociais	1	0	0
+o filme	é um ato	balançando - entre comédias familiares profundos	1	0	0
+o filme	é um ato	precário balançando - entre comédias familiares	1	0	0
+o filme	é um ato	precário balançando - entre comédias familiares de o ponto de vista de o realizador	1	0	0
+o filme	é um ato	precário balançando - entre comédias dramas sociais	1	0	0
+o filme	é um ato	precário balançando - entre comédias dramas sociais de o ponto de vista de o realizador	1	0	0
+o filme	é	um ato de o ponto de vista	1	0	0
+o filme	é um ato	Do ponto de vista do realizador	1	0	0
+o filme	é um ato precário Do	ponto de vista de o realizador	1	0	0
+295	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.
+A um nível	funciona como um aconchegador de	corações amigável e despretensioso	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito à	medida para uma sessão de domingo à tarde	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito	a a medida	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito	a a medida para uma sessão de domingo	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito	a a medida para uma sessão de domingo a a tarde	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito	para uma sessão de domingo	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito	para uma sessão a a tarde	1	0	0
+A um nível	parece feito	à medida para uma sessão de domingo	1	0	0
+A um nível	parece feito	à medida para uma sessão à tarde	1	0	0
+A um nível	parece	feito a a medida para uma sessão	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito a	a medida	1	0	0
+um aconchegador de corações amigável e despretensioso	parece feito para	uma sessão a a tarde	1	0	0
+296	E, claro, tem o Bob, uma constante fonte de entretenimento.
+297	O resultado, então, dificilmente é o pijama do gato.
+O resultado	então dificilmente é o pijama	de o gato	1	0	0
+O resultado	então dificilmente é	o pijama de o gato	1	1	0
+O resultado	é o pijama	do gato	1	0	0
+O resultado	é	o pijama de o gato	1	0	0
+298	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.
+os feitos de Doss	pertencem à	esfera do inimaginável	1	0	0
+os feitos de Doss	pertencem	a a esfera de o inimaginável	1	0	0
+os feitos de Doss	pertencem	Para as audiências modernas	1	0	0
+os feitos de Doss	pertencem	Para as audiências modernas maioria	1	0	0
+os feitos de Doss	pertencem	Para as audiências modernas maioria de as quais	1	0	0
+os feitos de Doss	pertencem	Para as audiências modernas maioria de as quais com pouca experiência em conflitos de primeira linha	1	0	0
+os feitos de Doss	pertencem	Para as audiências modernas maioria das quais com pouca experiência em conflitos de primeira linha	1	0	0
+os feitos de Doss	pertencem	à esfera do inimaginável	1	0	0
+os feitos de Doss	pertencem de	maioria	1	0	0
+os feitos de Doss	pertencem com	pouca experiência em conflitos de primeira linha	1	0	0
+os feitos de Doss	pertencem a	a esfera	1	0	0
+299	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.
+A história do Doss	tem	uma qualidade improvável	1	1	0
+A história de o Doss	também tem	uma qualidade improvável	1	1	0
+A história de o Doss	também tem	uma qualidade improvável que torna tudo ainda mais atraente	1	0	0
+uma qualidade improvável	torna	tudo ainda mais atraente	1	1	0
+A história de o Doss	tem	mais atraente	1	0	0
+300	Todos os médicos estavam armados, exceto eu.
+Todos os médicos	estavam	armados	1	0	0
+Todos os médicos	estavam	armados exceto eu	1	1	0

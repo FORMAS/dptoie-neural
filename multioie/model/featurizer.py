@@ -7,46 +7,6 @@ class Featurizer:
         self.last_p_id = None
         self.last_p_bottom = None
 
-    def rule_to_value(self, rule_value):
-        try:
-            rule_value = rule_value.replace(";", "").strip()
-
-            ends_with_pt = True if rule_value.endswith("pt") else False
-
-            int_value = int("".join(list(filter(str.isdigit, rule_value))))
-
-            if ends_with_pt:
-                int_value *= 1.333
-
-            return int(int_value)
-        except:  # noqa
-            return 0
-
-    def css_rules_to_dimensions(self, rule):
-        top = 0
-        right = 0
-        bottom = 0
-        left = 0
-
-        pieces = rule.split(" ")
-
-        if len(pieces) == 1:
-            top = right = bottom = left = self.rule_to_value(pieces[0])
-        elif len(pieces) == 2:
-            top = self.rule_to_value(pieces[0])
-            right = self.rule_to_value(pieces[1])
-        elif len(pieces) == 3:
-            top = self.rule_to_value(pieces[0])
-            right = self.rule_to_value(pieces[1])
-            bottom = self.rule_to_value(pieces[2])
-        elif len(pieces) == 4:
-            top = self.rule_to_value(pieces[0])
-            right = self.rule_to_value(pieces[1])
-            bottom = self.rule_to_value(pieces[2])
-            left = self.rule_to_value(pieces[3])
-
-        return top, right, bottom, left
-
     def agregado(self, html_token, replace_with_number=True):
         # Listar todas as features possiveis
         token = html_token.token.rstrip()
@@ -104,6 +64,7 @@ class Featurizer:
         result["word_shape_degen"] = word_shape_degen
 
         result["pos"] = html_token.pos
+        result["dep"] = html_token.dep
 
         # TODO - Use a real feature for ONE hot feature
         result["dummy_one_hot"] = "1"

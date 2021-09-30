@@ -42,6 +42,19 @@ def find_sublist_match(tokens, string_to_find, start=0):
     return start_match, end_match
 
 
+def clean_extraction(text):
+    text = text.strip()
+    text = text.strip('"')
+    text = text.strip(".")
+    text = text.strip()
+    text = text.replace(",", " , ")
+    text = text.replace(" ", " ")
+    text = text.replace("\u200b", "")
+    text = " ".join(filter(None, text.split(" ")))
+    text = " ".join(filter(None, text.split("_")))
+    return text
+
+
 def transform_portuguese_contractions(texto):
     contracoes = {
         "do": "de o",

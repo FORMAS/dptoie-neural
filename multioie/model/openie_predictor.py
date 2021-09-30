@@ -159,7 +159,7 @@ def consolidate_predictions(
                 add_to_prediction = False
 
         # This predicate doesn't overlap - add as a new predicate
-        if add_to_prediction:
+        if add_to_prediction and len(pred1_text) > 0:
             pred_dict[pred1_text] = tags1
 
     return pred_dict

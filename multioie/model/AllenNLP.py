@@ -26,7 +26,7 @@ from allennlp.data.samplers import BucketBatchSampler
 from allennlp.data.token_indexers import (
     SingleIdTokenIndexer,
     TokenCharactersIndexer,
-    ELMoTokenCharactersIndexer,
+    ELMoTokenCharactersIndexer, PretrainedTransformerIndexer,
 )
 from allennlp.data.tokenizers import Token
 from allennlp.data.vocabulary import Vocabulary
@@ -39,7 +39,8 @@ from allennlp.common import Params
 from allennlp.nn import util
 from allennlp.training.learning_rate_schedulers import ReduceOnPlateauLearningRateScheduler
 from allennlp.modules.seq2seq_encoders import PytorchSeq2SeqWrapper
-from allennlp.modules.token_embedders import Embedding, TokenCharactersEncoder, ElmoTokenEmbedder
+from allennlp.modules.token_embedders import Embedding, TokenCharactersEncoder, ElmoTokenEmbedder, \
+    PretrainedTransformerEmbedder
 from allennlp.predictors import Predictor
 from torch.optim import SGD
 from torch_optimizer import RAdam
@@ -49,9 +50,11 @@ from multioie.model.allen_helpers.broka_text_field_embedder import BrokaTextFiel
 from multioie.model.allen_helpers.broka_trainer import BrokaTrainer
 from multioie.model.allen_helpers.flair_char_indexer import FlairCharIndexer
 from multioie.model.allen_helpers.flair_token_embedder import FlairEmbedder
+from multioie.model.allen_helpers.my_fast_transformers import MyMemTransformer
 from multioie.model.featurizer import Featurizer
 from multioie.model.openie_predictor import MultiOIEOpenIePredictor
 from multioie.optimizers.madgrad_wd import Madgrad_wd
+from multioie.utils.align import StringAligner
 
 from multioie.utils.token_iter import gen_split_overlap
 
@@ -66,6 +69,7 @@ _MAX_OVERLAP_TO_PROCESS = 1024 * 3
 class MultiOIEToken:
     token: str
     pos: str
+    dep: str
 
 
 class EmbeddingType(Enum):
@@ -78,6 +82,7 @@ class EmbeddingType(Enum):
     SELF_100 = 7
     SELF_300 = 8
     SELF_200 = 9
+    BERT_PT = 10
 
 
 class OptimizerType(Enum):
@@ -89,7 +94,6 @@ class OptimizerType(Enum):
 class LearningType(Enum):
     LSTM = 1
     SRU = 2
-    PERFORMER = 12
     XTRANSFORMER = 13
     SRUPP = 14
 
@@ -123,9 +127,10 @@ class MyTrainerCallback(TrainerCallback):
 
 @dataclass(init=False)
 class TokenBroka(Token):
-    __slots__ = ["word_shape_degen", "one_hot"]
-    word_shape_degen: bool
+    __slots__ = ["word_shape_degen", "one_hot", "dep_tags"]
+    word_shape_degen: str
     one_hot: bool
+    dep_tags: str
 
 
 class BrokaReader(DatasetReader):
@@ -141,6 +146,7 @@ class BrokaReader(DatasetReader):
         one_hot_layout=None,
         use_elmo=True,
         use_flair=True,
+        use_bert=False,
         use_flair_backward=False,
         flair_fw_embedding_path=None,
         flair_bw_embedding_path=None,
@@ -153,6 +159,7 @@ class BrokaReader(DatasetReader):
         self.one_hot_layout = one_hot_layout
         self.use_elmo = use_elmo
         self.use_flair = use_flair
+        self.use_bert=use_bert
         self.use_flair_backward = use_flair_backward
         self.flair_fw_embedding_path = flair_fw_embedding_path
         self.flair_bw_embedding_path = flair_bw_embedding_path
@@ -181,23 +188,23 @@ class BrokaReader(DatasetReader):
         return features
 
     def token_to_instances_to_prediction(self, tokens: List[object]) -> List[Instance]:
-
-        sentence_field = self._create_sentence_field(tokens)
-
-        fields = {"tokens": sentence_field}
-
         # Find all verbs in the input sentence
-        pred_ids = [i for (i, t) in enumerate(sentence_field.tokens) if t.pos_ in ["VERB", "AUX"]]
+
+        spacy_verb_indicator = [1 if token.pos in ["VERB", "AUX"] else 0 for token in tokens]
+
+        verb_instances = self.get_verb_instances(spacy_verb_indicator)
+        if len(verb_instances) == 0:
+            verb_instances.append(spacy_verb_indicator)
 
         instances = []
-        for predicate_index in pred_ids:
+        for verb_labels in verb_instances:
 
-            verb_labels = [0 for _ in sentence_field.tokens]
-            verb_labels[predicate_index] = 1
+            sentence_field = self._create_sentence_field(tokens)
 
-            fields["verb_indicator"] = SequenceLabelField(
-                verb_labels, sequence_field=sentence_field
-            )
+            fields = {
+                "tokens": sentence_field,
+                "verb_indicator": SequenceLabelField(verb_labels, sequence_field=sentence_field),
+            }
 
             # Set metadata- Needed for SemanticRoleLabeler
             metadata_dict: Dict[str, Any] = {}
@@ -218,40 +225,96 @@ class BrokaReader(DatasetReader):
             instances.append(Instance(fields))
         return instances
 
+    def match_tags_to_verb_indicator(self, tags, verb_instances):
+        results = []
+
+        empty_tag = ["O" for _ in range(len(verb_instances[0]))]
+        set_existing_instances = verb_instances.copy()
+        # TODO - A Dynamic match would be better...
+        for tag in tags:
+            binary_tags = [1 if "-V" in x else 0 for x in tag]
+            best_score = {"score": -1, "item": None, "pos": None}
+            for pos, verb_instance in enumerate(verb_instances):
+                score = sum(x == y and x == 1 for x, y in zip(binary_tags, verb_instance))
+
+                if score > best_score["score"]:
+                    best_score["score"] = score
+                    best_score["item"] = verb_instance
+                    best_score["pos"] = pos
+
+            results.append((tag, best_score["item"]))
+            if best_score["item"] and (best_score["item"] in set_existing_instances):
+                set_existing_instances.remove(best_score["item"])
+
+        for non_matching_instance in set_existing_instances:
+            results.append((empty_tag, non_matching_instance))
+
+        return results
+
     def token_to_instance(self, tokens: List[object], tags: List[str] = None) -> Instance:
 
-        sentence_field = self._create_sentence_field(tokens)
+        spacy_verb_indicator = [1 if token.pos in ["VERB", "AUX"] else 0 for token in tokens]
 
-        fields = {"tokens": sentence_field}
+        verb_instances = self.get_verb_instances(spacy_verb_indicator)
+        if len(verb_instances) == 0:
+            verb_instances.append(spacy_verb_indicator)
 
-        verb_indicator = [
-            1 if token.pos_ in ["VERB", "AUX"] else 0 for token in sentence_field.tokens
-        ]
+        # Instance
+        instances = []
 
-        fields["verb_indicator"] = SequenceLabelField(verb_indicator, sequence_field=sentence_field)
+        itens = self.match_tags_to_verb_indicator(tags=tags, verb_instances=verb_instances)
 
-        metadata_dict: Dict[str, Any] = {}
+        for item_tags, verb_indicator in itens:
 
-        if all(x == 0 for x in verb_indicator):
-            verb = None
-            verb_index = None
-        else:
-            verb_index = verb_indicator.index(1)
-            verb = tokens[verb_index].token
+            sentence_field = self._create_sentence_field(tokens)
 
-        metadata_dict["words"] = [x.token for x in tokens]
-        metadata_dict["verb"] = verb
-        metadata_dict["verb_index"] = verb_index
+            fields = {
+                "tokens": sentence_field,
+                "verb_indicator": SequenceLabelField(verb_indicator, sequence_field=sentence_field),
+            }
 
-        if tags:
-            label_field = SequenceLabelField(labels=tags, sequence_field=sentence_field)
-            fields["tags"] = label_field
+            metadata_dict: Dict[str, Any] = {}
 
-            metadata_dict["gold_tags"] = tags
+            if all(x == 0 for x in verb_indicator):
+                verb = None
+                verb_index = None
+            else:
+                verb_index = verb_indicator.index(1)
+                verb = tokens[verb_index].token
 
-        fields["metadata"] = MetadataField(metadata_dict)
+            metadata_dict["words"] = [x.token for x in tokens]
+            metadata_dict["verb"] = verb
+            metadata_dict["verb_index"] = verb_index
 
-        return Instance(fields)
+            if item_tags:
+                if len(item_tags) != len(sentence_field):
+                    raise Exception("Invalid number")
+                label_field = SequenceLabelField(labels=item_tags, sequence_field=sentence_field)
+                fields["tags"] = label_field
+
+                metadata_dict["gold_tags"] = item_tags
+
+            fields["metadata"] = MetadataField(metadata_dict)
+
+            instances.append(Instance(fields))
+
+        return instances
+
+    def get_verb_instances(self, verb_indicator):
+        buffer_results = []
+        verb_instances = []
+        for verb_slice in [list(g) for k, g in itertools.groupby(verb_indicator)]:
+            if any(x == 1 for x in verb_slice):
+                new_instance = [0 for _ in range(len(buffer_results))]
+                new_instance.extend(verb_slice)
+                missing_zeros = len(verb_indicator) - len(new_instance)
+                if missing_zeros > 0:
+                    new_instance.extend([0 for _ in range(missing_zeros)])
+
+                verb_instances.append(new_instance)
+
+            buffer_results.extend(verb_slice)
+        return verb_instances
 
     def _create_sentence_field(self, tokens):
         token_list = []
@@ -274,6 +337,7 @@ class BrokaReader(DatasetReader):
                     token = transformed_token["token"]
                 token = TokenBroka(token)  # type: ignore
                 token.word_shape_degen = transformed_token["word_shape_degen"]  # type: ignore
+                token.dep_tags = transformed_token["dep"]
                 token.pos_ = transformed_token["pos"]
                 # token.one_hot = self.token_to_one_hot_vector(transformed_token)  # type: ignore
             else:
@@ -283,14 +347,19 @@ class BrokaReader(DatasetReader):
                     token = Token(transformed_token)
 
             token_list.append(token)
-        token_indexer = {
-            "tokens": SingleIdTokenIndexer(),
-        }
+
+        token_indexer = {}
+        if not self.use_bert:
+            token_indexer["tokens"]: SingleIdTokenIndexer()
+
         if self.use_char_cnn:
             token_indexer["token_characters"] = TokenCharactersIndexer(min_padding_length=3)
         if not self.simple_text:
             token_indexer["word_shape_degen"] = SingleIdTokenIndexer(
                 namespace="word_shape_degen", feature_name="word_shape_degen"
+            )
+            token_indexer["dep_tags"] = SingleIdTokenIndexer(
+                namespace="dep_tags", feature_name="dep_tags"
             )
             # token_indexer["one_hot"] = ArrayIndexer(namespace="one_hot", feature_name="one_hot")
         if self.use_elmo:
@@ -299,12 +368,16 @@ class BrokaReader(DatasetReader):
             token_indexer["flair"] = FlairCharIndexer(self.flair_fw_embedding_path)
         if self.flair_bw_embedding_path is not None:
             token_indexer["flair-back"] = FlairCharIndexer(self.flair_bw_embedding_path)
+        if self.use_bert:
+            token_indexer["bert"] = PretrainedTransformerIndexer(model_name="neuralmind/bert-large-portuguese-cased")
+
         return TextField(token_list, token_indexers=token_indexer)
 
     def read(self, dataset) -> Iterator[Instance]:
         tokens, tags = dataset
         for doc_tokens, doc_tags in zip(tokens, tags):
-            yield self.token_to_instance(doc_tokens, doc_tags)
+            for instance in self.token_to_instance(doc_tokens, doc_tags):
+                yield instance
 
     def count_one_hot(self, documents):
         if self.simple_text:
@@ -470,6 +543,7 @@ class AllenOpenIE:
 
         # Setar os parameteros
         self.use_glove = False
+        self.use_bert = False
         self.use_elmo = False
         self.use_flair = False
         self.use_flair_backward = False
@@ -534,6 +608,8 @@ class AllenOpenIE:
             self.own_embedding_size = 200
         elif self.embedding == EmbeddingType.SELF_300:
             self.own_embedding_size = 300
+        elif self.embedding == EmbeddingType.BERT_PT:
+            self.use_bert = True
         else:
             raise AttributeError
 
@@ -561,8 +637,15 @@ class AllenOpenIE:
         # Now we need to construct the model.
         # We'll choose a size for our embedding layer and for the hidden layer of our LSTM.
 
-        if self.use_glove:
+        if self.use_bert:
+            token_embedding = PretrainedTransformerEmbedder.from_params(
+                Params({"model_name": "neuralmind/bert-large-portuguese-cased"})
+
+            )
+            total_embedding_dim += token_embedding.output_dim
+        elif self.use_glove:
             # Usar o http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
+
             token_embedding = Embedding.from_params(
                 vocab=vocab,
                 params=Params(
@@ -582,9 +665,14 @@ class AllenOpenIE:
             )
             total_embedding_dim += self.own_embedding_size
 
-        active_embedders = {
-            "tokens": token_embedding,
-        }
+        if self.use_bert:
+            active_embedders = {
+                "bert": token_embedding,
+            }
+        else:
+            active_embedders = {
+                "tokens": token_embedding,
+            }
 
         if self.use_char_cnn:
             params = Params(
@@ -646,6 +734,14 @@ class AllenOpenIE:
             )
             total_embedding_dim += 36
             active_embedders["word_shape_degen"] = shape_embedding
+
+            dep_embedding = Embedding(
+                num_embeddings=vocab.get_vocab_size("dep_tags"),
+                embedding_dim=36,
+                trainable=True,
+            )
+            total_embedding_dim += 36
+            active_embedders["dep_tags"] = dep_embedding
 
             # Fix to fit transformers head limitation
             # one_hot_embedding_size = 48
@@ -714,8 +810,7 @@ class AllenOpenIE:
                 )
                 encoder = MySRUWrapper(network, srupp=True)
 
-        elif self.network in [LearningType.PERFORMER, LearningType.XTRANSFORMER]:
-            from webstruct.allennlp.transformers.my_fast_transformers import MyMemTransformer
+        elif self.network in [LearningType.XTRANSFORMER]:
 
             encoder = MyMemTransformer(
                 total_embedding_dim,
@@ -724,8 +819,6 @@ class AllenOpenIE:
                 feedforward_hidden_dim=self.hidden_dimension,
                 network_type=self.network,
                 dropout_prob=0.0 if self.layers == 1 else self.dropout_layers,
-                positional_encoding=self.positional_encoding,
-                positional_embedding_size=8192,
             )
         else:
             # LSTM + Attention
@@ -762,6 +855,7 @@ class AllenOpenIE:
             simple_text=self.simple_text,
             use_elmo=self.use_elmo,
             use_flair=self.use_flair,
+            use_bert=self.use_bert,
             use_flair_backward=self.use_flair_backward,
             flair_fw_embedding_path=self.flair_fw_embedding_path,
             flair_bw_embedding_path=self.flair_bw_embedding_path,
@@ -789,10 +883,10 @@ class AllenOpenIE:
             check_point_folder = Path(tempfile.TemporaryDirectory().name) / "checkpoints"
 
         if not check_point_folder.exists():
-            check_point_folder.mkdir(parents=True)
+            check_point_folder.mkdir(parents=True, exist_ok=True)
         elif not resume:
             shutil.rmtree(check_point_folder, ignore_errors=True)
-            check_point_folder.mkdir(parents=True)
+            check_point_folder.mkdir(parents=True, exist_ok=True)
 
         checkpointer = Checkpointer(check_point_folder, keep_most_recent_by_count=3)
 
@@ -1052,6 +1146,7 @@ class AllenOpenIE:
             one_hot_layout=self.one_hot_layout,
             use_elmo=self.use_elmo,
             use_flair=self.use_flair,
+            use_bert=self.use_bert,
             use_flair_backward=self.use_flair_backward,
             flair_fw_embedding_path=self.flair_fw_embedding_path,
             flair_bw_embedding_path=self.flair_bw_embedding_path,
