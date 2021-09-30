@@ -53,6 +53,7 @@ class PortugueseOIE:
             embedding=embedding,
             optimizer=optimizer,
             hidden_dimension=hidden_dimension,
+            batch_size=32
         )
 
         tokens, tags = read_dataset(input_path)

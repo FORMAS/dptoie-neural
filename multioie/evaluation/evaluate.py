@@ -455,11 +455,11 @@ def main():
             gold_dict[sentence].append(dict_extraction)
 
 
-    evaluate_linguakit(tokens_list, tags_list, gold_dict)
+    #evaluate_linguakit(tokens_list, tags_list, gold_dict)
 
-    evaluate_dpt(tokens_list, tags_list, gold_dict)
+    #evaluate_dpt(tokens_list, tags_list, gold_dict)
 
-    #hyperparameter_search(tokens_list, tags_list, gold_dict)
+    hyperparameter_search(tokens_list, tags_list, gold_dict)
 
     exit(0)
 

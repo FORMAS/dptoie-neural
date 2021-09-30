@@ -54,6 +54,7 @@ from multioie.model.allen_helpers.my_fast_transformers import MyMemTransformer
 from multioie.model.featurizer import Featurizer
 from multioie.model.openie_predictor import MultiOIEOpenIePredictor
 from multioie.optimizers.madgrad_wd import Madgrad_wd
+from multioie.optimizers.ranger21 import Ranger21
 from multioie.utils.align import StringAligner
 
 from multioie.utils.token_iter import gen_split_overlap
@@ -89,6 +90,7 @@ class OptimizerType(Enum):
     SGD = 1
     RADAM = 2
     MADGRAD = 3
+    RANGER = 4
 
 
 class LearningType(Enum):
@@ -913,6 +915,16 @@ class AllenOpenIE:
         elif self.optimizer == OptimizerType.MADGRAD:
             optimizer = Madgrad_wd(
                 self.model.parameters(), lr=self.learning_rate, weight_decay=self.c2
+            )
+        elif self.optimizer == OptimizerType.RANGER:
+            approximate_batch_size = self.batch_size
+            optimizer = Ranger21(
+                self.model.parameters(),
+                lr=self.learning_rate,
+                weight_decay=self.c2,
+                use_madgrad=True,
+                num_epochs=self.max_iterations,
+                num_batches_per_epoch=approximate_batch_size,
             )
         else:
             raise AttributeError("Invalid optimizer")

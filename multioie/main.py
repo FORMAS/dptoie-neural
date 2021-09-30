@@ -35,7 +35,7 @@ def train(
 def get_options():
     network_options = [LearningType.LSTM, LearningType.XTRANSFORMER, LearningType.SRUPP]
     hidden_dimension_options = [384, 512]
-    layers_options = [1, 2, 3]
+    layers_options = [2, 3]
     embedding_options = [
         #EmbeddingType.GLOVE,
         #EmbeddingType.FLAIR_DIARIOS_BI_1024,
@@ -44,7 +44,8 @@ def get_options():
     ]
     optimizer_options = [
         # OptimizerType.SGD,
-        OptimizerType.RADAM
+        OptimizerType.RADAM,
+        OptimizerType.RANGER
     ]
 
     options = []
