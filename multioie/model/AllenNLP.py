@@ -352,7 +352,7 @@ class BrokaReader(DatasetReader):
 
         token_indexer = {}
         if not self.use_bert:
-            token_indexer["tokens"]: SingleIdTokenIndexer()
+            token_indexer["tokens"] = SingleIdTokenIndexer()
 
         if self.use_char_cnn:
             token_indexer["token_characters"] = TokenCharactersIndexer(min_padding_length=3)
@@ -981,7 +981,8 @@ class AllenOpenIE:
         trainer = trainer_model(
             model=self.model,
             optimizer=optimizer,
-            checkpointer=checkpointer,
+            #checkpointer=checkpointer,
+            serialization_dir=self.model_folder / "model_final",
             # iterator=iterator,
             grad_norm=10.0,
             data_loader=dl,
@@ -993,7 +994,7 @@ class AllenOpenIE:
             max_tokens_per_batch=self.max_tokens_per_batch,
             validation_metric=["+f1-measure-overall", "-loss"],
             min_improvement=0.05,
-            callbacks=callback,
+            callbacks=callback
         )
 
         # Limpar o cache antes
@@ -1040,6 +1041,11 @@ class AllenOpenIE:
             self.model.cpu()
 
         self.model.extend_embedder_vocab()
+
+        load_path = Path(self.model_folder / "model_final" / "best.th")
+
+        if not load_path.exists():
+            load_path = self.model_folder / "model_final" / "model.th"
 
         with open(self.model_folder / "model_final" / "model.th", "rb") as f:
             if torch.cuda.is_available():

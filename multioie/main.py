@@ -27,13 +27,13 @@ def train(
         destination_model_path=output_path,
         max_iterations=max_iterations,
         layers=layers,
-        embedding=EmbeddingType.BERT_PT,
+        embedding=EmbeddingType.SELF_100,
         network=LearningType.LSTM,
     )
 
 
 def get_options():
-    network_options = [LearningType.LSTM, LearningType.XTRANSFORMER, LearningType.SRUPP]
+    network_options = [LearningType.LSTM, LearningType.SRUPP] # LearningType.XTRANSFORMER,
     hidden_dimension_options = [384, 512]
     layers_options = [2, 3]
     embedding_options = [
@@ -44,7 +44,7 @@ def get_options():
     ]
     optimizer_options = [
         # OptimizerType.SGD,
-        OptimizerType.RADAM,
+        #OptimizerType.RADAM,
         OptimizerType.RANGER
     ]
 
@@ -78,7 +78,7 @@ def create_multiple_models():
 
         if output_path.exists():
             print(f"Skipping existing model: {str_key}")
-            #continue
+            continue
         print(f"Processing {str_key}")
         try:
             output_path.mkdir(parents=True)
@@ -92,7 +92,6 @@ def create_multiple_models():
                 **option,
             )
         except:
-            raise
             traceback.print_exc()
 
 

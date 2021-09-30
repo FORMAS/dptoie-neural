@@ -30,10 +30,10 @@ class MyMemTransformer(Seq2SeqEncoder):
             dim=input_dim,
             depth=num_layers,
             heads=num_attention_heads,
-            use_scalenorm=True,
+            use_scalenorm=False,
             ff_glu=True,
-            use_rezero=True,
-            rotary_pos_emb=True,
+            use_rezero=False,
+            alibi_pos_bias=True,
             attn_dropout=dropout_prob,  # dropout post-attention
             ff_dropout=dropout_prob,  # feedforward dropout
         )
