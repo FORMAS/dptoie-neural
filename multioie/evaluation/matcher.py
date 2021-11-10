@@ -80,8 +80,21 @@ class Matcher:
 
     @staticmethod
     def lexicalMatch(ref, ex, ignoreStopwords, ignoreCase):
-        sRef = ref.bow().split(' ')
-        sEx = ex.bow().split(' ')
+
+
+        arg1_ref = Benchmark.normalizeKey(ref["arg1"])
+        rel_ref = Benchmark.normalizeKey(ref["rel"])
+        arg2_ref = Benchmark.normalizeKey(ref["arg2"])
+
+        arg1_pred = Benchmark.normalizeKey(ex["arg1"])
+        rel_pred = Benchmark.normalizeKey(ex["rel"])
+        arg2_pred = Benchmark.normalizeKey(ex["arg2"])
+
+        sRef = f"{arg1_ref} {rel_ref} {arg2_ref}".split(' ')
+        sEx = f"{arg1_pred} {rel_pred} {arg2_pred}".split(' ')
+
+
+
         count = 0
         # for w1 in sRef:
         #    if w1 in sEx:

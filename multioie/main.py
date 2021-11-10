@@ -2,6 +2,7 @@ import traceback
 from pathlib import Path
 import random
 
+from multioie.model import AllenNLP
 from multioie.model.AllenNLP import (
     EmbeddingType,
     LearningType,
@@ -22,19 +23,24 @@ def train(
     output_path = Path(model_output_path_str).resolve()
 
     oie_system = PortugueseOIE()
+    max_iterations = 70
+    layers = 3
     oie_system.train(
         input_path=input_path,
         destination_model_path=output_path,
         max_iterations=max_iterations,
         layers=layers,
-        embedding=EmbeddingType.SELF_100,
+        embedding=EmbeddingType.BERT_PT,
         network=LearningType.LSTM,
+        optimizer=OptimizerType.MADGRAD,
+        hidden_dimension=384,
+        batch_size=32
     )
 
 
 def get_options():
     network_options = [LearningType.LSTM, LearningType.SRUPP] # LearningType.XTRANSFORMER,
-    hidden_dimension_options = [384, 512]
+    hidden_dimension_options = [384, 512, 768]
     layers_options = [2, 3]
     embedding_options = [
         #EmbeddingType.GLOVE,
@@ -45,7 +51,8 @@ def get_options():
     optimizer_options = [
         # OptimizerType.SGD,
         #OptimizerType.RADAM,
-        OptimizerType.RANGER
+        #OptimizerType.RANGER,
+        OptimizerType.MADGRAD
     ]
 
     options = []
@@ -67,6 +74,52 @@ def get_options():
 
 
 @app.command()
+def create_ablation_models():
+    input_path = Path("../datasets/meu_dataset/").resolve()
+
+    for option in ["both", "features", "variations", "none"]:
+        str_key = option
+        output_path = Path(f"../models/{str_key}")
+
+        output_path_best = Path(f"../models/{str_key}") / "model_final" / "best.th"
+        if output_path_best.exists():
+            print(f"Skipping existing model: {str_key}")
+            continue
+
+        if option == "both":
+            AllenNLP.DISABLE_RICH_FEATURES = True
+            AllenNLP.DISABLE_VARIATION_GENERATOR = True
+        elif option == "features":
+            AllenNLP.DISABLE_RICH_FEATURES = True
+            AllenNLP.DISABLE_VARIATION_GENERATOR = False
+        elif option == "variations":
+            AllenNLP.DISABLE_RICH_FEATURES = False
+            AllenNLP.DISABLE_VARIATION_GENERATOR = True
+        elif option == "none":
+            AllenNLP.DISABLE_RICH_FEATURES = False
+            AllenNLP.DISABLE_VARIATION_GENERATOR = False
+
+
+        print(f"Processing {str_key}")
+        output_path.mkdir(parents=True, exist_ok=True)
+
+        oie_system = PortugueseOIE()
+        print(f"TRAINING WITH {str_key}")
+        oie_system.train(
+            input_path=input_path,
+            destination_model_path=output_path,
+            max_iterations=80,
+            batch_size=32,
+            layers = 3,
+            network = LearningType.LSTM,
+            embedding = EmbeddingType.BERT_PT,
+            optimizer = OptimizerType.MADGRAD,
+            hidden_dimension = 384,
+        )
+
+
+
+@app.command()
 def create_multiple_models():
     input_path = Path("../datasets/meu_dataset/").resolve()
     options = get_options()
@@ -76,19 +129,22 @@ def create_multiple_models():
         str_key = "_".join([str(x) for x in option.values()])
         output_path = Path(f"../models/{str_key}")
 
-        if output_path.exists():
+        output_path_best = Path(f"../models/{str_key}") / "model_final" / "best.th"
+
+        if output_path_best.exists():
             print(f"Skipping existing model: {str_key}")
             continue
         print(f"Processing {str_key}")
         try:
-            output_path.mkdir(parents=True)
+            output_path.mkdir(parents=True, exist_ok=True)
 
             oie_system = PortugueseOIE()
             print(f"TRAINING WITH {str_key}")
             oie_system.train(
                 input_path=input_path,
                 destination_model_path=output_path,
-                max_iterations=100,
+                max_iterations=90,
+                batch_size=64,
                 **option,
             )
         except:

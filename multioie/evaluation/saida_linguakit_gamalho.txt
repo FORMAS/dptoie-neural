@@ -1,0 +1,232 @@
+SENT	Uma população compreende os indivíduos de uma espécie dentro de uma dada área
+SENTID_1	Uma	população	compreende
+SENT	As fronteiras de uma população podem ser as naturais , impostas pêlos limites geográficos de um hábitat , adequado , ou podem ser definidas arbitrariamente a a conveniência de o pesquisador
+SENTID_1	As fronteiras de uma	podem	ser as
+SENT	Em qualquer caso , a população tem uma estrutura espacial , a qual significa que , dentro de suas fronteiras geográficas , os indivíduos vivem principalmente dentro de partes de habitat adequadas , e suas abundâncias podem variar com respeito a comida , predadores , locais de ninho , e outros fatores ecológicos dentro de o habitat
+SENTID_1	Em	qualquer	caso
+SENTID_1	Em	qualquer caso a	população tem
+SENT	A estrutura de a população proporciona uma visão rápida em um determinado instante de tempo
+SENT	As populações também apresentam comportamento dinâmico , continuamente mudando com o tempo devido a os nascimentos , mortes , e movimentos individuais
+SENTID_1	tempo	devido a	os nascimentos
+SENTID_1	As populações	apresentam	comportamento dinâmico
+SENT	A regulação desses processos depende de várias interações de indivíduos com os seus ambientes e entre si
+SENT	Além disso , a evolução através de a seleção natural e a regulação tanto de a estrutura de a comunidade quanto de o funcionamento de o ecossistema tornam-se evidentes quando se somam em termos de processos populacionais
+SENTID_1	Além	disso a	evolução através de a seleção natural
+SENT	Por isso , muito de a ecologia focaliza-se em o nível populacional
+SENT	A população tem continuidade temporal porque indivíduos que estão vivos em um determinado tempo são descendentes de outros que estavam vivos em um tempo anterior
+SENTID_1	indivíduos	estavam	vivos em um tempo anterior
+SENTID_1	indivíduos	estão	vivos em um
+SENTID_1	indivíduos	estão vivos em um	determinado tempo são
+SENT	A população também tem continuidade espacial devido a os indivíduos em diferentes partes de a distribuição terem ancestrais comuns , em geral , quanto mais distantes dois indivíduos , mais remoto em o tempo encontra-se seu ancestral comum
+SENTID_1	quanto	mais	distantes dois indivíduos
+SENTID_1	continuidade espacial	devido a	os indivíduos em diferentes partes de a distribuição terem
+SENT	Como resultado , os indivíduos dentro de uma população herdam seus genes de um depósito comum e assim compartilham uma história comum de adaptação a o meio ambiente
+SENT	Neste capítulo , consideramos a distribuição de os indivíduos dentro de as populações com respeito a a sua distribuição espacial , idade e genótipo
+SENTID_1	as populações	com	respeito a a sua distribuição espacial
+SENT	A distribuição e os movimentos de indivíduos determinam a coerência espacial de a população - o grau em o qual diferentes partes de a população dividem a mesma dinâmica , ou , por outro lado , apresentam independência
+SENTID_1	grau em o qual diferentes partes de a população dividem	apresentam	independência
+SENTID_1	grau em o qual diferentes partes de a população dividem	apresentam independência a	mesma dinâmica
+SENTID_1	grau em o qual diferentes partes de a população dividem	apresentam independência por	outro lado
+SENT	A medida que as populações tornam-se fragmentadas quando os humanos transformam a paisagem , as questões de coerência populacional e , particularmente , a vulnerabilidade de pequenas subpopulações a a extinção ou a a mudança genética drástica tornam-se importantes preocupações de conservação e gerenciamento
+SENTID_1	as populações tornam-se transformam a paisagem	fragmentadas	quando os humanos
+SENT	As populações em áreas naturais também podem ser subdivididas como resultado de a heterogeneidade de habitat
+SENTID_1	As populações em áreas	naturais	também
+SENT	A maioria de as populações insulares passa por estágios iniciais de colonização caracterizados por pequeno número de indivíduos
+SENT	Devido a os eventos de acaso terem impacto maior em as pequenas populações de o que em as grandes , os ecólogos devem prestar uma cuidadosa atenção a os tamanhos de as populações
+SENTID_1	ecólogos	os devem	prestar uma cuidadosa atenção a
+SENT	Dentro de as populações , os indivíduos podem variar em relação a o género , idade , experiência , posição social , genótipo e os efeitos acumulados de acidentes e acaso
+SENTID_1	posição social	os efeitos	acumulados
+SENT	A evolução ocorre quando diferenças genéticas entre indivíduos resultam em diferentes taxas de nascimento ou de morte , e por isso diferentes dinâmicas populacionais
+SENT	A razão sexual e a estrutura de idade influenciam a dinâmica populacional devido às variações relacionadas a o sexo e a a idade em o nascimento e em a morte
+SENT	Estes aspectos de a estrutura populacional são por isso uma parte importante de a nossa compreensão de como as populações mudam a o longo de o tempo
+SENTID_1	Estes aspectos de a estrutura	populacional	são
+SENTID_1	Estes aspectos de a estrutura	populacional são por	isso uma parte importante de a nossa compreensão
+SENT	A estrutura espacial de uma população tem três propriedades principais : distribuição dispersão e densidade
+SENT	A distribuição de uma população descreve a sua abrangência geográfica e ecológica , a qual é determinada primordialmente por a presença ou ausência de habitat adequado
+SENTID_1	qual é	determinada por	a presença
+SENT	Deste modo , a distribuição de a maple-de-açúcar em os Estados Unidos e Canadá é interrompida abruptamente a leste por o Oceano Atlântico , mais gradualmente a oeste , por a baixa precipitação , a norte , pêlos frios invernos , e a o sul , pêlos verões quen-tes
+SENTID_1	Estados@Unidos e Canadá	os é a	maple-de-açúcar
+SENTID_1	Estados@Unidos e Canadá	os é	interrompida abruptamente a leste por o Oceano@Atlântico
+SENT	Indubitavelmente , hábitats mais adequados existem em todo o mundo , especialmente em a Europa e Ásia , mas a maple-de-açúcar desenvolveu-se em a América de o Norte e não teve oportunidade de colonizar essas outras áreas
+SENTID_1	hábitats	mais	adequados existem
+SENT	Os limites de distribuição impostos pelas barreiras de dispersão a longa distância revelam-se dramaticamente quando espécies introduzidas se expandem com sucesso em novas regiões de colonização
+SENT	Em 60 anos , a população expandiu-se para cobrir mais de 7 , 7 milhões de quilómetros quadrados e abranger o país de costa a costa
+SENT	Os hábitats ocupados pêlos estorninhos em a América de o Norte ( principalmente parques de cidades , fazendas e pastos ) assemelham-se a os hábitats de preferência em a Europa
+SENTID_1	hábitats	ocupados	pêlos
+SENTID_1	pêlos	estorninhos	em a América de o Norte
+SENT	Fatores ecológicos súbitos , qualida-dês intrínsecas de uma espécie que determinam se ela é boa ou má colonizadora , e o aca-só determinam o resultado de as introduções
+SENTID_1	qualida-dês intrínsecas de uma espécie	se ela	é boa ou má colonizadora
+SENT	Mesmo o prolífico estorninho foi introduzido por o menos três vezes em os Estados Unidos em a Pennsylvania , Ohio e Oregon antes que ele finalmente se estabelecesse em New York
+SENTID_1	ele	se estabelecesse	em New@York
+SENTID_1	Mesmo o prolífico estorninho foi Estados@Unidos em a Pennsylvania	introduzido	os
+SENTID_1	Mesmo o prolífico estorninho foi Estados@Unidos em a Pennsylvania	introduzido os por	o menos três
+SENTID_1	Mesmo o prolífico estorninho foi Estados@Unidos em a Pennsylvania	introduzido os	vezes em
+SENT	Dentro de a abrangência geográfica de uma população , os indivíduos geralmente vivem somente em um habitat adequado
+SENT	As maples-de-açúcar não crescem em alagados , em maninhos de serpentina , em dunas recém-formadas , em áreas recentemente queimadas , l ou em uma variedade de outros hábitats que se situam simplesmente fora de sua abrangência de tolerância ecológica
+SENTID_1	l ou	em	uma variedade de outros hábitats
+SENTID_1	variedade de outros hábitats	se situam	fora de sua abrangência de tolerância ecológica
+SENTID_1	As maples-de-açúcar não	crescem	em
+SENTID_1	As maples-de-açúcar não	crescem em	alagados
+SENT	Por isso a abrangência geográfica de a maple-de-açúcar aparece como um monte de retalhos de áreas ocupadas e não-ocupadas
+SENT	O clima , a topografia , a química de o solo e a textura de o solo exercem influência progressivamente mais refinada de a distribuição geográfica de o arbusto perene Clematis fremontii ( Fig 14.2 )
+SENTID_1	solo exercem influência	mais	refinada de a distribuição geográfica
+SENT	O clima e talvez as interações com espécies aparentadas ecológicamente restringem esta espécie de Clematis a uma pequena parte de o meio-oeste de os Esta - de os Unidos
+SENTID_1	as interações	com	espécies
+SENTID_1	as interações	com espécies	aparentadas ecológicamente
+SENT	A variedade riehlii ocorre somente em o município de Jefferson , Missouri
+SENT	Dentro de sua abrangência geográfica , a Clematis fremontii está restrita a os solos rochosos e secos de os afloramentos de calcário
+SENT	Pequenas variações em o relevo e em a qualidade de o solo confinam ainda mais a distribuição de o Clematis dentro de cada clareira de calcário a os locais de condições adequadas de umidade , nutrientes e estrutura de solo
+SENTID_1	solo confinam ainda	mais a	distribuição de o Clematis
+SENTID_1	Pequenas	variações	em
+SENT	Agregados locais ocorrendo dentro de cada um desses locais consistem em muitos indivíduos distribuídos mais ou menos uniformemente
+SENTID_1	Agregados	locais	ocorrendo de cada um desses
+SENT	A cotovia-de-chifre (horned lark , Eremophila alpestris) , um pequeno pássaro canoro de campos reduzidos , ocorre mais amplamente em a América de o Norte de o que a Clematis fremontii , mas sua distribuição local reflete súbitas variações de habitat , os indivíduos até usam algumas partes de seus territórios mais de o que outras
+SENTID_1	ocorre	mais	em a América de o Norte
+SENT	As distribuições de populações incluem todas as áreas que eles ocupam durante seus ciclos de vida
+SENTID_1	As distribuições de populações	incluem	todas as áreas
+SENT	Deste modo , a abrangência geográfica de o salmão inclui não apenas os rios que servem como áreas de desova mas também as vastas áreas de o mar onde os indivíduos crescem até a maturidade antes de fazerem a longa migração de volta a os seus locais de nascimento
+SENTID_1	salmão não	não os rios a	abrangência geográfica de o
+SENTID_1	mar	os indivíduos	crescem
+SENT	Muitos pássaros realizam migrações anuais em direção a lugares quentes durante os meses de inverno
+SENTID_1	Muitos	pássaros	migrações
+SENT	Deste modo , a abrangência de a blackburnian warbler situa-se inteiramente dentro de o nordeste de os Estados Unidos e sudeste de o Canadá durante o verão , mas inteiramente em a América Central e norte de a América de o Sul durante o inverno
+SENTID_1	Deste modo	blackburnian	warbler situa-se inteiramente dentro
+SENTID_1	Deste modo	blackburnian warbler situa-se inteiramente dentro a	abrangência de a
+SENT	O tamanho e as variações de ano para ano de a população dessas espécies migratórias dependem de as interações de os indivíduos com seus ambientes a o longo de todo o ano
+SENTID_1	ano de a população dessas	espécies	migratórias dependem de as interações
+SENTID_1	ano de a população dessas	espécies migratórias dependem de as interações de	os indivíduos
+SENTID_1	O tamanho e as variações de ano para ano de a população dessas	com	seus ambientes
+SENTID_1	O tamanho e as variações de ano para ano de a população dessas	com seus ambientes a	o longo de todo o ano
+SENT	Deste modo , as modificações ecológicas em a Bacia Amazônica ou em a África Central podem afetar as populações de espécies migratórias que se reproduzem em as florestas de o leste de a América de o Norte ou de a Europa
+SENTID_1	as populações de espécies migratórias	se reproduzem	em as florestas
+SENT	As áreas sombreadas representam as áreas de procriação , os pontilhados indicam registros de aves em os invernos precedentes
+SENTID_1	As áreas	os pontilhados	indicam registros de aves
+SENTID_1	As áreas	os invernos	precedentes
+SENTID_1	As áreas	sombreadas	representam as áreas de procriação
+SENT	A população agora habita o país inteiro
+SENT	Para comparação , o Brasil tem uma área de aproximadamente 8 , 5 milhões de quilómetros quadrados
+SENTID_1	Brasil	tem	8
+SENTID_1	Brasil	tem 8 de	aproximadamente
+SENT	Segundo o Aurélio , área de terra inculta , estéril , ou não-aproveitável para o cultivo
+SENT	Na distribuição de uma população , a dispersão caracteriza o espaçamento de os indivíduos entre si , formando padrões que variam de a compacta distribuição agregada em agrupamentos discretos ( não contínuos ) até distribuições homogéneas
+SENTID_1	Na	distribuição de	uma população
+SENTID_1	Na	distribuição a	dispersão
+SENTID_1	padrões	variam de	a compacta
+SENTID_1	padrões	variam	distribuição agregada em agrupamentos discretos
+SENT	Entre estes extremos encontra-se a dispersão aleatória ( ou randômica ) , em a qual os indivíduos estão distribuídos a o acaso em toda uma área a despeito de a presença de outros
+SENTID_1	em a	os indivíduos	estão
+SENTID_1	em a	os indivíduos estão Entre	estes extremos encontra-se a dispersão aleatória
+SENTID_1	acaso	em	uma área a despeito de a presença de outros
+SENT	Os padrões de distribuição homogénea e agrupada derivam de processos diferentes
+SENT	Um espaçamento uniforme às vezes chamado de hiperdispersão surge comu-mente de interações diretas entre indivíduos
+SENTID_1	uniforme às vezes	chamado de	hiperdispersão
+SENT	A manutenção de uma distância mínima entre cada espécime e seu vizinho mais próximo resulta em um espaçamento uniforme , por exemplo , em suas colónias abarrotadas , as aves marinhas colocam seus ninhos exatamente onde termina o de o vizinho
+SENTID_1	seu vizinho	mais	próximo
+SENTID_1	as aves marinhas	colocam	seus ninhos
+SENT	As plantas situadas muito próximas a vizinhos maiores frequentemente sofrem os efeitos de o sombreamento e competição de raízes , a a medida que os vizinhos morrem , o espaçamento entre os indivíduos torna-se mais uniforme
+SENTID_1	As	plantas	situadas muito próximas a vizinhos maiores
+SENT	O agrupamento , ou agregação , resulta de as tendências sociais de os indivíduos a formar grupos , de as distribuições de recursos em blocos conjuntos , e de a tendência de os filhotes em permanecer em a proximidade de seus pais
+SENTID_1	O agrupamento	resulta de	as tendências
+SENT	As salamandras que preferem viver sob toras apresentam distribuições agrupadas correspondentes a os padrões de os troncos mortos caídos
+SENTID_1	As salamandras	os padrões	troncos mortos caídos
+SENTID_1	As salamandras	os padrões troncos mortos caídos de	os
+SENTID_1	As salamandras	preferem	viver sob toras apresentam distribuições agrupadas correspondentes a
+SENT	Os pássaros que viajam em grandes grupos muitas vezes agregam-se para sentirem-se mais seguros por a quantidade
+SENT	Finalmente , em a ausência de antagonismo social ou atração mútua , os espécimes podem distribuir-se aleatoriamente a despeito de a localização de outros espécimes dentro de a população
+SENT	Os três padrões gerais de dispersão podem ser distinguidos por diversos testes estatísticos , um de os quais está ilustrado em o Quadro 14.1
+SENT	Podemos comparar padrões de dispersão a os valores esperados de as distribuições espaciais aleatórias
+SENT	Uma de as mais importantes é a distribuição de Poisson , que descreve o número esperado de indivíduos localizados aleatoriamente dentro de uma região de amostra
+SENTID_1	número	esperado de	indivíduos
+SENTID_1	número	esperado	localizados aleatoriamente dentro de uma região de amostra
+SENTID_1	Uma de as	mais	é a distribuição de Poisson
+SENT	Suponha que dividamos uma área de estudo em regiões de amostra , ou em outras unidades de áreas iguais , e contemos o número de indivíduos em cada região
+SENTID_1	número de indivíduos	em	cada região
+SENT	Algumas de as regiões terão um único indivíduo , outras , muitos , e outras ainda , nenhum , dependendo de a densidade de a população e de o tamanho de as regiões
+SENTID_1	Algumas de as regiões	terão	muitos
+SENT	Considere , por exemplo , o número de acarinos vermelhos ( Trombicula alfreddugesi ) , contados em cada uma de as 150 folhas de a macieira : 70 de as folhas não continham acarinos , 38 tinham 1 , 17 tinham 2 , e assim por diante , como mostrado em a seguinte tabela
+SENTID_1	contados	em	cada uma de as 150 folhas de a macieira
+SENT	Como deveria parecer uma distribuição aleatória de acarinos sobre as folhas ?
+SENT	Suponha que cada acarino em a população tenha igual probabilidade de se encontrar em cada uma de as folhas ( uma probabilidade de 1/150 , ou 0 , 067 , por folha ) independentemente de o número de outros acarinos presentes
+SENT	Quando os acarinos são distribuídos de acordo com um processo aleatório como esse , a proporção esperada de folhas ( P ) com um dado número de acarinos ( x ) obedece a a distribuição de Poisson
+SENTID_1	proporção	esperada de	folhas
+SENTID_1	Quando	os acarinos	são
+SENT	Vários estudos reportaram uma distância de endocruzamento ótima em populações de plantas
+SENT	Indivíduos vizinhos têm mais probabilidade de ser parentes próximos , o que cria o problema de o endocruzamento
+SENTID_1	Indivíduos	vizinhos	têm
+SENT	Os indivíduos distantes têm mais probabilidade de ser adaptados a condições diferentes
+SENT	Por exemplo , quando as flores de a espora Delphinium nelsoni em o Colorado central foram fertilizadas com pólen obtido de o mesmo indivíduo e de os indivíduos localizados em distâncias de l , 10 , 100 e 1.000 m , o número de sementes produzidas por flor foi máximo de a fonte de pólen que estava a 10 m e mínima para autofertilização e para os pólens vindos de as fontes situadas a 1 , 000 m
+SENTID_1	Colorado central foram mesmo indivíduo e	fertilizadas	com pólen
+SENTID_1	Colorado central foram mesmo indivíduo e	fertilizadas com pólen	obtido de o
+SENTID_1	número de sementes máximo de a fonte de pólen	produzidas por	flor foi
+SENT	As plantas podem não ser capazes de controlar as distâncias que seus polinizadores viajam entre as flores , mas podem manipular a variação genética estabelecendo uma com petição entre grãos de pólen por a oportunidade de fertilizar óvulos e seletivamente abortando óvulos em desenvolvimento baseados em o genótipo de o embrião
+SENTID_1	As	plantas	podem
+SENTID_1	mas	podem	manipular a variação genética estabelecendo uma com petição
+SENT	A maioria de as plantas produz muito mais flores de o que elas podem sustentar até a maturidade como frutos
+SENT	Os tubos de pólen devem crescer através de o estilete ( tecido maternal ) para atingir o óvulo
+SENTID_1	estilete	tecido	maternal
+SENT	As interações bioquímicas que controlam a taxa daquele crescimento podem ser sensíveis a o genótipo de o pólen e às partes florais femininas
+SENTID_1	As interações bioquímicas	podem	ser
+SENTID_1	As interações bioquímicas	controlam a	taxa daquele
+SENT	Esta é a base de a auto-incompatibilidade
+SENT	Uma carga pesada de pólen é vantajosa para a fêmea porque muito mais tubos de pólen competem para fertilizar os óvulos , resultando em forte seleção entre os genótipos de pólen
+SENTID_1	muito	mais	tubos de pólen competem
+SENTID_1	muito	mais tubos de pólen competem para	fertilizar os óvulos
+SENTID_1	Uma	carga	pesada de pólen
+SENT	A excisão de flores e frutos pode ser altamente seletiva com respeito a a carga de pólen , número de óvulos fertilizados por flor e genótipos de embriões em desenvolvimento
+SENTID_1	número de óvulos	fertilizados	em desenvolvimento
+SENTID_1	número de óvulos	fertilizados em desenvolvimento por	flor e genótipos de embriões
+SENT	Em pequenas populações , as frequências de alelos e genótipos podem mudar devido às variações aleatórias em as taxas de natalidade e mortalidade que derivam de eventos a o acaso , mesmo em a ausência de seleção e mutação
+SENTID_1	Em	pequenas	populações
+SENT	Estas mudanças são chamadas de deriva ge-nética
+SENT	A explicação mais razoável desses resultados é que a seleção aplicada a um atributo causa mudanças em outros que afetam o ajustamento de o organismo
+SENTID_1	seleção	aplicada a	um atributo
+SENT	O aumento em a taxa de postura de ovos , por exemplo , pode causar mudanças morfológicas ou fisiológicas que reduzem a viabilidade e , assim , opõem-se a o regime de seleção artificial
+SENTID_1	aumento em	pode	causar mudanças morfológicas ou fisiológicas
+SENTID_1	aumento em	pode causar mudanças morfológicas ou fisiológicas a	taxa de postura de ovos
+SENTID_1	mudanças morfológicas ou fisiológicas	reduzem	a viabilidade
+SENT	Respostas evolutivas muitas vezes incluem outros atributos além daquele selecionado
+SENTID_1	Respostas evolutivas muitas	vezes	outros atributos além daquele
+SENT	Tanto o desenvolvimento quanto o funcionamento integram as diversas partes de o organismo , acarretando em uma interdependência de os atributos fenotípicos , particularmente aqueles envolvendo tamanho ou taxas de crescimento e produção
+SENTID_1	organismo	uma	atributos fenotípicos
+SENT	Os criadores de animais e vegetais estimaram correlações genéticas entre os atributos em muitas espécies domésticas
+SENTID_1	atributos em	muitas	espécies domésticas
+SENT	Por exemplo , em aves domésticas , a correlação genética entre o peso corpo-ral e o peso de os ovos é 0 , 50 , entre o peso corporal e a produção de ovos é -0 , 16
+SENT	O decréscimo de a resposta resulta de dois fatores : a erosão de a variação genética por a seleção e a aplicação de seleções con-flitantes por mudanças correlacionadas em outros atributos
+SENTID_1	mudanças	correlacionadas	em outros atributos
+SENTID_1	O decréscimo de a resposta	resulta de	dois fatores
+SENT	A seleção funciona somente quando os indivíduos variam geneticamente dentro de uma população
+SENT	Quando os alelos não ajustados são removidos por a seleção , a evolução estaciona até que novas mutações ou combinações de genes apareçam
+SENTID_1	alelos	não ajustados	removidos por a seleção
+SENT	O tempo requerido para um gene dominante substituir seu alelo recessivo depende de sua frequência em o início e em o fim de o processo de substituição e de a força de a seleção
+SENTID_1	tempo	requerido	substituir seu
+SENTID_1	tempo	requerido substituir seu para	um gene dominante
+SENT	No caso de a substituição de a forma típica de a mariposa-pimenta por a forma carbonária em bosques poluídos de a Inglaterra , é sabido que sua substituição levou cerca de um século
+SENTID_1	Inglaterra	sabido	que sua
+SENT	Dos resultados de os experimentos de H B D Kettlewell sobre a mariposa-pimenta , podemos estimar que o ajustamento de o alelo para a coloração típica foi cerca de 47% daquele de o alelo carbonária em bosques poluídos , por isso o ajustamento diferencial , ou força de seleção , foi de 0 , 53
+SENTID_1	alelo carbonária em bosques poluídos	ou	53
+SENT	Levando-se este valor às equações que predizem o tempo requerido para substituição de alelo , revela-se que a mudança em a frequência de o alelo carbonária de 0 , 05 para 0 , 95 teria requerido 47 gerações , e uma mudança de 0 , 01 para 0 , 99 teria exigido 204 gerações
+SENTID_1	tempo	requerido para	substituição de alelo
+SENTID_1	95 teria	requerido	47 gerações
+SENTID_1	99 teria	exigido	204 gerações
+SENT	A mariposa-pimenta tem uma geração por ano , de tal forma que as equações de a genética populacional parecem consistentes com o curso de o tempo observado de a substituição genética ( de o gene ) , assumindo uma frequência inicial antes de a revolução industrial de cerca de 1%
+SENTID_1	tempo	observado de	a substituição genética
+SENTID_1	mariposa-pimenta tem	uma	geração
+SENTID_1	mariposa-pimenta tem	uma geração por	ano
+SENTID_1	mariposa-pimenta tem	uma geração de	tal forma
+SENT	Tivesse a seleção somente um décimo de a força , a mesma mudança em a frequência teria requerido um tempo 10 vezes mais longo
+SENTID_1	frequência teria	requerido	um tempo 10 vezes
+SENT	As mesmas equações podem ser rearranjadas e usadas para estimar diferenciais de ajustamento de as mudanças em a frequência genética
+SENTID_1	As mesmas equações	diferenciais para	estimar
+SENTID_1	As mesmas equações	diferenciais de	ajustamento de as mudanças em a frequência genética
+SENTID_1	As mesmas equações	podem para	estimar
+SENTID_1	As mesmas equações	ser rearranjadas para	estimar
+SENTID_1	As mesmas equações	usadas para	estimar
+SENT	Por exemplo , desde a introdução de os programas de controle de a poluição em a Inglaterra , a frequência de o alelo carbonária tem diminuído em uma taxa persistente com uma desvantagem seletiva de 12%
+SENT	Os registros de 100 anos de as raposas prateadas e vermelhas capturadas em armadilhas pêlos postos de a missão moraviana * em o Labrador ( 1834 a 1933 ) mostram que a proporção de raposas prateadas capturadas decresceu de cerca de 0 , 15 para 0 , 05 durante aquele período
+SENTID_1	em	pêlos	postos de a missão moraviana * em o Labrador
+SENTID_1	proporção de raposas	prateadas	capturadas decresceu de cerca de 0
+SENT	Como a pele prateada é um fenótipo recessivo , a frequência de o genótipo é igual a q2 , e a frequência de o alelo prateado ( q ) deve ter diminuído de 0 , 39 para 0 , 22 em um período de 100 anos
+SENTID_1	a	pele	um fenótipo recessivo
+SENTID_1	a	pele um fenótipo recessivo	prateada é
+SENTID_1	a	pele um fenótipo recessivo a	q2
+SENTID_1	alelo	deve	diminuído de 0

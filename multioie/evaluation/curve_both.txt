@@ -1,0 +1,9 @@
+non_sent=0
+non_match=146
+correctTotal=156
+unmatchedCount=146
+AUC: 0.03901895206243032
+ Optimal (precision, recall, F1, threshold): (0.21739130434782608, 0.0641025641025641, 0.09900990099009901, 1)
+Precision	Recall
+1.0	0.0
+0.21739130434782608	0.0641025641025641

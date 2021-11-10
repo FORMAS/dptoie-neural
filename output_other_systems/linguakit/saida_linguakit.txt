@@ -1,0 +1,214 @@
+SENT	Teoricamente, um casal poderia abrir quatro contas Tesco e ganhar 3% em £12,000 – £360.
+SENTID_1	um casal	ganhar	3% em
+SENTID_1	um casal	£12,000	– £360
+SENTID_1	um casal	abrir	quatro contas Tesco
+SENT	Entretanto, os clientes do Banco da Escócia ganham 3% em balanços de £3,000-£5,000 quando adicionam a opção gratuita Vantage às suas contas.
+SENTID_1	clientes do Banco	os da	Escócia
+SENT	Com isto, em teoria, você é capaz de acessar seu dinheiro sempre que quiser.
+SENT	Esta taxa de 3% também se aplica a titulares de cartão Nectar que pensam em pedir emprestado £15,001-£19,999, durante um período de dois a três anos.
+SENTID_1	Esta taxa de 3% também	se aplica	que pensam
+SENTID_1	Esta taxa de 3% também	se aplica que pensam a	titulares de cartão Nectar
+SENT	O enxofre é um nutriente vital para o crescimento saudável das plantas, mas os solos no Reino Unido são naturalmente deficientes deste mineral.
+SENTID_1	solos Reino@Unido	no são	deficientes deste mineral
+SENTID_1	O enxofre	é	um nutriente vital
+SENTID_1	O enxofre	é um nutriente vital para	o crescimento saudável
+SENT	Um avanço rápido para 2016 e isso é cada vez mais digno de atenção.
+SENTID_1	Um	avanço	rápido para 2016 e isso
+SENT	Surpreendentemente como pode parecer, até as nuvens de chuvas ácidas podem ter um lado positivo.
+SENT	O mundo pode estar enfurecido e absurdo - no entanto pelo menos alguém tem dignidade para continuar a protestar contra esse fato.
+SENTID_1	entanto pelo menos alguém	no tem	dignidade
+SENTID_1	entanto pelo menos alguém	no tem dignidade para	continuar a protestar contra esse fato
+SENTID_1	mundo	pode	estar enfurecido
+SENT	Acaba ouvindo mais intensamente o barulho seguinte e ficando mais irritado quando ele surge.
+SENTID_1	barulho seguinte e	mais	irritado
+SENTID_1	barulho seguinte e	mais	quando ele
+SENT	Isso é legitimamente horrível.
+SENT	É justo dizer que Rocco Catalano trabalha, vive e respira retro.
+SENTID_1	Rocco@Catalano	respira	retro
+SENTID_1	É	justo	dizer
+SENT	Penso que é por isso que eles se imergiram em padrões e cor.
+SENT	Catalano voltou para a área depois de viver em Londres e em Glasgow, onde estudou design de jóias na Glasgow School of Art.
+SENT	Eu adorei as cores tropicais, diz ele.
+SENTID_1	Eu	adorei	as cores
+SENT	Eu visitei os espetáculos universitários na Universidade de Northampton para encontrar novos talentos, diz ele.
+SENT	Mas, quando eu sugiro que ela use a Frank como sua modelo, ela ri.
+SENT	Naturalmente, a paisagem do escritório apresenta muitas roupas e, no sentido de comida, pouco.
+SENT	A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.
+SENT	Olhei para o motocross e quanto mais olhava, continuava a surgir a cara desta mulher, em fotografias que pareciam ser dos anos 70.
+SENTID_1	fotografias	pareciam	70
+SENTID_1	motocross e quanto	mais	olhava
+SENTID_1	motocross e quanto	mais olhava a	surgir a cara
+SENT	Amo jogar com isso e estou sempre à procura de musas que se encaixem, porque é tão interessante fazer uma coleção quando encontro uma.
+SENT	Na melhor das hipóteses, é ingênuo e, na pior, deixaria novamente o lobby das armas fora dos problemas.
+SENTID_1	lobby	das	armas fora dos problemas
+SENTID_1	Na melhor	das	hipóteses
+SENT	O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".
+SENTID_1	 Eu	ficaria	espantado
+SENTID_1	O seu representante de políticas	da	declarou
+SENT	A postura do RSPB também o colocou em conflito com muitos líderes conservadores, desde o autor da petição, Mark Avery, ao apresentador de TV Chris Packham.
+SENTID_1	autor	da	petição
+SENTID_1	postura do RSPB também o colocou	em	com muitos líderes conservadores
+SENT	Vamos simplesmente dizer que ele está errado.
+SENT	E a posição da Austrália?
+SENT	Nisto, um ponto diário em Marrocos será em pleno sábado, quando países desenvolvidos se questionam publicamente sobre seus planos e ambições.
+SENTID_1	Nisto	se questionam sobre	seus planos e ambições
+SENTID_1	um ponto diário em Marrocos	será	em pleno sábado
+SENT	Estamos ativamente à procura de formas possíveis de limitar o âmbito do litígio para apenas aqueles que tenham uma posição real no projeto, foi citado.
+SENT	O bacalhau do mar Céltico pode colapsar, sem os limites propostos, disse um oficial da UE.
+SENTID_1	O bacalhau do mar Céltico	pode	colapsar
+SENT	Mas foram também previstas grandes promoções para o bacalhau, a solha, o linguado, o linguado-areeiro e o escamudo, nos mares Celtas e Irlandeses.
+SENTID_1	Mas foram também	previstas	grandes promoções
+SENTID_1	Mas foram também	previstas grandes promoções para	o bacalhau
+SENT	Os conservacionistas saudaram o anúncio da comissão.
+SENTID_1	conservacionistas saudaram o anúncio	Os da	comissão
+SENT	Apenas 50 eram mercados.
+SENT	O Agora foi apenas por convite, mas muitos destes mercados estão facilmente acessíveis se você souber como pesquisar, acrescenta o Dr. Lee.
+SENTID_1	Agora	apenas por	convite
+SENT	Eles não os tinham no nosso tempo, e pessoas sem crianças se expressam através da sua desaprovação, o seu ódio pela parentalidade moderna.
+SENTID_1	pessoas	sem	crianças
+SENTID_1	seu ódio	pela	parentalidade moderna
+SENT	Não o chamo de besta levemente.
+SENT	Dia três, eu estava de volta no EMicro.
+SENT	O mundo - e, por extensão, o Reino Unido - está enfrentando uma escassez de pessoas com as habilidades necessárias para montar uma defesa eficaz.
+SENT	As empresas podem tentar criar um firewall entre sistemas sensíveis e potências estrangeiras, mas nem sempre funciona.
+SENTID_1	As empresas	podem	criar um firewall entre sistemas
+SENT	Mas eles podem pelo menos colocar armadilhas para confundir e impedir - um conceito conhecido como "defesa ativa".
+SENT	Depois de ter descoberto uma rica discussão na internet sobre o assunto, a minha lista cresceu muito e cobriu quase todos os estados da união.
+SENTID_1	descoberto uma rica discussão na internet sobre o assunto	lista	cresceu muito e cobriu
+SENTID_1	descoberto uma rica discussão na internet sobre o assunto	lista cresceu muito e cobriu a	minha
+SENTID_1	estados	da	união
+SENT	Eu avistei algumas.
+SENTID_1	Eu	avistei	algumas
+SENT	A minha próxima parada foi Bellingham, bem perto da fronteira canadense.
+SENT	De volta ao trem, nós continuamos em direção ao o sul.
+SENTID_1	nós	continuamos	em
+SENTID_1	nós	continuamos	direção ao
+SENTID_1	nós	continuamos em De	volta ao trem
+SENT	Uma cidade pequena, com dois minaretes, desliza.
+SENTID_1	Uma	cidade	pequena
+SENT	Em cada estação, um guarda de chapéu vermelho comanda a plataforma e um trabalhador anda ao longo do trem com um martelo, batendo gentilmente na parte de baixo da carruagem.
+SENTID_1	guarda de chapéu vermelho	comanda a	plataforma e um trabalhador
+SENT	A intervenção de Pequim é, possivelmente, a de maior alcance, desde a entrega de Hong Kong pelo Reino Unido em 1997.
+SENT	O juramento envolve legisladores jurando lealdade a Hong Kong, como parte da República Popular da China.
+SENTID_1	parte	da	República@Popular
+SENT	O governo de Hong Kong, que é liderado por legisladores pró-Pequim, argumentou que o par não deve tomar posse.
+SENTID_1	par não	deve	tomar posse
+SENTID_1	O governo de Hong@Kong	é	liderado por legisladores pró-Pequim
+SENT	Pequim acredita que a sua intervenção é necessária para evitar a paralisia legislativa contínua na cidade, disse ele.
+SENTID_1	sua	intervenção	é necessária para evitar a paralisia legislativa contínua na cidade
+SENT	Entretanto, Hong Kong, parece estar se preparando para uma onda de protestos.
+SENT	É o sonho dele terminar a sua carreira aqui.
+SENTID_1	É o sonho dele	terminar a	sua
+SENTID_1	É o sonho dele	terminar	carreira aqui
+SENT	Empatar um jogo que você dominou é simples de esquecer, mas fazê-lo três vezes em seguida sugere fraqueza.
+SENTID_1	fazê-lo três vezes	seguida	sugere fraqueza
+SENT	Estávamos tão desapontados porque perdemos seis pontos jogando em casa.
+SENTID_1	Estávamos	tão	desapontados
+SENT	Esse foi, sem dúvida, o caso de Andy quando enfrentou Benoît Paire, em Monte Carlo, em abril.
+SENT	Mas agora tudo está fora de questão e ele parece estar à procura de respostas a toda hora.
+SENTID_1	ele	parece	estar à procura de respostas a toda hora
+SENT	Eu também penso se a Taça Davis desempenhou algum papel.
+SENTID_1	Eu	também	penso
+SENTID_1	se	desempenhou	algum papel
+SENTID_1	se	desempenhou algum papel a	Taça@Davis
+SENT	A pesquisa anual também revelou que as preocupações sobre assumir novos encargos financeiros têm disparado.
+SENT	O senhor Hopley acrescentou: "O aumento do risco político não deve passar despercebido".
+SENT	A notícia da fraude da companhia - que tinha funcionado durante anos - limpou dezenas de bilhões de euros do valor da VW e custou ao executivo principal, Martin Winterkorn, o seu trabalho.
+SENT	Isso também abriu a VW para reivindicações e ações legais imensas, e viu elas levarem mais que €16 bilhões de provisões.
+SENTID_1	viu	elas	levarem
+SENTID_1	Isso	também para	reivindicações e ações
+SENTID_1	Isso	também	abriu a VW
+SENT	A sondagem começou em junho, com foco no Sr. Winterkorn e no chefe de marca, Herbert Diess, que permanece na fabricante de automóveis.
+SENTID_1	marca	permanece	na fabricante
+SENTID_1	marca	permanece na fabricante de	automóveis
+SENT	Ele foi promovido a presidente em outubro de 2015, o mês seguinte ao escândalo ter sido descoberto.
+SENTID_1	mês	seguinte	ao escândalo ter
+SENTID_1	escândalo	sido	descoberto
+SENTID_1	Ele	promovido a	presidente em outubro de 2015
+SENT	As empresas esperavam começar a decrescer em julho, imediatamente após o voto do Brexit, mas em vez disso têm conseguido manter o crescimento constante.
+SENTID_1	mas em vez disso têm	conseguido	manter
+SENTID_1	As empresas	esperavam	começar a decrescer em julho
+SENT	Os negócios de varejo e atacado se expandiram, uma vez que os lojistas continuam otimistas e as companhias de serviço ao cliente também cresceram.
+SENTID_1	uma vez	os lojistas	continuam otimistas
+SENT	No entanto, haverá limites para a sua capacidade de gastar uma vez que o Governo ainda tem um grande déficit orçamental.
+SENTID_1	haverá	limites para	a sua capacidade
+SENTID_1	haverá	limites de	gastar uma vez
+SENT	O custo vai mudar mensalmente e é esperado que o preço aumente no inverno, tal como o uso aumenta.
+SENTID_1	O custo	vai	que o preço aumente no
+SENT	A taxa fixa da Eon custa £760 e os clientes da Avro Energy pagariam cerca de £760 pela sua tarifa Simple and Select.
+SENTID_1	clientes	da	Avro@Energy de £760
+SENT	Ou é um classe cara ou uma tarifa de pré-pagamento?
+SENTID_1	Ou	é	um
+SENT	Um investidor com alguma sorte e £10,000 em títulos poderia esperar receber £125 em prêmios, por ano.
+SENTID_1	£10,000 em títulos	poderia	esperar
+SENTID_1	£125	em	prêmios
+SENTID_1	£125	em prêmios por	ano
+SENTID_1	Um	investidor	com
+SENTID_1	com	alguma	sorte
+SENT	Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.
+SENTID_1	eles o fizessem	Se seria a	Premium@Bonds
+SENT	O dinheiro investido no Premium Bonds, e em outras contas do National Savings & Investments, é usado para ajudar a financiar os gastos do Governo.
+SENTID_1	em	usado para	ajudar
+SENTID_1	em	usado a	financiar os gastos do Governo
+SENTID_1	O	investido no	Premium@Bonds
+SENTID_1	O	investido no	Premium@Bonds
+SENTID_1	em	outras	contas do National@Savings & Investments
+SENT	Isso não impediu os investidores de se reunirem para colocar o seu dinheiro nos fundos.
+SENTID_1	Isso	não	impediu
+SENT	Ele foi seguido pelos fundos Aviva Investors Multi Strategy Target Return and Income, nos quais os investidores colocaram £ 2bn e £ 1,4bn, respectivamente.
+SENTID_1	2bn e £	1,4	bn
+SENTID_1	Ele	seguido	pelos fundos Aviva@Investors@Multi@Strategy@Target@Return
+SENTID_1	Ele	and	Income
+SENT	Isto significa que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores.
+SENTID_1	Isto	significa	que eles não se beneficiaram da elevação que a queda da libra deu aos ativos financeiros exteriores
+SENTID_1	se	não da	que a queda da libra deu aos ativos financeiros exteriores
+SENT	A Adidas está ajudando a limpar os oceanos da Terra, usando os resíduos que flutuam pelo mundo para fazer sapatos.
+SENT	O consumidor pode impulsionar a procura pela mudança.
+SENTID_1	consumidor	pode	impulsionar a procura
+SENT	Em janeiro, um relatório importante disse que os oceanos conteriam mais plástico do que peixes até 2050, a menos que o mundo tomasse uma atitude radical para impedir que os lixos vazassem para os mares.
+SENTID_1	relatório importante disse	os oceanos	conteriam
+SENTID_1	plástico do	até	2050
+SENTID_1	mundo	tomasse	que os lixos vazassem
+SENTID_1	mundo	tomasse que os lixos vazassem para	impedir
+SENT	Após algumas cirurgias geniais e muito trabalho duro de reabilitação, eu tive uma recuperação completa.
+SENTID_1	Após	algumas	cirurgias
+SENT	Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.
+SENT	Quatro em cada 10 adultos ficaram feridos devido ao mau tempo, enquanto nove em cada dez subestimam o quão fria a Grã-Bretanha pode ser no inverno.
+SENTID_1	enquanto	nove	em cada dez subestimam o quão fria a Grã-Bretanha
+SENTID_1	Quatro	em	cada 10 adultos
+SENTID_1	Quatro	em cada 10 adultos	devido ao mau tempo
+SENT	Eles vão atuar no sábado, 10 de junho.
+SENTID_1	Eles	vão	atuar no sábado
+SENT	O ano passado foi um ano incrível e estou pronto para que possamos voltar ainda melhor em 2017.
+SENTID_1	ano	passado	foi um ano incrível e estou
+SENT	Ela começou no RSC no meio dos anos sessenta, atuando como internada de asilo no Marat/Sade.
+SENTID_1	Ela começou no RSC	no meio	dos anos sessenta
+SENT	O vestido é contemporâneo.
+SENT	De onde vem toda a sua energia? Ou essa sua voz, que pode explodir com uma força para induzir ondas de choque?
+SENTID_2	Ou	essa	sua voz
+SENT	O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.
+SENTID_1	as suas	mãos	tremem
+SENTID_1	O seu	avança	em
+SENT	Mas tendo permitido que Glenda mandasse tão bem, quem poderia culpá-lo?
+SENTID_1	Mas	permitido	que Glenda mandasse tão bem
+SENTID_1	Glenda	mandasse	tão bem
+SENT	Ele trabalhou no setor das notícias e dos assuntos atuais, na rádio e na televisão durante décadas.
+SENTID_1	Ele trabalhou setor	no das	notícias e dos assuntos
+SENT	Em teoria, se for bem feito, não é detectável.
+SENT	Largue o microfone.
+SENT	Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.
+SENT	O cinema tinha mudado tão drasticamente que Hollywood tinha alienado o público familiar.
+SENTID_1	cinema	mudado	que Hollywood tinha alienado o público familiar
+SENTID_1	Hollywood	tinha	alienado o público familiar
+SENT	Do ponto de vista do realizador, o filme é um ato precário, balançando-se entre comédias familiares e dramas sociais profundos.
+SENTID_1	filme é um	ato	precário
+SENT	A um nível, funciona como um aconchegador de corações amigável e despretensioso, que parece feito à medida para uma sessão de domingo à tarde.
+SENTID_1	feito	parece	medida
+SENTID_1	feito	parece medida para	uma sessão de domingo à tarde
+SENT	E, claro, tem o Bob, uma constante fonte de entretenimento.
+SENT	O resultado, então, dificilmente é o pijama do gato.
+SENT	Para as audiências modernas, maioria das quais com pouca experiência em conflitos de primeira linha, os feitos de Doss pertencem à esfera do inimaginável.
+SENTID_1	maioria	das Para	as audiências modernas
+SENT	A história do Doss também tem uma qualidade improvável que torna tudo ainda mais atraente.
+SENT	Todos os médicos estavam armados, exceto eu.
+

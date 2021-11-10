@@ -44,6 +44,7 @@ class PortugueseOIE:
         embedding=EmbeddingType.SELF_200,
         optimizer=OptimizerType.MADGRAD,
         hidden_dimension=512,
+            batch_size=32
     ):
         model = AllenOpenIE(
             max_iterations=max_iterations,
@@ -53,8 +54,8 @@ class PortugueseOIE:
             embedding=embedding,
             optimizer=optimizer,
             hidden_dimension=hidden_dimension,
-            batch_size=32,
-            patience=40,
+            batch_size=batch_size,
+            patience=30,
             lr_patience=20
         )
 

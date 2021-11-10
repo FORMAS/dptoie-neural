@@ -1,10 +1,12 @@
 import csv
+import traceback
 from pathlib import Path
 
 from seqeval.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
 
 from multioie.evaluation.benchmark import Benchmark
 from multioie.evaluation.matcher import Matcher
+from multioie.model import AllenNLP
 from multioie.model.openie_predictor import make_oie_string
 from multioie.portuguese import PortugueseOIE
 from multioie.utils.contractions import clean_extraction, transform_portuguese_contractions
@@ -12,122 +14,11 @@ from multioie.utils.convert_to_conll import save_data_as_conll, convert_to_conll
 from multioie.utils.dataset import read_dataset
 
 
-def generate_classification_report(model_lang, model_name, predictions, true_y):
-    ir = IsotonicRegression()
-    # ir.fit(predictions, true_y)
-    # results_en = ir.predict(predictions)
-
-    with open(f"{model_lang}_{model_name}.txt", "a") as file_out:
-        file_out.write(
-            f"precision_at, accuracy, 1_precision, 1_recall, 1_f1-score, 1_support, 0_precision, 0_recall, 0_f1-score, 0_support, matthews\n"
-        )
-        for precision_at in [
-            0.1,
-            0.2,
-            0.3,
-            0.4,
-            0.5,
-            0.6,
-            0.7,
-            0.8,
-            0.9,
-            0.95,
-            0.98,
-            0.99,
-            0.995,
-            0.999,
-            0.9999,
-        ]:
-            predictions_ajusted = [
-                x["label"] if x["confidence"] >= precision_at else "1" for x in predictions
-            ]
-
-            print(f"{model_lang}@{precision_at} - {model_name}")
-            report = classification_report(
-                [str(y) for y in true_y],
-                [str(y_a) for y_a in predictions_ajusted],
-                output_dict=True,
-            )
-            # print(classification_report([str(y) for y in true_y], predictions_ajusted))
-            print("Matthews:")
-            matthews = matthews_corrcoef(
-                [str(y) for y in true_y], [str(y_a) for y_a in predictions_ajusted]
-            )
-
-            file_out.write(
-                f"{precision_at},{report['accuracy']},{report['1']['precision']},{report['1']['recall']},{report['1']['f1-score']},{report['1']['support']},{report['0']['precision']},{report['0']['recall']},{report['0']['f1-score']},{report['0']['support']}, {matthews}\n"
-            )
-
-
-def evaluate_portnoie():
-    pass
-
-
-def evaluate_graph(docs_pt):
-    k = 5
-    folds = kfoldcv([x for x in docs_pt.keys()], k=k)
-
-    # for model_type in [CNN_Model, CNN_GRU_Model]:
-    for model_type in [CNN_Model]:
-
-        # Vamos fazer o K-Fold agora
-        total_y = [[], []]
-        total_y_score = [[], []]
-
-        for k in range(len(folds)):
-
-            train_ids = []
-            for train_bucket in folds[k][0]:
-                train_ids.extend(train_bucket)
-
-            x_train, y_train = extractions_to_flat(docs_pt, indexes=train_ids)
-            x_test, y_test = extractions_to_flat(docs_pt, indexes=folds[k][1])
-
-            model = create_model(x_train, y_train, model_type)
-
-            y_en_pred_top_k = model.predict_top_k_class(x_test, top_k=2)
-            m_type = "sentence" if DO_SENTENCE_EMBEDDING else "regular"
-            model_str = str(model_type).split(".")[-1].split("'")[0]
-            name = f"{model_str}_{m_type}_{len(docs_pt)}"
-
-            for label in [0, 1]:
-                y_score = []
-                y_test_pred = []
-
-                for x in y_en_pred_top_k:
-                    if x["label"] == label:
-                        y_score.append(x["confidence"])
-                        y_test_pred.append(1)
-                    else:
-                        y_score.append(1.0 - x["confidence"])
-                        y_test_pred.append(0)
-
-                total_y_score[label].extend(y_score)
-                total_y[label].extend(y_test)
-
-            generate_classification_report(f"fold_{k}", name, y_en_pred_top_k, y_test)
-
-        # Gerar o grafico
-        # Compute ROC curve and ROC area for each class
-        fpr = dict()
-        tpr = dict()
-        roc_auc = dict()
-
-        for i in range(2):
-            fpr[i], tpr[i], _ = roc_curve(y_test, y_score)
-            roc_auc[i] = auc(fpr[i], tpr[i])
-
-        bc = BinaryClassification(total_y[1], total_y_score[1], labels=["Class 1", "Class 2"])
-        plt.figure(figsize=(15, 10))
-        plt.subplot2grid(shape=(2, 6), loc=(0, 0), colspan=2)
-        bc.plot_roc_curve()
-        plt.savefig(f"{name}.png")
-
-        average_folds(name, k=k)
 
 
 def evaluate_linguakit(true_tokens_list, true_tags_list, gold_dict):
-    file_output = Path(f"../../output_other_systems/linguakit/saida_linguakit.txt")
+    #file_output = Path(f"../../output_other_systems/linguakit/saida_linguakit.txt")
+    file_output = Path(f"saida_linguakit_gamalho.txt")
 
     dataset = []
     with file_output.open(encoding="utf8") as f:
@@ -219,7 +110,7 @@ def evaluate_linguakit(true_tokens_list, true_tags_list, gold_dict):
 
 
 def evaluate_dpt(true_tokens_list, true_tags_list, gold_dict):
-    file_output = Path(f"../../output_other_systems/dptoie/extractedFactsByDpOIE.csv")
+    file_output = Path(f"../../output_other_systems/dptoie/extractedFactsByDpOIE_gamalho.csv")
 
     dataset = []
     with file_output.open(encoding="utf8") as f:
@@ -263,7 +154,7 @@ def evaluate_dpt(true_tokens_list, true_tags_list, gold_dict):
 
     folder_output = Path(f"../../output_other_systems/dptoie/")
 
-    conll_output_path = folder_output / "saida_conll_dptoie.conll"
+    conll_output_path = folder_output / "saida_conll_dptoie_gamalho.conll"
     save_data_as_conll(0, conll_output_path, dataset)
 
     dptoie_tokens_list, dptoie_tags_list = read_dataset(folder_output)
@@ -312,77 +203,116 @@ def evaluate_dpt(true_tokens_list, true_tags_list, gold_dict):
 
 
 def hyperparameter_search(tokens_list, tags_list, gold_dict):
-    models_path = Path(f"../../models/").resolve()
-    folders = models_path.glob('*')
+    models_path = Path(f"../../saida_novo/").resolve()
+    #folders = models_path.glob('*')
+    folders = [models_path]
 
-    file_out = open(f"hyperparameter_search.csv", "w")
+    file_out = open(f"hyperparameter_search_gamalho.csv", "w")
     file_out.write(
-        f"model_name, accuracy, precision, recall, f1-score\n"
+        f"model_name, auc, precision, recall, f1-score\n"
     )
 
     for model_folder in folders:
-        oie_system = PortugueseOIE(model_folder)
-        print(f"Using model {model_folder}")
 
-        pred_tags_for_model = []
-        true_tag_list = []
+        model_name = model_folder.parts[-1]
 
-        pred_dict = dict()
+        #if model_name not in ["both", "features", "variations", "none"]:
+        #    continue
+        #if "LearningType.LSTM_384_3_EmbeddingType.BERT_PT_OptimizerType.MADGRAD" not in model_name:
+        #    continue
 
-        for tokens, true_tags in zip(tokens_list, tags_list):
-            result = oie_system.predict(tokens)
-            tags = []
-            for verb in result['verbs']:
-                tags.append(verb['tags'])
+        # Code for ablation
 
-            sentence = " ".join([x.token for x in tokens])
-            pred_dict[sentence] = []
+        # if model_name == "both":
+        #     AllenNLP.DISABLE_RICH_FEATURES = True
+        #     AllenNLP.DISABLE_VARIATION_GENERATOR = True
+        # elif model_name == "features":
+        #     AllenNLP.DISABLE_RICH_FEATURES = True
+        #     AllenNLP.DISABLE_VARIATION_GENERATOR = False
+        # elif model_name == "variations":
+        #     AllenNLP.DISABLE_RICH_FEATURES = False
+        #     AllenNLP.DISABLE_VARIATION_GENERATOR = True
+        # elif model_name == "none":
+        #     AllenNLP.DISABLE_RICH_FEATURES = False
+        #     AllenNLP.DISABLE_VARIATION_GENERATOR = False
 
-            for extraction in tags:
-                dict_extraction = dict()
-                arg1, rel, arg2 = get_pieces_from_tagged(tokens, extraction)
-                dict_extraction["arg1"] = arg1
-                dict_extraction["rel"] = rel
-                dict_extraction["arg2"] = arg2
-                dict_extraction["confidence"] = 1
-                pred_dict[sentence].append(dict_extraction)
+        try:
 
-            tags = sorted(tags)
+            pred_dict, pred_tags_for_model, true_tag_list = process_using_model(model_folder, tags_list, tokens_list)
 
-            print(f"I found {len(tags)=} for {len(true_tags)=}")
-            for pos, individual in enumerate(sorted(true_tags)):
-                if pos >= len(tags):
-                    pred_tags_for_model.append(["O"] * len(individual))
-                else:
-                    pred_tags_for_model.append(tags[pos])
+            #
 
-                true_tag_list.append(individual)
+            b = Benchmark()
 
-            # if len(true_tag_list) > 10:
-            #    break
+            # Transform in dictionary
+            precision_recall_f1, auc = b.compare(gold=gold_dict, predicted=pred_dict, matchingFunc=Matcher.identicalMatch,
+                      output_fn=f"curve_{model_folder.parts[-1]}.txt")
 
-        #
+            report = classification_report(true_tag_list, pred_tags_for_model)
+        except:
+            traceback.print_exc()
+            print(f"Erro processando {model_name=}")
+            continue
 
-        b = Benchmark()
+        # accuracy = accuracy_score(true_tag_list, pred_tags_for_model)
+        # precision = precision_score(true_tag_list, pred_tags_for_model)
+        # recall = recall_score(true_tag_list, pred_tags_for_model)
+        # f1 = f1_score(true_tag_list, pred_tags_for_model)
 
-        # Transform in dictionary
-        b.compare(gold=gold_dict, predicted=pred_dict, matchingFunc=Matcher.identicalMatch,
-                  output_fn=f"curve_{model_folder.parts[-1]}.txt")
-
-        report = classification_report(true_tag_list, pred_tags_for_model)
-
-        accuracy = accuracy_score(true_tag_list, pred_tags_for_model)
-        precision = precision_score(true_tag_list, pred_tags_for_model)
-        recall = recall_score(true_tag_list, pred_tags_for_model)
-        f1 = f1_score(true_tag_list, pred_tags_for_model)
+        accuracy = auc
+        precision, recall, f1 = precision_recall_f1
 
         file_out.write(
-            f"{model_folder.parts[-1]},{accuracy},{precision},{recall},{f1}\n"
+            f"{model_name},{accuracy},{precision},{recall},{f1}\n"
         )
+        file_out.flush()
 
         print(report)
 
     file_out.close()
+
+
+def process_using_model(model_folder, tags_list, tokens_list):
+    oie_system = PortugueseOIE(model_folder)
+    print(f"Using model {model_folder}")
+
+    pred_tags_for_model = []
+    true_tag_list = []
+    pred_dict = dict()
+    for tokens, true_tags in zip(tokens_list, tags_list):
+        try:
+            result = oie_system.predict(tokens)
+        except:
+            print(f"Erro processando sentenca")
+            continue
+
+        tags = []
+        for verb in result['verbs']:
+            tags.append(verb['tags'])
+
+        sentence = " ".join([x.token for x in tokens])
+        pred_dict[sentence] = []
+
+        for extraction in tags:
+            dict_extraction = dict()
+            arg1, rel, arg2 = get_pieces_from_tagged(tokens, extraction)
+            dict_extraction["arg1"] = arg1
+            dict_extraction["rel"] = rel
+            dict_extraction["arg2"] = arg2
+            dict_extraction["confidence"] = 1
+            pred_dict[sentence].append(dict_extraction)
+
+        tags = sorted(tags)
+
+        print(f"I found {len(tags)=} for {len(true_tags)=}")
+        for pos, individual in enumerate(sorted(true_tags)):
+            if pos >= len(tags):
+                pred_tags_for_model.append(["O"] * len(individual))
+            else:
+                pred_tags_for_model.append(tags[pos])
+
+            true_tag_list.append(individual)
+    return pred_dict, pred_tags_for_model, true_tag_list
 
 
 def get_pieces_from_tagged(tokens, tags) -> str:

@@ -26,12 +26,11 @@ from allennlp.data.samplers import BucketBatchSampler
 from allennlp.data.token_indexers import (
     SingleIdTokenIndexer,
     TokenCharactersIndexer,
-    ELMoTokenCharactersIndexer, PretrainedTransformerIndexer,
+    ELMoTokenCharactersIndexer, PretrainedTransformerMismatchedIndexer,
 )
 from allennlp.data.tokenizers import Token
 from allennlp.data.vocabulary import Vocabulary
 
-from allennlp_models.tagging.models import CrfTagger
 from allennlp.nn import RegularizerApplicator
 from allennlp.nn.regularizers import L1Regularizer
 
@@ -40,12 +39,10 @@ from allennlp.nn import util
 from allennlp.training.learning_rate_schedulers import ReduceOnPlateauLearningRateScheduler
 from allennlp.modules.seq2seq_encoders import PytorchSeq2SeqWrapper
 from allennlp.modules.token_embedders import Embedding, TokenCharactersEncoder, ElmoTokenEmbedder, \
-    PretrainedTransformerEmbedder
-from allennlp.predictors import Predictor
+    PretrainedTransformerEmbedder, PretrainedTransformerMismatchedEmbedder
 from torch.optim import SGD
 from torch_optimizer import RAdam
 
-from multioie.model.allen_helpers.array_indexer import ArrayIndexer
 from multioie.model.allen_helpers.broka_text_field_embedder import BrokaTextFieldEmbedder
 from multioie.model.allen_helpers.broka_trainer import BrokaTrainer
 from multioie.model.allen_helpers.flair_char_indexer import FlairCharIndexer
@@ -55,15 +52,17 @@ from multioie.model.featurizer import Featurizer
 from multioie.model.openie_predictor import MultiOIEOpenIePredictor
 from multioie.optimizers.madgrad_wd import Madgrad_wd
 from multioie.optimizers.ranger21 import Ranger21
-from multioie.utils.align import StringAligner
 
-from multioie.utils.token_iter import gen_split_overlap
 
 torch.manual_seed(1)
 
 FLAIR_URL_BASE = "http://minio.potelo.com.br/asserts/flair_diario/"
 _MAX_SIZE_TO_PROCESS = 1024 * 32  # É o limite para uma GPU de 8GB com o Flair 1024 BI
 _MAX_OVERLAP_TO_PROCESS = 1024 * 3
+
+# FOR Ablation tests
+DISABLE_VARIATION_GENERATOR = False
+DISABLE_RICH_FEATURES = False
 
 
 @dataclass
@@ -194,7 +193,11 @@ class BrokaReader(DatasetReader):
 
         spacy_verb_indicator = [1 if token.pos in ["VERB", "AUX"] else 0 for token in tokens]
 
-        verb_instances = self.get_verb_instances(spacy_verb_indicator)
+        if DISABLE_VARIATION_GENERATOR:
+            verb_instances = []
+        else:
+            verb_instances = self.get_verb_instances(spacy_verb_indicator)
+
         if len(verb_instances) == 0:
             verb_instances.append(spacy_verb_indicator)
 
@@ -257,7 +260,11 @@ class BrokaReader(DatasetReader):
 
         spacy_verb_indicator = [1 if token.pos in ["VERB", "AUX"] else 0 for token in tokens]
 
-        verb_instances = self.get_verb_instances(spacy_verb_indicator)
+        if DISABLE_VARIATION_GENERATOR:
+            verb_instances = []
+        else:
+            verb_instances = self.get_verb_instances(spacy_verb_indicator)
+
         if len(verb_instances) == 0:
             verb_instances.append(spacy_verb_indicator)
 
@@ -356,7 +363,7 @@ class BrokaReader(DatasetReader):
 
         if self.use_char_cnn:
             token_indexer["token_characters"] = TokenCharactersIndexer(min_padding_length=3)
-        if not self.simple_text:
+        if not self.simple_text and not DISABLE_RICH_FEATURES:
             token_indexer["word_shape_degen"] = SingleIdTokenIndexer(
                 namespace="word_shape_degen", feature_name="word_shape_degen"
             )
@@ -371,7 +378,7 @@ class BrokaReader(DatasetReader):
         if self.flair_bw_embedding_path is not None:
             token_indexer["flair-back"] = FlairCharIndexer(self.flair_bw_embedding_path)
         if self.use_bert:
-            token_indexer["bert"] = PretrainedTransformerIndexer(model_name="neuralmind/bert-large-portuguese-cased")
+            token_indexer["bert"] = PretrainedTransformerMismatchedIndexer(model_name="neuralmind/bert-large-portuguese-cased")
 
         return TextField(token_list, token_indexers=token_indexer)
 
@@ -640,11 +647,12 @@ class AllenOpenIE:
         # We'll choose a size for our embedding layer and for the hidden layer of our LSTM.
 
         if self.use_bert:
-            token_embedding = PretrainedTransformerEmbedder.from_params(
-                Params({"model_name": "neuralmind/bert-large-portuguese-cased"})
+            token_embedding = PretrainedTransformerMismatchedEmbedder.from_params(
+                Params({"model_name": "neuralmind/bert-large-portuguese-cased",
+                        "train_parameters": False})
 
             )
-            total_embedding_dim += token_embedding.output_dim
+            total_embedding_dim += token_embedding._matched_embedder.output_dim
         elif self.use_glove:
             # Usar o http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
 
@@ -728,7 +736,7 @@ class AllenOpenIE:
                 total_embedding_dim += flair_emmbedder_back.output_dim
                 active_embedders["flair-back"] = flair_emmbedder_back
 
-        if not self.simple_text:
+        if not self.simple_text and not DISABLE_RICH_FEATURES:
             shape_embedding = Embedding(
                 num_embeddings=vocab.get_vocab_size("word_shape_degen"),
                 embedding_dim=36,
@@ -745,21 +753,6 @@ class AllenOpenIE:
             total_embedding_dim += 36
             active_embedders["dep_tags"] = dep_embedding
 
-            # Fix to fit transformers head limitation
-            # one_hot_embedding_size = 48
-            # one_hot_embedding_size += -(total_embedding_dim + 36) % self.num_attention_heads
-            #
-            # # TODO also fix in simple text
-            # one_hot_embedding = FeedForward(
-            #     size_one_hot,
-            #     num_layers=1,
-            #     hidden_dims=one_hot_embedding_size,
-            #     activations=torch.nn.ReLU(),
-            #     dropout=0.0,
-            # )
-            #
-            # active_embedders["one_hot"] = one_hot_embedding
-            # total_embedding_dim += one_hot_embedding_size
 
         word_embeddings = BrokaTextFieldEmbedder(
             active_embedders, one_hot_size=size_one_hot, use_separated_one_hot=True
@@ -917,7 +910,7 @@ class AllenOpenIE:
                 self.model.parameters(), lr=self.learning_rate, weight_decay=self.c2
             )
         elif self.optimizer == OptimizerType.RANGER:
-            approximate_batch_size = self.batch_size
+            approximate_batch_size = max(1, len(tokens) // self.batch_size)
             optimizer = Ranger21(
                 self.model.parameters(),
                 lr=self.learning_rate,
@@ -925,6 +918,7 @@ class AllenOpenIE:
                 use_madgrad=True,
                 num_epochs=self.max_iterations,
                 num_batches_per_epoch=approximate_batch_size,
+                warmdown_active=False
             )
         else:
             raise AttributeError("Invalid optimizer")
@@ -1047,7 +1041,7 @@ class AllenOpenIE:
         if not load_path.exists():
             load_path = self.model_folder / "model_final" / "model.th"
 
-        with open(self.model_folder / "model_final" / "model.th", "rb") as f:
+        with open(load_path, "rb") as f:
             if torch.cuda.is_available():
                 self.model.load_state_dict(torch.load(f, map_location=util.device_mapping(0)))
             else:

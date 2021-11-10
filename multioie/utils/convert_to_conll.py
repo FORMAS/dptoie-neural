@@ -1,4 +1,5 @@
 # Portuguese dataset
+import json
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -125,7 +126,7 @@ def convert_to_conll(sentence, pos_sentence):
 def load_pragmatic_wiki_dataset():
     dataset_pt = dict()
 
-    pt = Path("../datasets/pragmatic_dataset/wiki200.txt")
+    pt = Path("../../datasets/pragmatic_dataset/wiki200.txt")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             line = line.strip()
@@ -136,7 +137,7 @@ def load_pragmatic_wiki_dataset():
                 "extractions": [],
             }
 
-    pt = Path("../datasets/pragmatic_dataset/wiki200-labeled.csv")
+    pt = Path("../../datasets/pragmatic_dataset/wiki200-labeled.csv")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             if "\t" in line:
@@ -164,7 +165,7 @@ def load_pragmatic_wiki_dataset():
 def load_pragmatic_ceten_dataset():
     dataset_pt = dict()
 
-    pt = Path("../datasets/pragmatic_dataset/ceten200.txt")
+    pt = Path("../../datasets/pragmatic_dataset/ceten200.txt")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             line = line.strip()
@@ -175,7 +176,7 @@ def load_pragmatic_ceten_dataset():
                 "extractions": [],
             }
 
-    pt = Path("../datasets/pragmatic_dataset/ceten200-labeled.csv")
+    pt = Path("../../datasets/pragmatic_dataset/ceten200-labeled.csv")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             if "\t" in line:
@@ -204,7 +205,7 @@ def load_pud200():
     # Portuguese dataset
     dataset_pt = dict()
     for name in ["200-sentences-pt-PUD.txt"]:
-        pt = Path(f"../datasets/coling_PUD/{name}")
+        pt = Path(f"../../datasets/coling_PUD/{name}")
         with open(pt, "r", encoding="utf-8") as f_pt:
             actual_pos = None
             for line in f_pt:
@@ -239,11 +240,13 @@ def load_pud200():
     return dataset_pt
 
 
+
+
 def load_pud100():
     # Portuguese dataset
     dataset_pt = dict()
     for name in ["coling2020.txt"]:
-        pt = Path(f"../datasets/coling_PUD/{name}")
+        pt = Path(f"../../datasets/coling_PUD/{name}")
         with open(pt, "r", encoding="utf-8") as f_pt:
             actual_pos = None
             for line in f_pt:
@@ -278,11 +281,55 @@ def load_pud100():
     return dataset_pt
 
 
+def load_anderson():
+
+    files_path = Path(f"../../datasets/anderson").resolve()
+    files = files_path.glob('*')
+
+    dataset_pt = dict()
+    actual_pos = 0
+
+    for pt in files:
+        with open(pt, "r", encoding="utf-8") as f_pt:
+            for line in f_pt:
+
+                result = json.loads(line)
+
+                pos, phrase = line.split("\t", 1)
+                # phrase = clean_extraction(phrase)
+
+                if pos.isnumeric() and phrase.count("\t") < 1:
+                    actual_pos = int(pos)
+                    # phrase = transform_portuguese_contractions(phrase)
+                    # phrase = re.sub(r',|\.|"', "", phrase)
+                    dataset_pt[actual_pos] = {"phrase": phrase, "extractions": []}
+                else:
+                    partes = line.split("\t")
+                    arg1 = clean_extraction(partes[0])
+                    rel = clean_extraction(partes[1])
+                    arg2 = clean_extraction(partes[2])
+                    valid = int(partes[-2].strip())
+
+                    if valid != 1:
+                        continue  # so queremos pegar as positivas
+
+                    dataset_pt[actual_pos]["extractions"].append(
+                        {
+                            "arg1": transform_portuguese_contractions(arg1),
+                            "rel": transform_portuguese_contractions(rel),
+                            "arg2": transform_portuguese_contractions(arg2),
+                            "valid": valid,
+                        }
+                    )
+
+    return dataset_pt
+
+
 def load_gamalho():
     # Portuguese dataset
     dataset_pt = dict()
 
-    pt = Path("../datasets/gamalho/sentences.txt")
+    pt = Path("../../datasets/gamalho/sentences.txt")
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             line = line.strip()
@@ -293,15 +340,20 @@ def load_gamalho():
                 "extractions": [],
             }
 
-    pt = Path("../datasets/gamalho/argoe-pt-labeled.csv")
+    pt = Path("../../datasets/gamalho/gold.csv")
+
+    def clean_at_symbol(text):
+        text = text.replace("@", " ")
+        return text
+
     with open(pt, "r", encoding="utf-8") as f_pt:
         for line in f_pt:
             if "\t" in line:
                 partes = line.split("\t")
                 pos = int(partes[0])
-                arg1 = clean_extraction(partes[1])
-                rel = clean_extraction(partes[2])
-                arg2 = clean_extraction(partes[3])
+                arg1 = clean_at_symbol(clean_extraction(partes[1]))
+                rel = clean_at_symbol(clean_extraction(partes[2]))
+                arg2 = clean_at_symbol(clean_extraction(partes[3]))
                 if len(partes[-1].strip()) < 1:
                     continue
                 valid = int(partes[-1].strip())
@@ -351,11 +403,12 @@ def save_data_as_conll(pos_dataset, output_path,dataset_to_save):
 if __name__ == "__main__":
     global qt_quebrados, qt_funfando
     datasets = [
-        # {"name": "pragmatic_wiki", "dataset": load_pragmatic_wiki_dataset(), "broken": 0, "correct": 0},
-        # {"name": "pragmatic_ceten", "dataset": load_pragmatic_ceten_dataset(), "broken": 0, "correct": 0},
-        # {"name": "gamalho", "dataset": load_gamalho(), "broken": 0, "correct": 0},
-        # {"name": "pud_200", "dataset": load_pud200(), "broken": 0, "correct": 0},
-        # {"name": "pud_100", "dataset": load_pud100(), "broken": 0, "correct": 0},
+        {"name": "pragmatic_wiki", "dataset": load_pragmatic_wiki_dataset(), "broken": 0, "correct": 0},
+        {"name": "pragmatic_ceten", "dataset": load_pragmatic_ceten_dataset(), "broken": 0, "correct": 0},
+        {"name": "gamalho", "dataset": load_gamalho(), "broken": 0, "correct": 0},
+        {"name": "pud_200", "dataset": load_pud200(), "broken": 0, "correct": 0},
+        {"name": "pud_100", "dataset": load_pud100(), "broken": 0, "correct": 0},
+        #{"name": "anderson", "dataset": load_anderson(), "broken": 0, "correct": 0},
     ]
 
     actual_pos = 0
@@ -365,7 +418,7 @@ if __name__ == "__main__":
         extractions = dataset_to_process["dataset"]
 
         for pos_sentence, value in enumerate(extractions.values()):
-            print(value["phrase"])
+            #print(value["phrase"])
             convert_to_conll(value, pos_sentence)
             dataset_to_process["broken"] += value["broken"]
             dataset_to_process["correct"] += value["correct"]
@@ -377,7 +430,8 @@ if __name__ == "__main__":
         print("Qtd de elementos quebrados: ", qt_quebrados)
         print("Qtd de elementos funfando: ", qt_funfando)
         print("Qtd de elementos totais: ", qt_quebrados + qt_funfando)
+        print(f"Sentences : {len(dataset_to_process['dataset'])}")
 
-        output_path = f"../datasets/meu_dataset/{dataset_to_process['name']}.conll"
+        output_path = f"../../datasets/meu_dataset_round2/{dataset_to_process['name']}.conll"
         dataset_to_save = dataset_to_process["dataset"].values()
         save_data_as_conll(pos_dataset, output_path, dataset_to_save)
